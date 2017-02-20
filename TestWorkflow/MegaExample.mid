@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator">
+  <models uri="/TestWorkflow/ExampleRel.mid" name="ExampleRel" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
+  <models uri="/TestWorkflow/slice_map.mid" name="slice_map" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
+  <editors xsi:type="editor:Diagram" uri="/TestWorkflow/ExampleRel.middiag" name="MIDRel diagram for model /TestWorkflow/ExampleRel.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/TestWorkflow/ExampleRel.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/TestWorkflow/slice_map.middiag" name="MIDRel diagram for model /TestWorkflow/slice_map.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/TestWorkflow/slice_map.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceWorkflow" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow" dynamic="true" updateMID="true" executionTime="311969636" nestedMIDPath="/TestWorkflow/SliceWorkflow0.mid">
+    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="Sout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sout" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </operators>
+  <extendibleTable key="/TestWorkflow/ExampleRel.mid" value="//@models.0"/>
+  <extendibleTable key="/TestWorkflow/slice_map.mid" value="//@models.1"/>
+</mid:MID>

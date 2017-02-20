@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator">
+  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="294042385" nestedMIDPath="/TestWorkflow/Map2.mid">
+    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="MegaExample.mid#//@models.0"/>
+    </inputs>
+    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="MegaExample.mid#//@models.1"/>
+    </outputs>
+    <generics uri="" name="Slice" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_Slice"/>
+  </operators>
+  <extendibleTable key="/TestWorkflow/ExampleRel.mid">
+    <value xsi:type="mid:Model" href="MegaExample.mid#//@models.0"/>
+  </extendibleTable>
+  <extendibleTable key="/TestWorkflow/slice_map.mid">
+    <value xsi:type="mid:Model" href="MegaExample.mid#//@models.1"/>
+  </extendibleTable>
+</mid:MID>
