@@ -50,27 +50,11 @@
       <modelElemRefs referencedObject="//@models.2/@modelElems.0"/>
     </modelEndpointRefs>
   </models>
-  <models uri="/TestWorkflow/MyWeb.vogella" name="MyWeb" metatypeUri="http://www.cs.toronto.edu/~nlsfung/vogella" dynamic="true" origin="CREATED" fileExtension="vogella" editors="//@editors.2">
-    <modelElems name="[webpages->] Webpage Page A"/>
-  </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="crit_Vog" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
-    <modelEndpoints uri="" name="MyWeb" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
-    <modelEndpointRefs referencedObject="//@models.5/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.4/@modelElems.0"/>
-    </modelEndpointRefs>
-  </models>
-  <models uri="/TestWorkflow/MyGSN.gsn" name="MyGSN" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" origin="CREATED" fileExtension="gsn" editors="//@editors.3"/>
   <editors xsi:type="editor:Diagram" uri="/TestWorkflow/powerSD.classdiagramdiag" name="ClassDiagram diagram for model /TestWorkflow/powerSD.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/TestWorkflow/powerSD.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
     <fileExtensions>classdiagramdiag</fileExtensions>
   </editors>
   <editors xsi:type="editor:Diagram" uri="/TestWorkflow/powerSD.icse15_sequencediagramdiag_mavo" name="ICSE15_SequenceDiagram_MAVO diagram for model /TestWorkflow/powerSD.icse15_sequencediagram_mavo" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ICSE15_SequenceDiagram_MAVO" dynamic="true" modelUri="/TestWorkflow/powerSD.icse15_sequencediagram_mavo" id="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVODiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVOCreationWizardID">
     <fileExtensions>icse15_sequencediagramdiag_mavo</fileExtensions>
-  </editors>
-  <editors uri="/TestWorkflow/MyWeb.vogella" name="Vogella.Editor for model /TestWorkflow/MyWeb.vogella" metatypeUri="http://www.cs.toronto.edu/~nlsfung/vogella/editor" dynamic="true" modelUri="/TestWorkflow/MyWeb.vogella" id="vogella.presentation.VogellaEditorID" wizardId="vogella.presentation.VogellaModelWizardID">
-    <fileExtensions>vogella</fileExtensions>
-  </editors>
-  <editors uri="/TestWorkflow/MyGSN.gsn" name="GSN Editor for model /TestWorkflow/MyGSN.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn_editor" dynamic="true" modelUri="/TestWorkflow/MyGSN.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
-    <fileExtensions>gsn</fileExtensions>
   </editors>
   <extendibleTable key="/TestWorkflow/powerSD.classdiagram" value="//@models.0"/>
   <extendibleTable key="/TestWorkflow/powerSD.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
@@ -84,6 +68,4 @@
   <extendibleTable key="/TestWorkflow/powerSD.icse15_sequencediagram_mavo#//@messages.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.2"/>
   <extendibleTable key="/TestWorkflow/powerSD.icse15_sequencediagram_mavo#//@messages.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.3"/>
   <extendibleTable key="/TestWorkflow/powerSD.icse15_sequencediagram_mavo#//@messages.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.4"/>
-  <extendibleTable key="/TestWorkflow/MyWeb.vogella" value="//@models.4"/>
-  <extendibleTable key="/TestWorkflow/MyGSN.gsn" value="//@models.6"/>
 </mid:MID>

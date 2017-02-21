@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_6Mu2UO_BEeaui4VES4Ox4A" type="MID" name="SliceWorkflow0.middiag" measurementUnit="Pixel">
-  <children xmi:type="notation:Node" xmi:id="_6Mx5oO_BEeaui4VES4Ox4A" type="2001">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6Mygtu_BEeaui4VES4Ox4A" source="Shortcut">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6Mygt-_BEeaui4VES4Ox4A" key="modelID" value="MID"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_TXwMoPh7Eeav8o56amKBpg" type="MID" name="SliceWorkflow0.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_TXz3APh7Eeav8o56amKBpg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TXz3B_h7Eeav8o56amKBpg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TXz3CPh7Eeav8o56amKBpg" key="modelID" value="MID"/>
     </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_6MygtO_BEeaui4VES4Ox4A" type="5001"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_6Mygte_BEeaui4VES4Ox4A" type="5002"/>
-    <styles xmi:type="notation:DescriptionStyle" xmi:id="_6MygsO_BEeaui4VES4Ox4A"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_6Mygse_BEeaui4VES4Ox4A" fontName="Ubuntu"/>
-    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6Mygsu_BEeaui4VES4Ox4A" hint="Mid"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TXz3Bfh7Eeav8o56amKBpg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TXz3Bvh7Eeav8o56amKBpg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_TXz3Afh7Eeav8o56amKBpg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TXz3Avh7Eeav8o56amKBpg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_TXz3A_h7Eeav8o56amKBpg" hint="Mid"/>
     <element xmi:type="mid:Model" href="MegaExample.mid#//@models.0"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Mygs-_BEeaui4VES4Ox4A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TXz3BPh7Eeav8o56amKBpg"/>
   </children>
-  <children xmi:type="notation:Node" xmi:id="_6PrcoO_BEeaui4VES4Ox4A" type="2001">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6Prcp-_BEeaui4VES4Ox4A" source="Shortcut">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PrcqO_BEeaui4VES4Ox4A" key="modelID" value="MID"/>
+  <children xmi:type="notation:Node" xmi:id="_TkmV0Ph7Eeav8o56amKBpg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TkmV1_h7Eeav8o56amKBpg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TkmV2Ph7Eeav8o56amKBpg" key="modelID" value="MID"/>
     </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_6Prcpe_BEeaui4VES4Ox4A" type="5001"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_6Prcpu_BEeaui4VES4Ox4A" type="5002"/>
-    <styles xmi:type="notation:DescriptionStyle" xmi:id="_6Prcoe_BEeaui4VES4Ox4A"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_6Prcou_BEeaui4VES4Ox4A" fontName="Ubuntu"/>
-    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6Prco-_BEeaui4VES4Ox4A" hint="Mid"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TkmV1fh7Eeav8o56amKBpg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TkmV1vh7Eeav8o56amKBpg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_TkmV0fh7Eeav8o56amKBpg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TkmV0vh7Eeav8o56amKBpg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_TkmV0_h7Eeav8o56amKBpg" hint="Mid"/>
     <element xmi:type="mid:Model" href="MegaExample.mid#//@models.1"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6PrcpO_BEeaui4VES4Ox4A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TkmV1Ph7Eeav8o56amKBpg"/>
   </children>
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_6Mu2Ue_BEeaui4VES4Ox4A"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_TXwMofh7Eeav8o56amKBpg"/>
   <element xmi:type="mid:MID" href="SliceWorkflow0.mid#/"/>
 </notation:Diagram>
