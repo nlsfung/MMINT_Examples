@@ -1,0 +1,44 @@
+var modellist : new List;
+var targetlist : new List;
+var path : new String;
+path = "/ModelTransformation/resource/models/";
+for (node in dcase!BasicNode.all){
+    if(node.attachment.isDefined() and node.attachment <> "")
+      if (node.attachment.endsWith("dcase_diagram")){
+          modellist.add(node.attachment);
+          var arr : Sequence;
+          arr = node.attachment.split("/");
+          var filename : String;
+          filename = arr.get(arr.size-1);
+          filename.println();
+          agsn.store( path + filename + '.agsn');
+          targetlist.add(path + filename + '.agsn');
+      } else {
+         if (node.attachment.endsWith("/")){
+              var attachment = node.attachment.substring(0, node.attachment.length()-1);
+              attachment = attachment + ".dcase_diagram";
+              modellist.add(attachment);
+              var arr : Sequence;
+              arr = attachment.split("/");
+              var filename : String;
+              filename = arr.get(arr.size-1);
+              filename.println();
+              agsn.store(path + filename + '.agsn');
+              targetlist.add(path + filename + '.agsn');
+         }
+      }
+}
+
+operation List getModels() {
+   // return dcase model attachments
+   return modellist;
+}
+
+operation List getTargetModels(){
+   // return target agsn model of the attachment
+   return targetlist;
+}
+
+operation hello(){
+  "hello".println();
+}

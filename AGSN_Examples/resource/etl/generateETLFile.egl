@@ -1,0 +1,149 @@
+pre {
+   "Running ETL".println();
+}
+[% var modellist : new List;
+   var targetlist : new List;
+   var path : new String;
+   path = "/ModelTransformation/models/";
+   var i : Integer;
+   i = 0;
+   //add root dcase and AGSN model to the list.
+   modellist.add("dcase");
+   targetlist.add("AGSN");
+   for (node in dcase!BasicNode.all){
+    if(node.attachment.isDefined() and node.attachment <> "")
+      if (node.attachment.endsWith("dcase_diagram")) {
+          //add attachment dcase model and corresponding agsn model to the list.
+          modellist.add("dcase"+i);
+          targetlist.add("agsn"+i);
+          i = i+1;
+      } else {
+         if (node.attachment.endsWith("/")){
+              //add attachment dcase model and corresponding agsn model to the list.
+              modellist.add("dcase"+i);
+              targetlist.add("agsn"+i);
+              i = i+1;
+         }
+      }
+   }
+      
+   var j : Integer; j = 0; 
+         for (j in 0.to(i)){%]
+rule [%=modellist.at(j)%]2[%=targetlist.at(j)%]
+   transform d: [%=modellist.at(j)%]!Argument
+   to a: [%=targetlist.at(j)%]!SafetyCase {
+   
+   var message : String;
+   message = " is not complete, it contains ";
+   a.description = d.desc;
+   
+   var an:AGSN!BasicNode;
+   var al:AGSN!BasicLink;
+   
+   if(d.rootBasicNode.isDefined()){
+      for(dn : dcase!BasicNode in d.rootBasicNode){
+          switch (dn.type.name) {
+          //GSN Nodes
+              case "Goal": an = new AGSN!Goal; an.id := dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          a.rootBasicNode.add(an);
+              case "Strategy": an = new AGSN!Strategy; an.id = dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          a.rootBasicNode.add(an);
+              case "Evidence": an = new AGSN!Evidence;an.id = dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          an.attachment = dn.attachment;
+          a.rootBasicNode.add(an);
+              case "Context": an = new AGSN!Context; an.id = dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          a.rootBasicNode.add(an);
+              case "Justification": an = new AGSN!Justification; an.id = dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          a.rootBasicNode.add(an);
+              case "Assumption": an = new AGSN!Assumption; an.id = dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          a.rootBasicNode.add(an);
+              case "Contract": an = new AGSN!Contract; an.id = dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          an.attachment = dn.attachment;
+          a.rootBasicNode.add(an);
+              case "Module": an = new AGSN!Module; an.id = dn.id;
+          an.name = dn.name;
+          an.description = dn.desc;
+          if (dn.attachment.isDefined() and dn.attachment.endsWith("/")){
+              var attachment = dn.attachment.substring(0, dn.attachment.length()-1);
+              an.attachment = "[%=path%]" + attachment + ".dcase_diagram" + ".agsn_diagram";
+          }
+          a.rootBasicNode.add(an);
+          //D-Case Nodes
+              case "Action": an = new AGSN!Evidence; an.id = dn.id;
+          an.name = "Action " + dn.name;
+          an.description = dn.desc;
+          an.attachment = dn.attachment;
+          a.rootBasicNode.add(an);
+              case "Monitor": an = new AGSN!Evidence; an.id = dn.id;
+          an.name = "Monitor " + dn.name;
+          an.description = dn.desc;
+          an.attachment = dn.attachment;
+          a.rootBasicNode.add(an);
+              case "External": an = new AGSN!AdditionalElement; an.id = dn.id;
+          an.name = "External " + dn.name;
+          an.description = dn.desc;
+          an.attachment = dn.attachment;
+          a.rootBasicNode.add(an);
+              case "Pattern": ("Model [%=modellist.at(j)%]" + message + "Pattern Element.").println();
+              case "Undeveloped": ("Model [%=modellist.at(j)%]" + message + "Undeveloped Element.").println();
+          }
+      }
+   }
+    
+   if (a.rootBasicLink.isDefined()){
+       for(dl : dcase!BasicLink in d.rootBasicLink){
+          switch (dl.type.name) {
+             case "InContextOf":
+             al = new AGSN!InContextOf;
+             var s: AGSN!BasicNode = getNode(dl.source.id, a.rootBasicNode);
+             var t: AGSN!BasicNode = getNode(dl.target.id, a.rootBasicNode);
+             al.source = s;
+             al.target = t;
+             a.rootBasicLink.add(al);
+             case "SupportedBy": al = new AGSN!SupportedBy;
+             var s: AGSN!BasicNode = getNode(dl.source.id, a.rootBasicNode);
+             var t: AGSN!BasicNode = getNode(dl.target.id, a.rootBasicNode);
+             al.source = s;
+             al.target = t;
+             a.rootBasicLink.add(al);
+             //dcase link
+             case "Responsibility": al = new AGSN!AdditionalLink;
+             var s: AGSN!BasicNode = getNode(dl.source.id, a.rootBasicNode);
+             var t: AGSN!BasicNode = getNode(dl.target.id, a.rootBasicNode);
+             al.source = s;
+             al.target = t;
+             a.rootBasicLink.add(al);
+             case "DcaseLink004": al = new AGSN!AdditionalLink;
+             var s: AGSN!BasicNode = getNode(dl.source.id, a.rootBasicNode);
+             var t: AGSN!BasicNode = getNode(dl.target.id, a.rootBasicNode);
+             al.source = s;
+             al.target = t;
+             a.rootBasicLink.add(al); 
+        }
+     }
+   }
+}
+
+[% j = j + 1; } %]
+
+   operation getNode (id : String, rootBasicNode: OrderedSet) : AGSN!BasicNode {
+       for (an: AGSN!BasicNode in rootBasicNode){
+           if (an.id = id){
+              return an;
+           }
+       }
+   }

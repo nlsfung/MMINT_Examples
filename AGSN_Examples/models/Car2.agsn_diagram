@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:AGSN="AGSN" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_zNrq8DxTEeayuqSFqopw9g" type="AGSN" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_zQNagDxTEeayuqSFqopw9g" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQPPsDxTEeayuqSFqopw9g" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQP2wDxTEeayuqSFqopw9g" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zQNagTxTEeayuqSFqopw9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zQNagjxTEeayuqSFqopw9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zQNagzxTEeayuqSFqopw9g"/>
+    <element xmi:type="AGSN:Goal" href="Car.agsn#_mxdRsNolEeWwT6rQ_uV_eQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zQNahDxTEeayuqSFqopw9g" x="230" y="25"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zQP2wTxTEeayuqSFqopw9g" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQQd1DxTEeayuqSFqopw9g" type="5017"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQQd1TxTEeayuqSFqopw9g" type="5018"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zQQd0DxTEeayuqSFqopw9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zQQd0TxTEeayuqSFqopw9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zQQd0jxTEeayuqSFqopw9g"/>
+    <element xmi:type="AGSN:Strategy" href="Car.agsn#_mxfG4dolEeWwT6rQ_uV_eQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zQQd0zxTEeayuqSFqopw9g" x="230" y="140"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zQRE4DxTEeayuqSFqopw9g" type="2010">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQRr8DxTEeayuqSFqopw9g" type="5021"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQRr8TxTEeayuqSFqopw9g" type="5022"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zQRE4TxTEeayuqSFqopw9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zQRE4jxTEeayuqSFqopw9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zQRE4zxTEeayuqSFqopw9g"/>
+    <element xmi:type="AGSN:Context" href="Car.agsn#_mxfG5NolEeWwT6rQ_uV_eQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zQRE5DxTEeayuqSFqopw9g" y="280"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zQRr8jxTEeayuqSFqopw9g" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQSTADxTEeayuqSFqopw9g" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQSTATxTEeayuqSFqopw9g" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zQRr8zxTEeayuqSFqopw9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zQRr9DxTEeayuqSFqopw9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zQRr9TxTEeayuqSFqopw9g"/>
+    <element xmi:type="AGSN:Goal" href="Car.agsn#_mxfG5dolEeWwT6rQ_uV_eQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zQRr9jxTEeayuqSFqopw9g" x="230" y="280"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zQS6EDxTEeayuqSFqopw9g" type="2019">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQThIDxTEeayuqSFqopw9g" type="5039"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zQThITxTEeayuqSFqopw9g" type="5040"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zQS6ETxTEeayuqSFqopw9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zQS6EjxTEeayuqSFqopw9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zQS6EzxTEeayuqSFqopw9g"/>
+    <element xmi:type="AGSN:Module" href="Car.agsn#_sEhfENorEeWwT6rQ_uV_eQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zQS6FDxTEeayuqSFqopw9g" x="455" y="275"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zNsSADxTEeayuqSFqopw9g"/>
+  <element xmi:type="AGSN:SafetyCase" href="Car.agsn#_tnekwDRuEeaqBJS5DmUYrQ"/>
+</notation:Diagram>

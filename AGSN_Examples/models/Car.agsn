@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<AGSN:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AGSN="AGSN" id="_hHLp4EjbEeasPudwEEzXug">
+  <rootBasicNode xsi:type="AGSN:Goal" id="_mxdRsNolEeWwT6rQ_uV_eQ" name="G_1" description="System [Car] is safe"/>
+  <rootBasicNode xsi:type="AGSN:Strategy" id="_mxfG4dolEeWwT6rQ_uV_eQ" name="S_1" description="Argument by claiming addressed &#xD;&#xA;all identified plausible hazards"/>
+  <rootBasicNode xsi:type="AGSN:Context" id="_mxfG5NolEeWwT6rQ_uV_eQ" name="C_1" description="Identified Hazards for System [Car]"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_mxfG5dolEeWwT6rQ_uV_eQ" name="G_3" description="Hazard [Braking] has been addressed"/>
+  <rootBasicNode xsi:type="AGSN:Module" id="_sEhfENorEeWwT6rQ_uV_eQ" name="SubModule" description="Hazard [Running] has been addressed" attachment="/ModelTransformation/models/Car/SubModule.agsn_diagram"/>
+  <rootBasicLink xsi:type="AGSN:InContextOf" source="_mxdRsNolEeWwT6rQ_uV_eQ" id="_hHVa4EjbEeasPudwEEzXug"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_mxdRsNolEeWwT6rQ_uV_eQ" target="_mxfG4dolEeWwT6rQ_uV_eQ" id="_hHXQEEjbEeasPudwEEzXug"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_mxfG4dolEeWwT6rQ_uV_eQ" target="_sEhfENorEeWwT6rQ_uV_eQ" id="_hHX3IEjbEeasPudwEEzXug"/>
+  <rootBasicLink xsi:type="AGSN:InContextOf" source="_mxfG4dolEeWwT6rQ_uV_eQ" target="_mxfG5NolEeWwT6rQ_uV_eQ" id="_hHX3IUjbEeasPudwEEzXug"/>
+  <rootBasicLink xsi:type="AGSN:InContextOf" source="_mxfG5dolEeWwT6rQ_uV_eQ" id="_hHYeMEjbEeasPudwEEzXug"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_mxfG4dolEeWwT6rQ_uV_eQ" target="_mxfG5dolEeWwT6rQ_uV_eQ" id="_hHZFQEjbEeasPudwEEzXug"/>
+</AGSN:SafetyCase>

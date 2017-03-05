@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AGSN:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AGSN="AGSN" description="Hazard list contains all possible hazards" id="_D7i5cDFeEeaRc-Gph3XN8g">
+  <rootBasicNode xsi:type="AGSN:Goal" id="_vzfz4I98EeWRzKcI_6eVPA" name="G_1" description="Risk of smart house is reduced to allowable level"/>
+  <rootBasicNode xsi:type="AGSN:Context" id="_EjrhsLXyEeWjNYAWtCecTQ" name="C_1" description="Hazard list"/>
+  <rootBasicNode xsi:type="AGSN:Context" id="_J2Z_kLXyEeWjNYAWtCecTQ" name="C_2" description="Definition of smart house"/>
+  <rootBasicNode xsi:type="AGSN:Strategy" id="_Qm3mwLXyEeWjNYAWtCecTQ" name="S_1" description="Discuss according to hazards"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_WMjc4LXyEeWjNYAWtCecTQ" name="G_2" description="Hazard list contains all possible hazards"/>
+  <rootBasicNode xsi:type="AGSN:Strategy" id="_i5DksLXyEeWjNYAWtCecTQ" name="S_2" description="Discuss hazard about &quot;Abstract level&quot;, &quot;Architecture level&quot;, &quot;Implementation level&quot;"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_waSVELXyEeWjNYAWtCecTQ" name="G_3" description="Hazard list of &quot;Abstract level&quot; is comprehensive"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_-JIqsLXyEeWjNYAWtCecTQ" name="G_4" description="Hazards of &quot;Architecture level&quot; is comprehensive"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_LFNfkLXzEeWjNYAWtCecTQ" name="E_1" description="Hazard list of &quot;Abstract level&quot; contains 17 hazards" qualityLevel="Medium" confidencePercentage="80"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_XX_f0LXzEeWjNYAWtCecTQ" name="E_2" description="Result of FMEA" confidencePercentage="70"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_h85pALXzEeWjNYAWtCecTQ" name="G_5" description="For each hazard, risk of hazard is reduced to allowable level"/>
+  <rootBasicNode xsi:type="AGSN:Strategy" id="_zuD9gLXzEeWjNYAWtCecTQ" name="S_3" assessstatus="Accepted" description="Discuss about &quot;Risk reduction structure&quot;, &quot;Architetural design&quot;, &quot;Implementation&quot;."/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="__EJsALXzEeWjNYAWtCecTQ" name="G_6" description="Risk reduction structure deal with all hazard situations"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_FChH4LX0EeWjNYAWtCecTQ" name="E_3" description="Assurance case (1)" qualityLevel="Medium" confidencePercentage="90"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_LEobULX0EeWjNYAWtCecTQ" name="G_7" assessstatus="Weak" description="All architectural design implement the risk reduction structure"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_P1C2ULX0EeWjNYAWtCecTQ" name="E_4" description="Assurance case (2), (3)" qualityLevel="High" confidencePercentage="60"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_T_myQLX0EeWjNYAWtCecTQ" name="G_8" assessstatus="Accepted" description="Implementation meet the system specification" qualityLevel="Low"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_Y0JfULX0EeWjNYAWtCecTQ" name="E_5" description="Assurance  case (4)" confidencePercentage="90"/>
+  <rootBasicNode xsi:type="AGSN:Context" id="_acZe0EjZEeaO_9_IqQ0igQ"/>
+  <rootBasicLink xsi:type="AGSN:InContextOf" source="_vzfz4I98EeWRzKcI_6eVPA" target="_EjrhsLXyEeWjNYAWtCecTQ" id="_D7zYIDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:InContextOf" source="_vzfz4I98EeWRzKcI_6eVPA" target="_J2Z_kLXyEeWjNYAWtCecTQ" id="_D71NUDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_waSVELXyEeWjNYAWtCecTQ" target="_LFNfkLXzEeWjNYAWtCecTQ" id="_D72bcDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_-JIqsLXyEeWjNYAWtCecTQ" target="_XX_f0LXzEeWjNYAWtCecTQ" id="_D73pkDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_Qm3mwLXyEeWjNYAWtCecTQ" target="_h85pALXzEeWjNYAWtCecTQ" id="_D743sDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_vzfz4I98EeWRzKcI_6eVPA" target="_Qm3mwLXyEeWjNYAWtCecTQ" id="_D76s4DFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_Qm3mwLXyEeWjNYAWtCecTQ" target="_WMjc4LXyEeWjNYAWtCecTQ" id="_D77T8DFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_WMjc4LXyEeWjNYAWtCecTQ" target="_i5DksLXyEeWjNYAWtCecTQ" id="_D79JIDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="__EJsALXzEeWjNYAWtCecTQ" target="_FChH4LX0EeWjNYAWtCecTQ" id="_D79wMDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_zuD9gLXzEeWjNYAWtCecTQ" target="__EJsALXzEeWjNYAWtCecTQ" id="_D7_lYDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_LEobULX0EeWjNYAWtCecTQ" target="_P1C2ULX0EeWjNYAWtCecTQ" id="_D8AzgDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_T_myQLX0EeWjNYAWtCecTQ" target="_Y0JfULX0EeWjNYAWtCecTQ" id="_D8CBoDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_zuD9gLXzEeWjNYAWtCecTQ" target="_LEobULX0EeWjNYAWtCecTQ" id="_D8D20DFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_zuD9gLXzEeWjNYAWtCecTQ" target="_T_myQLX0EeWjNYAWtCecTQ" id="_D8FE8DFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_h85pALXzEeWjNYAWtCecTQ" target="_zuD9gLXzEeWjNYAWtCecTQ" id="_D8GTEDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_i5DksLXyEeWjNYAWtCecTQ" target="_waSVELXyEeWjNYAWtCecTQ" id="_D8JWYDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_i5DksLXyEeWjNYAWtCecTQ" target="_-JIqsLXyEeWjNYAWtCecTQ" id="_D8J9cDFeEeaRc-Gph3XN8g"/>
+  <rootBasicLink xsi:type="AGSN:InContextOf" source="_acZe0EjZEeaO_9_IqQ0igQ" target="_J2Z_kLXyEeWjNYAWtCecTQ" id="_5f_B8Ej1Eea2ZO05-M4-Ow"/>
+  <rootBasicLink xsi:type="AGSN:InContextOf" source="_J2Z_kLXyEeWjNYAWtCecTQ" target="_acZe0EjZEeaO_9_IqQ0igQ" id="_9ftm4Ej1Eea2ZO05-M4-Ow"/>
+</AGSN:SafetyCase>

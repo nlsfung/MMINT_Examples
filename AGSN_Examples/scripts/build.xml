@@ -1,0 +1,16 @@
+<?xml version="1.0"?> 
+<project default="main">
+	<property name = "sourcepath" value = "../../d-casedemo/"></property>
+	<property name = "sourcefile" value = "Car.dcase_model"></property>
+	<property name = "xmlfile" value = "../scripts/launch.xml"></property>
+	<target name="loadModels">
+	    <epsilon.emf.loadModel name="dcase" modelFile="${sourcepath}${sourcefile}" metamodelUri="http://www.dependable-os.net/2013/11/dcase_model/" read="true" store="false"/>
+		<epsilon.emf.loadModel name="agsn" modelFile="../models/Car.agsn" metamodelUri="AGSN" read="true" store="false"/>
+	</target>		
+  <target name="main" depends="loadModels">		
+    <epsilon.egl src="../resource/etl/generateAntFile.egl" target = "${xmlfile}">
+      <model ref="dcase"/>
+      <model ref="agsn" />
+    </epsilon.egl>
+  </target>
+</project>

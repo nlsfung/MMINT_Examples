@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:AGSN="AGSN" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_EI-2QNovEeWwT6rQ_uV_eQ" type="AGSN" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_EJkFENovEeWwT6rQ_uV_eQ" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EJksJNovEeWwT6rQ_uV_eQ" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_EJlTMNovEeWwT6rQ_uV_eQ" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_EJksINovEeWwT6rQ_uV_eQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EJksIdovEeWwT6rQ_uV_eQ" fontName="微软雅黑"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_EJksItovEeWwT6rQ_uV_eQ"/>
+    <element xmi:type="AGSN:Goal" href="SubModule.agsn#//@rootBasicNode.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EJksI9ovEeWwT6rQ_uV_eQ" width="166" height="121"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_EI-2QdovEeWwT6rQ_uV_eQ"/>
+  <element xmi:type="AGSN:SafetyCase" href="SubModule.agsn#/"/>
+</notation:Diagram>

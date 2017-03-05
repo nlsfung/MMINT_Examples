@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:AGSN="AGSN" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_KYbuAPAbEeWBl8I0FMA-QA" type="AGSN" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_KaAbUPAbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaBpcPAbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaBpcfAbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaAbUfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaAbUvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaAbU_AbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#_vzfz4I98EeWRzKcI_6eVPA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaAbVPAbEeWBl8I0FMA-QA" x="485" y="30" width="301" height="126"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaBpcvAbEeWBl8I0FMA-QA" type="2010">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaCQhPAbEeWBl8I0FMA-QA" type="5021"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaCQhfAbEeWBl8I0FMA-QA" type="5022"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaCQgPAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaCQgfAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaCQgvAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Context" href="SmartHouse.agsn#_EjrhsLXyEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaCQg_AbEeWBl8I0FMA-QA" x="925" y="25" width="171"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaCQhvAbEeWBl8I0FMA-QA" type="2010">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaCQi_AbEeWBl8I0FMA-QA" type="5021"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaCQjPAbEeWBl8I0FMA-QA" type="5022"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaCQh_AbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaCQiPAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaCQifAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Context" href="SmartHouse.agsn#_J2Z_kLXyEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaCQivAbEeWBl8I0FMA-QA" x="925" y="145" width="176" height="101"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaC3kPAbEeWBl8I0FMA-QA" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaC3lfAbEeWBl8I0FMA-QA" type="5017"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaC3lvAbEeWBl8I0FMA-QA" type="5018"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaC3kfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaC3kvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaC3k_AbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Strategy" href="SmartHouse.agsn#_Qm3mwLXyEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaC3lPAbEeWBl8I0FMA-QA" x="520" y="215" width="220" height="106"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaC3l_AbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaDeoPAbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaDeofAbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaC3mPAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaC3mfAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaC3mvAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#_WMjc4LXyEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaC3m_AbEeWBl8I0FMA-QA" x="365" y="380" width="231" height="126"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaDeovAbEeWBl8I0FMA-QA" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaDep_AbEeWBl8I0FMA-QA" type="5017"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaDeqPAbEeWBl8I0FMA-QA" type="5018"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaDeo_AbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaDepPAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaDepfAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Strategy" href="SmartHouse.agsn#_i5DksLXyEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaDepvAbEeWBl8I0FMA-QA" x="255" y="570" width="276" height="136"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaDeqfAbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEFsPAbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEFsfAbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaDeqvAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaDeq_AbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaDerPAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#_waSVELXyEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaDerfAbEeWBl8I0FMA-QA" x="45" y="765" width="191" height="126"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaEFsvAbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEFt_AbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEFuPAbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaEFs_AbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaEFtPAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaEFtfAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#_-JIqsLXyEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaEFtvAbEeWBl8I0FMA-QA" x="300" y="765" width="191" height="126"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaEswPAbEeWBl8I0FMA-QA" type="2009">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEsxfAbEeWBl8I0FMA-QA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEsxvAbEeWBl8I0FMA-QA" type="5020"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaEswfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaEswvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaEsw_AbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Evidence" href="SmartHouse.agsn#_LFNfkLXzEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaEsxPAbEeWBl8I0FMA-QA" x="30" y="950" width="221" height="166"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaEsx_AbEeWBl8I0FMA-QA" type="2009">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEszPAbEeWBl8I0FMA-QA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEszfAbEeWBl8I0FMA-QA" type="5020"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaEsyPAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaEsyfAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaEsyvAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Evidence" href="SmartHouse.agsn#_XX_f0LXzEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaEsy_AbEeWBl8I0FMA-QA" x="310" y="950" width="168" height="161"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaEszvAbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEs0_AbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaEs1PAbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaEsz_AbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaEs0PAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaEs0fAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#_h85pALXzEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaEs0vAbEeWBl8I0FMA-QA" x="655" y="380" width="246" height="121"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaFT0PAbEeWBl8I0FMA-QA" type="2008">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaFT1fAbEeWBl8I0FMA-QA" type="5017"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaFT1vAbEeWBl8I0FMA-QA" type="5018"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaFT0fAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaFT0vAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaFT0_AbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Strategy" href="SmartHouse.agsn#_zuD9gLXzEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaFT1PAbEeWBl8I0FMA-QA" x="735" y="570" width="266" height="116"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaFT1_AbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaFT3PAbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaFT3fAbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaFT2PAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaFT2fAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaFT2vAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#__EJsALXzEeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaFT2_AbEeWBl8I0FMA-QA" x="550" y="765" width="196" height="126"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaFT3vAbEeWBl8I0FMA-QA" type="2009">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaFT4_AbEeWBl8I0FMA-QA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaFT5PAbEeWBl8I0FMA-QA" type="5020"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaFT3_AbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaFT4PAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaFT4fAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Evidence" href="SmartHouse.agsn#_FChH4LX0EeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaFT4vAbEeWBl8I0FMA-QA" x="565" y="950" width="166" height="120"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaFT5fAbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaF64PAbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaF64fAbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaFT5vAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaFT5_AbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaFT6PAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#_LEobULX0EeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaFT6fAbEeWBl8I0FMA-QA" x="805" y="765" width="186" height="121"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaF64vAbEeWBl8I0FMA-QA" type="2009">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaF65_AbEeWBl8I0FMA-QA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaF66PAbEeWBl8I0FMA-QA" type="5020"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaF64_AbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaF65PAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaF65fAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Evidence" href="SmartHouse.agsn#_P1C2ULX0EeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaF65vAbEeWBl8I0FMA-QA" x="810" y="950" width="176" height="141"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaF66fAbEeWBl8I0FMA-QA" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaF67vAbEeWBl8I0FMA-QA" type="5015"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaF67_AbEeWBl8I0FMA-QA" type="5016"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaF66vAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaF66_AbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaF67PAbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Goal" href="SmartHouse.agsn#_T_myQLX0EeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaF67fAbEeWBl8I0FMA-QA" x="1050" y="765" width="196" height="121"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_KaF68PAbEeWBl8I0FMA-QA" type="2009">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaGh8PAbEeWBl8I0FMA-QA" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KaGh8fAbEeWBl8I0FMA-QA" type="5020"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_KaF68fAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KaF68vAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KaF68_AbEeWBl8I0FMA-QA"/>
+    <element xmi:type="AGSN:Evidence" href="SmartHouse.agsn#_Y0JfULX0EeWjNYAWtCecTQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaF69PAbEeWBl8I0FMA-QA" x="1065" y="950" width="170" height="151"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_adBJ4EjZEeaO_9_IqQ0igQ" type="2010">
+    <children xmi:type="notation:DecorationNode" xmi:id="_adCYAEjZEeaO_9_IqQ0igQ" type="5021"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_adCYAUjZEeaO_9_IqQ0igQ" type="5022"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_adBJ4UjZEeaO_9_IqQ0igQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_adBJ4kjZEeaO_9_IqQ0igQ" fontName=".SF NS Text"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_adBJ40jZEeaO_9_IqQ0igQ"/>
+    <element xmi:type="AGSN:Context" href="SmartHouse.agsn#_acZe0EjZEeaO_9_IqQ0igQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adBJ5EjZEeaO_9_IqQ0igQ" x="1279" y="278"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KYbuAfAbEeWBl8I0FMA-QA"/>
+  <element xmi:type="AGSN:SafetyCase" href="SmartHouse.agsn#_D7i5cDFeEeaRc-Gph3XN8g"/>
+  <edges xmi:type="notation:Edge" xmi:id="_Ka2v4PAbEeWBl8I0FMA-QA" type="4001" source="_KaAbUPAbEeWBl8I0FMA-QA" target="_KaBpcvAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ka2v4fAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ka2v4vAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:InContextOf" href="SmartHouse.agsn#_D7zYIDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ka2v4_AbEeWBl8I0FMA-QA" points="[0, 0, 159, -60]$[-159, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbwu0fAbEeWBl8I0FMA-QA" id="(0.24916943521594684,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbwu0vAbEeWBl8I0FMA-QA" id="(0.49707602339181284,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ka4lEPAbEeWBl8I0FMA-QA" type="4001" source="_KaAbUPAbEeWBl8I0FMA-QA" target="_KaCQhvAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ka4lEfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ka4lEvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:InContextOf" href="SmartHouse.agsn#_D71NUDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ka4lE_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbwu0_AbEeWBl8I0FMA-QA" id="(0.4983388704318937,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbwu1PAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ka5zMPAbEeWBl8I0FMA-QA" type="4002" source="_KaDeqfAbEeWBl8I0FMA-QA" target="_KaEswPAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ka5zMfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ka5zMvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D72bcDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ka5zM_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbxV4fAbEeWBl8I0FMA-QA" id="(0.4973821989528796,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbxV4vAbEeWBl8I0FMA-QA" id="(0.5067873303167421,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ka7BUPAbEeWBl8I0FMA-QA" type="4002" source="_KaEFsvAbEeWBl8I0FMA-QA" target="_KaEsx_AbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ka7BUfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ka7BUvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D73pkDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ka7BU_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbwHwfAbEeWBl8I0FMA-QA" id="(0.5078534031413613,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbwHwvAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ka8PcPAbEeWBl8I0FMA-QA" type="4002" source="_KaC3kPAbEeWBl8I0FMA-QA" target="_KaEszvAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ka8PcfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ka8PcvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D743sDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ka8Pc_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbwHxfAbEeWBl8I0FMA-QA" id="(0.6636363636363637,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbwu0PAbEeWBl8I0FMA-QA" id="(0.036585365853658534,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ka9dkPAbEeWBl8I0FMA-QA" type="4002" source="_KaAbUPAbEeWBl8I0FMA-QA" target="_KaC3kPAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ka9dkfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ka9dkvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D76s4DFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ka9dk_AbEeWBl8I0FMA-QA" points="[0, 0, -183, -60]$[183, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbwu1fAbEeWBl8I0FMA-QA" id="(0.46179401993355484,0.9444444444444444)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbxV4PAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ka_SwPAbEeWBl8I0FMA-QA" type="4002" source="_KaC3kPAbEeWBl8I0FMA-QA" target="_KaC3l_AbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Ka_SwfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ka_SwvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D77T8DFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ka_Sw_AbEeWBl8I0FMA-QA" points="[0, 0, 112, -60]$[-112, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbwHw_AbEeWBl8I0FMA-QA" id="(0.33181818181818185,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbwHxPAbEeWBl8I0FMA-QA" id="(0.49783549783549785,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbAg4PAbEeWBl8I0FMA-QA" type="4002" source="_KaC3l_AbEeWBl8I0FMA-QA" target="_KaDeovAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbAg4fAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbAg4vAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D79JIDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbAg4_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbuSlPAbEeWBl8I0FMA-QA" id="(0.49783549783549785,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbu5oPAbEeWBl8I0FMA-QA" id="(0.8115942028985508,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbBvAPAbEeWBl8I0FMA-QA" type="4002" source="_KaFT1_AbEeWBl8I0FMA-QA" target="_KaFT3vAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbBvAfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbBvAvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D79wMDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbBvA_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbu5pfAbEeWBl8I0FMA-QA" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbvgsPAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbCWEPAbEeWBl8I0FMA-QA" type="4002" source="_KaFT0PAbEeWBl8I0FMA-QA" target="_KaFT1_AbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbCWEfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbCWEvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D7_lYDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbCWE_AbEeWBl8I0FMA-QA" points="[0, 0, 169, -80]$[-169, 80, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbtrgPAbEeWBl8I0FMA-QA" id="(0.30451127819548873,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbtrgfAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbELQPAbEeWBl8I0FMA-QA" type="4002" source="_KaFT5fAbEeWBl8I0FMA-QA" target="_KaF64vAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbELQfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbELQvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D8AzgDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbELQ_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -65]$[0, 65, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbu5o_AbEeWBl8I0FMA-QA" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbu5pPAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbHOkPAbEeWBl8I0FMA-QA" type="4002" source="_KaF66fAbEeWBl8I0FMA-QA" target="_KaF68PAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbHOkfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbHOkvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D8CBoDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbHOk_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -65]$[0, 65, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbu5ofAbEeWBl8I0FMA-QA" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbu5ovAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbIcsPAbEeWBl8I0FMA-QA" type="4002" source="_KaFT0PAbEeWBl8I0FMA-QA" target="_KaFT5fAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbJDwPAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbJDwfAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D8D20DFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbJDwvAbEeWBl8I0FMA-QA" points="[0, 0, 0, -80]$[0, 80, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbuSkPAbEeWBl8I0FMA-QA" id="(0.6127819548872181,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbuSkfAbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbKR4PAbEeWBl8I0FMA-QA" type="4002" source="_KaFT0PAbEeWBl8I0FMA-QA" target="_KaF66fAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbKR4fAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbKR4vAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D8FE8DFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbKR4_AbEeWBl8I0FMA-QA" points="[0, 0, -200, -80]$[200, 80, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbuSkvAbEeWBl8I0FMA-QA" id="(0.8045112781954887,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbuSk_AbEeWBl8I0FMA-QA" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbMHEPAbEeWBl8I0FMA-QA" type="4002" source="_KaEszvAbEeWBl8I0FMA-QA" target="_KaFT0PAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbMHEfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbMHEvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D8GTEDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbMHE_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -65]$[0, 65, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbvgsfAbEeWBl8I0FMA-QA" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbvgsvAbEeWBl8I0FMA-QA" id="(0.16165413533834586,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbNVMPAbEeWBl8I0FMA-QA" type="4002" source="_KaDeovAbEeWBl8I0FMA-QA" target="_KaDeqfAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbNVMfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbNVMvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D8JWYDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbNVM_AbEeWBl8I0FMA-QA" points="[0, 0, 182, -60]$[-182, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbvgtfAbEeWBl8I0FMA-QA" id="(0.25,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbwHwPAbEeWBl8I0FMA-QA" id="(0.4973821989528796,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbOjUPAbEeWBl8I0FMA-QA" type="4002" source="_KaDeovAbEeWBl8I0FMA-QA" target="_KaEFsvAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KbOjUfAbEeWBl8I0FMA-QA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbOjUvAbEeWBl8I0FMA-QA" fontName="Microsoft YaHei UI" fontHeight="12"/>
+    <element xmi:type="AGSN:SupportedBy" href="SmartHouse.agsn#_D8J9cDFeEeaRc-Gph3XN8g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbOjU_AbEeWBl8I0FMA-QA" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbvgs_AbEeWBl8I0FMA-QA" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KbvgtPAbEeWBl8I0FMA-QA" id="(0.4973821989528796,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5gpJQEj1Eea2ZO05-M4-Ow" type="4001" source="_adBJ4EjZEeaO_9_IqQ0igQ" target="_KaCQhvAbEeWBl8I0FMA-QA">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_5gpJQUj1Eea2ZO05-M4-Ow"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5gpJQkj1Eea2ZO05-M4-Ow" fontName=".SF NS Text"/>
+    <element xmi:type="AGSN:InContextOf" href="SmartHouse.agsn#_5f_B8Ej1Eea2ZO05-M4-Ow"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5gpJQ0j1Eea2ZO05-M4-Ow" points="[-28, -7, -28, -7]$[-28, -7, -28, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5guBwEj1Eea2ZO05-M4-Ow" id="(0.23333333333333334,0.4125)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_9fu1AEj1Eea2ZO05-M4-Ow" type="4001" source="_KaCQhvAbEeWBl8I0FMA-QA" target="_adBJ4EjZEeaO_9_IqQ0igQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_9fu1AUj1Eea2ZO05-M4-Ow"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9fu1Akj1Eea2ZO05-M4-Ow" fontName=".SF NS Text"/>
+    <element xmi:type="AGSN:InContextOf" href="SmartHouse.agsn#_9ftm4Ej1Eea2ZO05-M4-Ow"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9fu1A0j1Eea2ZO05-M4-Ow" points="[0, 0, -240, -91]$[238, 91, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9fwqMEj1Eea2ZO05-M4-Ow" id="(0.6590909090909091,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9fxRQEj1Eea2ZO05-M4-Ow" id="(0.016666666666666666,0.7375)"/>
+  </edges>
+</notation:Diagram>

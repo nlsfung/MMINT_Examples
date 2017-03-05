@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AGSN:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AGSN="AGSN" id="_eTJZgPeGEealzddDX9FV2Q">
+  <rootBasicNode xsi:type="AGSN:Goal" id="_9i_gsPeGEealzddDX9FV2Q" name="G2" assessstatus="Accepted" description="Goal 2" beliefDegree="{(Very Low, 0.0), (Low, 0.0), (Medium, 0.0), (High, 0.0), (Very High, 0.2)}"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_F7mxcPeHEealzddDX9FV2Q" name="G3" assessstatus="Accepted" description="Goal 3" qualityLevel="VeryHigh" beliefDegree="{(Very Low, 1.1825), (Low, -0.0), (Medium, 0.7043), (High, -0.0), (Very High, -0.4434)}"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_H9dUcPeHEealzddDX9FV2Q" name="G4" assessstatus="Accepted" description="Goal 4" beliefDegree="{(Very Low, 0.17), (Low, -0.0), (Medium, -0.0), (High, 0.17), (Very High, -0.0)}"/>
+  <rootBasicNode xsi:type="AGSN:Goal" id="_TdY7cPeHEealzddDX9FV2Q" name="G1" assessstatus="Accepted" description="Goal 1" beliefDegree="{(Very Low, 0.5955), (Low, 0.0), (Medium, 0.3089), (High, 0.0436), (Very High, -0.1596)}"/>
+  <rootBasicNode xsi:type="AGSN:Strategy" id="_Vlq2kPeHEealzddDX9FV2Q" name="S1" assessstatus="Accepted" description="Strategy 1" beliefDegree="{(Very Low, 0.5955), (Low, 0.0), (Medium, 0.3089), (High, 0.0436), (Very High, -0.1596)}"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_sSFkIPeHEealzddDX9FV2Q" name="E1" assessstatus="Accepted" description="Evidence 1" qualityLevel="VeryHigh" confidencePercentage="20" weight="1.0" beliefDegree="{(Very Low, 0.0), (Low, 0.0), (Medium, 0.0), (High, 0.0), (Very High, 0.2)}"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_ukfEkPeHEealzddDX9FV2Q" name="E2" assessstatus="Accepted" description="Evidence 2" qualityLevel="VeryHigh" confidencePercentage="50" weight="1.0" beliefDegree="{(Very Low, 0.0), (Low, 0.0), (Medium, 0.0), (High, 0.0), (Very High, 0.5)}"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_wvkcEPeHEealzddDX9FV2Q" name="E3" assessstatus="Accepted" description="Evidence 3" confidencePercentage="80" weight="2.0" beliefDegree="{(Very Low, 0.8), (Low, 0.0), (Medium, 0.0), (High, 0.0), (Very High, 0.0)}"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_zMIlIPeHEealzddDX9FV2Q" name="E4" assessstatus="Accepted" description="Evidence 4" qualityLevel="Medium" confidencePercentage="90" weight="3.0" beliefDegree="{(Very Low, 0.0), (Low, 0.0), (Medium, 0.9), (High, 0.0), (Very High, 0.0)}"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_2PbXAPeHEealzddDX9FV2Q" name="E5" assessstatus="Accepted" description="Evidence 5" confidencePercentage="60" weight="4.0" beliefDegree="{(Very Low, 0.6), (Low, 0.0), (Medium, 0.0), (High, 0.0), (Very High, 0.0)}"/>
+  <rootBasicNode xsi:type="AGSN:Evidence" id="_-gE-kPeHEealzddDX9FV2Q" name="E6" assessstatus="Accepted" description="Evidence 6" qualityLevel="High" confidencePercentage="40" weight="6.0" beliefDegree="{(Very Low, 0.0), (Low, 0.0), (Medium, 0.0), (High, 0.4), (Very High, 0.0)}"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_TdY7cPeHEealzddDX9FV2Q" target="_Vlq2kPeHEealzddDX9FV2Q" id="_WKm6MPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_Vlq2kPeHEealzddDX9FV2Q" target="_9i_gsPeGEealzddDX9FV2Q" id="_WmqkEPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_Vlq2kPeHEealzddDX9FV2Q" target="_F7mxcPeHEealzddDX9FV2Q" id="_W3E-oPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_Vlq2kPeHEealzddDX9FV2Q" target="_H9dUcPeHEealzddDX9FV2Q" id="_XM1zQPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_9i_gsPeGEealzddDX9FV2Q" target="_sSFkIPeHEealzddDX9FV2Q" id="_Xl8PwPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_F7mxcPeHEealzddDX9FV2Q" target="_ukfEkPeHEealzddDX9FV2Q" id="_YCPKMPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_F7mxcPeHEealzddDX9FV2Q" target="_wvkcEPeHEealzddDX9FV2Q" id="_YUYqIPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_F7mxcPeHEealzddDX9FV2Q" target="_zMIlIPeHEealzddDX9FV2Q" id="_YlGmsPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_H9dUcPeHEealzddDX9FV2Q" target="_2PbXAPeHEealzddDX9FV2Q" id="_Yz-JIPeIEealzddDX9FV2Q"/>
+  <rootBasicLink xsi:type="AGSN:SupportedBy" source="_H9dUcPeHEealzddDX9FV2Q" target="_-gE-kPeHEealzddDX9FV2Q" id="_ZEEaoPeIEealzddDX9FV2Q"/>
+</AGSN:SafetyCase>

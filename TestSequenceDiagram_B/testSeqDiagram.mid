@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID">
+  <models xsi:type="mavomid:MAVOModel" uri="/TestSequenceSlicer/testSeqDiagram.icse15_sequencediagram_mavo" name="testSeqDiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/ICSE15_SequenceDiagram_MAVO" dynamic="true" origin="CREATED" fileExtension="icse15_sequencediagram_mavo" editors="//@editors.0"/>
+  <editors uri="/TestSequenceSlicer/testSeqDiagram.icse15_sequencediagram_mavo" name="ICSE15_SequenceDiagram_MAVO tree for model /TestSequenceSlicer/testSeqDiagram.icse15_sequencediagram_mavo" metatypeUri="http://se.cs.toronto.edu/modelepedia/Tree_ICSE15_SequenceDiagram_MAVO" dynamic="true" modelUri="/TestSequenceSlicer/testSeqDiagram.icse15_sequencediagram_mavo" id="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.presentation.ICSE15_SequenceDiagram_MAVOEditorID" wizardId="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.presentation.ICSE15_SequenceDiagram_MAVOModelWizardID">
+    <fileExtensions>icse15_sequencediagram_mavo</fileExtensions>
+  </editors>
+  <extendibleTable key="/TestSequenceSlicer/testSeqDiagram.icse15_sequencediagram_mavo" value="//@models.0"/>
+</mid:MID>

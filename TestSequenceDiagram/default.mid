@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models xsi:type="mavomid:MAVOModel" uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo" name="SDiag1" metatypeUri="http://se.cs.toronto.edu/modelepedia/ICSE15_SequenceDiagram_MAVO" dynamic="true" origin="CREATED" fileExtension="icse15_sequencediagram_mavo" editors="//@editors.0">
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@lifelines.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[lifelines->] Lifeline s" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Lifeline" featureName="lifelines" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message s.requestSpeed()" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.4/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="attributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.4/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="attributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.4/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[operations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="operations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.0/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="attributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.1/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="attributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.1/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[operations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="operations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message [if s.sensed_speed&lt;=15] s.closed else s.open" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message ac_ecu.sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message ac_ecu.sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message ac_ecu.requestSpeed()" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message ac_ecu.requestSpeed()" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="sd1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models uri="/TestSequenceDiagram/default.classdiagram" name="default" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" origin="CREATED" fileExtension="classdiagram" editors="//@editors.1">
+    <modelElems uri="/TestSequenceDiagram/default.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class a" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:BinaryModelRel" uri="" name="default->default" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="" sourceModel="//@models.2" targetModel="//@models.0">
+    <modelEndpoints uri="" name="default" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <modelEndpoints uri="" name="default" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="a" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.3/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.3/@mappingRefs.0/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[classes->] Class a" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2/@modelElems.0"/>
+      <modelElemEndpoints uri="" name="[classes->] Class" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.3/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.2/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <modelEndpointRefs referencedObject="//@models.3/@modelEndpoints.1" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.0/@modelElemEndpointRefs.1"/>
+    </modelEndpointRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.3/@mappings.0" modifiable="true" sourceModelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.0">
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.0"/>
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.0/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.0"/>
+    </mappingRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/TestSequenceDiagram/default.icse15_sequencediagramdiag_mavo" name="ICSE15_SequenceDiagram_MAVO diagram for model /TestSequenceDiagram/default.icse15_sequencediagram_mavo" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ICSE15_SequenceDiagram_MAVO" dynamic="true" modelUri="/TestSequenceDiagram/default.icse15_sequencediagram_mavo" id="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVODiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVOCreationWizardID">
+    <fileExtensions>icse15_sequencediagramdiag_mavo</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/TestSequenceDiagram/default.classdiagramdiag" name="ClassDiagram diagram for model /TestSequenceDiagram/default.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/TestSequenceDiagram/default.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo" value="//@models.0"/>
+  <extendibleTable key="/TestSequenceDiagram/default.classdiagram" value="//@models.2"/>
+  <extendibleTable key="/TestSequenceDiagram/default.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.0"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@lifelines.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.4/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.4/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.4/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.0/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.1/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@classes.1/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.10"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.11"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.12"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.13"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.14"/>
+  <extendibleTable key="/TestSequenceDiagram/default.icse15_sequencediagram_mavo#//@messages.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.15"/>
+</mid:MID>

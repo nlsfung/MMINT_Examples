@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram" name="attrAndOpTest" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.0">
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram/ClassA" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true"/>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram/ClassSubA1" name="[classes->] Class SubA1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement"/>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class SubA1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute Attr1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation doOp1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association AtoB" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association AtoSubC1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class SubA2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class NestedA2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class NestedA1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.12/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation doOp3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.2/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute Attr2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class NestedSubA11" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.11/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation doOp4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class SubA22" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class NestedA21" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.8/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation doOp2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class SubNestedA11" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="impactedClasses" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="attrAndOpTest" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/DepAttrAndOpTest/attrAndOpTest.classdiagramdiag" name="ClassDiagram diagram for model /DepAttrAndOpTest/attrAndOpTest.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/DepAttrAndOpTest/attrAndOpTest.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram" value="//@models.0"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.10"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.12/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.11"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.2/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.12"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.13"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.11/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.14"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.15"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.16"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.8/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.17"/>
+  <extendibleTable key="/DepAttrAndOpTest/attrAndOpTest.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.18"/>
+</mid:MID>

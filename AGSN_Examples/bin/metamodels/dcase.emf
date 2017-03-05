@@ -1,0 +1,188 @@
+@namespace(uri="http://www.dependable-os.net/2013/11/dcase_model/", prefix="dcase")
+package dcase;
+
+import "platform:/resource/ModelTransformation/resource/metamodels/ecore.ecore";
+
+@ExtendedMetaData(name="Action", kind="empty")
+class Action extends BasicNode {
+}
+
+@ExtendedMetaData(name="Argument", kind="elementOnly")
+class Argument extends BasicNode {
+
+  @ExtendedMetaData(kind="element", name="rootBasicNode")
+  !resolve val BasicNode[*] rootBasicNode;
+
+  @ExtendedMetaData(kind="element", name="rootBasicLink")
+  !resolve val BasicLink[*] rootBasicLink;
+}
+
+@ExtendedMetaData(name="Assumption", kind="empty")
+class Assumption extends BasicNode {
+}
+
+@ExtendedMetaData(name="BasicLink", kind="empty")
+abstract class BasicLink {
+
+  @ExtendedMetaData(kind="attribute", name="attachment")
+  attr ecore.EString attachment;
+
+  @ExtendedMetaData(kind="attribute", name="desc")
+  attr ecore.EString desc;
+
+  @ExtendedMetaData(kind="attribute", name="id")
+  attr ecore.EString ~id;
+
+  @ExtendedMetaData(kind="attribute", name="message")
+  attr ecore.EString message;
+
+  @ExtendedMetaData(kind="attribute", name="name")
+  attr ecore.EString name;
+
+  @ExtendedMetaData(kind="attribute", name="siblingOrder")
+  attr ecore.EString siblingOrder;
+
+  @ExtendedMetaData(kind="attribute", name="source")
+  ref BasicNode source;
+
+  @ExtendedMetaData(kind="attribute", name="target")
+  ref BasicNode target;
+}
+
+@ExtendedMetaData(name="BasicNode", kind="empty")
+abstract class BasicNode {
+
+  @ExtendedMetaData(kind="attribute", name="attachment")
+  attr ecore.EString attachment;
+
+  @ExtendedMetaData(kind="attribute", name="desc")
+  attr ecore.EString desc;
+
+  @ExtendedMetaData(kind="attribute", name="flag")
+  attr ecore.EString flag;
+
+  @ExtendedMetaData(kind="attribute", name="id")
+  attr ecore.EString ~id;
+
+  @ExtendedMetaData(kind="attribute", name="message")
+  attr ecore.EString message;
+
+  @ExtendedMetaData(kind="attribute", name="name")
+  attr ecore.EString name;
+
+  @ExtendedMetaData(kind="attribute", name="parameterDefs")
+  attr ecore.EString parameterDefs;
+
+  @ExtendedMetaData(kind="attribute", name="parameterizedDesc")
+  attr ecore.EString parameterizedDesc;
+
+  @ExtendedMetaData(kind="attribute", name="parameterVals")
+  attr ecore.EString parameterVals;
+
+  @ExtendedMetaData(kind="attribute", name="parent")
+  attr ecore.EString parent;
+
+  @ExtendedMetaData(kind="attribute", name="refSource")
+  attr ecore.EString refSource;
+
+  @ExtendedMetaData(kind="attribute", name="respAddress")
+  attr ecore.EString respAddress;
+
+  @ExtendedMetaData(kind="attribute", name="respIcon")
+  attr ecore.EString respIcon;
+
+  @ExtendedMetaData(kind="attribute", name="respName")
+  attr ecore.EString respName;
+
+  @ExtendedMetaData(kind="attribute", name="validUntil")
+  attr ecore.EString validUntil;
+  attr ecore.EString userdef010;
+}
+
+@ExtendedMetaData(name="Context", kind="empty")
+class Context extends BasicNode {
+}
+
+@ExtendedMetaData(name="Contract", kind="empty")
+class Contract extends BasicNode {
+}
+
+@ExtendedMetaData(name="Evidence", kind="empty")
+class Evidence extends BasicNode {
+}
+
+@ExtendedMetaData(name="External", kind="empty")
+class External extends BasicNode {
+}
+
+@ExtendedMetaData(name="InContextOf", kind="empty")
+class InContextOf extends BasicLink {
+}
+
+@ExtendedMetaData(name="Justification", kind="empty")
+class Justification extends BasicNode {
+
+  @ExtendedMetaData(kind="attribute", name="stakeholder")
+  attr ecore.EString stakeholder = "";
+}
+
+@ExtendedMetaData(name="Module", kind="empty")
+class Module extends BasicNode {
+}
+
+@ExtendedMetaData(name="Monitor", kind="empty")
+class Monitor extends BasicNode {
+
+  @ExtendedMetaData(kind="attribute", name="isNormal")
+  attr ecore.EBoolean isNormal = "false";
+}
+
+@ExtendedMetaData(name="Pattern", kind="empty")
+class Pattern extends BasicNode {
+
+  @ExtendedMetaData(kind="attribute", name="i")
+  attr ecore.EString i;
+
+  @ExtendedMetaData(kind="attribute", name="j")
+  attr ecore.EString j;
+
+  @ExtendedMetaData(kind="attribute", name="leafNode")
+  attr ecore.EString leafNode;
+
+  @ExtendedMetaData(kind="attribute", name="subType")
+  unsettable attr SubTypeType subType;
+}
+
+@ExtendedMetaData(name="Responsibility", kind="empty")
+class Responsibility extends BasicLink {
+}
+
+@ExtendedMetaData(name="Strategy", kind="empty")
+class Strategy extends BasicNode {
+}
+
+@ExtendedMetaData(name="subType_._type")
+enum SubTypeType {
+  Parameter = 0;
+  Loop = 1;
+  Choice = 2;
+  Multiplicity = 3;
+}
+
+@ExtendedMetaData(name="subType_._type:Object", baseType="subType_._type")
+datatype SubTypeTypeObject : org.eclipse.emf.common.util.Enumerator;
+
+@ExtendedMetaData(name="SupportedBy", kind="empty")
+class SupportedBy extends BasicLink {
+}
+
+@ExtendedMetaData(name="Undeveloped", kind="empty")
+class Undeveloped extends BasicNode {
+}
+
+@ExtendedMetaData(name="Goal", kind="empty")
+class Goal extends BasicNode {
+  attr ecore.EInt weight;
+  attr ecore.EBigDecimal score;
+}
+

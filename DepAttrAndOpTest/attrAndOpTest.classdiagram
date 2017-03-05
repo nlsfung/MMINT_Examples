@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="A" nested="//@classes.5 //@classes.4" subclasses="//@classes.2 //@classes.3" associationsAsSource="//@associations.0 //@associations.1">
+    <ownedAttributes name="Attr1"/>
+    <ownedOperations name="doOp1" public="true"/>
+  </classes>
+  <classes name="NestedA21" nestedIn="//@classes.4"/>
+  <classes name="SubA2" superclass="//@classes.0" subclasses="//@classes.6">
+    <ownedAttributes name="Attr2" type="//@classes.3"/>
+  </classes>
+  <classes name="SubA1" nested="//@classes.8" superclass="//@classes.0"/>
+  <classes name="NestedA2" nestedIn="//@classes.0" nested="//@classes.1"/>
+  <classes name="NestedA1" nestedIn="//@classes.0" subclasses="//@classes.7"/>
+  <classes name="SubA22" superclass="//@classes.2"/>
+  <classes name="SubNestedA11" superclass="//@classes.5"/>
+  <classes name="NestedSubA11" nestedIn="//@classes.3">
+    <ownedOperations name="doOp2" type="//@classes.4"/>
+  </classes>
+  <classes name="B" associationsAsTarget="//@associations.0">
+    <ownedAttributes name="Attr3" type="//@classes.9" public="true"/>
+  </classes>
+  <classes name="C" subclasses="//@classes.11 //@classes.12"/>
+  <classes name="SubC1" superclass="//@classes.10" associationsAsTarget="//@associations.1">
+    <ownedOperations name="doOp4" type="//@classes.3"/>
+  </classes>
+  <classes name="SubC2" superclass="//@classes.10">
+    <ownedOperations name="doOp3" type="//@classes.0" public="true"/>
+  </classes>
+  <associations name="AtoB" source="//@classes.0" target="//@classes.9"/>
+  <associations name="AtoSubC1" source="//@classes.0" target="//@classes.11"/>
+</classdiagram:ClassDiagram>

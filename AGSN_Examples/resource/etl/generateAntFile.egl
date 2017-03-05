@@ -1,0 +1,119 @@
+[% var modellist : new Sequence;
+var targetlist : new Sequence;
+var i : Integer;
+    i = 0;
+var path : new String;
+path = "/ModelTransformation/models/";
+var modelname : String;
+var sourcepath : String;
+sourcepath = "E:/TUEmaster/runtime/d-casedemo/";
+modelname = "Car.dcase_model";
+var modelattach : String;
+var targetmodel : String;
+for (node in dcase!BasicNode.all){
+    if(node.attachment.isDefined() and node.attachment <> "")
+      if (node.attachment.endsWith("dcase_diagram")) {
+          var arr : Sequence;
+          arr = node.attachment.split("/");
+          var filename : String;
+          filename = arr.get(arr.size-1);
+          modelattach = filename.replace("dcase_diagram", "dcase_model");
+          modellist.add(modelattach);
+          targetmodel = filename.replace("dcase_diagram", "agsn");
+          agsn.store( path + targetmodel);
+          targetlist.add(targetmodel);
+          node.attachment.println();
+          i = i+1;
+      } else {
+         if (node.attachment.endsWith("/")){
+              var attachment = node.attachment.substring(0, node.attachment.length()-1);
+              modelattach = attachment + ".dcase_model";
+              attachment = attachment + ".dcase_diagram";
+              var arr : Sequence;
+              arr = attachment.split("/");
+              var filename : String;
+              filename = arr.get(arr.size-1);
+              targetmodel = attachment.replace("dcase_diagram", "agsn");
+              attachment.println();
+              targetmodel.println();
+              modellist.add(modelattach);
+              agsn.store(path + targetmodel);
+              targetlist.add(targetmodel);
+              i = i+1;
+         }
+      }
+} 
+for(link in dcase!BasicLink.all){
+  if(link.attachment.isDefined() and link.attachment <> ""){
+    if (link.attachment.endsWith("dcase_diagram")) {
+          var arr : Sequence;
+          arr = link.attachment.split("/");
+          var filename : String;
+          filename = arr.get(arr.size-1);
+          modelattach = filename.replace("dcase_diagram", "dcase_model");
+          modellist.add(modelattach);
+          targetmodel = filename.replace("dcase_diagram", "agsn");
+          agsn.store( path + targetmodel);
+          targetlist.add(targetmodel);
+          link.attachment.println();
+          i = i+1;
+    }else{
+          if (link.attachment.endsWith("/")){
+              var attachment = link.attachment.substring(0, link.attachment.length()-1);
+              modelattach = attachment + ".dcase_model";
+              attachment = attachment + ".dcase_diagram";
+              var arr : Sequence;
+              arr = attachment.split("/");
+              var filename : String;
+              filename = arr.get(arr.size-1);
+              targetmodel = attachment.replace("dcase_diagram", "agsn");
+              attachment.println();
+              modellist.add(modelattach);
+              agsn.store(path + targetmodel);
+              targetlist.add(targetmodel);
+              i = i+1;
+         }
+    }
+  }
+    
+}
+targetmodel = modelname.replace("dcase_model", "agsn");
+agsn.store(path + targetmodel);%]
+<?xml version="1.0"?> 
+<project default="all">
+<target name="all" depends="main
+[% if(i > 0) {var j : Integer; 
+         for (j in 1.to(i)){ %]
+         , attachment[%=j%]
+[% j = j+1; } 
+      }%] " />
+<property name = "sourcepath" value = "[%=sourcepath%]"></property>
+<property name = "sourcefile" value = "[%=modelname%]"></property>
+<target name="loadModels">
+    <epsilon.emf.loadModel name="dcase" modelFile="${sourcepath}${sourcefile}" metamodelUri="http://www.dependable-os.net/2013/11/dcase_model/" read="true" store="false"/>
+    <epsilon.emf.loadModel name="AGSN" modelFile="../models/[%=targetmodel%]" metamodelUri="AGSN" read="false" store="true"/>
+</target>
+  <target name="main" depends="loadModels">
+    <epsilon.etl src="../resource/etl/DCaseToAGSNCopy.etl">
+      <model ref="dcase"/>
+      <model ref="AGSN" />
+    </epsilon.etl>
+  </target>
+  [% if(i > 0) { var j : Integer; j = 0;
+        %]
+    <target name="loadModels[%=j+1%]">
+       <epsilon.disposeModel model="dcase"/>
+  	   <epsilon.disposeModel model="AGSN"/>
+       <epsilon.emf.loadModel name="dcase" modelFile="${sourcepath}[%=modellist.at(j)%]" metamodelUri="http://www.dependable-os.net/2013/11/dcase_model/" read="true" store="false"/>
+       <epsilon.emf.loadModel name="AGSN" modelFile="../models/[%=targetlist.at(j)%]" metamodelUri="AGSN" read="false" store="true"/>
+    </target>
+    <target name="attachment[%=j+1%]" depends="loadModels[%=j+1%]">
+       <epsilon.etl src="../resource/etl/DCaseToAGSNCopy.etl">
+  	  	 <model ref="dcase"/>
+  	  	 <model ref="AGSN" />
+  	   </epsilon.etl>
+    </target>
+    [% j = j+1; }%]
+</project>
+
+
