@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/TestSlicePropagation/powerSD.classdiagram" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.0">
+    <modelElems uri="/TestSlicePropagation/powerSD.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models xsi:type="mavomid:MAVOModel" uri="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo" name="powerSD_SD" metatypeUri="http://se.cs.toronto.edu/modelepedia/ICSE15_SequenceDiagram_MAVO" dynamic="true" fileExtension="icse15_sequencediagram_mavo" editors="//@editors.1">
+    <modelElems uri="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="attributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="attributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[operations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="operations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.mid#//@models.1/@modelElems.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="MAVOModel"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.mid#//@models.1/@modelElems.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="MAVOModel"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.mid#//@models.1/@modelElems.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="MAVOModel"/>
+    </modelElems>
+    <modelElems uri="/TestSlicePropagation/powerSD.mid#//@models.1/@modelElems.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [operations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="MAVOModel"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="trace" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpoints uri="" name="powerSD_SD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="r0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.3/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.3/@mappingRefs.0/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+      <modelElemEndpoints uri="" name="[classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.0"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="r1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.3/@mappingRefs.1/@modelElemEndpointRefs.0 //@models.3/@mappingRefs.1/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[ownedAttributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.1"/>
+      <modelElemEndpoints uri="" name="[attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.1"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="r2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.3/@mappingRefs.2/@modelElemEndpointRefs.0 //@models.3/@mappingRefs.2/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.2"/>
+      <modelElemEndpoints uri="" name="[attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.2"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="r3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.3/@mappingRefs.3/@modelElemEndpointRefs.0 //@models.3/@mappingRefs.3/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.3"/>
+      <modelElemEndpoints uri="" name="[operations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.3"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.3/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <modelEndpointRefs referencedObject="//@models.3/@modelEndpoints.1" modifiable="true">
+      <modelElemRefs referencedObject="//@models.1/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.0/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.1/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.2/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.3/@mappingRefs.3/@modelElemEndpointRefs.1"/>
+    </modelEndpointRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.3/@mappings.0" modifiable="true" sourceModelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.0">
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.0"/>
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.0/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.3/@mappings.1" modifiable="true" sourceModelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.1">
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.1/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.3/@mappings.2" modifiable="true" sourceModelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.2" targetModelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.2">
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.2"/>
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.2/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.3/@mappings.3" modifiable="true" sourceModelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.3" targetModelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.3">
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.0/@modelElemRefs.3"/>
+      <modelElemEndpointRefs referencedObject="//@models.3/@mappings.3/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.3/@modelEndpointRefs.1/@modelElemRefs.3"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="propagated" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_SD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <modelEndpointRefs referencedObject="//@models.4/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.1/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/TestSlicePropagation/powerSD.classdiagramdiag" name="ClassDiagram diagram for model /TestSlicePropagation/powerSD.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/TestSlicePropagation/powerSD.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/TestSlicePropagation/powerSD.icse15_sequencediagramdiag_mavo" name="ICSE15_SequenceDiagram_MAVO diagram for model /TestSlicePropagation/powerSD.icse15_sequencediagram_mavo" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ICSE15_SequenceDiagram_MAVO" dynamic="true" modelUri="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo" id="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVODiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVOCreationWizardID">
+    <fileExtensions>icse15_sequencediagramdiag_mavo</fileExtensions>
+  </editors>
+  <operators uri="" name="ModelRelPropagation" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_ModelRelPropagation" dynamic="true" updateMID="true" executionTime="7841757">
+    <inputs uri="" name="original" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_ModelRelPropagation/original" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <inputs uri="" name="trace" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_ModelRelPropagation/trace" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <outputs uri="" name="propagated" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_ModelRelPropagation/propagated" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+  </operators>
+  <extendibleTable key="/TestSlicePropagation/powerSD.classdiagram" value="//@models.0"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo" value="//@models.1"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.0"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.1"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.2"/>
+  <extendibleTable key="/TestSlicePropagation/powerSD.icse15_sequencediagram_mavo#//@classes.4/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.3"/>
+</mid:MID>

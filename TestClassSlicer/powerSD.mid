@@ -10,6 +10,75 @@
     <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.4/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
     </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Door" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.1/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute open" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class VS ECU" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.2/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation getSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Actuator" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute powered" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute activated" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation openDoor" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation closeDoor" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class AC ECU" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.4/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Driver Switch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.5/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestDoorOpen" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@classes.5/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestDoorClose" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association commuticatesWith" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association powers" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association communicatesWith" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@associations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association controls" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@associations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association communicatesWith" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/TestClassSlicer/powerSD.classdiagram#//@associations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association controls" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="crit" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="powerSD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
@@ -24,4 +93,27 @@
   <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
   <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.2/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
   <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.4/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.1/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.2/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.10"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.11"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.12"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.13"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.3/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.14"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.15"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.4/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.16"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.17"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.5/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.18"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@classes.5/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.19"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.20"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.21"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.22"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@associations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.23"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@associations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.24"/>
+  <extendibleTable key="/TestClassSlicer/powerSD.classdiagram#//@associations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.25"/>
 </mid:MID>
