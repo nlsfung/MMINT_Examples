@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_HgBgYBVpEeeRILWmP5vaMw" type="ClassDiagram" name="04.classdiagramdiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_SzFwEBVpEeeRILWmP5vaMw" type="2001" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SzHlQBVpEeeRILWmP5vaMw" type="5003"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SzMdwBVpEeeRILWmP5vaMw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_hIUwQBVpEeeRILWmP5vaMw" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_hIVXUBVpEeeRILWmP5vaMw" type="5001"/>
+        <element xmi:type="classdiagram:Attribute" href="04.classdiagram#//@classes.0/@ownedAttributes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hIUwQRVpEeeRILWmP5vaMw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jFiq4BVpEeeRILWmP5vaMw" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_jFiq4hVpEeeRILWmP5vaMw" type="5001"/>
+        <element xmi:type="classdiagram:Attribute" href="04.classdiagram#//@classes.0/@ownedAttributes.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jFiq4RVpEeeRILWmP5vaMw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_j-OmYBVpEeeRILWmP5vaMw" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_j-OmYhVpEeeRILWmP5vaMw" type="5001"/>
+        <element xmi:type="classdiagram:Attribute" href="04.classdiagram#//@classes.0/@ownedAttributes.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j-OmYRVpEeeRILWmP5vaMw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SzMdwRVpEeeRILWmP5vaMw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SzMdwhVpEeeRILWmP5vaMw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SzNE0BVpEeeRILWmP5vaMw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SzNE0RVpEeeRILWmP5vaMw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SzNE0hVpEeeRILWmP5vaMw"/>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_SzFwERVpEeeRILWmP5vaMw"/>
+    <element xmi:type="classdiagram:Class" href="04.classdiagram#//@classes.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SzFwEhVpEeeRILWmP5vaMw" x="368" y="192"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_HgBgYRVpEeeRILWmP5vaMw"/>
+  <element xmi:type="classdiagram:ClassDiagram" href="04.classdiagram#/"/>
+</notation:Diagram>
