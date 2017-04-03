@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="A" nested="//@classes.1 //@classes.2 //@classes.3" subclasses="//@classes.4 //@classes.5 //@classes.6" />
+  <classes name="A2" nestedIn="//@classes.0" />
+  <classes name="A2" nestedIn="//@classes.0" />
+  <classes name="A2" nestedIn="//@classes.0" >
+    <ownedAttributes name="attr01" />
+  </classes>
+  <classes name="A2" superclass="//@classes.0" />
+  <classes name="A2" superclass="//@classes.0" >
+    <ownedOperations name="op01" />
+  </classes>
+  <classes name="A2" superclass="//@classes.0" >
+    <ownedOperations name="op01" />
+  </classes>
+</classdiagram:ClassDiagram>

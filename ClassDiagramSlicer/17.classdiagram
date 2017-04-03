@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="A" subclasses="//@classes.1" nested="//@classes.2" associationsAsSource="//@associations.0" dependenciesAsDependee="//@dependencies.0" associationsAsTarget="//@associations.1" dependenciesAsDepender="//@dependencies.1">
+    <ownedAttributes name="attr01"/>
+    <ownedOperations name="op01"/>
+  </classes>
+  <classes name="B" superclass="//@classes.0" />
+  <classes name="C" nestedIn="//@classes.0" />
+  <classes name="D" associationsAsTarget="//@associations.0" />
+  <classes name="E" dependenciesAsDepender="//@dependencies.0" />
+  <classes name="F" associationsAsSource="//@associations.1" />
+  <classes name="G" dependenciesAsDependee="//@dependencies.1" />
+
+  <classes name="A" subclasses="//@classes.8" nested="//@classes.9" associationsAsSource="//@associations.2" dependenciesAsDependee="//@dependencies.2" associationsAsTarget="//@associations.3" dependenciesAsDepender="//@dependencies.3">
+    <ownedAttributes name="attr01"/>
+    <ownedOperations name="op01"/>
+  </classes>
+  <classes name="B" superclass="//@classes.7" />
+  <classes name="C" nestedIn="//@classes.7" />
+  <classes name="D" associationsAsTarget="//@associations.2" />
+  <classes name="E" dependenciesAsDepender="//@dependencies.2" />
+  <classes name="F" associationsAsSource="//@associations.3" />
+  <classes name="G" dependenciesAsDependee="//@dependencies.3" />
+
+  <classes name="A">
+    <ownedAttributes name="attr01"/>
+    <ownedOperations name="op01"/>
+  </classes>
+
+  <associations name="A2D" source="//@classes.0" target="//@classes.3" />
+  <associations name="F2A" source="//@classes.5" target="//@classes.0" />
+  <associations name="A2D" source="//@classes.7" target="//@classes.10" />
+  <associations name="F2A" source="//@classes.12" target="//@classes.7" />
+  <dependencies name="A2E" dependee="//@classes.0" depender="//@classes.4" />
+  <dependencies name="G2A" dependee="//@classes.6" depender="//@classes.0" />
+  <dependencies name="A2E" dependee="//@classes.7" depender="//@classes.11" />
+  <dependencies name="G2A (Renamed)" dependee="//@classes.13" depender="//@classes.7" />
+</classdiagram:ClassDiagram>
