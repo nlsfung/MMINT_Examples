@@ -13,6 +13,6 @@
 
   <associations name="A2D" source="//@classes.0" target="//@classes.3" />
   <associations name="F2A" source="//@classes.5" target="//@classes.0" />
-  <dependencies name="A2E" dependee="//@classes.0" depender="//@classes.4" />
-  <dependencies name="G2A" dependee="//@classes.6" depender="//@classes.0" />
+  <dependencies dependee="//@classes.0" depender="//@classes.4" />
+  <dependencies dependee="//@classes.6" depender="//@classes.0" />
 </classdiagram:ClassDiagram>

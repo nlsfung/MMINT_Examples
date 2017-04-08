@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
-  <classes name="A" associationsAsSource="//@classes.1" dependenciesAsDependee="//@classes.2" />
-  <classes name="B" associationsAsTarget="//@classes.0" dependenciesAsDependee="//@classes.3" associationsAsSource="//@classes.4" />
-  <classes name="C" dependenciesAsDepender="//@classes.0" dependenciesAsDependee="//@classes.4" associationsAsSource="//@classes.3"/>
-	<classes name="D" dependenciesAsDepender="//@classes.1" associationsAsTarget="//@classes.2" \>
-	<classes name="E" dependenciesAsDepender="//@classes.2" associationsAsTarget="//@classes.1" \>
+  <classes name="A" associationsAsSource="//@associations.0" dependenciesAsDependee="//@dependencies.0" />
+  <classes name="B" associationsAsTarget="//@associations.0" dependenciesAsDependee="//@dependencies.1" associationsAsSource="//@associations.1" />
+  <classes name="C" dependenciesAsDepender="//@dependencies.0" dependenciesAsDependee="//@dependencies.2" associationsAsSource="//@associations.2"/>
+  <classes name="D" dependenciesAsDepender="//@dependencies.1" associationsAsTarget="//@associations.2" />
+  <classes name="E" dependenciesAsDepender="//@dependencies.2" associationsAsTarget="//@associations.1" />
+
+  <associations name="A2B" source="//@classes.0" target="//@classes.1" />
+  <associations name="B2E" source="//@classes.1" target="//@classes.4" />
+  <associations name="C2D" source="//@classes.2" target="//@classes.3" />
+
+  <dependencies dependee="//@classes.0" depender="//@classes.2" />
+  <dependencies dependee="//@classes.1" depender="//@classes.3" />
+  <dependencies dependee="//@classes.4" depender="//@classes.2" />
 
 </classdiagram:ClassDiagram>

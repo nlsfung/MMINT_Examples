@@ -3,7 +3,7 @@
   <classes name="A" nested="//@classes.1" subclasses="//@classes.2" />
   <classes name="B" nestedIn="//@classes.0" subclasses="//@classes.3" nested="//@classes.4" />
   <classes name="C" superclass="//@classes.0" subclasses="//@classes.4" nested="//@classes.3"/>
-	<classes name="D" superclass="//@classes.1" nestedIn="//@classes.2" \>
-	<classes name="E" superclass="//@classes.2" nestedIn="//@classes.1" \>
+  <classes name="D" superclass="//@classes.1" nestedIn="//@classes.2" />
+  <classes name="E" superclass="//@classes.2" nestedIn="//@classes.1" />
 
 </classdiagram:ClassDiagram>

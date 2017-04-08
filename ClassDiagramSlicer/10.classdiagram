@@ -7,6 +7,6 @@
 
   <associations name="A2B" source="//@classes.1" target="//@classes.0" />
   <associations name="A2C" source="//@classes.2" target="//@classes.0" />
-  <dependencies name="A2D" dependee="//@classes.3" depender="//@classes.0" />
+  <dependencies dependee="//@classes.3" depender="//@classes.0" />
 
 </classdiagram:ClassDiagram>

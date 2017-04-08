@@ -26,8 +26,8 @@
   <associations name="F2A" source="//@classes.5" target="//@classes.0" />
   <associations name="A2D" source="//@classes.7" target="//@classes.10" />
   <associations name="F2A" source="//@classes.12" target="//@classes.7" />
-  <dependencies name="A2E" dependee="//@classes.0" depender="//@classes.4" />
-  <dependencies name="G2A" dependee="//@classes.6" depender="//@classes.0" />
-  <dependencies name="A2E" dependee="//@classes.7" depender="//@classes.11" />
-  <dependencies name="G2A" dependee="//@classes.13" depender="//@classes.7" />
+  <dependencies dependee="//@classes.0" depender="//@classes.4" />
+  <dependencies dependee="//@classes.6" depender="//@classes.0" />
+  <dependencies dependee="//@classes.7" depender="//@classes.11" />
+  <dependencies dependee="//@classes.13" depender="//@classes.7" />
 </classdiagram:ClassDiagram>
