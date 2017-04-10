@@ -2,6 +2,6 @@
 <classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
   <classes name="A" nestedIn="//@classes.1" superclass="//@classes.3" />
   <classes name="NestedA1" nested="//@classes.0" nestedIn="//@classes.2" />
-  <classes name="NestedA2" nested="//@classes.0" />
+  <classes name="NestedA2" nested="//@classes.1" />
   <classes name="SuperA1" subclasses="//@classes.0" />
 </classdiagram:ClassDiagram>

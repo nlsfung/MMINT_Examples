@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
-  <classes name="A" subclasses="//@classes.1" nested="//@classes.2" associationsAsSource="//@associations.0" dependenciesAsDependee="//@dependencies.0" associationsAsTarget="//@associations.1" dependenciesAsDepender="//@dependencies.1">
+  <classes name="A" superclass="//@classes.14" subclasses="//@classes.1" nested="//@classes.2" associationsAsSource="//@associations.0" dependenciesAsDependee="//@dependencies.0" associationsAsTarget="//@associations.1" dependenciesAsDepender="//@dependencies.1">
     <ownedAttributes name="attr01"/>
     <ownedOperations name="op01"/>
   </classes>
@@ -11,9 +11,9 @@
   <classes name="F" associationsAsSource="//@associations.1" />
   <classes name="G" dependenciesAsDependee="//@dependencies.1" />
 
-  <classes name="A" subclasses="//@classes.8" nested="//@classes.9" associationsAsSource="//@associations.2" dependenciesAsDependee="//@dependencies.2" associationsAsTarget="//@associations.3" dependenciesAsDepender="//@dependencies.3">
-    <ownedAttributes name="attr02"/>
-    <ownedOperations name="op02"/>
+  <classes name="A" superclass="//@classes.14" subclasses="//@classes.8" nested="//@classes.9" associationsAsSource="//@associations.2" dependenciesAsDependee="//@dependencies.2" associationsAsTarget="//@associations.3" dependenciesAsDepender="//@dependencies.3">
+    <ownedAttributes name="attr01"/>
+    <ownedOperations name="op01"/>
   </classes>
   <classes name="B" superclass="//@classes.7" />
   <classes name="C" nestedIn="//@classes.7" />
@@ -22,10 +22,7 @@
   <classes name="F" associationsAsSource="//@associations.3" />
   <classes name="G" dependenciesAsDependee="//@dependencies.3" />
 
-  <classes name="A">
-    <ownedAttributes name="attr01"/>
-    <ownedOperations name="op01"/>
-  </classes>
+  <classes name="Main" subclasses="//@classes.0 //@classes.7" />
 
   <associations name="A2D" source="//@classes.0" target="//@classes.3" />
   <associations name="F2A" source="//@classes.5" target="//@classes.0" />
