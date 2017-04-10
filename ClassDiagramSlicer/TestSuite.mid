@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/ClassDiagramSlicer/01.classdiagram" name="01" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.0"/>
+  <models uri="/ClassDiagramSlicer/02.classdiagram" name="02" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.1"/>
+  <models uri="/ClassDiagramSlicer/03.classdiagram" name="03" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.2">
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Door" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.1/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute open" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class VS ECU" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.2/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.2/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation getSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Actuator" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute powered" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute activated" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation openDoor" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation closeDoor" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class AC ECU" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.4/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.4/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Driver Switch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.5/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestDoorOpen" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@classes.5/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation requestDoorClose" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association commuticatesWith" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association powers" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association communicatesWith" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@associations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association controls" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@associations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association communicatesWith" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/03.classdiagram#//@associations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association controls" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/04.classdiagram" name="04" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.3">
+    <modelElems uri="/ClassDiagramSlicer/04.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/04.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/04.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr02" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/04.classdiagram#//@classes.0/@ownedAttributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr03" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/05.classdiagram" name="05" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.4">
+    <modelElems uri="/ClassDiagramSlicer/05.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/05.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/06.classdiagram" name="06" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.5">
+    <modelElems uri="/ClassDiagramSlicer/06.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/06.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/06.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/07.classdiagram" name="07" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.6">
+    <modelElems uri="/ClassDiagramSlicer/07.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/07.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class NestedA1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/07.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class NestedA2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/07.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class SubA1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/08.classdiagram" name="08" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.7">
+    <modelElems uri="/ClassDiagramSlicer/08.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/08.classdiagram#//@classes.1/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/08.classdiagram#//@classes.2/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr02" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/08.classdiagram#//@classes.2/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr03" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/09.classdiagram" name="09" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.8">
+    <modelElems uri="/ClassDiagramSlicer/09.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/09.classdiagram#//@classes.1/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/09.classdiagram#//@classes.2/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op02" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/09.classdiagram#//@classes.2/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op03" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/10.classdiagram" name="10" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.9">
+    <modelElems uri="/ClassDiagramSlicer/10.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/10.classdiagram#//@dependencies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/11.classdiagram" name="11" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.10">
+    <modelElems uri="/ClassDiagramSlicer/11.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/12.classdiagram" name="12" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.11">
+    <modelElems uri="/ClassDiagramSlicer/12.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/12.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/12.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/12.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/12.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class E" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/13.classdiagram" name="13" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.12">
+    <modelElems uri="/ClassDiagramSlicer/13.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/13.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/14.classdiagram" name="14" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.13">
+    <modelElems uri="/ClassDiagramSlicer/14.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/15.classdiagram" name="15" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.14">
+    <modelElems uri="/ClassDiagramSlicer/15.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/16.classdiagram" name="16" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.15">
+    <modelElems uri="/ClassDiagramSlicer/16.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/17.classdiagram" name="17" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.16">
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.14/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.14/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@dependencies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr02" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/17.classdiagram#//@classes.7/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op02" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/18.classdiagram" name="18" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.17">
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.7/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@classes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@dependencies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/18.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/19.classdiagram" name="19" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.18">
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.3/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.5/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/19.classdiagram#//@classes.6/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/20.classdiagram" name="20" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.19">
+    <modelElems uri="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/21.classdiagram" name="21" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.20">
+    <modelElems uri="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/22.classdiagram" name="22" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.21">
+    <modelElems uri="/ClassDiagramSlicer/22.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association assoc01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/22.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association assoc01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/23.classdiagram" name="23" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.22">
+    <modelElems uri="/ClassDiagramSlicer/23.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/23.classdiagram#//@dependencies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 E" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/23.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/24.classdiagram" name="24" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.23">
+    <modelElems uri="/ClassDiagramSlicer/24.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/24.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/24.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/24.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/24.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class E" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/25.classdiagram" name="25" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.24">
+    <modelElems uri="/ClassDiagramSlicer/25.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/25.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association assoc01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/25.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association assoc02" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models uri="/ClassDiagramSlicer/26.classdiagram" name="26" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.25">
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Main" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedAttributes->] Attribute attr01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@classes.7/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[ownedOperations->] Operation op01" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@dependencies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency A 2 G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/ClassDiagramSlicer/26.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association A2D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit01" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="01" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.26/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit02" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="02" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <modelEndpointRefs referencedObject="//@models.27/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit03" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="03" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <modelEndpointRefs referencedObject="//@models.28/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.2/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.13" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.14" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.15" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.16" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.17" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.18" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.19" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.20" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.21" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.22" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.23" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.24" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.25" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit04" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="04" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <modelEndpointRefs referencedObject="//@models.29/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.3/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit05" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="05" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+    <modelEndpointRefs referencedObject="//@models.30/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.4/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit06" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="06" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
+    <modelEndpointRefs referencedObject="//@models.31/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.5/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit07" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="07" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <modelEndpointRefs referencedObject="//@models.32/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit08" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="08" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
+    <modelEndpointRefs referencedObject="//@models.33/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.7/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit09" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="09" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.8"/>
+    <modelEndpointRefs referencedObject="//@models.34/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.8/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit10" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="10" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
+    <modelEndpointRefs referencedObject="//@models.35/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.9/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit11" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="11" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
+    <modelEndpointRefs referencedObject="//@models.36/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.10/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit12" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="12" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.37/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit13" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="13" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
+    <modelEndpointRefs referencedObject="//@models.38/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.12/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit14" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="14" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
+    <modelEndpointRefs referencedObject="//@models.39/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.13/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit15" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="15" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
+    <modelEndpointRefs referencedObject="//@models.40/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.14/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit16" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="16" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
+    <modelEndpointRefs referencedObject="//@models.41/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.15/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit17" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="17" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.16"/>
+    <modelEndpointRefs referencedObject="//@models.42/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.16/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit18" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="18" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.17"/>
+    <modelEndpointRefs referencedObject="//@models.43/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.17/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit19" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="19" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.18"/>
+    <modelEndpointRefs referencedObject="//@models.44/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.18/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit20" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="20" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.19"/>
+    <modelEndpointRefs referencedObject="//@models.45/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.19/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit21" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="21" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.20"/>
+    <modelEndpointRefs referencedObject="//@models.46/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.20/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit22" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="22" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.21"/>
+    <modelEndpointRefs referencedObject="//@models.47/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.21/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit23" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="23" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.22"/>
+    <modelEndpointRefs referencedObject="//@models.48/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.22/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit24" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="24" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.23"/>
+    <modelEndpointRefs referencedObject="//@models.49/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.23/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit25" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="25" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.24"/>
+    <modelEndpointRefs referencedObject="//@models.50/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.24/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit26" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="26" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <modelEndpointRefs referencedObject="//@models.51/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol01" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="01" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.52/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol02" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="02" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <modelEndpointRefs referencedObject="//@models.53/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol03" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="03" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <modelEndpointRefs referencedObject="//@models.54/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol04" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="04" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <modelEndpointRefs referencedObject="//@models.55/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol05" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="05" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+    <modelEndpointRefs referencedObject="//@models.56/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol06" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="06" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
+    <modelEndpointRefs referencedObject="//@models.57/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol07" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="07" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <modelEndpointRefs referencedObject="//@models.58/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol08" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="08" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
+    <modelEndpointRefs referencedObject="//@models.59/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol09" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="09" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.8"/>
+    <modelEndpointRefs referencedObject="//@models.60/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol10" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="10" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
+    <modelEndpointRefs referencedObject="//@models.61/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol11" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="11" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
+    <modelEndpointRefs referencedObject="//@models.62/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol12" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="12" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.63/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol13" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="13" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
+    <modelEndpointRefs referencedObject="//@models.64/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol14" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="14" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
+    <modelEndpointRefs referencedObject="//@models.65/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol15" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="15" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
+    <modelEndpointRefs referencedObject="//@models.66/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol16" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="16" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
+    <modelEndpointRefs referencedObject="//@models.67/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol17" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="17" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.16"/>
+    <modelEndpointRefs referencedObject="//@models.68/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol18" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="18" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.17"/>
+    <modelEndpointRefs referencedObject="//@models.69/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol19" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="19" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.18"/>
+    <modelEndpointRefs referencedObject="//@models.70/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol20" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="20" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.19"/>
+    <modelEndpointRefs referencedObject="//@models.71/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol21" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="21" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.20"/>
+    <modelEndpointRefs referencedObject="//@models.72/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol22" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="22" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.21"/>
+    <modelEndpointRefs referencedObject="//@models.73/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol23" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="23" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.22"/>
+    <modelEndpointRefs referencedObject="//@models.74/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol24" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="24" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.23"/>
+    <modelEndpointRefs referencedObject="//@models.75/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol25" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="25" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.24"/>
+    <modelEndpointRefs referencedObject="//@models.76/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="sol26" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="26" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <modelEndpointRefs referencedObject="//@models.77/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="01" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.78/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="02" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <modelEndpointRefs referencedObject="//@models.79/@modelEndpoints.0" modifiable="true"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="03" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <modelEndpointRefs referencedObject="//@models.80/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.2/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.13" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.14" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.15" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.16" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.17" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.18" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.19" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.20" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.21" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.22" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.23" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.24" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.25" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="04" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <modelEndpointRefs referencedObject="//@models.81/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.3/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="05" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+    <modelEndpointRefs referencedObject="//@models.82/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.4/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.4/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="06" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
+    <modelEndpointRefs referencedObject="//@models.83/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.5/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.5/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.5/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="07" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <modelEndpointRefs referencedObject="//@models.84/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="08" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
+    <modelEndpointRefs referencedObject="//@models.85/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.7/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.7/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.7/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.7/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="09" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.8"/>
+    <modelEndpointRefs referencedObject="//@models.86/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.8/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.8/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.8/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.8/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="10" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
+    <modelEndpointRefs referencedObject="//@models.87/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.9/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.9/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="11" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
+    <modelEndpointRefs referencedObject="//@models.88/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.10/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="12" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.89/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.4" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="13" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
+    <modelEndpointRefs referencedObject="//@models.90/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.12/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.12/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="14" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
+    <modelEndpointRefs referencedObject="//@models.91/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.13/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="15" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
+    <modelEndpointRefs referencedObject="//@models.92/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.14/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="16" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
+    <modelEndpointRefs referencedObject="//@models.93/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.15/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="17" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.16"/>
+    <modelEndpointRefs referencedObject="//@models.94/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.16/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.13" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.14" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.15" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.16" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="18" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.17"/>
+    <modelEndpointRefs referencedObject="//@models.95/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.17/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.13" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="19" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.18"/>
+    <modelEndpointRefs referencedObject="//@models.96/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.18/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.18/@modelElems.8" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="20" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.19"/>
+    <modelEndpointRefs referencedObject="//@models.97/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.19/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.19/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.19/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.19/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="21" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.20"/>
+    <modelEndpointRefs referencedObject="//@models.98/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.20/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.20/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.20/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.20/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="22" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.21"/>
+    <modelEndpointRefs referencedObject="//@models.99/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.21/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.21/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="23" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.22"/>
+    <modelEndpointRefs referencedObject="//@models.100/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.22/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.22/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.22/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="24" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.23"/>
+    <modelEndpointRefs referencedObject="//@models.101/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.23/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.23/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.23/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.23/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.23/@modelElems.4" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="25" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.24"/>
+    <modelEndpointRefs referencedObject="//@models.102/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.24/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.24/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.24/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="26" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <modelEndpointRefs referencedObject="//@models.103/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.13" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.14" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/01.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/01.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/01.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/02.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/02.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/02.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/03.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/03.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/03.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/04.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/04.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/04.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/05.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/05.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/05.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/06.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/06.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/06.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/07.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/07.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/07.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/08.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/08.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/08.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/09.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/09.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/09.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/10.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/10.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/10.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/11.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/11.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/11.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/12.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/12.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/12.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/13.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/13.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/13.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/14.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/14.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/14.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/15.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/15.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/15.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/16.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/16.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/16.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/17.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/17.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/17.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/18.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/18.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/18.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/19.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/19.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/19.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/20.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/20.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/20.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/21.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/21.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/21.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/22.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/22.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/22.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/23.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/23.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/23.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/24.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/24.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/24.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/25.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/25.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/25.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/26.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/26.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/26.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
+    <fileExtensions>classdiagramdiag</fileExtensions>
+  </editors>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1923885">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.26"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.78"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1692375">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.27"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.79"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="18982527">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.28"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.80"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1797292">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.29"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.81"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1889192">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.30"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.82"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1982287">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.31"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.83"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2533879">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.32"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.84"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2199662">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.33"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.85"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1815190">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.86"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1415802">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.35"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.87"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1042530">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.36"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.88"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2127647">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.37"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.89"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1354913">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.38"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.90"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1388896">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.39"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.91"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1139156">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.40"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.92"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1526400">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.41"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.93"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="5023274">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.42"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.94"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="5710879">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.43"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.95"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2198379">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.44"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.96"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1725135">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.45"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.97"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1607237">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.46"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.98"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2705086">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.47"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.99"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2052961">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.48"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.100"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="3319336">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.49"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.101"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1567595">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.50"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.102"/>
+  </operators>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="3823870">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.51"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.103"/>
+  </operators>
+  <extendibleTable key="/ClassDiagramSlicer/01.classdiagram" value="//@models.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/02.classdiagram" value="//@models.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram" value="//@models.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/04.classdiagram" value="//@models.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/05.classdiagram" value="//@models.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/06.classdiagram" value="//@models.5"/>
+  <extendibleTable key="/ClassDiagramSlicer/07.classdiagram" value="//@models.6"/>
+  <extendibleTable key="/ClassDiagramSlicer/08.classdiagram" value="//@models.7"/>
+  <extendibleTable key="/ClassDiagramSlicer/09.classdiagram" value="//@models.8"/>
+  <extendibleTable key="/ClassDiagramSlicer/10.classdiagram" value="//@models.9"/>
+  <extendibleTable key="/ClassDiagramSlicer/11.classdiagram" value="//@models.10"/>
+  <extendibleTable key="/ClassDiagramSlicer/12.classdiagram" value="//@models.11"/>
+  <extendibleTable key="/ClassDiagramSlicer/13.classdiagram" value="//@models.12"/>
+  <extendibleTable key="/ClassDiagramSlicer/14.classdiagram" value="//@models.13"/>
+  <extendibleTable key="/ClassDiagramSlicer/15.classdiagram" value="//@models.14"/>
+  <extendibleTable key="/ClassDiagramSlicer/16.classdiagram" value="//@models.15"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram" value="//@models.16"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram" value="//@models.17"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram" value="//@models.18"/>
+  <extendibleTable key="/ClassDiagramSlicer/20.classdiagram" value="//@models.19"/>
+  <extendibleTable key="/ClassDiagramSlicer/21.classdiagram" value="//@models.20"/>
+  <extendibleTable key="/ClassDiagramSlicer/22.classdiagram" value="//@models.21"/>
+  <extendibleTable key="/ClassDiagramSlicer/23.classdiagram" value="//@models.22"/>
+  <extendibleTable key="/ClassDiagramSlicer/24.classdiagram" value="//@models.23"/>
+  <extendibleTable key="/ClassDiagramSlicer/25.classdiagram" value="//@models.24"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram" value="//@models.25"/>
+  <extendibleTable key="/ClassDiagramSlicer/04.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/04.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.1/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.5"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.6"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.2/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.7"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.2/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.8"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.9"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.10"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.11"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.12"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.3/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.13"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.14"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.4/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.15"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.4/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.16"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.17"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.5/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.18"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@classes.5/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.19"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.20"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.21"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.22"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@associations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.23"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@associations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.24"/>
+  <extendibleTable key="/ClassDiagramSlicer/03.classdiagram#//@associations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.2/@modelElems.25"/>
+  <extendibleTable key="/ClassDiagramSlicer/05.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.4/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/06.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.5/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/07.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/08.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.7/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/09.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.8/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/10.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.9/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/11.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.10/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/12.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/13.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.12/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/14.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.13/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/25.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.24/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/24.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.23/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/23.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.22/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/22.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.21/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.20/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.19/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/15.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.14/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/16.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.15/@modelElems.0"/>
+  <extendibleTable key="/ClassDiagramSlicer/04.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/04.classdiagram#//@classes.0/@ownedAttributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/05.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.4/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/06.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.5/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/06.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.5/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/07.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/07.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/07.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/08.classdiagram#//@classes.1/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.7/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/08.classdiagram#//@classes.2/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.7/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/08.classdiagram#//@classes.2/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.7/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/09.classdiagram#//@classes.1/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.8/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/09.classdiagram#//@classes.2/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.8/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/09.classdiagram#//@classes.2/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.8/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/10.classdiagram#//@dependencies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.9/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/12.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/12.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/12.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/12.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/13.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.12/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.5"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.6"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.7"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.8"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.14/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.9"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.14/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.10"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.11"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@dependencies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.12"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.13"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.14"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.15"/>
+  <extendibleTable key="/ClassDiagramSlicer/17.classdiagram#//@classes.7/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.16/@modelElems.16"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.5"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.6"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.7/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.7"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.8"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@classes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.9"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.10"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@dependencies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.11"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.12"/>
+  <extendibleTable key="/ClassDiagramSlicer/18.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.17/@modelElems.13"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.5"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.3/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.6"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.5/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.7"/>
+  <extendibleTable key="/ClassDiagramSlicer/19.classdiagram#//@classes.6/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.18/@modelElems.8"/>
+  <extendibleTable key="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.19/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.19/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/20.classdiagram#//@classes.0/@ownedAttributes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.19/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.20/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.20/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/21.classdiagram#//@classes.0/@ownedOperations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.20/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/22.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.21/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/23.classdiagram#//@dependencies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.22/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/23.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.22/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/24.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.23/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/24.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.23/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/24.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.23/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/24.classdiagram#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.23/@modelElems.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/25.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.24/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/25.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.24/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.1"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.2"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.3"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.4"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.5"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.6"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.0/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.7"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.0/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.8"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.9"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@classes.7/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.10"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.11"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@dependencies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.12"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@associations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.13"/>
+  <extendibleTable key="/ClassDiagramSlicer/26.classdiagram#//@associations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.14"/>
+</mid:MID>
