@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_C4jc4COJEeeNcf5uExTIwg" type="MID" name="propagated_map1.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_C5nz4COJEeeNcf5uExTIwg" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C5nz5yOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C5nz6COJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C5nz5SOJEeeNcf5uExTIwg" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C5nz5iOJEeeNcf5uExTIwg" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_C5nz4SOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_C5nz4iOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C5nz4yOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C5nz5COJEeeNcf5uExTIwg"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_C5nz6SOJEeeNcf5uExTIwg" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C5nz8COJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C5nz8SOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C5nz7iOJEeeNcf5uExTIwg" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C5nz7yOJEeeNcf5uExTIwg" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_C5nz6iOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_C5nz6yOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C5nz7COJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C5nz7SOJEeeNcf5uExTIwg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_C4jc4SOJEeeNcf5uExTIwg"/>
+  <element xmi:type="mid:MID" href="propagated_map1.mid#/"/>
+</notation:Diagram>

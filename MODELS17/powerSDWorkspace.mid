@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator">
+  <models uri="/MODELS17/SliceCriteria.mid" name="SliceCriteria" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
+  <models uri="/MODELS17/PowerSDMega.mid" name="PowerSDMega" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
+  <models uri="/MODELS17/merge_map2.mid" name="merge_map2" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" fileExtension="mid" editors="//@editors.2"/>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/SliceCriteria.middiag" name="MIDRel diagram for model /MODELS17/SliceCriteria.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/SliceCriteria.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/PowerSDMega.middiag" name="MID diagram for model /MODELS17/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/MODELS17/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/merge_map2.middiag" name="MIDRel diagram for model /MODELS17/merge_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/merge_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="MegaSlicer" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSlicer" dynamic="true" updateMID="true" executionTime="5117945320" nestedMIDPath="/MODELS17/MegaSlicer.mid">
+    <inputs uri="" name="Xi" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSlicer/Xi" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <inputs uri="" name="Si" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSlicer/Si" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="Xj" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSlicer/Xj" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="Sj" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSlicer/Sj" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  </operators>
+  <extendibleTable key="/MODELS17/SliceCriteria.mid" value="//@models.0"/>
+  <extendibleTable key="/MODELS17/PowerSDMega.mid" value="//@models.1"/>
+  <extendibleTable key="/MODELS17/merge_map2.mid" value="//@models.2"/>
+</mid:MID>

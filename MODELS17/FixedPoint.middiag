@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_CXn6ECOJEeeNcf5uExTIwg" type="MID" name="FixedPoint.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_CXpvQCOJEeeNcf5uExTIwg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CXpvRyOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CXpvSCOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CXpvRSOJEeeNcf5uExTIwg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CXpvRiOJEeeNcf5uExTIwg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_CXpvQSOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CXpvQiOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CXpvQyOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CXpvRCOJEeeNcf5uExTIwg"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_CXpvSSOJEeeNcf5uExTIwg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CXpvUCOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CXpvUSOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CXpvTiOJEeeNcf5uExTIwg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CXpvTyOJEeeNcf5uExTIwg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_CXpvSiOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CXpvSyOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CXpvTCOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CXpvTSOJEeeNcf5uExTIwg"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_DH6HgCOJEeeNcf5uExTIwg" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DH6HhyOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DH6HiCOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DH6HhSOJEeeNcf5uExTIwg" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DH6HhiOJEeeNcf5uExTIwg" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_DH6HgSOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DH6HgiOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_DH6HgyOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DH6HhCOJEeeNcf5uExTIwg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_CXn6ESOJEeeNcf5uExTIwg"/>
+  <element xmi:type="mid:MID" href="FixedPoint.mid#/"/>
+</notation:Diagram>

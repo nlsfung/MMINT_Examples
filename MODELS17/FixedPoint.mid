@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator">
+  <models uri="/MODELS17/merge_map.mid" name="merge_map" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
+  <models uri="/MODELS17/merge_map0.mid" name="merge_map0" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
+  <models uri="/MODELS17/merge_map1.mid" name="merge_map1" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.2"/>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/merge_map.middiag" name="MIDRel diagram for model /MODELS17/merge_map.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/merge_map.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/merge_map0.middiag" name="MIDRel diagram for model /MODELS17/merge_map0.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/merge_map0.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/merge_map1.middiag" name="MIDRel diagram for model /MODELS17/merge_map1.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/merge_map1.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/merge_map2.middiag" name="MIDRel diagram for model /MODELS17/merge_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/merge_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceWorkflow0" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow" dynamic="true" updateMID="true" executionTime="1962641936" nestedMIDPath="/MODELS17/SliceWorkflow.mid">
+    <inputs uri="" name="Xin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xin" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </inputs>
+    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sin" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </inputs>
+    <outputs uri="" name="Xout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xout" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </outputs>
+    <outputs uri="" name="Sout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sout" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+  </operators>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceWorkflow1" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow" dynamic="true" updateMID="true" executionTime="795217430" nestedMIDPath="/MODELS17/SliceWorkflow0.mid">
+    <inputs uri="" name="Xin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xin" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </inputs>
+    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="Xout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xout" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </outputs>
+    <outputs uri="" name="Sout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sout" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </operators>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceWorkflow2" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow" dynamic="true" updateMID="true" executionTime="822589791" nestedMIDPath="/MODELS17/SliceWorkflow1.mid">
+    <inputs uri="" name="Xin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xin" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </inputs>
+    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="Xout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xout" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </outputs>
+    <outputs uri="" name="Sout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sout" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  </operators>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceWorkflow3" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow" dynamic="true" updateMID="true" executionTime="745295416" nestedMIDPath="/MODELS17/SliceWorkflow2.mid">
+    <inputs uri="" name="Xin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xin" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </inputs>
+    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <outputs uri="" name="Xout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Xout" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </outputs>
+    <outputs uri="" name="Sout" metatypeUri="http://se.cs.toronto.edu/mmint/SliceWorkflow/Sout" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+    </outputs>
+  </operators>
+  <extendibleTable key="/MODELS17/PowerSDMega.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+  </extendibleTable>
+  <extendibleTable key="/MODELS17/SliceCriteria.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+  </extendibleTable>
+  <extendibleTable key="/MODELS17/merge_map.mid" value="//@models.0"/>
+  <extendibleTable key="/MODELS17/merge_map0.mid" value="//@models.1"/>
+  <extendibleTable key="/MODELS17/merge_map1.mid" value="//@models.2"/>
+  <extendibleTable key="/MODELS17/merge_map2.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+  </extendibleTable>
+</mid:MID>

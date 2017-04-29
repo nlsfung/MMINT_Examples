@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator">
+  <operators xsi:type="operator:NestingOperator" uri="" name="FixedPoint" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_FixedPoint" dynamic="true" updateMID="true" executionTime="5064741954" nestedMIDPath="/MODELS17/FixedPoint.mid">
+    <inputs uri="" name="models0" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_FixedPoint/models" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </inputs>
+    <inputs uri="" name="models1" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_FixedPoint/models" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </inputs>
+    <outputs uri="" name="fixedModels0" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_FixedPoint/fixedModels" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </outputs>
+    <outputs uri="" name="fixedModels1" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_FixedPoint/fixedModels" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+    </outputs>
+    <generics uri="" name="SliceWorkflow" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_FixedPoint/FIXER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/SliceWorkflow"/>
+  </operators>
+  <extendibleTable key="/MODELS17/PowerSDMega.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+  </extendibleTable>
+  <extendibleTable key="/MODELS17/SliceCriteria.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+  </extendibleTable>
+  <extendibleTable key="/MODELS17/merge_map2.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+  </extendibleTable>
+</mid:MID>

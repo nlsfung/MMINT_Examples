@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator">
+  <models uri="/MODELS17/slice_map2.mid" name="slice_map2" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
+  <models uri="/MODELS17/propagated_map2.mid" name="propagated_map2" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
+  <models uri="/MODELS17/slice_map2+propagated_map2.mid" name="slice_map2+propagated_map2" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.2"/>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/slice_map2.middiag" name="MIDRel diagram for model /MODELS17/slice_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/slice_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/propagated_map2.middiag" name="MIDRel diagram for model /MODELS17/propagated_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/MODELS17/propagated_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/MODELS17/slice_map2+propagated_map2.middiag" name="MID diagram for model /MODELS17/slice_map2+propagated_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/MODELS17/slice_map2+propagated_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <operators uri="" name="Identity" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Identity" dynamic="true" updateMID="true" executionTime="4719">
+    <inputs uri="" name="model" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Identity/model" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </inputs>
+    <outputs uri="" name="sameModel" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Identity/sameModel" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </outputs>
+  </operators>
+  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="125215632" nestedMIDPath="/MODELS17/Map8.mid">
+    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="FixedPoint.mid#//@models.2"/>
+    </inputs>
+    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <generics uri="" name="Slice" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_Slice"/>
+  </operators>
+  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="247913619" nestedMIDPath="/MODELS17/Map9.mid">
+    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <inputs uri="" name="mids1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    </inputs>
+    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <generics uri="" name="ModelRelPropagation" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_ModelRelPropagation"/>
+  </operators>
+  <operators uri="" name="Union" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union" dynamic="true" updateMID="true" executionTime="140919458">
+    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <inputs uri="" name="mids1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="unionMid" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union/unionMid" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  </operators>
+  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="198045934" nestedMIDPath="/MODELS17/Map10.mid">
+    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="FixedPoint.mid#//@models.3"/>
+    </outputs>
+    <generics uri="" name="ModelRelMerge" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
+  </operators>
+  <extendibleTable key="/MODELS17/merge_map1.mid">
+    <value xsi:type="mid:Model" href="FixedPoint.mid#//@models.2"/>
+  </extendibleTable>
+  <extendibleTable key="/MODELS17/PowerSDMega.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+  </extendibleTable>
+  <extendibleTable key="/MODELS17/slice_map2.mid" value="//@models.0"/>
+  <extendibleTable key="/MODELS17/propagated_map2.mid" value="//@models.1"/>
+  <extendibleTable key="/MODELS17/slice_map2+propagated_map2.mid" value="//@models.2"/>
+  <extendibleTable key="/MODELS17/merge_map2.mid">
+    <value xsi:type="mid:Model" href="FixedPoint.mid#//@models.3"/>
+  </extendibleTable>
+</mid:MID>

@@ -42,7 +42,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_P6JZ0desEeaW_JL7sx-l9Q" type="5006"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_P5_BwdesEeaW_JL7sx-l9Q"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_P5_BwtesEeaW_JL7sx-l9Q" fontName="Cantarell" fontHeight="10"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_P5_Bw9esEeaW_JL7sx-l9Q" diagramLink="_WxVE0O7pEeaECdRkEN15aA" hint="Relationship"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_P5_Bw9esEeaW_JL7sx-l9Q" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="models.mid#//@models.4"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P5_BxNesEeaW_JL7sx-l9Q" x="84" y="168"/>
     </children>
@@ -51,7 +51,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_UqBCQNesEeaW_JL7sx-l9Q" type="5006"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_UqAbMdesEeaW_JL7sx-l9Q"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_UqAbMtesEeaW_JL7sx-l9Q" fontName="Cantarell" fontHeight="10"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_UqAbM9esEeaW_JL7sx-l9Q" diagramLink="_ikkpYO7pEeaECdRkEN15aA" hint="Relationship"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_UqAbM9esEeaW_JL7sx-l9Q" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="models.mid#//@models.5"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UqAbNNesEeaW_JL7sx-l9Q" x="444" y="168"/>
     </children>
@@ -115,13 +115,5 @@
   </notation:Diagram>
   <notation:Diagram xmi:id="_1NRCINeYEea8XY6EHCI6AA" type="Relationship" measurementUnit="Pixel">
     <styles xmi:type="notation:DiagramStyle" xmi:id="_1NRCIdeYEea8XY6EHCI6AA"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_WxVE0O7pEeaECdRkEN15aA" type="Relationship" measurementUnit="Pixel">
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_WxVE0e7pEeaECdRkEN15aA"/>
-    <element xmi:type="relationship:ModelRel" href="models.mid#//@models.4"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_ikkpYO7pEeaECdRkEN15aA" type="Relationship" measurementUnit="Pixel">
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_ikkpYe7pEeaECdRkEN15aA"/>
-    <element xmi:type="relationship:ModelRel" href="models.mid#//@models.5"/>
   </notation:Diagram>
 </xmi:XMI>

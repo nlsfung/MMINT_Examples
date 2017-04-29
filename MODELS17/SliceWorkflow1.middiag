@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_C1e6wCOJEeeNcf5uExTIwg" type="MID" name="SliceWorkflow1.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_C1hXACOJEeeNcf5uExTIwg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C1hXByOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C1hXCCOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C1hXBSOJEeeNcf5uExTIwg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C1hXBiOJEeeNcf5uExTIwg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_C1hXASOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_C1hXAiOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C1hXAyOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="FixedPoint.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C1hXBCOJEeeNcf5uExTIwg"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_C1hXCSOJEeeNcf5uExTIwg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C1hXECOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C1hXESOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C1hXDiOJEeeNcf5uExTIwg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C1hXDyOJEeeNcf5uExTIwg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_C1hXCiOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_C1hXCyOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C1hXDCOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C1hXDSOJEeeNcf5uExTIwg"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_C1hXEiOJEeeNcf5uExTIwg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C1hXGSOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C1hXGiOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C1hXFyOJEeeNcf5uExTIwg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C1hXGCOJEeeNcf5uExTIwg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_C1hXEyOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_C1hXFCOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C1hXFSOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C1hXFiOJEeeNcf5uExTIwg"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_C9JpACOJEeeNcf5uExTIwg" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C9JpByOJEeeNcf5uExTIwg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C9JpCCOJEeeNcf5uExTIwg" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C9JpBSOJEeeNcf5uExTIwg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_C9JpBiOJEeeNcf5uExTIwg" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_C9JpASOJEeeNcf5uExTIwg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_C9JpAiOJEeeNcf5uExTIwg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_C9JpAyOJEeeNcf5uExTIwg" hint="Mid"/>
+    <element xmi:type="mid:Model" href="FixedPoint.mid#//@models.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C9JpBCOJEeeNcf5uExTIwg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_C1e6wSOJEeeNcf5uExTIwg"/>
+  <element xmi:type="mid:MID" href="SliceWorkflow1.mid#/"/>
+</notation:Diagram>
