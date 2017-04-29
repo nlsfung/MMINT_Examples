@@ -12,10 +12,10 @@
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/propagated_map+slice_map.middiag" name="MID diagram for model /PowerSlidingDoor/propagated_map+slice_map.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/propagated_map+slice_map.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <operators xsi:type="operator:WorkflowOperator" uri="" name="MegaSliceStep" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSliceStep" dynamic="true" updateMID="true" executionTime="2147441038" nestedMIDPath="/PowerSlidingDoor/MegaSliceStep0.mid">
-    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSliceStep/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <inputs uri="" name="X" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSliceStep/X" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
-    <outputs uri="" name="S" metatypeUri="http://se.cs.toronto.edu/mmint/MegaSliceStep/S" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="PowerSlidingDoor" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor" dynamic="true" updateMID="true" executionTime="556188982" nestedMIDPath="/PowerSlidingDoor/PowerSlidingDoor.mid">
+    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <inputs uri="" name="X" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor/X" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="S" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor/S" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
   </operators>
   <extendibleTable key="/PowerSlidingDoor/SliceCriteria.mid" value="//@models.0"/>
   <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid" value="//@models.1"/>

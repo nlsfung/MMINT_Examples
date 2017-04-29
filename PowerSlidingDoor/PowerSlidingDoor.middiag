@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_1bFmcC0xEee86-lINgXw6A" type="MID" name="PowerSlidingDoor.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_1bHboC0xEee86-lINgXw6A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1bHbpy0xEee86-lINgXw6A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1bHbqC0xEee86-lINgXw6A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1bHbpS0xEee86-lINgXw6A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1bHbpi0xEee86-lINgXw6A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1bHboS0xEee86-lINgXw6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1bHboi0xEee86-lINgXw6A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1bHboy0xEee86-lINgXw6A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1bHbpC0xEee86-lINgXw6A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_1bHbqS0xEee86-lINgXw6A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1bHbsC0xEee86-lINgXw6A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1bHbsS0xEee86-lINgXw6A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1bHbri0xEee86-lINgXw6A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1bHbry0xEee86-lINgXw6A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1bHbqi0xEee86-lINgXw6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1bHbqy0xEee86-lINgXw6A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1bHbrC0xEee86-lINgXw6A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1bHbrS0xEee86-lINgXw6A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_1gXIAC0xEee86-lINgXw6A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1gXIBy0xEee86-lINgXw6A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1gXICC0xEee86-lINgXw6A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1gXIBS0xEee86-lINgXw6A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1gXIBi0xEee86-lINgXw6A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1gXIAS0xEee86-lINgXw6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1gXIAi0xEee86-lINgXw6A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1gXIAy0xEee86-lINgXw6A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1gXIBC0xEee86-lINgXw6A"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_1bFmcS0xEee86-lINgXw6A"/>
+  <element xmi:type="mid:MID" href="PowerSlidingDoor.mid#/"/>
+</notation:Diagram>

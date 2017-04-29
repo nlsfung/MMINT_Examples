@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
-  <notation:Diagram xmi:id="_gg0xUBEJEee0T-a8sZatXw" type="MID" name="propagated_map.middiag" measurementUnit="Pixel">
-    <children xmi:type="notation:Node" xmi:id="_gikdwBEJEee0T-a8sZatXw" type="2002">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gilE0hEJEee0T-a8sZatXw" source="Shortcut">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gilE0xEJEee0T-a8sZatXw" key="modelID" value="MID"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_gilE0BEJEee0T-a8sZatXw" type="5003"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_gilE0REJEee0T-a8sZatXw" type="5004"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_gikdwREJEee0T-a8sZatXw"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_gikdwhEJEee0T-a8sZatXw" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_gikdwxEJEee0T-a8sZatXw" hint="Mid"/>
-      <element xmi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gikdxBEJEee0T-a8sZatXw"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_gilE1BEJEee0T-a8sZatXw" type="2002">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gilr4hEJEee0T-a8sZatXw" source="Shortcut">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gilr4xEJEee0T-a8sZatXw" key="modelID" value="MID"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_gilr4BEJEee0T-a8sZatXw" type="5003"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_gilr4REJEee0T-a8sZatXw" type="5004"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_gilE1REJEee0T-a8sZatXw"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_gilE1hEJEee0T-a8sZatXw" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_gilE1xEJEee0T-a8sZatXw" hint="Mid"/>
-      <element xmi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gilE2BEJEee0T-a8sZatXw" x="360" y="12"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_BHdLoBESEee0T-a8sZatXw" type="2003">
-      <children xmi:type="notation:DecorationNode" xmi:id="_BHdLpRESEee0T-a8sZatXw" type="5005"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_BHdLphESEee0T-a8sZatXw" type="5006"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_BHdLoRESEee0T-a8sZatXw"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_BHdLohESEee0T-a8sZatXw" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_BHdLoxESEee0T-a8sZatXw" hint="Relationship"/>
-      <element xmi:type="relationship:ModelRel" href="propagated_map.mid#//@models.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHdLpBESEee0T-a8sZatXw" x="372" y="144"/>
-    </children>
-    <children xmi:type="notation:Node" xmi:id="_BHdLpxESEee0T-a8sZatXw" type="2003">
-      <children xmi:type="notation:DecorationNode" xmi:id="_BHdLrBESEee0T-a8sZatXw" type="5005"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_BHdLrRESEee0T-a8sZatXw" type="5006"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_BHdLqBESEee0T-a8sZatXw"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_BHdLqRESEee0T-a8sZatXw" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_BHdLqhESEee0T-a8sZatXw" diagramLink="_DVbfEBESEee0T-a8sZatXw" hint="Relationship"/>
-      <element xmi:type="relationship:ModelRel" href="propagated_map.mid#//@models.1"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHdLqxESEee0T-a8sZatXw" x="72" y="156"/>
-    </children>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_gg0xUREJEee0T-a8sZatXw"/>
-    <element xmi:type="mid:MID" href="propagated_map.mid#/"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_DVbfEBESEee0T-a8sZatXw" type="Relationship" measurementUnit="Pixel">
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_DVbfERESEee0T-a8sZatXw"/>
-    <element xmi:type="relationship:ModelRel" href="propagated_map.mid#//@models.1"/>
-  </notation:Diagram>
-</xmi:XMI>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_1eL9wC0xEee86-lINgXw6A" type="MID" name="propagated_map.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_1e7koC0xEee86-lINgXw6A" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1e7kpy0xEee86-lINgXw6A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1e7kqC0xEee86-lINgXw6A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1e7kpS0xEee86-lINgXw6A" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1e7kpi0xEee86-lINgXw6A" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1e7koS0xEee86-lINgXw6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1e7koi0xEee86-lINgXw6A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1e7koy0xEee86-lINgXw6A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1e7kpC0xEee86-lINgXw6A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_1e7kqS0xEee86-lINgXw6A" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1e7ksC0xEee86-lINgXw6A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1e7ksS0xEee86-lINgXw6A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1e7kri0xEee86-lINgXw6A" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1e7kry0xEee86-lINgXw6A" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1e7kqi0xEee86-lINgXw6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1e7kqy0xEee86-lINgXw6A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_1e7krC0xEee86-lINgXw6A" hint="Mid"/>
+    <element xmi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1e7krS0xEee86-lINgXw6A"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_1eL9wS0xEee86-lINgXw6A"/>
+  <element xmi:type="mid:MID" href="propagated_map.mid#/"/>
+</notation:Diagram>

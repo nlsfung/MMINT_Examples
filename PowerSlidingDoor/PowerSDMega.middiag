@@ -785,6 +785,24 @@
       <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.19"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__iGjwxDXEeefedNXrI4rIQ" points="[204, -4, -353, -4]$[684, -24, 127, -24]"/>
     </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_BD5XICABEee6AKDGHRXrTg" type="4003" source="_FvDqsBDXEeefedNXrI4rIQ" target="_fI6O4BDXEeefedNXrI4rIQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BD5XJCABEee6AKDGHRXrTg" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BD5-MCABEee6AKDGHRXrTg" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BD5-MSABEee6AKDGHRXrTg" type="6004">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BD5-MiABEee6AKDGHRXrTg" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BD5-MyABEee6AKDGHRXrTg" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BD5-NCABEee6AKDGHRXrTg" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BD5-NSABEee6AKDGHRXrTg" type="6006">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BD5-NiABEee6AKDGHRXrTg" y="100"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_BD5XISABEee6AKDGHRXrTg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_BD5XIiABEee6AKDGHRXrTg" fontName="Ubuntu"/>
+      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.20"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BD5XIyABEee6AKDGHRXrTg" points="[-3, 24, -3, -408]$[-203, 432, -203, 0]"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_n4sFoBDbEeefedNXrI4rIQ" type="Relationship" measurementUnit="Pixel">
     <styles xmi:type="notation:DiagramStyle" xmi:id="_n4sFoRDbEeefedNXrI4rIQ"/>
