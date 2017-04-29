@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_WTfksC0jEee86-lINgXw6A" type="MID" name="TestSliceMap.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_WTiA8C0jEee86-lINgXw6A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WTiA9y0jEee86-lINgXw6A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WTiA-C0jEee86-lINgXw6A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WTiA9S0jEee86-lINgXw6A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WTiA9i0jEee86-lINgXw6A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_WTiA8S0jEee86-lINgXw6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WTiA8i0jEee86-lINgXw6A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_WTiA8y0jEee86-lINgXw6A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="MegaExample.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WTiA9C0jEee86-lINgXw6A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_We48YC0jEee86-lINgXw6A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_We48Zy0jEee86-lINgXw6A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_We48aC0jEee86-lINgXw6A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_We48ZS0jEee86-lINgXw6A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_We48Zi0jEee86-lINgXw6A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_We48YS0jEee86-lINgXw6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_We48Yi0jEee86-lINgXw6A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_We48Yy0jEee86-lINgXw6A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="MegaExample.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_We48ZC0jEee86-lINgXw6A"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_WTfksS0jEee86-lINgXw6A"/>
+  <element xmi:type="mid:MID" href="TestSliceMap.mid#/"/>
+</notation:Diagram>

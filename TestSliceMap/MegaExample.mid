@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator">
+  <models uri="/TestSliceMap/ExampleRel.mid" name="ExampleRel" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
+  <models uri="/TestSliceMap/slice_map.mid" name="slice_map" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
+  <editors xsi:type="editor:Diagram" uri="/TestSliceMap/ExampleRel.middiag" name="MIDRel diagram for model /TestSliceMap/ExampleRel.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/TestSliceMap/ExampleRel.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/TestSliceMap/slice_map.middiag" name="MIDRel diagram for model /TestSliceMap/slice_map.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/TestSliceMap/slice_map.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="TestSliceMap" metatypeUri="http://se.cs.toronto.edu/mmint/TestSliceMap" dynamic="true" updateMID="true" executionTime="1196515606" nestedMIDPath="/TestSliceMap/TestSliceMap.mid">
+    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/TestSliceMap/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="Sout" metatypeUri="http://se.cs.toronto.edu/mmint/TestSliceMap/Sout" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </operators>
+  <extendibleTable key="/TestSliceMap/ExampleRel.mid" value="//@models.0"/>
+  <extendibleTable key="/TestSliceMap/slice_map.mid" value="//@models.1"/>
+</mid:MID>

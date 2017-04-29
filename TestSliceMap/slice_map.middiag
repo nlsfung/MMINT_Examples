@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <notation:Diagram xmi:id="_Wd1zgC0jEee86-lINgXw6A" type="MID" name="slice_map.middiag" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_WexnoC0jEee86-lINgXw6A" type="2002">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wexnpy0jEee86-lINgXw6A" source="Shortcut">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WexnqC0jEee86-lINgXw6A" key="modelID" value="MID"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WexnpS0jEee86-lINgXw6A" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Wexnpi0jEee86-lINgXw6A" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_WexnoS0jEee86-lINgXw6A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Wexnoi0jEee86-lINgXw6A" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Wexnoy0jEee86-lINgXw6A" hint="Mid"/>
+      <element xmi:type="mid:Model" href="ExampleRel.mid#//@models.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WexnpC0jEee86-lINgXw6A" x="24" y="144"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_WexnqS0jEee86-lINgXw6A" type="2002">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WexnsC0jEee86-lINgXw6A" source="Shortcut">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WexnsS0jEee86-lINgXw6A" key="modelID" value="MID"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Wexnri0jEee86-lINgXw6A" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Wexnry0jEee86-lINgXw6A" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Wexnqi0jEee86-lINgXw6A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Wexnqy0jEee86-lINgXw6A" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_WexnrC0jEee86-lINgXw6A" hint="Mid"/>
+      <element xmi:type="mavomid:MAVOModel" href="ExampleRel.mid#//@models.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WexnrS0jEee86-lINgXw6A" x="276" y="144"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Wgs6QC0jEee86-lINgXw6A" type="2003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Wgs6RS0jEee86-lINgXw6A" type="5005"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Wgs6Ri0jEee86-lINgXw6A" type="5006"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Wgs6QS0jEee86-lINgXw6A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Wgs6Qi0jEee86-lINgXw6A" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Wgs6Qy0jEee86-lINgXw6A" diagramLink="_aVdlUC0jEee86-lINgXw6A" hint="Relationship"/>
+      <element xmi:type="relationship:ModelRel" href="slice_map.mid#//@models.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wgs6RC0jEee86-lINgXw6A" x="60" y="24"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Wgs6Ry0jEee86-lINgXw6A" type="2003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WgthUC0jEee86-lINgXw6A" type="5005"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WgthUS0jEee86-lINgXw6A" type="5006"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Wgs6SC0jEee86-lINgXw6A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Wgs6SS0jEee86-lINgXw6A" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Wgs6Si0jEee86-lINgXw6A" diagramLink="_cpMigC0jEee86-lINgXw6A" hint="Relationship"/>
+      <element xmi:type="relationship:ModelRel" href="slice_map.mid#//@models.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wgs6Sy0jEee86-lINgXw6A" x="372" y="24"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Wd1zgS0jEee86-lINgXw6A"/>
+    <element xmi:type="mid:MID" href="slice_map.mid#/"/>
+    <edges xmi:type="notation:Edge" xmi:id="_WgvWgC0jEee86-lINgXw6A" type="4002" source="_Wgs6QC0jEee86-lINgXw6A" target="_WexnoC0jEee86-lINgXw6A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Wgv9kC0jEee86-lINgXw6A" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Wgv9kS0jEee86-lINgXw6A" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Wgv9ki0jEee86-lINgXw6A" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Wgv9ky0jEee86-lINgXw6A" y="60"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_WgvWgS0jEee86-lINgXw6A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WgvWgi0jEee86-lINgXw6A" fontName="Ubuntu"/>
+      <element xmi:type="mid:ModelEndpoint" href="slice_map.mid#//@models.0/@modelEndpoints.0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WgvWgy0jEee86-lINgXw6A" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YNRJwC0jEee86-lINgXw6A" id="(0.4959349593495935,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YNRw0C0jEee86-lINgXw6A" id="(0.4973821989528796,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_WgxLsC0jEee86-lINgXw6A" type="4002" source="_Wgs6Ry0jEee86-lINgXw6A" target="_WexnqS0jEee86-lINgXw6A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_WgxLtC0jEee86-lINgXw6A" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WgxLtS0jEee86-lINgXw6A" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WgxLti0jEee86-lINgXw6A" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_WgxLty0jEee86-lINgXw6A" y="60"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_WgxLsS0jEee86-lINgXw6A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_WgxLsi0jEee86-lINgXw6A" fontName="Ubuntu"/>
+      <element xmi:type="mid:ModelEndpoint" href="slice_map.mid#//@models.1/@modelEndpoints.0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WgxLsy0jEee86-lINgXw6A" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YNRw0S0jEee86-lINgXw6A" id="(0.4959349593495935,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YNRw0i0jEee86-lINgXw6A" id="(0.4983388704318937,0.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_aVdlUC0jEee86-lINgXw6A" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_aVdlUS0jEee86-lINgXw6A"/>
+    <element xmi:type="relationship:ModelRel" href="slice_map.mid#//@models.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_cpMigC0jEee86-lINgXw6A" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_cpMigS0jEee86-lINgXw6A"/>
+    <element xmi:type="relationship:ModelRel" href="slice_map.mid#//@models.1"/>
+  </notation:Diagram>
+</xmi:XMI>
