@@ -750,40 +750,40 @@
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="03" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
     <modelEndpointRefs referencedObject="//@models.80/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.2/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.3" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.4" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.5" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.6" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.7" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.8" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.9" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.10" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.11" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.12" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.13" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.2/@modelElems.14" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.2/@modelElems.15" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.16" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.17" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.18" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.19" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.20" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.21" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.22" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.23" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.2/@modelElems.24" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.6" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.2/@modelElems.25" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.19" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.23" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.18" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.17" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.22" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.16" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.13" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.21" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.20" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.24" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.2/@modelElems.10" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="04" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
     <modelEndpointRefs referencedObject="//@models.81/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.3/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.3/@modelElems.1" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.3/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.0" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.3/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
@@ -806,8 +806,8 @@
     <modelEndpoints uri="" name="07" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
     <modelEndpointRefs referencedObject="//@models.84/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.6/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.6/@modelElems.1" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.6/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.1" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.6/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
@@ -815,18 +815,12 @@
     <modelEndpoints uri="" name="08" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
     <modelEndpointRefs referencedObject="//@models.85/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.7/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.7/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.7/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.7/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="09" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.8"/>
     <modelEndpointRefs referencedObject="//@models.86/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.8/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.8/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.8/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.8/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
@@ -845,11 +839,11 @@
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="12" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
     <modelEndpointRefs referencedObject="//@models.89/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.2" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.11/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.11/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.11/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
@@ -880,99 +874,67 @@
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="17" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.16"/>
     <modelEndpointRefs referencedObject="//@models.94/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.16/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.6" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.16/@modelElems.3" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.16/@modelElems.4" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.5" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.6" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.7" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.8" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.9" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.0" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.16/@modelElems.11" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.16/@modelElems.5" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.16/@modelElems.13" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.14" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.15" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.16/@modelElems.16" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="18" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.17"/>
     <modelEndpointRefs referencedObject="//@models.95/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.17/@modelElems.12" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.17/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.17/@modelElems.5" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.17/@modelElems.2" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.17/@modelElems.3" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.4" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.5" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.6" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.7" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.8" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.9" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.10" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.11" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.12" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.17/@modelElems.13" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="19" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.18"/>
     <modelEndpointRefs referencedObject="//@models.96/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.18/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.3" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.4" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.5" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.6" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.7" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.18/@modelElems.8" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="20" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.19"/>
     <modelEndpointRefs referencedObject="//@models.97/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.19/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.19/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.19/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.19/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="21" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.20"/>
     <modelEndpointRefs referencedObject="//@models.98/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.20/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.20/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.20/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.20/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="22" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.21"/>
     <modelEndpointRefs referencedObject="//@models.99/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.21/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.21/@modelElems.1" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="23" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.22"/>
     <modelEndpointRefs referencedObject="//@models.100/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.22/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.22/@modelElems.1" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.22/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.22/@modelElems.1" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="24" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.23"/>
     <modelEndpointRefs referencedObject="//@models.101/@modelEndpoints.0" modifiable="true">
       <modelElemRefs referencedObject="//@models.23/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.23/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.23/@modelElems.2" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.23/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.23/@modelElems.2" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.23/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.23/@modelElems.1" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
@@ -986,21 +948,21 @@
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="26" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
     <modelEndpointRefs referencedObject="//@models.103/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.25/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.2" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.3" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.4" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.5" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.6" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.25/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.25/@modelElems.8" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.9" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.10" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.11" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.12" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.25/@modelElems.13" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.6" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.25/@modelElems.14" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.13" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.3" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/01.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/01.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/01.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
@@ -1081,107 +1043,107 @@
   <editors xsi:type="editor:Diagram" uri="/ClassDiagramSlicer/26.classdiagramdiag" name="ClassDiagram diagram for model /ClassDiagramSlicer/26.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/ClassDiagramSlicer/26.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
     <fileExtensions>classdiagramdiag</fileExtensions>
   </editors>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1923885">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="68945857">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.26"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.78"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1692375">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="26160423">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.27"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.79"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="18982527">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="38168521">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.28"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.80"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1797292">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1732777">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.29"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.81"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1889192">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="17582363">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.30"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.82"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1982287">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="275897645">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.31"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.83"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2533879">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="14496622">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.32"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.84"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2199662">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="9427077">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.33"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.85"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1815190">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="25967809">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.86"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1415802">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1855907510">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.35"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.87"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1042530">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="23985737">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.36"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.88"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2127647">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="7612122">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.37"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.89"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1354913">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="12328306">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.38"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.90"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1388896">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1434376">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.39"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.91"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1139156">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="21290813">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.40"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.92"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1526400">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="23907525">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.41"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.93"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="5023274">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="8606639">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.42"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.94"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="5710879">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2306907">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.43"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.95"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2198379">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="13119427">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.44"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.96"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1725135">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="21845111">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.45"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.97"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1607237">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="9433298">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.46"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.98"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2705086">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="9089014">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.47"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.99"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="2052961">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="27985761">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.48"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.100"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="3319336">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="66395716">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.49"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.101"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1567595">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="26009663">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.50"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.102"/>
   </operators>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="3823870">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="6153178">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.51"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.103"/>
   </operators>
