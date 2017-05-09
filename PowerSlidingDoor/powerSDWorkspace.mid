@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator">
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID">
   <models uri="/PowerSlidingDoor/SliceCriteria.mid" name="SliceCriteria" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
   <models uri="/PowerSlidingDoor/PowerSDMega.mid" name="PowerSDMega" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
-  <models uri="/PowerSlidingDoor/propagated_map+slice_map.mid" name="propagated_map+slice_map" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.2"/>
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/SliceCriteria.middiag" name="MIDRel diagram for model /PowerSlidingDoor/SliceCriteria.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/SliceCriteria.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDMega.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/propagated_map+slice_map.middiag" name="MID diagram for model /PowerSlidingDoor/propagated_map+slice_map.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/propagated_map+slice_map.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <operators xsi:type="operator:WorkflowOperator" uri="" name="PowerSlidingDoor" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor" dynamic="true" updateMID="true" executionTime="556188982" nestedMIDPath="/PowerSlidingDoor/PowerSlidingDoor.mid">
-    <inputs uri="" name="Sin" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor/Sin" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <inputs uri="" name="X" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor/X" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
-    <outputs uri="" name="S" metatypeUri="http://se.cs.toronto.edu/mmint/PowerSlidingDoor/S" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
-  </operators>
   <extendibleTable key="/PowerSlidingDoor/SliceCriteria.mid" value="//@models.0"/>
   <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid" value="//@models.1"/>
-  <extendibleTable key="/PowerSlidingDoor/propagated_map+slice_map.mid" value="//@models.2"/>
 </mid:MID>

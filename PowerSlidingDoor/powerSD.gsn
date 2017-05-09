@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
+  <nodes xsi:type="gsn:Goal" id="SG1" name="SG1 Overall Goal" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True"/>
+  <nodes xsi:type="gsn:Strategy" id="S1" name="S1 AND Refinement." description="Decompose by AND refinement." state="Valid"/>
+  <nodes xsi:type="gsn:Goal" id="B1" name="B1 Sub-Goal 1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." state="True"/>
+  <nodes xsi:type="gsn:Goal" id="B2" name="B2 Sub-Goal 2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." state="True"/>
+  <nodes xsi:type="gsn:Goal" id="B3" name="B3 Sub-Goal 3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." state="True"/>
+  <nodes xsi:type="gsn:Goal" id="B4" name="B4 Sub-Goal 4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." state="True"/>
+  <nodes xsi:type="gsn:Goal" id="B5" name="B5 Sub-Goal 5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." state="True"/>
+  <nodes xsi:type="gsn:Goal" id="B6" name="B6 Sub-Goal 6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." state="True"/>
+  <nodes xsi:type="gsn:Evidence" id="Sn1" name="Sn1 Evidence for B1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." state="Valid"/>
+  <nodes xsi:type="gsn:Evidence" id="Sn2" name="Sn2 Evidence for B2" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." state="Valid"/>
+  <nodes xsi:type="gsn:Evidence" id="Sn3" name="Sn3 Evidence for B3" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." state="Valid"/>
+  <nodes xsi:type="gsn:Evidence" id="Sn4" name="Sn4 Evidence for B4" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." state="Valid"/>
+  <nodes xsi:type="gsn:Evidence" id="Sn5" name="Sn5 Evidence for B5" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." state="Valid"/>
+  <nodes xsi:type="gsn:Evidence" id="Sn6" name="Sn6 Evidence for B6" description="Expert Judgement." state="Valid"/>
+  <nodes xsi:type="gsn:ASIL" id="C1" name="C1 ASIL of SG1" description="" state="Valid" level="C"/>
+  <nodes xsi:type="gsn:ASIL" id="C1_1" name="C1_1 ASIL of B1" description="" state="Valid" level="C"/>
+  <nodes xsi:type="gsn:ASIL" id="C1_2" name="C1_2 ASIL of B2" description="" state="Valid" level="B"/>
+  <nodes xsi:type="gsn:ASIL" id="C1_3" name="C1_3 ASIL of B3" description="" state="Valid" level="C"/>
+  <nodes xsi:type="gsn:ASIL" id="C1_4" name="C1_4 ASIL of B4" description="" state="Valid" level="A"/>
+  <nodes xsi:type="gsn:ASIL" id="C1_5" name="C1_5 ASIL of B5" description="" state="Valid" level="C"/>
+  <nodes xsi:type="gsn:ASIL" id="C1_6" name="C1_6 ASIL of B6" description="" state="Valid" level="C"/>
+  <links xsi:type="gsn:InContextOf" source="SG1" target="C1" id="SG1toC1"/>
+  <links xsi:type="gsn:InContextOf" source="B1" target="C1_1" id="B1toC1_1"/>
+  <links xsi:type="gsn:InContextOf" source="B2" target="C1_2" id="B2toC1_2"/>
+  <links xsi:type="gsn:InContextOf" source="B3" target="C1_3" id="B3toC1_3"/>
+  <links xsi:type="gsn:InContextOf" source="B4" target="C1_4" id="B4toC1_4"/>
+  <links xsi:type="gsn:InContextOf" source="B5" target="C1_5" id="B5toC1_5"/>
+  <links xsi:type="gsn:InContextOf" source="B6" target="C1_6" id="B6toC1_6"/>
+  <links xsi:type="gsn:IsSupportedBy" source="SG1" target="S1" id="SG1toS1"/>
+  <links xsi:type="gsn:IsSupportedBy" source="S1" target="B1" id="S1toB1"/>
+  <links xsi:type="gsn:IsSupportedBy" source="S1" target="B2" id="S1toB2"/>
+  <links xsi:type="gsn:IsSupportedBy" source="S1" target="B3" id="S1toB3"/>
+  <links xsi:type="gsn:IsSupportedBy" source="S1" target="B4" id="S1toB4"/>
+  <links xsi:type="gsn:IsSupportedBy" source="S1" target="B5" id="S1toB5"/>
+  <links xsi:type="gsn:IsSupportedBy" source="S1" target="B6" id="S1toB6"/>
+  <links xsi:type="gsn:IsSupportedBy" source="B1" target="Sn1" id="B1toSn1"/>
+  <links xsi:type="gsn:IsSupportedBy" source="B2" target="Sn2" id="B2toSn2"/>
+  <links xsi:type="gsn:IsSupportedBy" source="B3" target="Sn3" id="B3toSn3"/>
+  <links xsi:type="gsn:IsSupportedBy" source="B4" target="Sn4" id="B4toSn4"/>
+  <links xsi:type="gsn:IsSupportedBy" source="B5" target="Sn5" id="B5toSn5"/>
+  <links xsi:type="gsn:IsSupportedBy" source="B6" target="Sn6" id="B6toSn6"/>
+</gsn:SafetyCase>

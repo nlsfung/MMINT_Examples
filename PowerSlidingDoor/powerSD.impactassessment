@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impact:ImpactAssessment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:impact="http://www.cs.toronto.edu/~nlsfung/impact">
+  <annotations element="SG1" status="Recheck"/>
+  <annotations element="S1" status="Recheck"/>
+  <annotations element="B1" status="Reuse"/>
+  <annotations element="B2" status="Recheck"/>
+  <annotations element="B3" status="Revise"/>
+  <annotations element="B4" status="Revise"/>
+  <annotations element="B5" status="Revise"/>
+  <annotations element="B6" status="Revise"/>
+  <annotations element="Sn1" status="Reuse"/>
+  <annotations element="Sn2" status="Recheck"/>
+  <annotations element="Sn3" status="Revise"/>
+  <annotations element="Sn4" status="Revise"/>
+  <annotations element="Sn5" status="Revise"/>
+  <annotations element="Sn6" status="Revise"/>
+  <annotations element="C1" status="Reuse"/>
+  <annotations element="C1_1" status="Reuse"/>
+  <annotations element="C1_2" status="Reuse"/>
+  <annotations element="C1_3" status="Reuse"/>
+  <annotations element="C1_4" status="Reuse"/>
+  <annotations element="C1_5" status="Reuse"/>
+  <annotations element="C1_6" status="Reuse"/>
+</impact:ImpactAssessment>

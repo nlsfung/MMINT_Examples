@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/PowerSlidingDoor/PowerSDMega.mid" name="PowerSDMega" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.0">
+    <modelElems uri="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="Model"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [classes->] Class VS ECU" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="Model"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [classes->] Class AC ECU" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="Model"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[modelElems->] Model Element [classes->] Class Actuator" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ModelElement" featureName="modelElems" relatedClassName="Model"/>
+    </modelElems>
+  </models>
+  <models uri="/PowerSlidingDoor/powerSD.gsn" name="powerSDGSN" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.1">
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Goal B1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Goal B2 Sub-Goal 2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Goal B3 Sub-Goal 3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Goal B4 Sub-Goal 4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Goal B5 Sub-Goal 5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Goal B6 Sub-Goal 6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Strategy S1 AND Refinement" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Strategy" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Evidence Sn1 Evidence for B1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Evidence" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Evidence Sn2 Evidence for B2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Evidence" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Evidence Sn3 Evidence for B3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Evidence" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Evidence Sn4 Evidence for B4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Evidence" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Evidence Sn5 Evidence for B5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Evidence" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.13_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] Evidence Sn6 Evidence for B6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Evidence" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] ASIL C1 ASIL of SG1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] ASIL C1_1 ASIL of B1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] ASIL C1_2 ASIL of B2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] ASIL C1_3 ASIL of B3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] ASIL C1_4 ASIL of B4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] ASIL C1_5 ASIL of B5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@nodes.20_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[nodes->] ASIL C1_6 ASIL of B6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="nodes" relatedClassName="Safety Case"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="SYS &lt;-> GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="PowerSDMega" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpoints uri="" name="powerSDGSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.0/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class VS ECU" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.1"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.0"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.1/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.1/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class AC ECU" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.2"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.0"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.2/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.2/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class AC ECU" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.2"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B2 Sub-Goal 2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.1"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.3/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.3/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class VS ECU" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.1"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B3 Sub-Goal 3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.2"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.4/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.4/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B3 Sub-Goal 3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.2"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.5/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.5/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class Actuator" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.3"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B2 Sub-Goal 2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.1"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.6/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.6/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B4 Sub-Goal 4" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.3"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.7/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.7/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B5 Sub-Goal 5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.4"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.8/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.8/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class Actuator" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.3"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B5 Sub-Goal 5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.4"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.9/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.9/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class AC ECU" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.2"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B5 Sub-Goal 5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.4"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.10/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.10/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class AC ECU" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.2"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B6 Sub-Goal 6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.5"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.11/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.11/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[modelElems->] Model Element [classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+      <modelElemEndpoints uri="" name="[nodes->] Goal B6 Sub-Goal 6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.5"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.1/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.2/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.9/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.10/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.5/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.8/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.4/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.6/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.7/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.11/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.1" modifiable="true">
+      <modelElemRefs referencedObject="//@models.1/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.0/@modelElemEndpointRefs.1 //@models.2/@mappingRefs.1/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.2/@modelElemEndpointRefs.1 //@models.2/@mappingRefs.5/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.3/@modelElemEndpointRefs.1 //@models.2/@mappingRefs.4/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.6/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.7/@modelElemEndpointRefs.1 //@models.2/@mappingRefs.8/@modelElemEndpointRefs.1 //@models.2/@mappingRefs.9/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.10/@modelElemEndpointRefs.1 //@models.2/@mappingRefs.11/@modelElemEndpointRefs.1"/>
+    </modelEndpointRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.0" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.0">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.0"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.0/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.1" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.0">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.1/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.2" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.1">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.2/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.3" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.2">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.0"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.3/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.4" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.2">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.4/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.5" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.2" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.1">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.5/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.2"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.5/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.6" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.3">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.6/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.6/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.7" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.4">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.7/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.7/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.4"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.8" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.2" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.4">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.8/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.2"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.8/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.4"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.9" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.4">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.9/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.9/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.4"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.10" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.5">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.10/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.10/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.5"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.11" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.5">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.11/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.3"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.11/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.5"/>
+    </mappingRefs>
+  </models>
+  <models uri="/PowerSlidingDoor/powerSD.impactassessment" name="powerSDImpact" metatypeUri="http://www.cs.toronto.edu/~nlsfung/impact" dynamic="true" fileExtension="impactassessment" editors="//@editors.2">
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation SG1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation S1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation B1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation B2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation B3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation B4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation B5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation B6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation Sn4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation Sn5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.13_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation Sn6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation C1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation C1_1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation C1_2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation C1_3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation C1_4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation C1_5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.20_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[annotations->] Annotation C1_6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Annotation" featureName="annotations" relatedClassName="Impact Assessment"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="GSN &lt;-> Impact" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSDGSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <modelEndpoints uri="" name="powerSDImpact" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.0/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.6"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation SG1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.0"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.1/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.1/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Strategy S1 AND Refinement" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.7"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.1"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.2/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.2/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Goal B1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.0"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation B1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.2"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.3/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.3/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Goal B2 Sub-Goal 2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.1"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation B2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.3"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.4/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.4/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Goal B3 Sub-Goal 3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.2"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation B3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.4"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.5/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.5/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Goal B4 Sub-Goal 4" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.3"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation B4" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.5"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.6/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.6/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Goal B5 Sub-Goal 5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.4"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation B5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.6"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.7/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.7/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Goal B6 Sub-Goal 6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.5"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation B6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.7"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.8/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.8/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Evidence Sn1 Evidence for B1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.8"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.8"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.9/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.9/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Evidence Sn2 Evidence for B2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.9"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.9"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.10/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.10/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Evidence Sn3 Evidence for B3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.10"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.10"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.11/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.11/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Evidence Sn4 Evidence for B4" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.11"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation Sn4" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.11"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.12/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.12/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Evidence Sn5 Evidence for B5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.12"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation Sn5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.12"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.13/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.13/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] Evidence Sn6 Evidence for B6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.13"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation Sn6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.13"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.14/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.14/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] ASIL C1 ASIL of SG1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.14"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation C1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.14"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.15/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.15/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] ASIL C1_1 ASIL of B1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.15"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation C1_1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.15"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.16/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.16/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] ASIL C1_2 ASIL of B2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.16"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation C1_2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.16"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.17/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.17/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] ASIL C1_3 ASIL of B3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.17"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation C1_3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.17"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.18/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.18/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] ASIL C1_4 ASIL of B4" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.18"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation C1_4" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.18"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.19/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.19/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] ASIL C1_5 ASIL of B5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.19"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation C1_5" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.19"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.20/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.20/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[nodes->] ASIL C1_6 ASIL of B6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1/@modelElems.20"/>
+      <modelElemEndpoints uri="" name="[annotations->] Annotation C1_6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3/@modelElems.20"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.4/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.1/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.7" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.4/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.5/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.6/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.7/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.8" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.8/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.9" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.9/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.10" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.10/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.11" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.11/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.12" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.12/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.13" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.13/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.14" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.14/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.15" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.15/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.16" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.16/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.17" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.17/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.18" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.18/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.19" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.19/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.1/@modelElems.20" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.20/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <modelEndpointRefs referencedObject="//@models.4/@modelEndpoints.1" modifiable="true">
+      <modelElemRefs referencedObject="//@models.3/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.0/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.1/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.2/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.3/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.4/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.5/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.6/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.7" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.7/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.8" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.8/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.9" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.9/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.10" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.10/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.11" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.11/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.12" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.12/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.13" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.13/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.14" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.14/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.15" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.15/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.16" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.16/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.17" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.17/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.18" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.18/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.19" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.19/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.3/@modelElems.20" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.20/@modelElemEndpointRefs.1"/>
+    </modelEndpointRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.0" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.0">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.0"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.0/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.1" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.1">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.1/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.2" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.2" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.2">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.2"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.2/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.3" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.3" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.3">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.3"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.3/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.4" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.4" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.4">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.4"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.4/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.4"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.5" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.5" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.5">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.5/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.5"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.5/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.5"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.6" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.6" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.6">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.6/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.6"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.6/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.6"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.7" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.7" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.7">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.7/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.7"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.7/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.7"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.8" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.8" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.8">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.8/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.8"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.8/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.8"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.9" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.9" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.9">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.9/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.9"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.9/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.9"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.10" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.10" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.10">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.10/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.10"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.10/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.10"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.11" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.11" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.11">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.11/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.11"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.11/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.11"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.12" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.12" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.12">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.12/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.12"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.12/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.12"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.13" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.13" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.13">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.13/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.13"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.13/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.13"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.14" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.14" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.14">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.14/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.14"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.14/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.14"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.15" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.15" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.15">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.15/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.15"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.15/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.15"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.16" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.16" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.16">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.16/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.16"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.16/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.16"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.17" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.17" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.17">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.17/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.17"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.17/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.17"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.18" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.18" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.18">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.18/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.18"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.18/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.18"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.19" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.19" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.19">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.19/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.19"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.19/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.19"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.4/@mappings.20" modifiable="true" sourceModelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.20" targetModelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.20">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.20/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.20"/>
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.20/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.1/@modelElemRefs.20"/>
+    </mappingRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDMega.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors uri="/PowerSlidingDoor/powerSD.gsn" name="GSN Editor for model /PowerSlidingDoor/powerSD.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.gsn" id="edu.toronto.cs.nlsfung.gsn.presentation.GsnEditorID" wizardId="edu.toronto.cs.nlsfung.gsn.presentation.GsnModelWizardID">
+    <fileExtensions>gsn</fileExtensions>
+  </editors>
+  <editors uri="/PowerSlidingDoor/powerSD.impactassessment" name="Impact Assessment Editor for model /PowerSlidingDoor/powerSD.impactassessment" metatypeUri="http://www.cs.toronto.edu/~nlsfung/impact/editor" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.impactassessment" id="edu.toronto.cs.nlsfung.impact.presentation.ImpactAssessmentEditorID" wizardId="edu.toronto.cs.nlsfung.impact.presentation.ImpactAssessmentModelWizardID">
+    <fileExtensions>impactassessment</fileExtensions>
+  </editors>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid" value="//@models.0"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn" value="//@models.1"/>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid#//@models.0/@modelElems.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.0"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.1"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.2"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.3"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.4"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.5"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.6"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.7"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.8"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.9"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.10"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.11"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.12"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.13_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.13"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.14"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.15"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.16"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.17"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.18"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.19"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@nodes.20_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.20"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment" value="//@models.3"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.0"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.1"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.2"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.3"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.4"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.5"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.6"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.7"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.8"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.9"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.10"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.11"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.12"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.13_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.13"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.14"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.15"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.16"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.17"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.18"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.19"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.impactassessment#//@annotations.20_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.3/@modelElems.20"/>
+</mid:MID>
