@@ -514,7 +514,7 @@
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDMega.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors uri="/PowerSlidingDoor/powerSD.gsn" name="GSN Editor for model /PowerSlidingDoor/powerSD.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.gsn" id="edu.toronto.cs.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.nlsfung.gsn.presentation.GSNModelWizardID">
+  <editors uri="/PowerSlidingDoor/powerSD.gsn" name="GSN Editor for model /PowerSlidingDoor/powerSD.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
     <fileExtensions>gsn</fileExtensions>
   </editors>
   <editors uri="/PowerSlidingDoor/powerSD.impactassessment" name="Impact Assessment Editor for model /PowerSlidingDoor/powerSD.impactassessment" metatypeUri="http://www.cs.toronto.edu/~nlsfung/impact/editor" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.impactassessment" id="edu.toronto.cs.nlsfung.impact.presentation.ImpactAssessmentEditorID" wizardId="edu.toronto.cs.nlsfung.impact.presentation.ImpactAssessmentModelWizardID">
