@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <notation:Diagram xmi:id="_mrFdwDdhEeeKtdyNeaHn5w" type="MID" name="TestSuite.middiag" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_oMAd8DdhEeeKtdyNeaHn5w" type="2002">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oMBFADdhEeeKtdyNeaHn5w" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oMBFATdhEeeKtdyNeaHn5w" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_oMAd8TdhEeeKtdyNeaHn5w"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_oMAd8jdhEeeKtdyNeaHn5w" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_oMAd8zdhEeeKtdyNeaHn5w" hint="Mid"/>
+      <element xmi:type="mid:Model" href="TestSuite.mid#//@models.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oMAd9DdhEeeKtdyNeaHn5w" x="120" y="72"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_s_0yQDdhEeeKtdyNeaHn5w" type="2003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_s_1ZUDdhEeeKtdyNeaHn5w" type="5005"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_s_1ZUTdhEeeKtdyNeaHn5w" type="5006"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_s_0yQTdhEeeKtdyNeaHn5w"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_s_0yQjdhEeeKtdyNeaHn5w" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_s_0yQzdhEeeKtdyNeaHn5w" diagramLink="_uq6bEDdhEeeKtdyNeaHn5w" hint="Relationship"/>
+      <element xmi:type="relationship:ModelRel" href="TestSuite.mid#//@models.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_0yRDdhEeeKtdyNeaHn5w" x="108" y="180"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_mrFdwTdhEeeKtdyNeaHn5w"/>
+    <element xmi:type="mid:MID" href="TestSuite.mid#/"/>
+    <edges xmi:type="notation:Edge" xmi:id="_uB8WkDdhEeeKtdyNeaHn5w" type="4002" source="_s_0yQDdhEeeKtdyNeaHn5w" target="_oMAd8DdhEeeKtdyNeaHn5w">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uB89oDdhEeeKtdyNeaHn5w" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uB89oTdhEeeKtdyNeaHn5w" x="-23" y="35"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_uB89ojdhEeeKtdyNeaHn5w" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uB9ksDdhEeeKtdyNeaHn5w" x="-13" y="63"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_uB8WkTdhEeeKtdyNeaHn5w"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_uB8WkjdhEeeKtdyNeaHn5w" fontName="Ubuntu"/>
+      <element xmi:type="mid:ModelEndpoint" href="TestSuite.mid#//@models.1/@modelEndpoints.0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uB8WkzdhEeeKtdyNeaHn5w" points="[-2, -8, -8, 78]$[-2, -56, -8, 30]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uCGuoDdhEeeKtdyNeaHn5w" id="(0.4067796610169492,0.13333333333333333)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_uq6bEDdhEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_rlMyEDeHEeebuL8Rj39rIA" type="2001">
+      <children xmi:type="notation:DecorationNode" xmi:id="_rlMyFDeHEeebuL8Rj39rIA" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rlMyFTeHEeebuL8Rj39rIA" type="5004"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rlMyFjeHEeebuL8Rj39rIA" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_rlMyFzeHEeebuL8Rj39rIA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_rlMyGDeHEeebuL8Rj39rIA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_rlMyETeHEeebuL8Rj39rIA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_rlMyEjeHEeebuL8Rj39rIA" fontName="Ubuntu"/>
+      <element xmi:type="relationship:ModelEndpointReference" href="TestSuite.mid#//@models.1/@modelEndpointRefs.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rlMyEzeHEeebuL8Rj39rIA"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_uq6bETdhEeeKtdyNeaHn5w"/>
+    <element xmi:type="relationship:ModelRel" href="TestSuite.mid#//@models.1"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_6tHr4DdlEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_6tHr4TdlEeeKtdyNeaHn5w"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_7errsDdlEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_7errsTdlEeeKtdyNeaHn5w"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Ywp-sDdrEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Ywp-sTdrEeeKtdyNeaHn5w"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_zNpa4DdrEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zNpa4TdrEeeKtdyNeaHn5w"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_CVSyoDdwEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_CVSyoTdwEeeKtdyNeaHn5w"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_OMSOwDdwEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_OMSOwTdwEeeKtdyNeaHn5w"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_j6cSYDdyEeeKtdyNeaHn5w" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_j6cSYTdyEeeKtdyNeaHn5w"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_EASikDd1Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_EASikTd1Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_GB51ADd1Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_GB51ATd1Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_KP-_ADd1Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_KP-_ATd1Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_M4xmMDd1Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_M4xmMTd1Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Q4e9ADd1Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Q4e9ATd1Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_teqTQDd1Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_teqTQTd1Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_wvZEMDd1Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_wvZEMTd1Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_O-v-wDd2Eee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_O-v-wTd2Eee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_LlFTQDeBEee84OgxBZTH3g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_LlFTQTeBEee84OgxBZTH3g"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_qIzskDeHEeebuL8Rj39rIA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_qIzskTeHEeebuL8Rj39rIA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_vlc7cDeHEeebuL8Rj39rIA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_vlc7cTeHEeebuL8Rj39rIA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="__za-4DeHEeebuL8Rj39rIA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="__za-4TeHEeebuL8Rj39rIA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Cd-goDeIEeebuL8Rj39rIA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Cd-goTeIEeebuL8Rj39rIA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_EXu3kDeIEeebuL8Rj39rIA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_EXu3kTeIEeebuL8Rj39rIA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_MlGhoDeIEeebuL8Rj39rIA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_MlGhoTeIEeebuL8Rj39rIA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Q6U1cDeIEeebuL8Rj39rIA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Q6U1cTeIEeebuL8Rj39rIA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_58ytQDeIEeeV-KcACcP3-A" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_58ytQTeIEeeV-KcACcP3-A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_DuwWkDeJEeeV-KcACcP3-A" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_DuwWkTeJEeeV-KcACcP3-A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_y4dngDeLEeeV-KcACcP3-A" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_y4dngTeLEeeV-KcACcP3-A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_dnInQDmhEeeoBtbh4sD3hA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_dnInQTmhEeeoBtbh4sD3hA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_slom4DmhEeeoBtbh4sD3hA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_slom4TmhEeeoBtbh4sD3hA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_2kakMDmhEeeoBtbh4sD3hA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_2kakMTmhEeeoBtbh4sD3hA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_iB4pYDmjEeeoBtbh4sD3hA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_iB4pYTmjEeeoBtbh4sD3hA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_mef-oDmjEeeoBtbh4sD3hA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_mef-oTmjEeeoBtbh4sD3hA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_omXDADmjEeeoBtbh4sD3hA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_omXDATmjEeeoBtbh4sD3hA"/>
+  </notation:Diagram>
+</xmi:XMI>

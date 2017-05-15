@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/GsnSlicer/01.gsn" name="01" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Goal G1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="elements" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Strategy S1 Overall Strategy" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Strategy" featureName="elements" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Goal G1_1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Goal G1_2 Sub-Goal 2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Goal G1_3 Sub-Goal 3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Solution Sn1_1 Solution for G1_1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Solution Sn1_2 Solution for G1_2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Solution Sn1_3 Solution for G1_3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] ASIL CG1 ASIL of G1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] Context CS1 Context of S1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Context" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] ASIL CG1_1 ASIL of G1_1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] ASIL CG1_2 ASIL of G1_2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+    <modelElems uri="/GsnSlicer/01.gsn#//@elements.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[elements->] ASIL CG1_3 ASIL of G1_3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ASIL" featureName="elements" relatedClassName="Safety Case"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="01" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors uri="/GsnSlicer/01.gsn" name="GSN Editor for model /GsnSlicer/01.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/GsnSlicer/01.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
+    <fileExtensions>gsn</fileExtensions>
+  </editors>
+  <extendibleTable key="/GsnSlicer/01.gsn" value="//@models.0"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.10"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.11"/>
+  <extendibleTable key="/GsnSlicer/01.gsn#//@elements.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.12"/>
+</mid:MID>

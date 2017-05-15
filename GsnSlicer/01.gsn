@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
+  <elements xsi:type="gsn:Goal" id="G1" name="G1 Overall Goal" supportedBy="//@elements.1" inContextOf="//@elements.8"/>
+  <elements xsi:type="gsn:Strategy" id="S1" name="S1 Overall Strategy" supportedBy="//@elements.2 //@elements.3 //@elements.4" inContextOf="//@elements.9" supports="//@elements.0"/>
+  <elements xsi:type="gsn:Goal" id="G1_1" name="G1_1 Sub-Goal 1" supportedBy="//@elements.5" inContextOf="//@elements.10" supports="//@elements.1"/>
+  <elements xsi:type="gsn:Goal" id="G1_2" name="G1_2 Sub-Goal 2" supportedBy="//@elements.6" inContextOf="//@elements.11" supports="//@elements.1"/>
+  <elements xsi:type="gsn:Goal" id="G1_3" name="G1_3 Sub-Goal 3" supportedBy="//@elements.7" inContextOf="//@elements.12" supports="//@elements.1"/>
+  <elements xsi:type="gsn:Solution" id="Sn1_1" name="Sn1_1 Solution for G1_1" supports="//@elements.2"/>
+  <elements xsi:type="gsn:Solution" id="Sn1_2" name="Sn1_2 Solution for G1_2" supports="//@elements.3"/>
+  <elements xsi:type="gsn:Solution" id="Sn1_3" name="Sn1_3 Solution for G1_3" supports="//@elements.4"/>
+  <elements xsi:type="gsn:ASIL" id="CG1" name="CG1 ASIL of G1" contextOf="//@elements.0"/>
+  <elements xsi:type="gsn:Context" id="CS1" name="CS1 Context of S1" contextOf="//@elements.1"/>
+  <elements xsi:type="gsn:ASIL" id="CG1_1" name="CG1_1 ASIL of G1_1" contextOf="//@elements.2"/>
+  <elements xsi:type="gsn:ASIL" id="CG1_2" name="CG1_2 ASIL of G1_2" contextOf="//@elements.3"/>
+  <elements xsi:type="gsn:ASIL" id="CG1_3" name="CG1_3 ASIL of G1_3" contextOf="//@elements.4"/>
+</gsn:SafetyCase>
