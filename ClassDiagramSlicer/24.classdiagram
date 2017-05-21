@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
-  <classes name="A" superclass="//@classes.2" subclasses="//@classes.1" nestedIn="//@classes.4" nested="//@classes.3" />
-  <classes name="B" superclass="//@classes.0" subclasses="//@classes.2" />
-  <classes name="C" superclass="//@classes.1" subclasses="//@classes.0" />
-  <classes name="D" nestedIn="//@classes.0" nested="//@classes.4" />
-  <classes name="E" nestedIn="//@classes.3" nested="//@classes.0" />
-</classdiagram:ClassDiagram>
