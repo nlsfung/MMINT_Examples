@@ -17,8 +17,8 @@ G4 The overall slicing algorithm.
 At the moment, the test cases mainly focus on one specific condition each, 
 thus combinations (e.g. pairs and triples) of conditions are not well-
 represented by the test suite. For details about the correspondence between 
-each condition and each test case, please refer to TestSuiteMatrix.xls. This 
-document divides the test cases into the four groups and for each test case
+each condition and each test case, please refer to TestSuite.xls. This 
+document divides the test cases into the four groups and for each test case 
 describes what its input model and slicing criteria are as well as its output. 
 
 
