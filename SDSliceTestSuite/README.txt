@@ -6,7 +6,7 @@ Nick Fung
 This is a documentation of the test cases for the sequence diagram slicer 
 (SDSlice.java), which were designed with the intention to cover all possible 
 ways of satisfying and falsifying each condition in the slicing algorithm. 
-Each test case is assigned an unique number and is a group according to its 
+Each test case is assigned an unique number and a group according to its 
 purpose, whether it mainly tests:
 
 G1 A specific dependency rule in the slicing algorithm,
