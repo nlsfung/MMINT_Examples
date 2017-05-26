@@ -80,14 +80,14 @@ T110 Model: Two independent empty classes (Class A & B)
      Slice: Class A
 
 T111 Model: Two independent classes (Class A & B)
-           Class B contains attributes whose type is not A
+            Class B contains attributes whose type is not A
      Crit:  Class A
      Slice: Class A
 
 T112 Model: Two independent classes (Class A & B)
             Class B contains attributes whose type is A
      Crit:  Class A
-     Slice: Class A and attributes of B
+     Slice: Classes A and B and the slice of Class B
 
 T113 Model: Two independent classes (Class A & B)
             Class B contains operations whose type is not A
@@ -97,23 +97,31 @@ T113 Model: Two independent classes (Class A & B)
 T114 Model: Two independent classes (Class A & B)
             Class B contains operations whose type is A
      Crit:  Class A
-     Slice: Class A and operations of B
+     Slice: Classes A and B and the slice of Class B
 
-T115 Model: Single class (Class A) with single attribute (attrA)
-     Crit:  Attribute attrA
-     Slice: Attribute attrA
+T115 Model: Single class (Class A) with some attributes
+     Crit:  One particular attribute
+     Slice: Class A and all its attributes
 
-T116 Model: Single class (Class A) with single operation (opA)
-     Crit:  Operation opA
-     Slice: Operation opA
+T116 Model: Single class (Class A) with one or more operations
+     Crit:  One particular operation
+     Slice: Class A and all its operations
 
-T117 Model: Single class (Class A) with single association (assocA) 
-     Crit:  Association assocA
-     Slice: Association assocA
+T117 Model: Single class (Class A) with single association (assocA2B) 
+     Crit:  Association assocA2B
+     Slice: Association assocA2B and slice of its associated classes 
 
 T118 Model: Single class (Class A) with single dependency (dependA)
      Crit:  Dependency dependA
-     Slice: Dependency dependA
+     Slice: Dependency dependA and slice of its associated classes
+
+T119 Model: Single class (Class A) with nested class (Class Nested)
+     Crit:  Class Nested
+     Slice: Class Nested
+
+T120 Model: Single class (Class A) with sub-class (Class SubA)
+     Crit:  Class SubA
+     Slice: Class SubA
 
 
 --- G02 Tests for Recursion ---
@@ -140,22 +148,22 @@ T204 Model: Single class (Class A) with single operation (opA)
 T205 Model: Cycle of empty associated classes
             Class A associated with Class B, B with C and C with A
      Crit:  Class A
-     Slice: Classes A, B and C
+     Slice: Classes A, B and C and their associations
 
 T206 Model: Cycle of empty dependent classes
             Class A depends on Class B, B on C and C on A
      Crit:  Class A
-     Slice: Classes A, B and C
+     Slice: Classes A, B and C and their dependencies
 
 T207 Model: Two independent classes (Class A & B)
             Class B contains an attribute (attrB) whose type is A
      Crit:  Attribute attrB and Class A (in order)
-     Slice: Class A and Attribute attrB
+     Slice: Class A and Attribute attrB and Class B
 
 T208 Model: Two independent classes (Class A & B)
             Class B contains an operation (opB) whose type is A
      Crit:  Operation opB and Class A (in order)
-     Slice: Class A and Operation opB
+     Slice: Class A and Operation opB and Class B
 
 
 --- G03 Tests for Other Implementation Details ---
@@ -172,13 +180,13 @@ T303 Model: Two independent classes (A & B) with same operation (opA)
      Crit:  Class A
      Slice: Class A and its operation opA
 
-T304 Model: Two independent classes (A & B) with same association (assocA)
+T304 Model: Two independent pair of classes (A and B) with same associations
      Crit:  Class A
-     Slice: Class A and its association assocA
+     Slice: Class A and its associated slice
 
-T305 Model: Two independent classes (A & B) with same dependency (dependA)
+T305 Model: Two independent pair of classes (A & B) with same dependencies
      Crit:  Class A
-     Slice: Class A and its dependency dependA
+     Slice: Class A and its associated slice
 
 
 --- G04 Tests for Overall Slicing Algorithm ---
