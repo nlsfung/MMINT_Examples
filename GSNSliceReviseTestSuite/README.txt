@@ -34,19 +34,19 @@ remaining two digits ("23") identifies the test case within that group.
 
 
 --- G01 Tests for Specific Dependency Rule ---
-(Note: Some models for these tests may not be well-formed.)
+(Note: It is assumed here that all goals must be connected to a solution.)
 
-T101 Model: Single goal (Goal G)
+T103 Model: Single goal (Goal G) connected to a solution (Solution Sol)
      Crit:  Goal G
-     Slice: Goal G
+     Slice: Goal G and Solution Sol
 
 T102 Model: Single goal (Goal G) connected to sub-goals via Strategy S
      Crit:  Goal G
      Slice: Goal G and Strategy S
 
-T103 Model: Single goal (Goal G) connected to a solution (Solution Sol)
+T103 Model: Single goal (Goal G) connected to a parent goal via Staretgy S
      Crit:  Goal G
-     Slice: Goal G and Solution Sol
+     Slice: Goal G and Strategy S (and Solution Sol)
 
 T104 Model: Single strategy (Strategy S) connecting a goal with its sub-goals 
      Crit:  Strategy S
@@ -58,25 +58,21 @@ T105 Model: Single solution (Solution S) supporting a goal (Goal G)
 
 T106 Model: Single goal (Goal G) with a context (Context C)
      Crit:  Context C
-     Slice: Context C and Goal G
+     Slice: Context C and Goal G (and Solution Sol)
 
 T107 Model: Single goal (Goal G) with ancestors and a context (Context C)
      Crit:  Context C 
-     Slice: Context C and Goal G
+     Slice: Context C and Goal G (and Solution Sol)
 
 T108 Model: Single goal (Goal G) with Strategy S, sub-goals and Context C
      Crit:  Context C
      Slice: Context C, Goal G and all its descendants
 
-T109 Model: Single goal (Goal G) with Solution S and Context C
-     Crit:  Context C
-     Slice: Context C, Goal G and Solution S
-
-T110 Model: Strategy S with parent and sub-goals and Context C
+T109 Model: Strategy S with parent and sub-goals and Context C
      Crit:  Context C
      Slice: Context C, Strategy S and its descendants
 
-T111 Model: Context C associated with multiple goals and strategies
+T110 Model: Context C associated with multiple goals and strategies
      Crit:  Context C
      Slice: Context C, all associated nodes and their descendants
 
@@ -84,12 +80,12 @@ T111 Model: Context C associated with multiple goals and strategies
 (Note: Ill-formed GSN assurance cases may be used in these tests.)
 
 T201 Model: Cycle of goals and strategies.
-            G1 supported by S1, S1 by G2, G2 by S2, S2 by G1 
+            G1 supported by S1, S1 by G2, G2 by S2, etc.
      Crit:  Goal G1
-     Slice: Goal G1 and Strategies S1 and S2
+     Slice: Goal G1 and Strategies S1 and S3
 
 T202 Model: Cycle of goals and strategies
-            G1 supported by S1, S1 by G2, G2 by S2, S2 by G1 
+            G1 supported by S1, S1 by G2, G2 by S2, etc.
      Crit:  Strategy S1
      Slice: Strategy S1 and Goals G1 and G2
 
@@ -107,35 +103,39 @@ T204 Model: Cycle of goals and strategies with Context C on S1
 --- G03 Tests for Other Implementation Details ---
 (Note: Some of these tests may involve models that are not well-formed.)
 
-T301 Model: Single strategy only (Strategy S)
+T301 Model: Single goal only (Goal G)
+     Crit:  Goal G
+     Slice: Goal G
+
+T302 Model: Single strategy only (Strategy S)
      Crit:  Strategy S
      Slice: Strategy S
 
-T302 Model: Single solution only (Solution Sol)
+T303 Model: Single solution only (Solution Sol)
      Crit:  Solution Sol
      Slice: Solution Sol
 
-T303 Model: Single context only (Context C)
+T304 Model: Single context only (Context C)
      Crit:  Context C
      Slice: Context C
 
-T304 Model: Single context (Context C) with strategy (Strategy S) only
+T305 Model: Single context (Context C) with strategy (Strategy S) only
      Crit:  Context C
      Slice: Context C and Strategy S
 
-T305 Model: Two independent goals with the same name (Goal G)
+T306 Model: Two independent goals with the same name (Goal G)
      Crit:  Goal G (One of the two)
      Slice: Goal G (The same one as in the slicing criteria)
 
-T306 Model: Two independent strategies with the same name (Strategy S)
+T307 Model: Two independent strategies with the same name (Strategy S)
      Crit:  Strategy S (One of the two)
      Slice: Strategy S (The same one)
 
-T307 Model: Two independent solutions with the same name (Solution Sol)
+T308 Model: Two independent solutions with the same name (Solution Sol)
      Crit:  Solution Sol (One of the two)
      Slice: Solution Sol (The same one)
 
-T308 Model: Two independent contexts with the same name (Context C)
+T309 Model: Two independent contexts with the same name (Context C)
      Crit:  Context C (One of the two)
      Slice: Context C (The same one)
 
