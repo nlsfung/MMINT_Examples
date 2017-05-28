@@ -36,7 +36,7 @@ remaining two digits ("23") identifies the test case within that group.
 --- G01 Tests for Specific Dependency Rule ---
 (Note: Some models for these tests may not be well-formed.)
 
-T101 Model: Single goal (Goal G)
+T101 Model: Single goal (Goal G) connected to a solution (Solution Sol)
      Crit:  Goal G
      Slice: Goal G
 
@@ -57,10 +57,10 @@ T105 Model: Single solution (Solution Sol) supporting a goal (Goal G)
      Crit:  Solution Sol
      Slice: Goal G
 
-T106 Model: Single Solution Sol supporting chain of goals and strategies
-			G1 supported by S1, S1 by G2, G2 by Sol
-     Crit:  Solution Sol
-     Slice: Solution Gol, Goals G1 and G2 and Strategy S1
+T106 Model: Single Solution Sol1 supporting chain of goals and strategies
+            G1 supported by S1, S1 by G2, G2 by Sol1
+     Crit:  Solution Sol1
+     Slice: Solution Sol1, Goals G1 and G2 and Strategy S1
 
 T107 Model: Single context (Context C) connected to some goals and strategies
      Crit:  Context C
@@ -71,9 +71,9 @@ T107 Model: Single context (Context C) connected to some goals and strategies
 (Note: Ill-formed GSN assurance cases may be used in these tests.)
 
 T201 Model: Cycle of goals and strategies
-			G1 supported by S1, S1 by G2, G2 by S2, S2 by G1
+            G1 supported by S1, S1 by G2, G2 by S2, etc. 
      Crit:  Goal G1
-     Slice: Goals G1 and G2
+     Slice: All goals in the cycle
 
 T202 Model: Single solution (Solution Sol) supporting a goal (Goal G)
      Crit:  Goal G and Solution Sol (in order)
@@ -101,7 +101,7 @@ T304 Model: Two independent strategies with the same name (Strategy S)
 
 T305 Model: Two independent solutions with the same name (Solution Sol)
      Crit:  Solution Sol (One of the two)
-     Slice: Solution Sol (The same one)
+     Slice: Solution Sol (The same one) and its conclusions
 
 T306 Model: Two independent contexts with the same name (Context C)
      Crit:  Context C (One of the two)
