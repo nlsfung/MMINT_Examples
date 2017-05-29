@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<icse15_sequencediagram_mavo:SequenceDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:icse15_sequencediagram_mavo="http://se.cs.toronto.edu/modelepedia/ICSE15_SequenceDiagram_MAVO">
+  <lifelines name="a" messagesAsSource="//@messages.0/@sourceLifeline.0">
+    <class target="//@classes.0"/>
+  </lifelines>
+  <lifelines name="b" messagesAsTarget="//@messages.0/@targetLifeline.0">
+    <class target="//@classes.1"/>
+  </lifelines>
+  <classes name="A" lifelines="//@lifelines.0/@class.0">
+    <attributes name="attrA" messages="//@messages.0/@attributes.0" />
+    <operations name="opA" messages="//@messages.0/@operation.0" />
+  </classes>
+  <classes name="B" lifelines="//@lifelines.1/@class.0">
+    <attributes name="attrB" messages="//@messages.0/@attributes.1" />
+    <operations name="opB" messages="//@messages.0/@operation.1" />
+  </classes>
+  <messages name="msgA2B (w/ attrA, opA, attrB, opB)">
+    <attributes target="//@classes.0/@attributes.0" />
+    <attributes target="//@classes.1/@attributes.0" />
+    <operation target="//@classes.0/@operations.0" />
+    <operation target="//@classes.1/@operations.0" />
+    <sourceLifeline target="//@lifelines.0" />
+    <targetLifeline target="//@lifelines.1" />
+  </messages>
+</icse15_sequencediagram_mavo:SequenceDiagram>
