@@ -6,5 +6,5 @@
   <classes name="B" dependenciesAsDependee="//@dependencies.0">
     <ownedOperations name="op1" />
   </classes> 
-  <dependencies depedender="//@classes.0" dependee="//@classes.1" />
+  <dependencies depender="//@classes.0" dependee="//@classes.1" />
 </classdiagram:ClassDiagram>
