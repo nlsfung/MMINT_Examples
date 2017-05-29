@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="A" dependenciesAsDepender="//@dependencies.0">
+    <ownedAttributes name="attr1" />
+  </classes>
+  <classes name="B" dependenciesAsDependee="//@dependencies.0">
+    <ownedOperations name="op1" />
+  </classes> 
+  <dependencies depedender="//@classes.0" dependee="//@classes.1" />
+</classdiagram:ClassDiagram>

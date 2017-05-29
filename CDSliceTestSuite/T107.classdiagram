@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="A" associationsAsTarget="//@associations.0 //@associations.1 //@associations.2"/>
+  <classes name="B" associationsAsSource="//@associations.0" />
+  <classes name="C" associationsAsSource="//@associations.1" />
+  <classes name="D" associationsAsSource="//@associations.2" />
+  <associations name="assocB2A" target="//@classes.0" source="//@classes.1" />
+  <associations name="assocC2A" target="//@classes.0" source="//@classes.2" />
+  <associations name="assocD2A" target="//@classes.0" source="//@classes.3" />
+</classdiagram:ClassDiagram>

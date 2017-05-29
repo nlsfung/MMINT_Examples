@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="A" associationsAsSource="//@associations.0" associationsAsTarget="//@associations.1" dependenciesAsDependee="//@dependencies.0" dependenciesAsDepender="//@dependencies.1">
+    <ownedAttributes name="attrA" />
+    <ownedOperations name="opA" />
+  </classes>
+  <classes name="B" associationsAsTarget="//@associations.0" />
+  <classes name="C" associationsAsSource="//@associations.1">
+    <ownedAttributes name="attrC" />
+  </classes>
+  <classes name="D" dependenciesAsDepender="//@dependencies.0">
+    <ownedOperations name="opD" />
+  </classes>
+  <classes name="E" dependenciesAsDependee="//@dependencies.1" />
+  <associations name="assocA2B" source="//@classes.0" target="//@classes.1" />
+  <associations name="assocC2A" source="//@classes.2" target="//@classes.0" />
+  <dependencies dependee="//@classes.0" depender="//@classes.3" />
+  <dependencies dependee="//@classes.4" depender="//@classes.0" />
+</classdiagram:ClassDiagram>

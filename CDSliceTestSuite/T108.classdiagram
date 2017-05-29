@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="A" dependenciesAsDependee="//@dependencies.0 //@dependencies.1 //@dependencies.2"/>
+  <classes name="B" dependenciesAsDepender="//@dependencies.0" />
+  <classes name="C" dependenciesAsDepender="//@dependencies.1" />
+  <classes name="D" dependenciesAsDepender="//@dependencies.2" />
+  <dependencies dependee="//@classes.0" depender="//@classes.1" />
+  <dependencies dependee="//@classes.0" depender="//@classes.2" />
+  <dependencies dependee="//@classes.0" depender="//@classes.3" />
+</classdiagram:ClassDiagram>
