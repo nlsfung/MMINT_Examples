@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
+  <elements xsi:type="gsn:Goal" id="G1" name="G1" supports="//@elements.5" supportedBy="//@elements.1" inContextOf="//@elements.6" />
+  <elements xsi:type="gsn:Strategy" id="S1" name="S1" supports="//@elements.0" supportedBy="//@elements.2" />
+  <elements xsi:type="gsn:Goal" id="G2" name="G2" supports="//@elements.1" supportedBy="//@elements.3" />
+  <elements xsi:type="gsn:Strategy" id="S2" name="S2" supports="//@elements.2" supportedBy="//@elements.4" />
+  <elements xsi:type="gsn:Goal" id="G3" name="G3" supports="//@elements.3" supportedBy="//@elements.5" />
+  <elements xsi:type="gsn:Strategy" id="S3" name="S3" supports="//@elements.4" supportedBy="//@elements.0" />
+  <elements xsi:type="gsn:Context" id="C" name="C" contextOf="//@elements.0" />
+</gsn:SafetyCase>

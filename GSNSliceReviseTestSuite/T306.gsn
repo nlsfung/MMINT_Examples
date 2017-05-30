@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
+  <elements xsi:type="gsn:Goal" id="G" name="G" supportedBy="//@elements.1" />
+  <elements xsi:type="gsn:Solution" id="Sol1" name="Sol1" supports="//@elements.0" />
+  <elements xsi:type="gsn:Goal" id="G" name="G" supportedBy="//@elements.3" />
+  <elements xsi:type="gsn:Solution" id="Sol2" name="Sol2" supports="//@elements.2" />
+</gsn:SafetyCase>
