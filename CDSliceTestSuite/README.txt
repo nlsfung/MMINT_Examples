@@ -62,13 +62,13 @@ R02: Class => Owned attributes and operations AND
               Attributes and operations whose type is the class AND
               Results of applying R02 to R06 to the sliced elements
 R03: Association => Source and target classes
-                    Results of applying R02 to R06 to the sliced elements 
+                    Results of applying R02 to the newly sliced classes 
 R04: Dependency => Dependee and depender classes
-                   Results of applying R02 to R06 to the sliced elements
+                   Results of applying R02 to the newly sliced classes
 R05: Attribute => The owner class
-                  Results of applying R02 to R06 to the sliced elements
+                  Results of applying R02 to the newly sliced class
 R06: Operation => The owner class
-                  Results of applying R02 to R06 to the sliced elements
+                  Results of applying R02 to the newly sliced class
 
 
 --- G01 Tests for Specific Dependency Rule ---
