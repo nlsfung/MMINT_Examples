@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <notation:Diagram xmi:id="_87TYoElWEeezo9MhYC8BMg" type="MID" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_UZnU0EllEeezo9MhYC8BMg" type="2002">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UZnU1UllEeezo9MhYC8BMg" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_UZnU1kllEeezo9MhYC8BMg" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UZnU0UllEeezo9MhYC8BMg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_UZnU0kllEeezo9MhYC8BMg" fontName="Cantarell"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_UZnU00llEeezo9MhYC8BMg" hint="Mid"/>
+      <element xmi:type="mavomid:MAVOModel" href="../Mid/T105.mid#//@models.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UZnU1EllEeezo9MhYC8BMg" y="120"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_UZn74EllEeezo9MhYC8BMg" type="2003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UZn75UllEeezo9MhYC8BMg" type="5005"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_UZoi8EllEeezo9MhYC8BMg" type="5006"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_UZn74UllEeezo9MhYC8BMg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_UZn74kllEeezo9MhYC8BMg" fontName="Cantarell"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_UZn740llEeezo9MhYC8BMg" diagramLink="_VuKF4EllEeezo9MhYC8BMg" hint="Relationship"/>
+      <element xmi:type="relationship:ModelRel" href="../Mid/T105.mid#//@models.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UZn75EllEeezo9MhYC8BMg" x="64"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_87TYoUlWEeezo9MhYC8BMg"/>
+    <element xmi:type="mid:MID" href="../Mid/T105.mid#/"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_VuKF4EllEeezo9MhYC8BMg" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_VuKF4UllEeezo9MhYC8BMg"/>
+    <element xmi:type="relationship:ModelRel" href="../Mid/T105.mid#//@models.1"/>
+  </notation:Diagram>
+</xmi:XMI>
