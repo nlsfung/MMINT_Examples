@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models xsi:type="mavomid:MAVOModel" uri="/SDSliceTestSuite/T303.icse15_sequencediagram_mavo" name="T303" metatypeUri="http://se.cs.toronto.edu/modelepedia/ICSE15_SequenceDiagram_MAVO" dynamic="true" fileExtension="icse15_sequencediagram_mavo" editors="//@editors.0">
+    <modelElems uri="/SDSliceTestSuite/T303.icse15_sequencediagram_mavo#//@classes.0/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[operations->] Operation opA" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Operation" featureName="operations" relatedClassName="Class"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="criteria" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="T303" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/SDSliceTestSuite/T303.icse15_sequencediagramdiag_mavo" name="ICSE15_SequenceDiagram_MAVO diagram for model /SDSliceTestSuite/T303.icse15_sequencediagram_mavo" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ICSE15_SequenceDiagram_MAVO" dynamic="true" modelUri="/SDSliceTestSuite/T303.icse15_sequencediagram_mavo" id="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVODiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVOCreationWizardID">
+    <fileExtensions>icse15_sequencediagramdiag_mavo</fileExtensions>
+  </editors>
+  <extendibleTable key="/SDSliceTestSuite/T303.icse15_sequencediagram_mavo" value="//@models.0"/>
+  <extendibleTable key="/SDSliceTestSuite/T303.icse15_sequencediagram_mavo#//@classes.0/@operations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+</mid:MID>

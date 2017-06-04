@@ -93,8 +93,8 @@ T203 Model: Single lifeline (Lifeline a) with message from and to it
 
 T204 Model: Single attribute (attrA) with message (msgA2B) referring to it
             Messages originate from and point to arbitrary lifelines
-     Crit:  Message msgA2B** and Attribute attrA (in order)
-     Slice: Message msgA2B** and Attribute attrA
+     Crit:  Message msgA2B and Attribute attrA (in order)
+     Slice: Message msgA2B and Attribute attrA
 
 T205 Model: Single operation (opA) with message (msgB2A) referring to it
             Messages originate from and point to arbitrary lifelines
