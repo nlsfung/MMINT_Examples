@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
-r <models uri="/CDSliceTestSuite/ClassDiagram/T207.classdiagram" name="T207" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.0">
+  <models uri="/CDSliceTestSuite/ClassDiagram/T207.classdiagram" name="T207" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.0">
     <modelElems uri="/CDSliceTestSuite/ClassDiagram/T207.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
     </modelElems>
@@ -15,9 +15,20 @@ r <models uri="/CDSliceTestSuite/ClassDiagram/T207.classdiagram" name="T207" met
       <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
     </modelEndpointRefs>
   </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="T207" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
   <editors xsi:type="editor:Diagram" uri="/CDSliceTestSuite/ClassDiagramDiag/T207.classdiagramdiag" name="ClassDiagram diagram for model /CDSliceTestSuite/ClassDiagram/T207.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/CDSliceTestSuite/ClassDiagram/T207.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
     <fileExtensions>classdiagramdiag</fileExtensions>
   </editors>
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1139880">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  </operators>
   <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T207.classdiagram" value="//@models.0"/>
   <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T207.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
   <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T207.classdiagram#//@classes.1/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
