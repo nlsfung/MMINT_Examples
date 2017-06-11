@@ -4,6 +4,24 @@
     <modelElems uri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
     </modelElems>
+    <modelElems uri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency C 2 A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@dependencies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency B 2 A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@dependencies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[dependencies->] Dependency D 2 A" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Dependency" featureName="dependencies" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class D" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class B" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="criteria" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="T108" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
@@ -14,16 +32,28 @@
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="T108" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.6" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <editors xsi:type="editor:Diagram" uri="/CDSliceTestSuite/ClassDiagramDiag/T108.classdiagramdiag" name="ClassDiagram diagram for model /CDSliceTestSuite/ClassDiagram/T108.classdiagram" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ClassDiagram" dynamic="true" modelUri="/CDSliceTestSuite/ClassDiagram/T108.classdiagram" id="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramDiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.classdiagram.diagram.part.ClassDiagramCreationWizardID">
     <fileExtensions>classdiagramdiag</fileExtensions>
   </editors>
-  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1370199">
+  <operators uri="" name="CDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="3771000">
     <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
     <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
   </operators>
   <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram" value="//@models.0"/>
   <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@dependencies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@dependencies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@dependencies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/CDSliceTestSuite/ClassDiagram/T108.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
 </mid:MID>
