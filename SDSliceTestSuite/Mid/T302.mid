@@ -4,6 +4,12 @@
     <modelElems uri="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo#//@classes.0/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute attrA" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Attribute" featureName="attributes" relatedClassName="Class"/>
     </modelElems>
+    <modelElems uri="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo#//@messages.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[messages->] Message msgA2B (w/ attrA from A)" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo#//@messages.0/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="AttributeReference" featureName="attributes" relatedClassName="Message"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="criteria" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="T302" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
@@ -11,9 +17,23 @@
       <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
     </modelEndpointRefs>
   </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="T302" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
   <editors xsi:type="editor:Diagram" uri="/SDSliceTestSuite/SequenceDiagramDiag/T302.icse15_sequencediagramdiag_mavo" name="ICSE15_SequenceDiagram_MAVO diagram for model /SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo" metatypeUri="http://se.cs.toronto.edu/modelepedia/Diagram_ICSE15_SequenceDiagram_MAVO" dynamic="true" modelUri="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo" id="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVODiagramEditorID" wizardId="edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.diagram.part.ICSE15_SequenceDiagram_MAVOCreationWizardID">
     <fileExtensions>icse15_sequencediagramdiag_mavo</fileExtensions>
   </editors>
+  <operators uri="" name="SDSlice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_SDSlice" dynamic="true" updateMID="true" executionTime="46316353">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_SDSlice-SDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_SDSlice-SDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  </operators>
   <extendibleTable key="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo" value="//@models.0"/>
   <extendibleTable key="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo#//@classes.0/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo#//@messages.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/SDSliceTestSuite/SequenceDiagram/T302.icse15_sequencediagram_mavo#//@messages.0/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
 </mid:MID>
