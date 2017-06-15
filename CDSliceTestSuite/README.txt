@@ -6,8 +6,8 @@ Nick Fung
 This is a documentation of the test cases for the class diagram slicer 
 (CDSlice.java), which were designed with the intention to cover all possible 
 ways of satisfying and falsifying each condition in the slicing algorithm. 
-Each test case is assigned an unique number and a group according to its 
-purpose, whether it mainly tests:
+Each test case is assigned an unique number and is divided into four different 
+groups according to its purpose, whether it mainly tests:
 
 G1 A specific dependency rule in the slicing algorithm,
 G2 The recursiveness of the algorithm,
@@ -15,11 +15,8 @@ G3 Other implementation details (e.g. handling of null pointers), or
 G4 The overall slicing algorithm.
 
 At the moment, the test cases mainly focus on one specific condition each, 
-thus combinations (e.g. pairs and triples) of conditions are not well-
-represented by the test suite. For details about the correspondence between 
-each condition and each test case, please refer to TestSuite.xls. This 
-document divides the test cases into the four groups and for each test case 
-describes what its input model and slicing criteria are as well as its output. 
+thus it should be noted that combinations of conditions (e.g. pairs and 
+triples) are not well-represented by the test suite. 
 
 
 --- Format of Test Case Description ---
@@ -57,13 +54,12 @@ R01: Class Diagram => Everything in class diagram
 R02: Class => Owned attributes and operations AND
               Associations whose source and/or target is the class AND
               Dependencies whose depender and/or dependee is the class AND 
-              Sub-classes AND
-              Nested classes AND
+              Sub-classes and nested classes AND
               Attributes and operations whose type is the class AND
               Results of applying R02 to R06 to the sliced elements
-R03: Association => Source and target classes
+R03: Association => Source class
                     Results of applying R02 to the newly sliced classes 
-R04: Dependency => Dependee and depender classes
+R04: Dependency => Depender class
                    Results of applying R02 to the newly sliced classes
 R05: Attribute => The owner class
                   Results of applying R02 to the newly sliced class
@@ -96,7 +92,7 @@ T105 Model: Single class (Class A) with operations only
 T106 Model: Single class (Class A) with associations only
             All associations have Class A as their source
      Crit:  Class A
-     Slice: Class A, its associations and associated classes
+     Slice: Class A and its associations
 
 T107 Model: Single class (Class A) with associations only
             All associations have Class A as their target
@@ -104,14 +100,14 @@ T107 Model: Single class (Class A) with associations only
      Slice: Class A, its associations and associated classes
 
 T108 Model: Single class (Class A) with dependencies only
-            All dependencies have Class A as their depender
+            All dependencies have Class A as their dependee
      Crit:  Class A
      Slice: Class A, its dependencies and associated classes
 
 T109 Model: Single class (Class A) with dependencies only
-            All dependencies have Class A as their dependee
+            All dependencies have Class A as their depender
      Crit:  Class A
-     Slice: Class A, its dependencies and associated classes
+     Slice: Class A and its dependencies
 
 T110 Model: Two independent empty classes (Class A & B)
      Crit:  Class A
@@ -147,15 +143,15 @@ T116 Model: Single class (Class A) with one or more operations
 
 T117 Model: Single class (Class A) with single association (assocA2B) 
      Crit:  Association assocA2B
-     Slice: Association assocA2B and slice of its associated classes 
+     Slice: Association assocA2B and slice of its source class 
 
 T118 Model: Single class (Class A) with single dependency (dependA)
      Crit:  Dependency dependA
-     Slice: Dependency dependA and slice of its associated classes
+     Slice: Dependency dependA and slice of its depender class
 
 T119 Model: Single class (Class A) with nested class (Class Nested)
      Crit:  Class Nested
-     Slice: Class Nested
+     Slice: Class Nested and slice of the class its nested in.
 
 T120 Model: Single class (Class A) with sub-class (Class SubA)
      Crit:  Class SubA
