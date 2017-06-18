@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <elements xsi:type="gsn:Goal" id="G2" name="G2" supportedBy="//@elements.1"/>
-  <elements xsi:type="gsn:Strategy" id="S" name="S" supports="//@elements.0" supportedBy="//@elements.2" />
-  <elements xsi:type="gsn:Goal" id="G1" name="G1" supports="//@elements.1" supportedBy="//@elements.3" />
-  <elements xsi:type="gsn:Solution" id="Sol" name="Sol" supports="//@elements.2" />
+  <goals id="G2" name="G2"  >
+    <supportedBy/>
+  </goals>
+  <strategies id="S" name="S" supports="//@goals.0/@supportedBy"  >
+    <supportedBy/>
+  </strategies>
+  <goals id="G1" name="G1" supports="//@strategies.0/@supportedBy"   >
+    <supportedBy/>
+  </goals>
+  <solutions id="Sol" name="Sol" supports="//@goals.1/@supportedBy" />
 </gsn:SafetyCase>

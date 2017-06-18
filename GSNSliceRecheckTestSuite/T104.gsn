@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <elements xsi:type="gsn:Goal" id="G" name="G" supportedBy="//@elements.1" />
-  <elements xsi:type="gsn:Strategy" id="S" name="S" supports="//@elements.0" supportedBy="//@elements.2 //@elements.3" inContextOf="//@elements.4" />
-  <elements xsi:type="gsn:Goal" id="SubG1" name="SubG1" supports="//@elements.1" supportedBy="//@elements.5" />
-  <elements xsi:type="gsn:Goal" id="SubG2" name="SubG2" supports="//@elements.1" supportedBy="//@elements.6" />
-  <elements xsi:type="gsn:Context" id="C" name="C" contextOf="//@elements.1" />
-  <elements xsi:type="gsn:Solution" id="Sol1" name="Sol1" supports="//@elements.2" />
-  <elements xsi:type="gsn:Solution" id="Sol2" name="Sol2" supports="//@elements.3" />
+  <goals id="G" name="G"  >
+    <supportedBy/>
+  </goals>
+  <strategies id="S" name="S" supports="//@goals.0/@supportedBy">
+    <supportedBy/>
+    <inContextOf/>
+  </strategies>
+  <goals id="SubG1" name="SubG1" supports="//@strategies.0/@supportedBy"  >
+    <supportedBy/>
+  </goals>
+  <goals id="SubG2" name="SubG2" supports="//@strategies.0/@supportedBy"  >
+    <supportedBy/>
+  </goals>
+  <contexts id="C" name="C" contextOf="//@strategies.0/@inContextOf" />
+  <solutions id="Sol1" name="Sol1" supports="//@goals.1/@supportedBy" />
+  <solutions id="Sol2" name="Sol2" supports="//@goals.2/@supportedBy" />
 </gsn:SafetyCase>

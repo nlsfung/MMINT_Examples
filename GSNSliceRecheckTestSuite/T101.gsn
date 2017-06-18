@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <elements xsi:type="gsn:Goal" id="G" name="G" supportedBy="//@elements.1" inContextOf="//@elements.2" />
-  <elements xsi:type="gsn:Solution" id="Sol" name="Sol" supports="//@elements.0" />
-  <elements xsi:type="gsn:Context" id="C" name="C" contextOf="//@elements.0" />
+  <goals id="G" name="G">
+    <supportedBy/>
+    <inContextOf/>
+  </goals>
+  <solutions id="Sol" name="Sol" supports="//@goals.0/@supportedBy" />
+  <contexts id="C" name="C" contextOf="//@goals.0/@inContextOf" />
 </gsn:SafetyCase>

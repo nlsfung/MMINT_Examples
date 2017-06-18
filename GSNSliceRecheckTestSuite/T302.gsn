@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <elements xsi:type="gsn:Solution" id="Sol" name="Sol" />
+  <solutions id="Sol" name="Sol" />
 </gsn:SafetyCase>

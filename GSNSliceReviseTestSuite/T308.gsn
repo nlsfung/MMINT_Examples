@@ -12,6 +12,6 @@
   <goals id="SubG2" name="SubG2" supports="//@strategies.0/@supportedBy"  >
     <supportedBy/>
   </goals>
-  <solutions id="Sol1" name="Sol1" supports="//@goals.1/@supportedBy" />
-  <solutions id="Sol2" name="Sol2" supports="//@goals.2/@supportedBy" />
+  <solutions id="Sol" name="Sol" supports="//@goals.1/@supportedBy" />
+  <solutions id="Sol" name="Sol" supports="//@goals.2/@supportedBy" />
 </gsn:SafetyCase>
