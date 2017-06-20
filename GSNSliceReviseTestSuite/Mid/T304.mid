@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/GSNSliceReviseTestSuite/GSN/T304.gsn" name="T304" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
+    <modelElems uri="/GSNSliceReviseTestSuite/GSN/T304.gsn#//@contexts.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[contexts->] Context C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Context" featureName="contexts" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="criteria" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="T304" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors uri="/GSNSliceReviseTestSuite/GSN/T304.gsn" name="GSN Editor for model /GSNSliceReviseTestSuite/GSN/T304.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/GSNSliceReviseTestSuite/GSN/T304.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
+    <fileExtensions>gsn</fileExtensions>
+  </editors>
+  <extendibleTable key="/GSNSliceReviseTestSuite/GSN/T304.gsn" value="//@models.0"/>
+  <extendibleTable key="/GSNSliceReviseTestSuite/GSN/T304.gsn#//@contexts.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+</mid:MID>

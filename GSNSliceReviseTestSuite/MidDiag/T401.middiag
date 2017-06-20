@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <notation:Diagram xmi:id="_zKh4IFX5Eee8n6_yp7Io-g" type="MID" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_zLeTUFX5Eee8n6_yp7Io-g" type="2002">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zLeTVVX5Eee8n6_yp7Io-g" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zLeTVlX5Eee8n6_yp7Io-g" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLeTUVX5Eee8n6_yp7Io-g"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zLeTUlX5Eee8n6_yp7Io-g" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zLeTU1X5Eee8n6_yp7Io-g" hint="Mid"/>
+      <element xmi:type="mid:Model" href="../Mid/T401.mid#//@models.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLeTVFX5Eee8n6_yp7Io-g" x="20" y="120"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_zLeTV1X5Eee8n6_yp7Io-g" type="2003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zLeTXFX5Eee8n6_yp7Io-g" type="5005"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zLeTXVX5Eee8n6_yp7Io-g" type="5006"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_zLeTWFX5Eee8n6_yp7Io-g"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zLeTWVX5Eee8n6_yp7Io-g" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zLeTWlX5Eee8n6_yp7Io-g" diagramLink="_zxFh0FX5Eee8n6_yp7Io-g" hint="Relationship"/>
+      <element xmi:type="relationship:ModelRel" href="../Mid/T401.mid#//@models.1"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLeTW1X5Eee8n6_yp7Io-g"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zKh4IVX5Eee8n6_yp7Io-g"/>
+    <element xmi:type="mid:MID" href="../Mid/T401.mid#/"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_zxFh0FX5Eee8n6_yp7Io-g" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zxFh0VX5Eee8n6_yp7Io-g"/>
+    <element xmi:type="relationship:ModelRel" href="../Mid/T401.mid#//@models.1"/>
+  </notation:Diagram>
+</xmi:XMI>
