@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_kUDMEFX5Eee8n6_yp7Io-g" type="MID" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship" xmi:id="_kUDMEFX5Eee8n6_yp7Io-g" type="MID" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_9SLGoFYyEeeIR_L6StN4Qw" type="2002">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SLtsFYyEeeIR_L6StN4Qw" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SLtsVYyEeeIR_L6StN4Qw" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9SLGoVYyEeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9SLGolYyEeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9SLGo1YyEeeIR_L6StN4Qw" hint="Mid"/>
+    <element xmi:type="mid:Model" href="../Mid/T107.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9SLGpFYyEeeIR_L6StN4Qw" x="135" y="250"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9SMUwFYyEeeIR_L6StN4Qw" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SMUxVYyEeeIR_L6StN4Qw" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SM70FYyEeeIR_L6StN4Qw" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9SMUwVYyEeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9SMUwlYyEeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9SMUw1YyEeeIR_L6StN4Qw" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="../Mid/T107.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9SMUxFYyEeeIR_L6StN4Qw" x="30" y="130"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_91CRMFY0EeeIR_L6StN4Qw" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_91C4QFY0EeeIR_L6StN4Qw" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_91C4QVY0EeeIR_L6StN4Qw" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_91CRMVY0EeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_91CRMlY0EeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_91CRM1Y0EeeIR_L6StN4Qw" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="../Mid/T107.mid#//@models.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_91CRNFY0EeeIR_L6StN4Qw" x="220" y="130"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_91C4QlY0EeeIR_L6StN4Qw" type="2005">
+    <children xmi:type="notation:DecorationNode" xmi:id="_91DfUFY0EeeIR_L6StN4Qw" type="5009"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_91C4Q1Y0EeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_91C4RFY0EeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_91C4RVY0EeeIR_L6StN4Qw" hint="Mid"/>
+    <element xmi:type="operator:Operator" href="../Mid/T107.mid#//@operators.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_91C4RlY0EeeIR_L6StN4Qw" x="125" y="30"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_kUDMEVX5Eee8n6_yp7Io-g"/>
   <element xmi:type="mid:MID" href="../Mid/T107.mid#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_9SXT4FYyEeeIR_L6StN4Qw" type="4002" source="_9SMUwFYyEeeIR_L6StN4Qw" target="_9SLGoFYyEeeIR_L6StN4Qw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SX68FYyEeeIR_L6StN4Qw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9SX68VYyEeeIR_L6StN4Qw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SX68lYyEeeIR_L6StN4Qw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9SX681YyEeeIR_L6StN4Qw" y="60"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_9SXT4VYyEeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9SXT4lYyEeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <element xmi:type="mid:ModelEndpoint" href="../Mid/T107.mid#//@models.1/@modelEndpoints.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9SXT41YyEeeIR_L6StN4Qw" points="[0, 0, -75, -60]$[75, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9Shr8FYyEeeIR_L6StN4Qw" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9Shr8VYyEeeIR_L6StN4Qw" id="(0.3300970873786408,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_91HwwFY0EeeIR_L6StN4Qw" type="4002" source="_91CRMFY0EeeIR_L6StN4Qw" target="_9SLGoFYyEeeIR_L6StN4Qw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_91HwxFY0EeeIR_L6StN4Qw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_91HwxVY0EeeIR_L6StN4Qw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_91HwxlY0EeeIR_L6StN4Qw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_91Hwx1Y0EeeIR_L6StN4Qw" y="60"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_91HwwVY0EeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_91HwwlY0EeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <element xmi:type="mid:ModelEndpoint" href="../Mid/T107.mid#//@models.2/@modelEndpoints.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_91Hww1Y0EeeIR_L6StN4Qw" points="[0, 0, 76, -60]$[-76, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CSqElY0EeeIR_L6StN4Qw" id="(0.4957983193277311,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CTRIFY0EeeIR_L6StN4Qw" id="(0.6601941747572816,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_91IX0FY0EeeIR_L6StN4Qw" type="4004" source="_91C4QlY0EeeIR_L6StN4Qw" target="_9SMUwFYyEeeIR_L6StN4Qw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_91IX1FY0EeeIR_L6StN4Qw" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_91IX1VY0EeeIR_L6StN4Qw" y="40"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_91IX0VY0EeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_91IX0lY0EeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <element xmi:type="mid:ModelEndpoint" href="../Mid/T107.mid#//@operators.0/@inputs.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_91IX01Y0EeeIR_L6StN4Qw" points="[0, 0, 71, -60]$[-71, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CSDAFY0EeeIR_L6StN4Qw" id="(0.32786885245901637,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CSDAVY0EeeIR_L6StN4Qw" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_91I-4FY0EeeIR_L6StN4Qw" type="4005" source="_91C4QlY0EeeIR_L6StN4Qw" target="_91CRMFY0EeeIR_L6StN4Qw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_91I-5FY0EeeIR_L6StN4Qw" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_91I-5VY0EeeIR_L6StN4Qw" y="40"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_91I-4VY0EeeIR_L6StN4Qw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_91I-4lY0EeeIR_L6StN4Qw" fontName="Cantarell"/>
+    <element xmi:type="mid:ModelEndpoint" href="../Mid/T107.mid#//@operators.0/@outputs.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_91I-41Y0EeeIR_L6StN4Qw" points="[0, 0, -73, -60]$[73, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CSqEFY0EeeIR_L6StN4Qw" id="(0.6639344262295082,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-CSqEVY0EeeIR_L6StN4Qw" id="(0.4957983193277311,0.0)"/>
+  </edges>
 </notation:Diagram>

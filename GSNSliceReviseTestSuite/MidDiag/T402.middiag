@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <notation:Diagram xmi:id="_8kl0QFX4Eee8n6_yp7Io-g" type="MID" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_8q6esFX4Eee8n6_yp7Io-g" type="2002">
       <children xmi:type="notation:DecorationNode" xmi:id="_8q6etVX4Eee8n6_yp7Io-g" type="5003"/>
@@ -8,7 +8,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_8q6eslX4Eee8n6_yp7Io-g" fontName="Ubuntu"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8q6es1X4Eee8n6_yp7Io-g" hint="Mid"/>
       <element xmi:type="mid:Model" href="../Mid/T402.mid#//@models.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8q6etFX4Eee8n6_yp7Io-g" x="20" y="120"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8q6etFX4Eee8n6_yp7Io-g" x="140" y="250"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_8q7FwFX4Eee8n6_yp7Io-g" type="2003">
       <children xmi:type="notation:DecorationNode" xmi:id="_8q7FxVX4Eee8n6_yp7Io-g" type="5005"/>
@@ -17,10 +17,77 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_8q7FwlX4Eee8n6_yp7Io-g" fontName="Ubuntu"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8q7Fw1X4Eee8n6_yp7Io-g" diagramLink="_9ZRZgFX4Eee8n6_yp7Io-g" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="../Mid/T402.mid#//@models.1"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8q7FxFX4Eee8n6_yp7Io-g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8q7FxFX4Eee8n6_yp7Io-g" x="30" y="130"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_FaU5gFYzEeeIR_L6StN4Qw" type="2003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_FaVgkFYzEeeIR_L6StN4Qw" type="5005"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_FaVgkVYzEeeIR_L6StN4Qw" type="5006"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_FaU5gVYzEeeIR_L6StN4Qw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_FaU5glYzEeeIR_L6StN4Qw" fontName="Cantarell"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_FaU5g1YzEeeIR_L6StN4Qw" hint="Relationship"/>
+      <element xmi:type="relationship:ModelRel" href="../Mid/T402.mid#//@models.2"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FaU5hFYzEeeIR_L6StN4Qw" x="225" y="130"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_FaVgklYzEeeIR_L6StN4Qw" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_FaWHoFYzEeeIR_L6StN4Qw" type="5009"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_FaVgk1YzEeeIR_L6StN4Qw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_FaVglFYzEeeIR_L6StN4Qw" fontName="Cantarell"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_FaVglVYzEeeIR_L6StN4Qw" hint="Mid"/>
+      <element xmi:type="operator:Operator" href="../Mid/T402.mid#//@operators.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FaVgllYzEeeIR_L6StN4Qw" x="130" y="30"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_8kl0QVX4Eee8n6_yp7Io-g"/>
     <element xmi:type="mid:MID" href="../Mid/T402.mid#/"/>
+    <edges xmi:type="notation:Edge" xmi:id="_-dBJIFYyEeeIR_L6StN4Qw" type="4002" source="_8q7FwFX4Eee8n6_yp7Io-g" target="_8q6esFX4Eee8n6_yp7Io-g">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-dBwMFYyEeeIR_L6StN4Qw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-dBwMVYyEeeIR_L6StN4Qw" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-dBwMlYyEeeIR_L6StN4Qw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-dBwM1YyEeeIR_L6StN4Qw" y="60"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_-dBJIVYyEeeIR_L6StN4Qw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-dBJIlYyEeeIR_L6StN4Qw" fontName="Cantarell"/>
+      <element xmi:type="mid:ModelEndpoint" href="../Mid/T402.mid#//@models.1/@modelEndpoints.0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-dBJI1YyEeeIR_L6StN4Qw" points="[0, 0, -76, -60]$[76, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BoMEoFYzEeeIR_L6StN4Qw" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BoMrsFYzEeeIR_L6StN4Qw" id="(0.32673267326732675,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_FaeDcFYzEeeIR_L6StN4Qw" type="4002" source="_FaU5gFYzEeeIR_L6StN4Qw" target="_8q6esFX4Eee8n6_yp7Io-g">
+      <children xmi:type="notation:DecorationNode" xmi:id="_FaeqgFYzEeeIR_L6StN4Qw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FaeqgVYzEeeIR_L6StN4Qw" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_FaeqglYzEeeIR_L6StN4Qw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Faeqg1YzEeeIR_L6StN4Qw" y="60"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_FaeDcVYzEeeIR_L6StN4Qw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_FaeDclYzEeeIR_L6StN4Qw" fontName="Cantarell"/>
+      <element xmi:type="mid:ModelEndpoint" href="../Mid/T402.mid#//@models.2/@modelEndpoints.0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FaeDc1YzEeeIR_L6StN4Qw" points="[0, 0, 77, -60]$[-77, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GAKKcFYzEeeIR_L6StN4Qw" id="(0.4957983193277311,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GAKxgFYzEeeIR_L6StN4Qw" id="(0.6633663366336634,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_Faf4oFYzEeeIR_L6StN4Qw" type="4004" source="_FaVgklYzEeeIR_L6StN4Qw" target="_8q7FwFX4Eee8n6_yp7Io-g">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Faf4pFYzEeeIR_L6StN4Qw" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Faf4pVYzEeeIR_L6StN4Qw" y="40"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_Faf4oVYzEeeIR_L6StN4Qw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Faf4olYzEeeIR_L6StN4Qw" fontName="Cantarell"/>
+      <element xmi:type="mid:ModelEndpoint" href="../Mid/T402.mid#//@operators.0/@inputs.0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Faf4o1YzEeeIR_L6StN4Qw" points="[0, 0, 72, -60]$[-72, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GAOb4FYzEeeIR_L6StN4Qw" id="(0.32786885245901637,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GAPC8FYzEeeIR_L6StN4Qw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_FahGwFYzEeeIR_L6StN4Qw" type="4005" source="_FaVgklYzEeeIR_L6StN4Qw" target="_FaU5gFYzEeeIR_L6StN4Qw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Faht0FYzEeeIR_L6StN4Qw" type="6008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Faht0VYzEeeIR_L6StN4Qw" y="40"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_FahGwVYzEeeIR_L6StN4Qw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_FahGwlYzEeeIR_L6StN4Qw" fontName="Cantarell"/>
+      <element xmi:type="mid:ModelEndpoint" href="../Mid/T402.mid#//@operators.0/@outputs.0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FahGw1YzEeeIR_L6StN4Qw" points="[0, 0, -74, -60]$[74, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GAPqAFYzEeeIR_L6StN4Qw" id="(0.6639344262295082,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GAPqAVYzEeeIR_L6StN4Qw" id="(0.4957983193277311,0.0)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_9ZRZgFX4Eee8n6_yp7Io-g" type="Relationship" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_9gSngFX4Eee8n6_yp7Io-g" type="2001">
