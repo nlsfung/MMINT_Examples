@@ -4,6 +4,45 @@
     <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@contexts.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[contexts->] Context C" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Context" featureName="contexts" relatedClassName="SafetyCase"/>
     </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[strategies->] Strategy SuperS" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Strategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SuperG" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sol2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.3/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.1/@inContextOf_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[inContextOf->] In Context Of" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="InContextOf" featureName="inContextOf" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.3/@inContextOf_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[inContextOf->] In Context Of" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="InContextOf" featureName="inContextOf" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SubG" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[strategies->] Strategy SubS" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Strategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="criteria" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="T306" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
@@ -11,9 +50,45 @@
       <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
     </modelEndpointRefs>
   </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="T306" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.11" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.12" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.13" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
   <editors uri="/GSNSliceRecheckTestSuite/GSN/T306.gsn" name="GSN Editor for model /GSNSliceRecheckTestSuite/GSN/T306.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/GSNSliceRecheckTestSuite/GSN/T306.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
     <fileExtensions>gsn</fileExtensions>
   </editors>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerecheck" dynamic="true" updateMID="true" executionTime="7984802">
+    <inputs uri="" name="criterion" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerecheck/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="slice" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerecheck/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  </operators>
   <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn" value="//@models.0"/>
   <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@contexts.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.3/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.1/@inContextOf_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.10"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.3/@inContextOf_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.11"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.12"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T306.gsn#//@strategies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.13"/>
 </mid:MID>
