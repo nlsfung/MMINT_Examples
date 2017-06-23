@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/GSNSliceRecheckTestSuite/GSN/T103.gsn" name="T103" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
+    <modelElems uri="/GSNSliceRecheckTestSuite/GSN/T103.gsn#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal G3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="criteria" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="T103" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors uri="/GSNSliceRecheckTestSuite/GSN/T103.gsn" name="GSN Editor for model /GSNSliceRecheckTestSuite/GSN/T103.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/GSNSliceRecheckTestSuite/GSN/T103.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
+    <fileExtensions>gsn</fileExtensions>
+  </editors>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T103.gsn" value="//@models.0"/>
+  <extendibleTable key="/GSNSliceRecheckTestSuite/GSN/T103.gsn#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+</mid:MID>
