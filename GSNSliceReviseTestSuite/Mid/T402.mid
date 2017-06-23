@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
   <models uri="/GSNSliceReviseTestSuite/GSN/T402.gsn" name="T402" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
-    <modelElems uri="/GSNSliceReviseTestSuite/GSN/T402.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/GSNSliceReviseTestSuite/GSN/T402.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SuperG" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
     <modelElems uri="/GSNSliceReviseTestSuite/GSN/T402.gsn#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
