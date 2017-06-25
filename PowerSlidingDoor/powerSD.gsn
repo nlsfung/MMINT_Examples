@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <elements xsi:type="gsn:Goal" id="SG1" name="SG1 Overall Goal" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True" supportedBy="S1" inContextOf="C1"/>
-  <elements xsi:type="gsn:Strategy" id="S1" name="S1 AND Refinement." description="Decompose by AND refinement." state="Valid" supportedBy="B1 B2 B3 B4 B5 B6" supports="SG1"/>
-  <elements xsi:type="gsn:Goal" id="B1" name="B1 Sub-Goal 1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." state="True" supportedBy="Sn1" inContextOf="C1_1" supports="S1"/>
-  <elements xsi:type="gsn:Goal" id="B2" name="B2 Sub-Goal 2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." state="True" supportedBy="Sn2" inContextOf="C1_2" supports="S1"/>
-  <elements xsi:type="gsn:Goal" id="B3" name="B3 Sub-Goal 3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." state="True" supportedBy="Sn3" inContextOf="C1_3" supports="S1"/>
-  <elements xsi:type="gsn:Goal" id="B4" name="B4 Sub-Goal 4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." state="True" supportedBy="Sn4" inContextOf="C1_4" supports="S1"/>
-  <elements xsi:type="gsn:Goal" id="B5" name="B5 Sub-Goal 5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." state="True" supportedBy="Sn5" inContextOf="C1_5" supports="S1"/>
-  <elements xsi:type="gsn:Goal" id="B6" name="B6 Sub-Goal 6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." state="True" supportedBy="Sn6" inContextOf="C1_6" supports="S1"/>
-  <elements xsi:type="gsn:Solution" id="Sn1" name="Sn1 Solution for B1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." state="Valid" supports="B1"/>
-  <elements xsi:type="gsn:Solution" id="Sn2" name="Sn2 Solution for B2" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." state="Valid" supports="B2"/>
-  <elements xsi:type="gsn:Solution" id="Sn3" name="Sn3 Solution for B3" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." state="Valid" supports="B3"/>
-  <elements xsi:type="gsn:Solution" id="Sn4" name="Sn4 Solution for B4" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." state="Valid" supports="B4"/>
-  <elements xsi:type="gsn:Solution" id="Sn5" name="Sn5 Solution for B5" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." state="Valid" supports="B5"/>
-  <elements xsi:type="gsn:Solution" id="Sn6" name="Sn6 Solution for B6" description="Expert Judgement." state="Valid" supports="B6"/>
-  <elements xsi:type="gsn:ASIL" id="C1" name="C1 ASIL of SG1" description="" state="Valid" level="C" contextOf="SG1"/>
-  <elements xsi:type="gsn:ASIL" id="C1_1" name="C1_1 ASIL of B1" description="" state="Valid" level="C" contextOf="B1"/>
-  <elements xsi:type="gsn:ASIL" id="C1_2" name="C1_2 ASIL of B2" description="" state="Valid" level="B" contextOf="B2"/>
-  <elements xsi:type="gsn:ASIL" id="C1_3" name="C1_3 ASIL of B3" description="" state="Valid" level="C" contextOf="B3"/>
-  <elements xsi:type="gsn:ASIL" id="C1_4" name="C1_4 ASIL of B4" description="" state="Valid" level="A" contextOf="B4"/>
-  <elements xsi:type="gsn:ASIL" id="C1_5" name="C1_5 ASIL of B5" description="" state="Valid" level="C" contextOf="B5"/>
-  <elements xsi:type="gsn:ASIL" id="C1_6" name="C1_6 ASIL of B6" description="" state="Valid" level="C" contextOf="B6"/>
+<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
+  <goals id="SG1" name="SG1 Overall Goal" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True">
+    <supportedBy premises="//@strategies.0"/>
+    <inContextOf contexts="//@ASILLevels.0"/>
+  </goals>
+  <goals id="B1" name="B1 Sub-Goal 1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." supports="//@strategies.0/@supportedBy" state="True">
+    <supportedBy premises="//@solutions.0"/>
+    <inContextOf contexts="//@ASILLevels.1"/>
+  </goals>
+  <goals id="B2" name="B2 Sub-Goal 2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." supports="//@strategies.0/@supportedBy" state="True">
+    <supportedBy premises="//@solutions.1"/>
+    <inContextOf contexts="//@ASILLevels.2"/>
+  </goals>
+  <goals id="B3" name="B3 Sub-Goal 3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." supports="//@strategies.0/@supportedBy" state="True">
+    <supportedBy premises="//@solutions.2"/>
+    <inContextOf contexts="//@ASILLevels.3"/>
+  </goals>
+  <goals id="B4" name="B4 Sub-Goal 4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." supports="//@strategies.0/@supportedBy" state="True">
+    <supportedBy premises="//@solutions.3"/>
+    <inContextOf contexts="//@ASILLevels.4"/>
+  </goals>
+  <goals id="B5" name="B5 Sub-Goal 5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." supports="//@strategies.0/@supportedBy" state="True">
+    <supportedBy premises="//@solutions.4"/>
+    <inContextOf contexts="//@ASILLevels.5"/>
+  </goals>
+  <goals id="B6" name="B6 Sub-Goal 6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." supports="//@strategies.0/@supportedBy" state="True">
+    <supportedBy premises="//@solutions.5"/>
+    <inContextOf contexts="//@ASILLevels.6"/>
+  </goals>
+  <strategies id="S1" name="S1 AND Refinement." description="Decompose by AND refinement." supports="//@goals.0/@supportedBy" state="Valid">
+    <supportedBy premises="//@goals.1 //@goals.2 //@goals.3 //@goals.4 //@goals.5 //@goals.6"/>
+  </strategies>
+  <solutions id="Sn1" name="Sn1 Solution for B1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." supports="//@goals.1/@supportedBy" state="Valid"/>
+  <solutions id="Sn2" name="Sn2 Solution for B2" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." supports="//@goals.2/@supportedBy" state="Valid"/>
+  <solutions id="Sn3" name="Sn3 Solution for B3" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." supports="//@goals.3/@supportedBy" state="Valid"/>
+  <solutions id="Sn4" name="Sn4 Solution for B4" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." supports="//@goals.4/@supportedBy" state="Valid"/>
+  <solutions id="Sn5" name="Sn5 Solution for B5" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." supports="//@goals.5/@supportedBy" state="Valid"/>
+  <solutions id="Sn6" name="Sn6 Solution for B6" description="Expert Judgement." supports="//@goals.6/@supportedBy" state="Valid"/>
+  <ASILLevels id="C1" name="C1 ASIL of SG1" description="" contextOf="//@goals.0/@inContextOf" state="Valid" level="C"/>
+  <ASILLevels id="C1_1" name="C1_1 ASIL of B1" description="" contextOf="//@goals.1/@inContextOf" state="Valid" level="C"/>
+  <ASILLevels id="C1_2" name="C1_2 ASIL of B2" description="" contextOf="//@goals.2/@inContextOf" state="Valid" level="B"/>
+  <ASILLevels id="C1_3" name="C1_3 ASIL of B3" description="" contextOf="//@goals.3/@inContextOf" state="Valid" level="C"/>
+  <ASILLevels id="C1_4" name="C1_4 ASIL of B4" description="" contextOf="//@goals.4/@inContextOf" state="Valid" level="A"/>
+  <ASILLevels id="C1_5" name="C1_5 ASIL of B5" description="" contextOf="//@goals.5/@inContextOf" state="Valid" level="C"/>
+  <ASILLevels id="C1_6" name="C1_6 ASIL of B6" description="" contextOf="//@goals.6/@inContextOf" state="Valid" level="C"/>
 </gsn:SafetyCase>
