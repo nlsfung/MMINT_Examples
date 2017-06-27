@@ -8,53 +8,55 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_zoYZMhDWEeefedNXrI4rIQ" fontName="Ubuntu"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zoYZMxDWEeefedNXrI4rIQ" hint="Mid"/>
       <element xmi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zoYZNBDWEeefedNXrI4rIQ" x="132" y="180"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zoYZNBDWEeefedNXrI4rIQ" x="24" y="144"/>
     </children>
-    <children xmi:type="notation:Node" xmi:id="_3XiykBDWEeefedNXrI4rIQ" type="2002">
-      <children xmi:type="notation:DecorationNode" xmi:id="_3XiylRDWEeefedNXrI4rIQ" type="5003"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_3XiylhDWEeefedNXrI4rIQ" type="5004"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_3XiykRDWEeefedNXrI4rIQ"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_3XiykhDWEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_3XiykxDWEeefedNXrI4rIQ" hint="Mid"/>
+    <children xmi:type="notation:Node" xmi:id="_crBQ4FqpEeeS77fpGMCCWQ" type="2002">
+      <children xmi:type="notation:DecorationNode" xmi:id="_crBQ5VqpEeeS77fpGMCCWQ" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_crBQ5lqpEeeS77fpGMCCWQ" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_crBQ4VqpEeeS77fpGMCCWQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_crBQ4lqpEeeS77fpGMCCWQ" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_crBQ41qpEeeS77fpGMCCWQ" hint="Mid"/>
       <element xmi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3XiylBDWEeefedNXrI4rIQ" x="584" y="165"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crBQ5FqpEeeS77fpGMCCWQ" x="276" y="144"/>
     </children>
-    <children xmi:type="notation:Node" xmi:id="_5YGVEBDWEeefedNXrI4rIQ" type="2003">
-      <children xmi:type="notation:DecorationNode" xmi:id="_5YGVFRDWEeefedNXrI4rIQ" type="5005"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_5YGVFhDWEeefedNXrI4rIQ" type="5006"/>
-      <styles xmi:type="notation:DescriptionStyle" xmi:id="_5YGVERDWEeefedNXrI4rIQ"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_5YGVEhDWEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_5YGVExDWEeefedNXrI4rIQ" diagramLink="_80Pr0BDWEeefedNXrI4rIQ" hint="Relationship"/>
+    <children xmi:type="notation:Node" xmi:id="_crB38FqpEeeS77fpGMCCWQ" type="2003">
+      <children xmi:type="notation:DecorationNode" xmi:id="_crB39VqpEeeS77fpGMCCWQ" type="5005"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_crB39lqpEeeS77fpGMCCWQ" type="5006"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_crB38VqpEeeS77fpGMCCWQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_crB38lqpEeeS77fpGMCCWQ" fontName="Ubuntu"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_crB381qpEeeS77fpGMCCWQ" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="PowerSDMega.mid#//@models.2"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5YGVFBDWEeefedNXrI4rIQ" x="384" y="48"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crB39FqpEeeS77fpGMCCWQ" x="204" y="24"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_dq0VsRDWEeefedNXrI4rIQ"/>
     <element xmi:type="mid:MID" href="PowerSDMega.mid#/"/>
-    <edges xmi:type="notation:Edge" xmi:id="_B5lN8BDXEeefedNXrI4rIQ" type="4002" source="_5YGVEBDWEeefedNXrI4rIQ" target="_zoYZMBDWEeefedNXrI4rIQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_B5l1AxDXEeefedNXrI4rIQ" type="6001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_B5l1BBDXEeefedNXrI4rIQ" y="40"/>
+    <edges xmi:type="notation:Edge" xmi:id="_crEUMFqpEeeS77fpGMCCWQ" type="4002" source="_crB38FqpEeeS77fpGMCCWQ" target="_zoYZMBDWEeefedNXrI4rIQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_crEUNFqpEeeS77fpGMCCWQ" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_crEUNVqpEeeS77fpGMCCWQ" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_B5l1BRDXEeefedNXrI4rIQ" type="6002">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_B5l1BhDXEeefedNXrI4rIQ" y="60"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_crEUNlqpEeeS77fpGMCCWQ" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_crEUN1qpEeeS77fpGMCCWQ" y="60"/>
       </children>
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_B5l1ABDXEeefedNXrI4rIQ"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_B5l1ARDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_crEUMVqpEeeS77fpGMCCWQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_crEUMlqpEeeS77fpGMCCWQ" fontName="Ubuntu"/>
       <element xmi:type="mid:ModelEndpoint" href="PowerSDMega.mid#//@models.2/@modelEndpoints.0"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B5l1AhDXEeefedNXrI4rIQ" points="[-48, 30, 136, -87]$[-138, 114, 46, -3]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B5rUkBDXEeefedNXrI4rIQ" id="(0.7591623036649214,0.45)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_crEUM1qpEeeS77fpGMCCWQ" points="[0, 0, 127, -60]$[-127, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c3xTcFqpEeeS77fpGMCCWQ" id="(0.33116883116883117,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c3xTcVqpEeeS77fpGMCCWQ" id="(0.4973821989528796,0.0)"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_CWPUwBDXEeefedNXrI4rIQ" type="4002" source="_5YGVEBDWEeefedNXrI4rIQ" target="_3XiykBDWEeefedNXrI4rIQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_CWPUxBDXEeefedNXrI4rIQ" type="6001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_CWPUxRDXEeefedNXrI4rIQ" x="-22" y="-22"/>
+    <edges xmi:type="notation:Edge" xmi:id="_crGJYFqpEeeS77fpGMCCWQ" type="4002" source="_crB38FqpEeeS77fpGMCCWQ" target="_crBQ4FqpEeeS77fpGMCCWQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_crGJZFqpEeeS77fpGMCCWQ" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_crGJZVqpEeeS77fpGMCCWQ" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_CWPUxhDXEeefedNXrI4rIQ" type="6002">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_CWPUxxDXEeefedNXrI4rIQ" x="-31" y="-41"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_crGJZlqpEeeS77fpGMCCWQ" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_crGJZ1qpEeeS77fpGMCCWQ" y="60"/>
       </children>
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_CWPUwRDXEeefedNXrI4rIQ"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_CWPUwhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_crGJYVqpEeeS77fpGMCCWQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_crGJYlqpEeeS77fpGMCCWQ" fontName="Ubuntu"/>
       <element xmi:type="mid:ModelEndpoint" href="PowerSDMega.mid#//@models.2/@modelEndpoints.1"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CWPUwxDXEeefedNXrI4rIQ" points="[14, 8, -230, -87]$[95, 125, -149, 30]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CWQi4BDXEeefedNXrI4rIQ" id="(0.6883116883116883,0.8666666666666667)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_crGJY1qpEeeS77fpGMCCWQ" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_crIloFqpEeeS77fpGMCCWQ" id="(0.6623376623376623,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_crIloVqpEeeS77fpGMCCWQ" id="(0.07308970099667775,0.0)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_80Pr0BDWEeefedNXrI4rIQ" type="Relationship" measurementUnit="Pixel">
@@ -67,7 +69,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_FvDqtRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_FvDqsRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_FvDqshDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.0"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FvDqsxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_GNJ78BDXEeefedNXrI4rIQ" type="3001">
@@ -75,7 +76,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_GNJ79RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_GNJ78RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_GNJ78hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.1"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GNJ78xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_GiD08BDXEeefedNXrI4rIQ" type="3001">
@@ -83,7 +83,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_GiEcARDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_GiD08RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_GiD08hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.2"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GiD08xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_G3n1QBDXEeefedNXrI4rIQ" type="3001">
@@ -91,7 +90,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_G3n1RRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_G3n1QRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_G3n1QhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.3"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G3n1QxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_OEXv0BDXEeefedNXrI4rIQ" type="3001">
@@ -99,7 +97,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_OEXv1RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_OEXv0RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OEXv0hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.4"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OEXv0xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_OdyVYBDXEeefedNXrI4rIQ" type="3001">
@@ -107,7 +104,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_OdyVZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_OdyVYRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OdyVYhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.5"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OdyVYxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_SU9bQBDXEeefedNXrI4rIQ" type="3001">
@@ -115,7 +111,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_SU9bRRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_SU9bQRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_SU9bQhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.6"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SU9bQxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_Sq8SUBDXEeefedNXrI4rIQ" type="3001">
@@ -123,7 +118,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_Sq85YRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_Sq8SURDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Sq8SUhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.7"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sq8SUxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_S9kTYBDXEeefedNXrI4rIQ" type="3001">
@@ -131,7 +125,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_S9kTZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_S9kTYRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_S9kTYhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S9kTYxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_fI6O4BDXEeefedNXrI4rIQ" type="3001">
@@ -139,7 +132,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_fI6O5RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_fI6O4RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_fI6O4hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.9"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI6O4xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_fwJ1EBDXEeefedNXrI4rIQ" type="3001">
@@ -147,7 +139,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_fwKcIRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_fwJ1ERDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_fwJ1EhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.10"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fwJ1ExDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_gPElsBDXEeefedNXrI4rIQ" type="3001">
@@ -155,7 +146,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_gPEltRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_gPElsRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_gPElshDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.11"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gPElsxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_gwIEUBDXEeefedNXrI4rIQ" type="3001">
@@ -163,7 +153,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_gwIEVRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_gwIEURDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_gwIEUhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gwIEUxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_hFWGYBDXEeefedNXrI4rIQ" type="3001">
@@ -171,7 +160,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_hFWGZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_hFWGYRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_hFWGYhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.13"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hFWGYxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_wD1e8BDXEeefedNXrI4rIQ" type="3001">
@@ -179,7 +167,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_wD1e9RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_wD1e8RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_wD1e8hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.14"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wD1e8xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_weeMgBDXEeefedNXrI4rIQ" type="3001">
@@ -187,7 +174,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_weeMhRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_weeMgRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_weeMghDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.15"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_weeMgxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_w2fq8BDXEeefedNXrI4rIQ" type="3001">
@@ -195,7 +181,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_w2gSARDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_w2fq8RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_w2fq8hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.16"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w2fq8xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_5hJG4BDXEeefedNXrI4rIQ" type="3001">
@@ -203,7 +188,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_5hJG5RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_5hJG4RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_5hJG4hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.17"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5hJG4xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_6aqv4BDXEeefedNXrI4rIQ" type="3001">
@@ -211,7 +195,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_6aqv5RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_6aqv4RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_6aqv4hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.18"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6aqv4xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_6xk0ABDXEeefedNXrI4rIQ" type="3001">
@@ -219,7 +202,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_6xlbERDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_6xk0ARDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_6xk0AhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0/@modelElemRefs.19"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6xk0AxDXEeefedNXrI4rIQ"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_DrpogRDXEeefedNXrI4rIQ"/>
@@ -227,7 +209,6 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_DroaYRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_DroaYhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:ModelEndpointReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.0"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DroaYxDXEeefedNXrI4rIQ" height="757"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_DrqPkBDXEeefedNXrI4rIQ" type="2001">
@@ -239,7 +220,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_IoLM4BDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_IoKl0RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_IoKl0hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.0"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IoKl0xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_I4KJoBDXEeefedNXrI4rIQ" type="3001">
@@ -247,7 +227,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_I4KwsRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_I4KJoRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_I4KJohDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.1"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I4KJoxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_JIPNABDXEeefedNXrI4rIQ" type="3001">
@@ -255,7 +234,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_JIP0ERDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_JIPNARDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_JIPNAhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.2"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JIPNAxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_JXP5YBDXEeefedNXrI4rIQ" type="3001">
@@ -263,7 +241,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_JXP5ZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_JXP5YRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_JXP5YhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.3"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JXP5YxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_PnDDgBDXEeefedNXrI4rIQ" type="3001">
@@ -271,7 +248,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_PnDDhRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_PnDDgRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_PnDDghDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.4"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PnDDgxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_P5UfQBDXEeefedNXrI4rIQ" type="3001">
@@ -279,7 +255,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_P5UfRRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_P5UfQRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_P5UfQhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.5"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P5UfQxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_VPmAYBDXEeefedNXrI4rIQ" type="3001">
@@ -287,7 +262,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_VPmAZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_VPmAYRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_VPmAYhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.6"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VPmAYxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_VgYOYBDXEeefedNXrI4rIQ" type="3001">
@@ -295,7 +269,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_VgYOZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_VgYOYRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_VgYOYhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.7"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VgYOYxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_VyTr4BDXEeefedNXrI4rIQ" type="3001">
@@ -303,7 +276,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_VyTr5RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_VyTr4RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_VyTr4hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VyTr4xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_k1qWUBDXEeefedNXrI4rIQ" type="3001">
@@ -311,7 +283,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_k1q9YRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_k1qWURDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_k1qWUhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.9"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k1qWUxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_lKkPUBDXEeefedNXrI4rIQ" type="3001">
@@ -319,7 +290,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_lKkPVRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_lKkPURDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_lKkPUhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.10"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lKkPUxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_laN04BDXEeefedNXrI4rIQ" type="3001">
@@ -327,7 +297,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_laOb8RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_laN04RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_laN04hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.11"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_laN04xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_my4Q8BDXEeefedNXrI4rIQ" type="3001">
@@ -335,7 +304,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_my4Q9RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_my4Q8RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_my4Q8hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_my4Q8xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_nK36MBDXEeefedNXrI4rIQ" type="3001">
@@ -343,7 +311,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_nK4hQxDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_nK36MRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_nK4hQBDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.13"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nK4hQRDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_0N9WABDXEeefedNXrI4rIQ" type="3001">
@@ -351,7 +318,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_0N9WBRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_0N9WARDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_0N9WAhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.14"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0N9WAxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_0sTe4BDXEeefedNXrI4rIQ" type="3001">
@@ -359,7 +325,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_0sUF8RDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_0sTe4RDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_0sTe4hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.15"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sTe4xDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_09LzgBDXEeefedNXrI4rIQ" type="3001">
@@ -367,7 +332,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_09LzhRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_09LzgRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_09LzghDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.16"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_09LzgxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_7-14YBDXEeefedNXrI4rIQ" type="3001">
@@ -375,7 +339,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_7-14ZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_7-14YRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_7-14YhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.17"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7-14YxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_8rPrYBDXEeefedNXrI4rIQ" type="3001">
@@ -383,7 +346,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_8rPrZRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_8rPrYRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_8rPrYhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.18"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8rPrYxDXEeefedNXrI4rIQ"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_9ABBgBDXEeefedNXrI4rIQ" type="3001">
@@ -391,7 +353,6 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_9ABokRDXEeefedNXrI4rIQ" type="5002"/>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_9ABBgRDXEeefedNXrI4rIQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_9ABBghDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-          <element xmi:type="relationship:ModelElementReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1/@modelElemRefs.19"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ABBgxDXEeefedNXrI4rIQ"/>
         </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_DrqPlxDXEeefedNXrI4rIQ"/>
@@ -399,11 +360,9 @@
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_DrqPkRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_DrqPkhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:ModelEndpointReference" href="PowerSDMega.mid#//@models.2/@modelEndpointRefs.1"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DrqPkxDXEeefedNXrI4rIQ" x="576" height="757"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_80Pr0RDWEeefedNXrI4rIQ"/>
-    <element xmi:type="relationship:ModelRel" href="PowerSDMega.mid#//@models.2"/>
     <edges xmi:type="notation:Edge" xmi:id="_K7IuABDXEeefedNXrI4rIQ" type="4003" source="_FvDqsBDXEeefedNXrI4rIQ" target="_IoKl0BDXEeefedNXrI4rIQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_K7IuBBDXEeefedNXrI4rIQ" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_K7IuBRDXEeefedNXrI4rIQ" y="40"/>
@@ -419,7 +378,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_K7IuARDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_K7IuAhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.0"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K7IuAxDXEeefedNXrI4rIQ" points="[75, 1, -365, 2]$[412, 23, -28, 24]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K7RQ4BDXEeefedNXrI4rIQ" id="(0.804177545691906,0.5208333333333334)"/>
     </edges>
@@ -438,7 +396,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_LSQNgRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_LSQNghDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.1"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LSQNgxDXEeefedNXrI4rIQ" points="[88, 1, -365, -8]$[281, 1, -172, -8]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LSSpwBDXEeefedNXrI4rIQ" id="(0.7702349869451697,0.3125)"/>
     </edges>
@@ -457,7 +414,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_ME8OsRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_ME8OshDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.2"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ME8OsxDXEeefedNXrI4rIQ" points="[192, -5, -365, -5]$[729, -5, 172, -5]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_McqLIBDXEeefedNXrI4rIQ" type="4003" source="_G3n1QBDXEeefedNXrI4rIQ" target="_JXP5YBDXEeefedNXrI4rIQ">
@@ -475,7 +431,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_McqLIRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_McqLIhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.3"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_McqLIxDXEeefedNXrI4rIQ" points="[192, -4, -365, -4]$[613, -24, 56, -24]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_QrNPMBDXEeefedNXrI4rIQ" type="4003" source="_OEXv0BDXEeefedNXrI4rIQ" target="_PnDDgBDXEeefedNXrI4rIQ">
@@ -493,7 +448,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_QrNPMRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_QrNPMhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.4"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QrNPMxDXEeefedNXrI4rIQ" points="[306, -5, -487, 6]$[843, -16, 50, -5]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QrTV0BDXEeefedNXrI4rIQ" id="(0.2010443864229765,0.5)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QrT84BDXEeefedNXrI4rIQ" id="(0.8546511627906976,0.2708333333333333)"/>
@@ -513,7 +467,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_RHoFcRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_RHoFchDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.5"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RHoFcxDXEeefedNXrI4rIQ" points="[308, -6, -508, 0]$[845, -8, 29, -2]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RHqhsBDXEeefedNXrI4rIQ" id="(0.195822454308094,0.5)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RHqhsRDXEeefedNXrI4rIQ" id="(0.9156976744186046,0.375)"/>
@@ -533,7 +486,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_XVCp8RDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_XVCp8hDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.6"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XVCp8xDXEeefedNXrI4rIQ" points="[327, 2, -483, 0]$[864, 0, 54, -2]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XVEfIBDXEeefedNXrI4rIQ" id="(0.1462140992167102,0.3958333333333333)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XVEfIRDXEeefedNXrI4rIQ" id="(0.8430232558139535,0.4375)"/>
@@ -553,7 +505,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_XwtSQRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_XwtSQhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.7"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XwtSQxDXEeefedNXrI4rIQ" points="[324, -7, -487, 0]$[861, -10, 50, -3]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XwvugBDXEeefedNXrI4rIQ" id="(0.15404699738903394,0.5)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XwvugRDXEeefedNXrI4rIQ" id="(0.8546511627906976,0.3541666666666667)"/>
@@ -573,7 +524,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_YP03MRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_YP03MhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.8"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YP03MxDXEeefedNXrI4rIQ" points="[346, -3, -365, 7]$[883, -3, 172, 7]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YP3TcBDXEeefedNXrI4rIQ" id="(0.09660574412532637,0.7083333333333334)"/>
     </edges>
@@ -592,7 +542,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_oUHaMRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_oUHaMhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.9"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oUHaMxDXEeefedNXrI4rIQ" points="[192, -4, -365, -4]$[729, -4, 172, -4]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_oyL2QBDXEeefedNXrI4rIQ" type="4003" source="_fwJ1EBDXEeefedNXrI4rIQ" target="_lKkPUBDXEeefedNXrI4rIQ">
@@ -610,7 +559,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_oyL2QRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_oyL2QhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.10"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oyL2QxDXEeefedNXrI4rIQ" points="[192, 4, -476, 0]$[729, 6, 61, 2]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oyOSgBDXEeefedNXrI4rIQ" id="(0.8226744186046512,0.5833333333333334)"/>
     </edges>
@@ -629,7 +577,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_pRwuMRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_pRwuMhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.11"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pRwuMxDXEeefedNXrI4rIQ" points="[294, -2, -464, 0]$[831, -3, 73, -1]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pRzKcBDXEeefedNXrI4rIQ" id="(0.23237597911227154,0.5208333333333334)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pRzKcRDXEeefedNXrI4rIQ" id="(0.7877906976744186,0.4791666666666667)"/>
@@ -649,7 +596,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_ptm8sRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_ptm8shDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.12"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ptm8sxDXEeefedNXrI4rIQ" points="[192, -4, -365, -4]$[729, -23, 172, -23]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_qQtCsBDXEeefedNXrI4rIQ" type="4003" source="_hFWGYBDXEeefedNXrI4rIQ" target="_nK36MBDXEeefedNXrI4rIQ">
@@ -667,7 +613,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_qQtCsRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_qQtCshDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.13"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qQtCsxDXEeefedNXrI4rIQ" points="[192, 7, -463, 0]$[729, 12, 74, 5]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qQve8BDXEeefedNXrI4rIQ" id="(0.7848837209302325,0.6458333333333334)"/>
     </edges>
@@ -686,7 +631,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_10rcMRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_10rcMhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.14"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_10rcMxDXEeefedNXrI4rIQ" points="[332, 4, -471, 0]$[869, 6, 66, 2]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_10ufgBDXEeefedNXrI4rIQ" id="(0.13315926892950392,0.5)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_10ufgRDXEeefedNXrI4rIQ" id="(0.8081395348837209,0.5833333333333334)"/>
@@ -706,7 +650,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_2X7TMRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_2X7TMhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.15"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2X7TMxDXEeefedNXrI4rIQ" points="[318, 1, -494, 0]$[855, 0, 43, -1]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2YBZ0BDXEeefedNXrI4rIQ" id="(0.16971279373368145,0.4166666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2YBZ0RDXEeefedNXrI4rIQ" id="(0.875,0.4375)"/>
@@ -726,7 +669,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_2968MRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_2968MhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.16"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2968MxDXEeefedNXrI4rIQ" points="[307, 3, -491, 0]$[844, 0, 46, -3]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_299_gBDXEeefedNXrI4rIQ" id="(0.19843342036553524,0.3125)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_299_gRDXEeefedNXrI4rIQ" id="(0.8662790697674418,0.375)"/>
@@ -746,7 +688,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_-bQQcRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_-bQQchDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.17"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-bQQcxDXEeefedNXrI4rIQ" points="[204, 5, -353, 5]$[741, 5, 184, 5]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="__BvosBDXEeefedNXrI4rIQ" type="4003" source="_6aqv4BDXEeefedNXrI4rIQ" target="_8rPrYBDXEeefedNXrI4rIQ">
@@ -764,7 +705,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="__BvosRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="__BvoshDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.18"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__BvosxDXEeefedNXrI4rIQ" points="[204, -8, -353, -8]$[741, -8, 184, -8]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="__iGjwBDXEeefedNXrI4rIQ" type="4003" source="_6xk0ABDXEeefedNXrI4rIQ" target="_9ABBgBDXEeefedNXrI4rIQ">
@@ -782,7 +722,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="__iGjwRDXEeefedNXrI4rIQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="__iGjwhDXEeefedNXrI4rIQ" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.19"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__iGjwxDXEeefedNXrI4rIQ" points="[204, -4, -353, -4]$[684, -24, 127, -24]"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_BD5XICABEee6AKDGHRXrTg" type="4003" source="_FvDqsBDXEeefedNXrI4rIQ" target="_fI6O4BDXEeefedNXrI4rIQ">
@@ -800,7 +739,6 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_BD5XISABEee6AKDGHRXrTg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_BD5XIiABEee6AKDGHRXrTg" fontName="Ubuntu"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDMega.mid#//@models.2/@mappingRefs.20"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BD5XIyABEee6AKDGHRXrTg" points="[-3, 24, -3, -408]$[-203, 432, -203, 0]"/>
     </edges>
   </notation:Diagram>

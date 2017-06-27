@@ -1,22 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_fUnlQB-hEeeAX5566CjnRA" type="MID" measurementUnit="Pixel">
-  <children xmi:type="notation:Node" xmi:id="_fbvg8B-hEeeAX5566CjnRA" type="2001">
-    <children xmi:type="notation:DecorationNode" xmi:id="_fb1nkB-hEeeAX5566CjnRA" type="5001"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_fb1nkR-hEeeAX5566CjnRA" type="5002"/>
-    <styles xmi:type="notation:DescriptionStyle" xmi:id="_fbvg8R-hEeeAX5566CjnRA"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_fbvg8h-hEeeAX5566CjnRA" fontName="Ubuntu"/>
-    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_fbvg8x-hEeeAX5566CjnRA" hint="Mid"/>
-    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fbvg9B-hEeeAX5566CjnRA" y="100"/>
-  </children>
   <children xmi:type="notation:Node" xmi:id="_fb2OoB-hEeeAX5566CjnRA" type="2001">
     <children xmi:type="notation:DecorationNode" xmi:id="_fb2OpR-hEeeAX5566CjnRA" type="5001"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_fb2Oph-hEeeAX5566CjnRA" type="5002"/>
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_fb2OoR-hEeeAX5566CjnRA"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_fb2Ooh-hEeeAX5566CjnRA" fontName="Ubuntu"/>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_fb2Oox-hEeeAX5566CjnRA" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fb2OpB-hEeeAX5566CjnRA" x="24" y="24"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_iQSRMFtiEeepiep17M9KCA" type="2002">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iQSRNVtiEeepiep17M9KCA" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iQSRNltiEeepiep17M9KCA" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_iQSRMVtiEeepiep17M9KCA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iQSRMltiEeepiep17M9KCA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_iQSRM1tiEeepiep17M9KCA" hint="Mid"/>
     <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fb2OpB-hEeeAX5566CjnRA" x="213" y="100"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iQSRNFtiEeepiep17M9KCA" x="240" y="24"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_bOjvUFtsEeepiep17M9KCA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bOjvVVtsEeepiep17M9KCA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bOjvVltsEeepiep17M9KCA" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_bOjvUVtsEeepiep17M9KCA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bOjvUltsEeepiep17M9KCA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_bOjvU1tsEeepiep17M9KCA" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bOjvVFtsEeepiep17M9KCA" x="456" y="24"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_xv6cYFtsEeepiep17M9KCA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xv6cZVtsEeepiep17M9KCA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xv6cZltsEeepiep17M9KCA" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_xv6cYVtsEeepiep17M9KCA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xv6cYltsEeepiep17M9KCA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_xv6cY1tsEeepiep17M9KCA" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xv6cZFtsEeepiep17M9KCA" x="684" y="24"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Rp00QFttEeepiep17M9KCA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Rp00RVttEeepiep17M9KCA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Rp00RlttEeepiep17M9KCA" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Rp00QVttEeepiep17M9KCA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Rp00QlttEeepiep17M9KCA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Rp00Q1ttEeepiep17M9KCA" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rp00RFttEeepiep17M9KCA" x="888" y="24"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_fUnlQR-hEeeAX5566CjnRA"/>
   <element xmi:type="mid:MID" href="powerSDWorkspace.mid#/"/>

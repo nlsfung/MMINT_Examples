@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <models uri="/PowerSlidingDoor/powerSD.gsn" name="powerSD_GSN" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn1 Solution for B1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[strategies->] Strategy S1 AND Refinement." metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Strategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn6 Solution for B6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B6 Sub-Goal 6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="CD &lt;-> GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
+    </modelEndpoints>
+    <modelEndpoints uri="" name="powerSD_GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.0/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.0"/>
+      </modelElemEndpoints>
+      <modelElemEndpoints uri="" name="[solutions->] Solution Sn1 Solution for B1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.0/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.0"/>
+      </modelElemRefs>
+    </modelEndpointRefs>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.1" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.0/@modelElemEndpointRefs.1"/>
+    </modelEndpointRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.1/@mappings.0" modifiable="true" sourceModelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.0">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.0"/>
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.0/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.0"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="SD &lt;-> GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_SD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
+    </modelEndpoints>
+    <modelEndpoints uri="" name="powerSD_GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.0/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.23"/>
+      </modelElemEndpoints>
+      <modelElemEndpoints uri="" name="[solutions->] Solution Sn6 Solution for B6" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.7"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.0/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.23"/>
+      </modelElemRefs>
+    </modelEndpointRefs>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.1" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.7" modifiable="true" modelElemEndpointRefs="//@models.2/@mappingRefs.0/@modelElemEndpointRefs.1"/>
+    </modelEndpointRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.2/@mappings.0" modifiable="true" sourceModelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.0">
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.0/@modelElemRefs.0"/>
+      <modelElemEndpointRefs referencedObject="//@models.2/@mappings.0/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.2/@modelEndpointRefs.1/@modelElemRefs.0"/>
+    </mappingRefs>
+  </models>
+  <editors uri="/PowerSlidingDoor/powerSD.gsn" name="GSN Editor for model /PowerSlidingDoor/powerSD.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
+    <fileExtensions>gsn</fileExtensions>
+  </editors>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn" value="//@models.0"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
+</mid:MID>
