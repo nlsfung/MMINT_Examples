@@ -8,6 +8,15 @@
       <modelElemRefs modifiable="true">
         <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.0"/>
       </modelElemRefs>
+      <modelElemRefs modifiable="true">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.1"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.2"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.3"/>
+      </modelElemRefs>
     </modelEndpointRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="deleted_SD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
