@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>GSNSliceRecheck.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">Eclipse Application (4-Jul-2017 4:40:50 PM)</a> &gt; <a href="../../index.html" class="el_group">edu.toronto.cs.se.nlsfung.gsn.operator</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">edu.toronto.cs.se.nlsfung.gsn.operator</a> &gt; <span class="el_source">GSNSliceRecheck.java</span></div><h1>GSNSliceRecheck.java</h1><pre class="source lang-java linenums">/**
+ * Copyright (c) 2012-2017 Marsha Chechik, Alessio Di Sandro, Michalis Famelis,
+ * Rick Salay, Nick Fung.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *    Alessio Di Sandro - Implementation.
+ *    Nick Fung - Implementation.
+ */
+package edu.toronto.cs.se.nlsfung.gsn.operator;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.eclipse.emf.ecore.EObject;
+
+import edu.toronto.cs.se.modelepedia.operator.slice.Slice;
+import edu.toronto.cs.se.nlsfung.gsn.ContextualElement;
+import edu.toronto.cs.se.nlsfung.gsn.CoreElement;
+import edu.toronto.cs.se.nlsfung.gsn.DecomposableCoreElement;
+import edu.toronto.cs.se.nlsfung.gsn.InContextOf;
+import edu.toronto.cs.se.nlsfung.gsn.SafetyCase;
+import edu.toronto.cs.se.nlsfung.gsn.SupportedBy;
+
+<span class="fc" id="L28">public class GSNSliceRecheck extends Slice {</span>
+
+	@Override
+	// Get all model elements that are potentially impacted by the input set
+	// (and therefore needs to be rechecked).
+	public Set&lt;EObject&gt; getAllImpactedElements(Set&lt;EObject&gt; elemSet) {
+<span class="nc" id="L34">		Set&lt;EObject&gt; impactedAll = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L35">		Set&lt;EObject&gt; impactedCur = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L36">		Set&lt;EObject&gt; impactedNext = new HashSet&lt;&gt;();</span>
+		
+		// Iterate through the current set of newly added model elements 
+		// to identify all others that may be potentially impacted. 
+<span class="nc" id="L40">		impactedAll.addAll(elemSet);</span>
+<span class="nc" id="L41">		impactedCur.addAll(elemSet);</span>
+<span class="nc bnc" id="L42" title="All 2 branches missed.">		while (!impactedCur.isEmpty()) {</span>
+<span class="nc bnc" id="L43" title="All 2 branches missed.">			for (EObject elem : impactedCur) {</span>
+				// Get all model elements directly impacted by the current 
+				// one in consideration and remove duplicates.
+<span class="nc bnc" id="L46" title="All 2 branches missed.">				for (EObject newElem : getDirectlyImpactedElements(elem)) {</span>
+<span class="nc bnc" id="L47" title="All 2 branches missed.">					if (!impactedAll.contains(newElem)) {</span>
+<span class="nc" id="L48">						impactedAll.add(newElem);</span>
+<span class="nc" id="L49">						impactedNext.add(newElem);</span>
+					}
+				}
+			}
+			
+			// Prepare for next iteration.
+<span class="nc" id="L55">			impactedCur.clear();</span>
+<span class="nc" id="L56">			impactedCur.addAll(impactedNext);</span>
+<span class="nc" id="L57">			impactedNext.clear();</span>
+		}
+		
+<span class="nc" id="L60">		return impactedAll;</span>
+	}
+	
+	// Get impacted model elements directly reachable from the input element.
+	@Override
+	public Set&lt;EObject&gt; getDirectlyImpactedElements(EObject elem) {
+<span class="nc" id="L66">		Set&lt;EObject&gt; impacted = new HashSet&lt;&gt;();</span>
+
+		// The input element itself is always impacted.
+<span class="nc" id="L69">		impacted.add(elem);</span>
+
+		// If input is a safety case, then the following are also impacted:
+		// 1) Owned goals, strategies, solutions, contexts and ASILs.
+<span class="nc bnc" id="L73" title="All 2 branches missed.">		if (elem instanceof SafetyCase) {</span>
+<span class="nc" id="L74">			SafetyCase sc = (SafetyCase) elem;</span>
+<span class="nc" id="L75">			impacted.addAll(sc.getGoals());</span>
+<span class="nc" id="L76">			impacted.addAll(sc.getStrategies());</span>
+<span class="nc" id="L77">			impacted.addAll(sc.getSolutions());</span>
+<span class="nc" id="L78">			impacted.addAll(sc.getContexts());</span>
+<span class="nc" id="L79">			impacted.addAll(sc.getASILLevels());</span>
+			
+		// If input is a core element (i.e. goal, strategy or solution), then the 
+		// SupportedBy relations that it supports are also impacted.
+<span class="nc bnc" id="L83" title="All 2 branches missed.">		} else if (elem instanceof CoreElement) {</span>
+<span class="nc" id="L84">			CoreElement c = (CoreElement) elem;</span>
+<span class="nc" id="L85">			impacted.addAll(c.getSupports());</span>
+			
+		// If input is a contextual element, then its InContextOf relations
+		// are also impacted.
+<span class="nc bnc" id="L89" title="All 2 branches missed.">		} else if (elem instanceof ContextualElement) {</span>
+<span class="nc" id="L90">			ContextualElement c = (ContextualElement) elem;</span>
+<span class="nc" id="L91">			impacted.addAll(c.getContextOf());</span>
+		
+		// If input is a SupportedBy relation, then its conclusion is impacted.	
+<span class="nc bnc" id="L94" title="All 2 branches missed.">		} else if (elem instanceof SupportedBy) {</span>
+<span class="nc" id="L95">			SupportedBy rel = (SupportedBy) elem;</span>
+<span class="nc" id="L96">			impacted.add(rel.getConclusion());</span>
+			
+		// If input is a InContextOf relation, then the decomposable core 
+		// elements with or inherit this context are also impacted.
+<span class="nc bnc" id="L100" title="All 2 branches missed.">		} else if (elem instanceof InContextOf) {</span>
+<span class="nc" id="L101">			InContextOf rel = (InContextOf) elem;</span>
+<span class="nc" id="L102">			impacted.addAll(getDescendants(rel.getContextOf()));</span>
+		}
+
+		// Remove possible null element from impacted set.
+<span class="nc" id="L106">		impacted.remove(null);</span>
+		
+<span class="nc" id="L108">		return impacted;</span>
+	}	
+	
+	// Adds all the descendants of the input decomposable core element (including 
+	// itself and connecting relations) to the input result set.
+	public Set&lt;EObject&gt; getDescendants(DecomposableCoreElement elem) {
+<span class="nc" id="L114">		Set&lt;EObject&gt; descendantsAll = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L115">		Set&lt;EObject&gt; descendantsCur = new HashSet&lt;&gt;();</span>
+<span class="nc" id="L116">		Set&lt;EObject&gt; descendantsNext = new HashSet&lt;&gt;();</span>
+		
+		// Iterate through the current set of newly added descendants
+		// to identify the next generation of descendants.
+<span class="nc" id="L120">		descendantsAll.add(elem);</span>
+<span class="nc" id="L121">		descendantsCur.add(elem);</span>
+<span class="nc bnc" id="L122" title="All 2 branches missed.">		while (!descendantsCur.isEmpty()) {</span>
+<span class="nc bnc" id="L123" title="All 2 branches missed.">			for (EObject curElem : descendantsCur) {</span>
+<span class="nc bnc" id="L124" title="All 2 branches missed.">				if (curElem instanceof DecomposableCoreElement) {</span>
+<span class="nc" id="L125">					DecomposableCoreElement d = (DecomposableCoreElement) curElem;</span>
+<span class="nc" id="L126">					descendantsNext.add(d.getSupportedBy());</span>
+<span class="nc bnc" id="L127" title="All 2 branches missed.">				} else if (curElem instanceof SupportedBy) {</span>
+<span class="nc" id="L128">					SupportedBy s = (SupportedBy) curElem;</span>
+<span class="nc" id="L129">					descendantsNext.addAll(s.getPremises());</span>
+				}
+			}
+			
+<span class="nc" id="L133">			descendantsCur.clear();</span>
+<span class="nc bnc" id="L134" title="All 2 branches missed.">			for (EObject newElem : descendantsNext) {</span>
+<span class="nc bnc" id="L135" title="All 2 branches missed.">				if (!descendantsAll.contains(newElem)) {</span>
+<span class="nc" id="L136">					descendantsAll.add(newElem);</span>
+<span class="nc" id="L137">					descendantsCur.add(newElem);</span>
+				}
+			}
+			
+<span class="nc" id="L141">			descendantsNext.clear();</span>
+		}
+		
+<span class="nc" id="L144">		return descendantsAll;</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span>Eclipse Application (4-Jul-2017 4:40:50 PM)</div></body></html>

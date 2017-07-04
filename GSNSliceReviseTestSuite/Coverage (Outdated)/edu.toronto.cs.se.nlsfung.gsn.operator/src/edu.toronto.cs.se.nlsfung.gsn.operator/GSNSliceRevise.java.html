@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>GSNSliceRevise.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">Eclipse Application (4-Jul-2017 4:40:50 PM)</a> &gt; <a href="../../index.html" class="el_group">edu.toronto.cs.se.nlsfung.gsn.operator</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">edu.toronto.cs.se.nlsfung.gsn.operator</a> &gt; <span class="el_source">GSNSliceRevise.java</span></div><h1>GSNSliceRevise.java</h1><pre class="source lang-java linenums">/**
+ * Copyright (c) 2012-2017 Marsha Chechik, Alessio Di Sandro, Michalis Famelis,
+ * Rick Salay, Nick Fung.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *    Alessio Di Sandro - Implementation.
+ *    Nick Fung - Implementation.
+ */
+package edu.toronto.cs.se.nlsfung.gsn.operator;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.eclipse.emf.ecore.EObject;
+
+import edu.toronto.cs.se.modelepedia.operator.slice.Slice;
+import edu.toronto.cs.se.nlsfung.gsn.ContextualElement;
+import edu.toronto.cs.se.nlsfung.gsn.DecomposableCoreElement;
+import edu.toronto.cs.se.nlsfung.gsn.Goal;
+import edu.toronto.cs.se.nlsfung.gsn.InContextOf;
+import edu.toronto.cs.se.nlsfung.gsn.SafetyCase;
+import edu.toronto.cs.se.nlsfung.gsn.Solution;
+import edu.toronto.cs.se.nlsfung.gsn.Strategy;
+import edu.toronto.cs.se.nlsfung.gsn.SupportedBy;
+
+<span class="fc" id="L30">public class GSNSliceRevise extends Slice {</span>
+	
+	@Override
+	// Get all model elements in a safety case that needs to be re-checked 
+	// given the input set of elements that needs to be revised.
+	public Set&lt;EObject&gt; getAllImpactedElements(Set&lt;EObject&gt; elemSet) {
+<span class="fc" id="L36">		Set&lt;EObject&gt; impactedAll = new HashSet&lt;&gt;();</span>
+		
+		// Iterate through the input set of revised elements to identify 
+		// all model elements that require re-checking.
+<span class="fc bfc" id="L40" title="All 2 branches covered.">		for (EObject elem : elemSet) {</span>
+<span class="fc" id="L41">			impactedAll.add(elem);</span>
+<span class="fc" id="L42">			impactedAll.addAll(getDirectlyImpactedElements(elem));</span>
+		}
+		
+<span class="fc" id="L45">		return impactedAll;</span>
+	}
+	
+	// Get impacted model elements directly reachable from the input element.
+	@Override
+	public Set&lt;EObject&gt; getDirectlyImpactedElements(EObject elem) {
+<span class="fc" id="L51">		Set&lt;EObject&gt; impacted = new HashSet&lt;&gt;();</span>
+
+		// The input element itself is always impacted.
+<span class="fc" id="L54">		impacted.add(elem);</span>
+		
+		// If input is a safety case, then the following are also impacted:
+		// 1) Everything in the safety case.
+//		if (elem instanceof SafetyCase) {
+//			SafetyCase sc = (SafetyCase) elem;
+//			impacted.addAll(sc.getSolutions());
+//			impacted.addAll(sc.getContexts());
+//			impacted.addAll(sc.getASILLevels());
+//			
+//			Set&lt;DecomposableCoreElement&gt; decompElemSet = new HashSet&lt;&gt;();
+//			decompElemSet.addAll(sc.getGoals());
+//			decompElemSet.addAll(sc.getStrategies());
+//			
+//			impacted.addAll(decompElemSet);
+//			
+//			for (DecomposableCoreElement decompElem : decompElemSet) {
+//				impacted.add(decompElem.getInContextOf());
+//				impacted.add(decompElem.getSupportedBy());
+//			}
+			
+		// If input is a goal, then the following are also impacted:
+		// 1) All SupportedBy relations connected to it.
+		// 2) All model elements connected to the sliced relations.
+<span class="fc bfc" id="L78" title="All 2 branches covered.">		if (elem instanceof Goal) {</span>
+<span class="fc" id="L79">			Goal g = (Goal) elem;</span>
+<span class="fc" id="L80">			Set&lt;SupportedBy&gt; impactedRelSet = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L81">			impactedRelSet.add(g.getSupportedBy());</span>
+<span class="fc" id="L82">			impactedRelSet.addAll(g.getSupports());</span>
+			
+<span class="fc" id="L84">			impacted.addAll(impactedRelSet);</span>
+<span class="fc bfc" id="L85" title="All 2 branches covered.">			for (SupportedBy rel : impactedRelSet) {</span>
+<span class="fc" id="L86">				impacted.add(rel.getConclusion());</span>
+<span class="fc" id="L87">				impacted.addAll(rel.getPremises());</span>
+			}
+		
+		// If input is a strategy, then the following are also impacted:
+		// 1) All SupportedBy relations connected to it.
+		// 2) All model elements connected to the sliced relations.
+<span class="fc bfc" id="L93" title="All 2 branches covered.">		} else if (elem instanceof Strategy) {</span>
+<span class="fc" id="L94">			Strategy s = (Strategy) elem;</span>
+<span class="fc" id="L95">			Set&lt;SupportedBy&gt; impactedRelSet = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L96">			impactedRelSet.add(s.getSupportedBy());</span>
+<span class="fc" id="L97">			impactedRelSet.addAll(s.getSupports());</span>
+			
+<span class="fc" id="L99">			impacted.addAll(impactedRelSet);</span>
+<span class="fc bfc" id="L100" title="All 2 branches covered.">			for (SupportedBy rel : impactedRelSet) {</span>
+<span class="fc" id="L101">				impacted.add(rel.getConclusion());</span>
+<span class="fc" id="L102">				impacted.addAll(rel.getPremises());</span>
+			}
+			
+		// If input is a contextual element (Context or ASIL), 
+		// then the following are also impacted:
+		// 1) All InContextOf relations connected to it.
+		// 2) All model elements that introduce C as the context.
+		// 3) All model elements that inherit C as the context 
+		//    (and connecting relations).
+<span class="fc bfc" id="L111" title="All 2 branches covered.">		} else if (elem instanceof ContextualElement) {</span>
+<span class="fc" id="L112">			ContextualElement c = (ContextualElement) elem;</span>
+<span class="fc" id="L113">			Set&lt;InContextOf&gt; impactedRelSet = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L114">			impactedRelSet.addAll(c.getContextOf());</span>
+			
+<span class="fc" id="L116">			impacted.addAll(impactedRelSet);</span>
+<span class="fc bfc" id="L117" title="All 2 branches covered.">			for (InContextOf rel : impactedRelSet) {</span>
+<span class="fc" id="L118">				impacted.addAll(getDescendants(rel.getContextOf()));</span>
+			}
+			
+		// If input is a solution, then the following are also impacted:
+		// 1) All SupportedBy relations connected to it.
+		// 2) All goals connected to the solution via the sliced relations.
+<span class="pc bpc" id="L124" title="1 of 2 branches missed.">		} else if (elem instanceof Solution) {</span>
+<span class="fc" id="L125">			Solution s = (Solution) elem;</span>
+<span class="fc" id="L126">			Set&lt;SupportedBy&gt; impactedRelSet = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L127">			impactedRelSet.addAll(s.getSupports());</span>
+			
+<span class="fc" id="L129">			impacted.addAll(impactedRelSet);</span>
+<span class="fc bfc" id="L130" title="All 2 branches covered.">			for (SupportedBy rel : impactedRelSet) {</span>
+<span class="fc" id="L131">				impacted.add(rel.getConclusion());</span>
+<span class="fc" id="L132">				impacted.addAll(rel.getPremises());</span>
+			}
+			
+		// If input is a SupportedBy relation, then its source and 
+		// target model element is potentially impacted.
+//		} else if (elem instanceof SupportedBy) {
+//			SupportedBy rel = (SupportedBy) elem;
+//			impacted.add(rel.getConclusion());
+//			impacted.addAll(rel.getPremises());
+			
+		// If input is a InContextOf relation, then the decomposable core 
+		// elements with or inherit this context are also impacted.
+//		} else if (elem instanceof InContextOf) {
+//			InContextOf rel = (InContextOf) elem;
+//			impacted.addAll(getDescendants(rel.getContextOf()));
+		}
+		
+		// Remove possible null element from impacted set.
+<span class="fc" id="L150">		impacted.remove(null);</span>
+		
+<span class="fc" id="L152">		return impacted;</span>
+	}
+
+	// Adds all the descendants of the input decomposable core element (including 
+	// itself and connecting relations) to the input result set.
+	public Set&lt;EObject&gt; getDescendants(DecomposableCoreElement elem) {
+<span class="fc" id="L158">		Set&lt;EObject&gt; descendantsAll = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L159">		Set&lt;EObject&gt; descendantsCur = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L160">		Set&lt;EObject&gt; descendantsNext = new HashSet&lt;&gt;();</span>
+		
+		// Iterate through the current set of newly added descendants
+		// to identify the next generation of descendants.
+<span class="fc" id="L164">		descendantsAll.add(elem);</span>
+<span class="fc" id="L165">		descendantsCur.add(elem);</span>
+<span class="fc bfc" id="L166" title="All 2 branches covered.">		while (!descendantsCur.isEmpty()) {</span>
+<span class="fc bfc" id="L167" title="All 2 branches covered.">			for (EObject curElem : descendantsCur) {</span>
+<span class="fc bfc" id="L168" title="All 2 branches covered.">				if (curElem instanceof DecomposableCoreElement) {</span>
+<span class="fc" id="L169">					DecomposableCoreElement d = (DecomposableCoreElement) curElem;</span>
+<span class="fc" id="L170">					descendantsNext.add(d.getSupportedBy());</span>
+<span class="fc bfc" id="L171" title="All 2 branches covered.">				} else if (curElem instanceof SupportedBy) {</span>
+<span class="fc" id="L172">					SupportedBy s = (SupportedBy) curElem;</span>
+<span class="fc" id="L173">					descendantsNext.addAll(s.getPremises());</span>
+				}
+			}
+			
+<span class="fc" id="L177">			descendantsCur.clear();</span>
+<span class="fc bfc" id="L178" title="All 2 branches covered.">			for (EObject newElem : descendantsNext) {</span>
+<span class="fc bfc" id="L179" title="All 2 branches covered.">				if (!descendantsAll.contains(newElem)) {</span>
+<span class="fc" id="L180">					descendantsAll.add(newElem);</span>
+<span class="fc" id="L181">					descendantsCur.add(newElem);</span>
+				}
+			}
+			
+<span class="fc" id="L185">			descendantsNext.clear();</span>
+		}
+		
+<span class="fc" id="L188">		return descendantsAll;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span>Eclipse Application (4-Jul-2017 4:40:50 PM)</div></body></html>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>SDSlice.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">Eclipse Application (4-Jul-2017 4:16:43 PM)</a> &gt; <a href="../../index.html" class="el_group">edu.toronto.cs.se.modelepedia.sequencediagram_mavo.operator</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">edu.toronto.cs.se.modelepedia.sequencediagram_mavo.operator</a> &gt; <span class="el_source">SDSlice.java</span></div><h1>SDSlice.java</h1><pre class="source lang-java linenums">/**
+ * Copyright (c) 2012-2017 Marsha Chechik, Alessio Di Sandro, Michalis Famelis,
+ * Rick Salay, Nick Fung.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *    Alessio Di Sandro - Implementation.
+ *    Nick Fung - Implementation.
+ */
+package edu.toronto.cs.se.modelepedia.sequencediagram_mavo.operator;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import org.eclipse.emf.ecore.EObject;
+
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.ActivationBox;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.ActivationBoxReference;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.Attribute;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.AttributeReference;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.Class;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.ClassReference;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.Lifeline;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.Message;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.Operation;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.OperationReference;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.SequenceDiagram;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.SourceLifelineReference;
+import edu.toronto.cs.se.modelepedia.icse15_sequencediagram_mavo.TargetLifelineReference;
+import edu.toronto.cs.se.modelepedia.operator.slice.Slice;
+
+<span class="fc" id="L36">public class SDSlice extends Slice {</span>
+
+	@Override
+	// Get all model elements that are potentially impacted by the input set.
+	public Set&lt;EObject&gt; getAllImpactedElements(Set&lt;EObject&gt; elemSet) {
+<span class="fc" id="L41">		Set&lt;EObject&gt; impactedAll = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L42">		Set&lt;EObject&gt; impactedCur = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L43">		Set&lt;EObject&gt; impactedNext = new HashSet&lt;&gt;();</span>
+		
+		// Iterate through the current set of newly added model elements 
+		// to identify all others that may be potentially impacted. 
+<span class="fc" id="L47">		impactedAll.addAll(elemSet);</span>
+<span class="fc" id="L48">		impactedCur.addAll(elemSet);</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">		while (!impactedCur.isEmpty()) {</span>
+<span class="fc bfc" id="L50" title="All 2 branches covered.">			for (EObject elem : impactedCur) {</span>
+				// Get all model elements directly impacted by the current 
+				// one in consideration and remove duplicates.
+<span class="fc bfc" id="L53" title="All 2 branches covered.">				for (EObject newElem : getDirectlyImpactedElements(elem)) {</span>
+<span class="fc bfc" id="L54" title="All 2 branches covered.">					if (!impactedAll.contains(newElem)) {</span>
+<span class="fc" id="L55">						impactedAll.add(newElem);</span>
+<span class="fc" id="L56">						impactedNext.add(newElem);</span>
+					}
+				}
+			}
+			
+			// Prepare for next iteration.
+<span class="fc" id="L62">			impactedCur.clear();</span>
+<span class="fc" id="L63">			impactedCur.addAll(impactedNext);</span>
+<span class="fc" id="L64">			impactedNext.clear();</span>
+		}
+		
+<span class="fc" id="L67">		return impactedAll;</span>
+	}
+	
+	// Get impacted model elements directly reachable from the input element.
+	@Override
+	public Set&lt;EObject&gt; getDirectlyImpactedElements(EObject elem) {
+<span class="fc" id="L73">		Set&lt;EObject&gt; impacted = new HashSet&lt;&gt;();</span>
+
+		// The input element itself is always impacted.
+<span class="fc" id="L76">		impacted.add(elem);</span>
+
+		// If input is a sequence diagram, then the following are impacted:
+		// 1) Owned classes, lifelines and messages.
+//		if (elem instanceof SequenceDiagram) {
+//			SequenceDiagram d = (SequenceDiagram) elem;
+//			impacted.addAll(d.getClasses());
+//			impacted.addAll(d.getLifelines());
+//			impacted.addAll(d.getMessages());
+
+		// If input is a class, then the following are impacted:
+		// 1) Owned attributes and operations.
+		// 2) References to the input.
+<span class="fc bfc" id="L89" title="All 2 branches covered.">		if (elem instanceof Class) {</span>
+<span class="fc" id="L90">			Class c = (Class) elem;</span>
+<span class="fc" id="L91">			impacted.addAll(c.getOperations());</span>
+<span class="fc" id="L92">			impacted.addAll(c.getAttributes());</span>
+<span class="fc" id="L93">			impacted.addAll(c.getLifelines());</span>
+
+		// If input is a lifeline, then the following are impacted:
+		// 1) Owned class references.
+		// 2) References to the input.
+		// 3) Owned activation boxes.
+<span class="fc bfc" id="L99" title="All 2 branches covered.">		} else if (elem instanceof Lifeline) {</span>
+<span class="fc" id="L100">			Lifeline l = (Lifeline) elem;</span>
+<span class="fc" id="L101">			impacted.addAll(l.getClass_());</span>
+<span class="fc" id="L102">			impacted.addAll(l.getMessagesAsSource());</span>
+<span class="fc" id="L103">			impacted.addAll(l.getMessagesAsTarget());</span>
+<span class="fc" id="L104">			impacted.addAll(l.getActivationBoxes());</span>
+
+		// If input is a message, then the following are impacted:
+		// 1) The activation box references relating to the subsequent
+		//    messages (if any) that are connected to the input's boxes.
+<span class="fc bfc" id="L109" title="All 2 branches covered.">		} else if (elem instanceof Message) {</span>
+//			Message m = (Message) elem;
+//
+//			ActivationBoxReference srcRef;
+//			ActivationBox srcBox;
+//			List&lt;ActivationBoxReference&gt; srcMessages;
+//			int srcIndex;
+//			
+//			srcRef = m.getSourceActivationBox();
+//			if (srcRef != null) {
+//				srcBox = srcRef.getTarget();
+//				if (srcBox != null) {
+//					srcMessages = srcBox.getMessages();
+//					if (srcMessages != null) {
+//						srcIndex = srcMessages.indexOf(srcRef);
+//						if (srcIndex &gt; -1 &amp;&amp; srcIndex &lt; srcMessages.size()-1) {
+//							impacted.add(srcMessages.get(srcIndex + 1));
+//						}
+//					}
+//				}
+//			}
+//			
+//			ActivationBoxReference tarRef;
+//			ActivationBox tarBox;
+//			List&lt;ActivationBoxReference&gt; tarMessages;
+//			int tarIndex;
+//			
+//			tarRef = m.getTargetActivationBox();
+//			if (tarRef != null) {
+//				tarBox = tarRef.getTarget();
+//				if (tarBox != null) {
+//					tarMessages = tarBox.getMessages();
+//					if (tarMessages != null) {
+//						tarIndex = tarMessages.indexOf(tarRef);
+//						if (tarIndex &gt; -1 &amp;&amp; tarIndex &lt; tarMessages.size()-1) {
+//							impacted.add(tarMessages.get(tarIndex + 1));
+//						}
+//					}
+//				}
+//			}
+
+		// If input is an attribute, then its references are impacted.
+<span class="fc bfc" id="L151" title="All 2 branches covered.">		} else if (elem instanceof Attribute) {</span>
+<span class="fc" id="L152">			Attribute a = (Attribute) elem;</span>
+<span class="fc" id="L153">			impacted.addAll(a.getMessages());</span>
+
+		// If input is an operation, then its references are impacted.
+<span class="fc bfc" id="L156" title="All 2 branches covered.">		} else if (elem instanceof Operation) {</span>
+<span class="fc" id="L157">			Operation o = (Operation) elem;</span>
+<span class="fc" id="L158">			impacted.addAll(o.getMessages());</span>
+		
+		// If input is an activation box, then its references are impacted.
+//		} else if (elem instanceof ActivationBox) {
+//			ActivationBox a = (ActivationBox) elem;
+//			impacted.addAll(a.getMessages());
+
+		// If input is a class reference, then its lifeline is impacted.
+<span class="fc bfc" id="L166" title="All 2 branches covered.">		} else if (elem instanceof ClassReference) {</span>
+<span class="fc" id="L167">			ClassReference r = (ClassReference) elem;</span>
+<span class="fc" id="L168">			impacted.add(r.getSource());</span>
+
+		// If input is a source lifeline reference, then its message is impacted.
+<span class="fc bfc" id="L171" title="All 2 branches covered.">		} else if (elem instanceof SourceLifelineReference) {</span>
+<span class="fc" id="L172">			SourceLifelineReference r = (SourceLifelineReference) elem;</span>
+<span class="fc" id="L173">			impacted.add(r.getSource());</span>
+
+		// If input is a target lifeline reference, then its message is impacted.
+<span class="fc bfc" id="L176" title="All 2 branches covered.">		} else if (elem instanceof TargetLifelineReference) {</span>
+<span class="fc" id="L177">			TargetLifelineReference r = (TargetLifelineReference) elem;</span>
+<span class="fc" id="L178">			impacted.add(r.getSource());</span>
+
+		// If input is an activation box reference, then its message is impacted.
+//		} else if (elem instanceof ActivationBoxReference) {
+//			ActivationBoxReference r = (ActivationBoxReference) elem;
+//			impacted.add(r.getSource());
+
+		// If input is an attribute reference, then its message is impacted.
+<span class="fc bfc" id="L186" title="All 2 branches covered.">		} else if (elem instanceof AttributeReference) {</span>
+<span class="fc" id="L187">			AttributeReference r = (AttributeReference) elem;</span>
+<span class="fc" id="L188">			impacted.add(r.getSource());</span>
+
+		// If input is an operation, then its message is impacted.
+<span class="pc bpc" id="L191" title="1 of 2 branches missed.">		} else if (elem instanceof OperationReference) {</span>
+<span class="fc" id="L192">			OperationReference r = (OperationReference) elem;</span>
+<span class="fc" id="L193">			impacted.add(r.getSource());</span>
+		}
+
+		// Remove possible null element from impacted set.
+<span class="fc" id="L197">		impacted.remove(null);</span>
+		
+<span class="fc" id="L199">		return impacted;</span>
+	}	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span>Eclipse Application (4-Jul-2017 4:16:43 PM)</div></body></html>

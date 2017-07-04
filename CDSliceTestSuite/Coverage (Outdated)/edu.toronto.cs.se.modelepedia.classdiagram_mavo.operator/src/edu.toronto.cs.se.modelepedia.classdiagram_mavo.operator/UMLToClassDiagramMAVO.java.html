@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>UMLToClassDiagramMAVO.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">Eclipse Application (4-Jul-2017 3:23:40 PM)</a> &gt; <a href="../../index.html" class="el_group">edu.toronto.cs.se.modelepedia.classdiagram_mavo.operator</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">edu.toronto.cs.se.modelepedia.classdiagram_mavo.operator</a> &gt; <span class="el_source">UMLToClassDiagramMAVO.java</span></div><h1>UMLToClassDiagramMAVO.java</h1><pre class="source lang-java linenums">/**
+ * Copyright (c) 2012-2017 Marsha Chechik, Alessio Di Sandro, Michalis Famelis,
+ * Rick Salay.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ *    Alessio Di Sandro - Implementation.
+ */
+package edu.toronto.cs.se.modelepedia.classdiagram_mavo.operator;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.eclipse.core.runtime.NullProgressMonitor;
+import org.eclipse.jdt.annotation.NonNull;
+
+import edu.toronto.cs.se.mmint.MIDTypeRegistry;
+import edu.toronto.cs.se.mmint.mid.GenericElement;
+import edu.toronto.cs.se.mmint.mid.MID;
+import edu.toronto.cs.se.mmint.mid.Model;
+import edu.toronto.cs.se.mmint.mid.operator.impl.ConversionOperatorImpl;
+import edu.toronto.cs.se.mmint.mid.utils.FileUtils;
+import edu.toronto.cs.se.modelepedia.classdiagram_mavo.ClassDiagram_MAVOPackage;
+
+<span class="fc" id="L28">public class UMLToClassDiagramMAVO extends ConversionOperatorImpl {</span>
+
+	// input-output
+	private final static @NonNull String IN_MODEL = &quot;uml&quot;;
+	private final static @NonNull String OUT_MODEL = &quot;mavo&quot;;
+
+	private Model newCdModel;
+
+	@Override
+	public Map&lt;String, Model&gt; run(
+			Map&lt;String, Model&gt; inputsByName, Map&lt;String, GenericElement&gt; genericsByName,
+			Map&lt;String, MID&gt; outputMIDsByName) throws Exception {
+
+		// input
+<span class="nc" id="L42">		Model umlModel = inputsByName.get(IN_MODEL);</span>
+<span class="nc" id="L43">		MID instanceMID = outputMIDsByName.get(OUT_MODEL);</span>
+
+		// transform using atl
+<span class="nc" id="L46">		String newCdModelPath = FileUtils.replaceFileExtensionInPath(umlModel.getUri(), ClassDiagram_MAVOPackage.eNAME);</span>
+<span class="nc" id="L47">		UMLToClassDiagramMAVO_M2M atl = new UMLToClassDiagramMAVO_M2M();</span>
+<span class="nc" id="L48">		atl.loadModels(umlModel.getUri());</span>
+<span class="nc" id="L49">		atl.doUMLToClassDiagramMAVO_M2M(new NullProgressMonitor());</span>
+<span class="nc" id="L50">		atl.saveModels(newCdModelPath);</span>
+
+		// output
+<span class="nc" id="L53">		Model cdModelType = MIDTypeRegistry.getType(ClassDiagram_MAVOPackage.eNS_URI);</span>
+<span class="nc" id="L54">		newCdModel = cdModelType.createInstanceAndEditor(null, newCdModelPath, instanceMID);</span>
+<span class="nc" id="L55">		Map&lt;String, Model&gt; outputsByName = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L56">		outputsByName.put(OUT_MODEL, newCdModel);</span>
+
+<span class="nc" id="L58">		return outputsByName;</span>
+	}
+
+	@Override
+	public void cleanup() throws Exception {
+
+<span class="nc bnc" id="L64" title="All 2 branches missed.">		if (newCdModel != null) {</span>
+<span class="nc" id="L65">			newCdModel.deleteInstanceAndFile();</span>
+<span class="nc" id="L66">			newCdModel = null;</span>
+		}
+<span class="nc" id="L68">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span>Eclipse Application (4-Jul-2017 3:23:40 PM)</div></body></html>
