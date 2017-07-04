@@ -39,7 +39,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_u4BMxlttEeepiep17M9KCA" type="5006"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_u4BMwVttEeepiep17M9KCA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_u4BMwlttEeepiep17M9KCA" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_u4BMw1ttEeepiep17M9KCA" hint="Relationship"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_u4BMw1ttEeepiep17M9KCA" diagramLink="_wl4FcGA-Eee4qpHMz11sug" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="SliceDeleted.mid#//@models.1"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u4BMxFttEeepiep17M9KCA" x="504" y="276"/>
     </children>
@@ -74,10 +74,26 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_yNukUFttEeepiep17M9KCA" type="Relationship" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_pbn6sGA9Eee4qpHMz11sug" type="2001">
+      <children xmi:type="notation:DecorationNode" xmi:id="_pbohwGA9Eee4qpHMz11sug" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_pbohwWA9Eee4qpHMz11sug" type="5004"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_pbohwmA9Eee4qpHMz11sug" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_pbohw2A9Eee4qpHMz11sug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_pbohxGA9Eee4qpHMz11sug"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_pbn6sWA9Eee4qpHMz11sug"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_pbn6smA9Eee4qpHMz11sug" fontName="Ubuntu"/>
+      <element xmi:type="relationship:ModelEndpointReference" href="SliceDeleted.mid#//@models.0/@modelEndpointRefs.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbn6s2A9Eee4qpHMz11sug"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_yNukUVttEeepiep17M9KCA"/>
     <element xmi:type="relationship:ModelRel" href="SliceDeleted.mid#//@models.0"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_C1DrgFuFEeePQcKrC6aIKA" type="Relationship" measurementUnit="Pixel">
     <styles xmi:type="notation:DiagramStyle" xmi:id="_C1DrgVuFEeePQcKrC6aIKA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_wl4FcGA-Eee4qpHMz11sug" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_wl4FcWA-Eee4qpHMz11sug"/>
+    <element xmi:type="relationship:ModelRel" href="SliceDeleted.mid#//@models.1"/>
   </notation:Diagram>
 </xmi:XMI>

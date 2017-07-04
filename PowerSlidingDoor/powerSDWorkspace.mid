@@ -4,7 +4,7 @@
   <models uri="/PowerSlidingDoor/SliceModified.mid" name="SliceModified" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
   <models uri="/PowerSlidingDoor/SliceAdded.mid" name="SliceAdded" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.2"/>
   <models uri="/PowerSlidingDoor/SliceDeleted.mid" name="SliceDeleted" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.3"/>
-  <models uri="/PowerSlidingDoor/PowerSDImpact.mid" name="PowerSDImpact" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.4"/>
+  <models uri="/PowerSlidingDoor/PowerSDSafety.mid" name="PowerSDSafety" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.4"/>
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDMega.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
@@ -17,12 +17,12 @@
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/SliceDeleted.middiag" name="MIDRel diagram for model /PowerSlidingDoor/SliceDeleted.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/SliceDeleted.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDImpact.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDImpact.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDImpact.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDSafety.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDSafety.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDSafety.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
   <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid" value="//@models.0"/>
   <extendibleTable key="/PowerSlidingDoor/SliceModified.mid" value="//@models.1"/>
   <extendibleTable key="/PowerSlidingDoor/SliceAdded.mid" value="//@models.2"/>
   <extendibleTable key="/PowerSlidingDoor/SliceDeleted.mid" value="//@models.3"/>
-  <extendibleTable key="/PowerSlidingDoor/PowerSDImpact.mid" value="//@models.4"/>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDSafety.mid" value="//@models.4"/>
 </mid:MID>
