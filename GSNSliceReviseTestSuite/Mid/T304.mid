@@ -20,7 +20,7 @@
   <editors uri="/GSNSliceReviseTestSuite/GSN/T304.gsn" name="GSN Editor for model /GSNSliceReviseTestSuite/GSN/T304.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/GSNSliceReviseTestSuite/GSN/T304.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
     <fileExtensions>gsn</fileExtensions>
   </editors>
-  <operators uri="" name="GSNSliceRevise" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise" dynamic="true" updateMID="true" executionTime="4176719">
+  <operators uri="" name="GSNSliceRevise" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise" dynamic="true" updateMID="true" executionTime="1235206">
     <inputs uri="" name="criterion" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
     <outputs uri="" name="slice" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
   </operators>

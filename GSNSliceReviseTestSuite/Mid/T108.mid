@@ -47,24 +47,24 @@
   <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="T108" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.8" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.7" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.6" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.4" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.6" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.7" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.8" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.10" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.4" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.9" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.11" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <editors uri="/GSNSliceReviseTestSuite/GSN/T108.gsn" name="GSN Editor for model /GSNSliceReviseTestSuite/GSN/T108.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/GSNSliceReviseTestSuite/GSN/T108.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
     <fileExtensions>gsn</fileExtensions>
   </editors>
-  <operators uri="" name="GSNSliceRevise" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise" dynamic="true" updateMID="true" executionTime="5096369">
+  <operators uri="" name="GSNSliceRevise" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise" dynamic="true" updateMID="true" executionTime="3397138">
     <inputs uri="" name="criterion" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
     <outputs uri="" name="slice" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
   </operators>
