@@ -146,7 +146,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_IHRd8luDEeePQcKrC6aIKA" fontName="Ubuntu"/>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_IHRd81uDEeePQcKrC6aIKA" hint="Mid"/>
     <element xmi:type="mid:Model" href="SafetyCaseImpact.mid#//@models.11"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHRd9FuDEeePQcKrC6aIKA" x="564" y="576"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHRd9FuDEeePQcKrC6aIKA" x="576" y="576"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_IHRd91uDEeePQcKrC6aIKA" type="2005">
     <children xmi:type="notation:DecorationNode" xmi:id="_IHRd_FuDEeePQcKrC6aIKA" type="5009"/>
@@ -180,7 +180,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_dXSe8luDEeePQcKrC6aIKA" fontName="Ubuntu"/>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_dXSe81uDEeePQcKrC6aIKA" hint="Mid"/>
     <element xmi:type="mid:Model" href="SafetyCaseImpact.mid#//@models.13"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXSe9FuDEeePQcKrC6aIKA" x="564" y="984"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dXSe9FuDEeePQcKrC6aIKA" x="564" y="996"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_dXSe91uDEeePQcKrC6aIKA" type="2005">
     <children xmi:type="notation:DecorationNode" xmi:id="_dXTGAFuDEeePQcKrC6aIKA" type="5009"/>
@@ -214,7 +214,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_nMqBkluDEeePQcKrC6aIKA" fontName="Ubuntu"/>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_nMqBk1uDEeePQcKrC6aIKA" hint="Mid"/>
     <element xmi:type="mid:Model" href="SafetyCaseImpact.mid#//@models.15"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nMqBlFuDEeePQcKrC6aIKA" x="564" y="1260"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nMqBlFuDEeePQcKrC6aIKA" x="336" y="1128"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_nMqBl1uDEeePQcKrC6aIKA" type="2005">
     <children xmi:type="notation:DecorationNode" xmi:id="_nMqBnFuDEeePQcKrC6aIKA" type="5009"/>
@@ -470,7 +470,7 @@
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_nMtE4FuDEeePQcKrC6aIKA" type="4004" source="_nMqBl1uDEeePQcKrC6aIKA" target="_jYcwIFuDEeePQcKrC6aIKA">
     <children xmi:type="notation:DecorationNode" xmi:id="_nMtE5FuDEeePQcKrC6aIKA" type="6007">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_nMtE5VuDEeePQcKrC6aIKA" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nMtE5VuDEeePQcKrC6aIKA" x="-6" y="-24"/>
     </children>
     <styles xmi:type="notation:RoutingStyle" xmi:id="_nMtE4VuDEeePQcKrC6aIKA"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_nMtE4luDEeePQcKrC6aIKA" fontName="Ubuntu"/>

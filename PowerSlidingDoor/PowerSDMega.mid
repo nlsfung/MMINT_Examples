@@ -76,6 +76,9 @@
     <modelElems uri="/PowerSlidingDoor/powerSD.classdiagram#//@associations.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[associations->] Association powers" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
     </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.classdiagram#//@classes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class ArbitraryType" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
   </models>
   <models xsi:type="mavomid:MAVOModel" uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo" name="powerSD_SD" metatypeUri="http://se.cs.toronto.edu/modelepedia/ICSE15_SequenceDiagram_MAVO" dynamic="true" fileExtension="icse15_sequencediagram_mavo" editors="//@editors.1">
     <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@classes.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
@@ -680,4 +683,5 @@
   <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.8/@attributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.85"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@lifelines.1/@activationBoxes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.86"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.8/@sourceLifeline.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.87"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.classdiagram#//@classes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.25"/>
 </mid:MID>
