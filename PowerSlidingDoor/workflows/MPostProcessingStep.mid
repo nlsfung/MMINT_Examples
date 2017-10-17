@@ -8,9 +8,9 @@
   <models uri="w5" name="w5" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="w6" name="w6" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="w7" name="w7" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
-  <operators uri="" name="Identity" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Identity" dynamic="true">
-    <inputs uri="" name="model" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Identity/model" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <outputs uri="" name="sameModel" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Identity/sameModel" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  <operators uri="" name="Identity" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Identity" dynamic="true">
+    <inputs uri="" name="model" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Identity/model" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="sameModel" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Identity/sameModel" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
   </operators>
   <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
@@ -26,7 +26,7 @@
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
     <inputs uri="" name="mids1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <outputs uri="" name="mappedMids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
-    <generics uri="" name="ModelRelPropagation" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_ModelRelPropagation"/>
+    <generics uri="" name="ModelRelPropagation" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelPropagation"/>
   </operators>
   <operators uri="" name="Union" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union" dynamic="true">
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>

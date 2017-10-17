@@ -4,12 +4,12 @@
   <models uri="Sc" name="Sc" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="Xl" name="Xl" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Model" dynamic="true" origin="CREATED" fileExtension="xmi"/>
   <models uri="Sl" name="Sl" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
-  <operators uri="" name="Fix" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Fix" dynamic="true">
-    <inputs uri="" name="models0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Fix/models" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <inputs uri="" name="models1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Fix/models" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
-    <outputs uri="" name="fixedModels0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
-    <outputs uri="" name="fixedModels1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
-    <generics uri="" name="MSliceStep" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_Fix/FIXER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/MSliceStep"/>
+  <operators uri="" name="Fix" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix" dynamic="true">
+    <inputs uri="" name="models0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/models" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <inputs uri="" name="models1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/models" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="fixedModels0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <outputs uri="" name="fixedModels1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <generics uri="" name="MSliceStep" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/FIXER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/MSliceStep"/>
   </operators>
   <extendibleTable key="Xc" value="//@models.0"/>
   <extendibleTable key="Sc" value="//@models.1"/>

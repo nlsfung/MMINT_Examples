@@ -67,6 +67,45 @@
     <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.4/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.5/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.3/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="CD &lt;-> GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
@@ -618,4 +657,17 @@
   <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.19"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.20"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.21"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.4/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.22"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.23"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.24"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.25"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.26"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.5/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.27"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.28"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.29"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.3/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.30"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.31"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.32"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.33"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.34"/>
 </mid:MID>

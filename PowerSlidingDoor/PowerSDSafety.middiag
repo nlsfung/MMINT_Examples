@@ -48,7 +48,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_KI901lvDEeevJ9tD0ETuyQ" type="5006"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_KI900VvDEeevJ9tD0ETuyQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KI900lvDEeevJ9tD0ETuyQ" fontName="Cantarell"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_KI9001vDEeevJ9tD0ETuyQ" hint="Relationship"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_KI9001vDEeevJ9tD0ETuyQ" diagramLink="_-w2U0LLcEeeaitLzqlIrbQ" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="PowerSDSafety.mid#//@models.2"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KI901FvDEeevJ9tD0ETuyQ" x="390" y="35"/>
     </children>
@@ -1473,5 +1473,9 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-aVcIGNlEeeUhuw74e3Qjw" id="(0.39753086419753086,0.24489795918367346)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-aVcIWNlEeeUhuw74e3Qjw" id="(0.8409090909090909,0.3958333333333333)"/>
     </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_-w2U0LLcEeeaitLzqlIrbQ" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_-w2U0bLcEeeaitLzqlIrbQ"/>
+    <element xmi:type="relationship:ModelRel" href="PowerSDSafety.mid#//@models.2"/>
   </notation:Diagram>
 </xmi:XMI>
