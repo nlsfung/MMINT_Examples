@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <models uri="/PowerSlidingDoor/powerSD.gsn" name="powerSD_GSN" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
     <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
@@ -631,8 +631,8 @@
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true"/>
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.1" modifiable="true"/>
   </models>
-  <editors uri="/PowerSlidingDoor/powerSD.gsn" name="GSN Editor for model /PowerSlidingDoor/powerSD.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
-    <fileExtensions>gsn</fileExtensions>
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_t2s8EbOFEee3VKwWjjrc7A" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD.gsn" metatypeUri="Safety case diagram" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.gsn" id="edu.toronto.cs.se.nlsfung.gsn.design">
+    <fileExtensions>aird</fileExtensions>
   </editors>
   <extendibleTable key="/PowerSlidingDoor/powerSD.gsn" value="//@models.0"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
