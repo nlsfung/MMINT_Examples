@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_lIHbULOFEee3VKwWjjrc7A" selectedViews="_p8BPMLOFEee3VKwWjjrc7A" version="11.1.0.201608251200">
+    <semanticResources>PowerSDMega.mid</semanticResources>
+    <semanticResources>PowerSDMega.middiag</semanticResources>
+    <semanticResources>PowerSDSafety.mid</semanticResources>
+    <semanticResources>PowerSDSafety.middiag</semanticResources>
+    <semanticResources>SliceAdded.mid</semanticResources>
+    <semanticResources>SliceAdded.middiag</semanticResources>
+    <semanticResources>SliceDeleted.mid</semanticResources>
+    <semanticResources>SliceDeleted.middiag</semanticResources>
+    <semanticResources>SliceModified.mid</semanticResources>
+    <semanticResources>SliceModified.middiag</semanticResources>
+    <semanticResources>powerSD.classdiagram</semanticResources>
+    <semanticResources>powerSD.classdiagramdiag</semanticResources>
+    <semanticResources>powerSD.gsn</semanticResources>
+    <semanticResources>powerSD.icse15_sequencediagram_mavo</semanticResources>
+    <semanticResources>powerSD.icse15_sequencediagramdiag_mavo</semanticResources>
+    <semanticResources>powerSD.impactassessment</semanticResources>
+    <semanticResources>powerSDWorkspace.mid</semanticResources>
+    <semanticResources>powerSDWorkspace.middiag</semanticResources>
+    <semanticResources>workflows/MPostProcessing.mid</semanticResources>
+    <semanticResources>workflows/MPostProcessing.middiag</semanticResources>
+    <semanticResources>workflows/MPostProcessingStep.mid</semanticResources>
+    <semanticResources>workflows/MPostProcessingStep.middiag</semanticResources>
+    <semanticResources>workflows/MSlice.mid</semanticResources>
+    <semanticResources>workflows/MSlice.middiag</semanticResources>
+    <semanticResources>workflows/MSliceStep.mid</semanticResources>
+    <semanticResources>workflows/MSliceStep.middiag</semanticResources>
+    <semanticResources>workflows/SafetyCaseImpact.mid</semanticResources>
+    <semanticResources>workflows/SafetyCaseImpact.middiag</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_p8BPMLOFEee3VKwWjjrc7A">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_t2s8ELOFEee3VKwWjjrc7A" name="PowerSD Safety Case Diagram" representation="_t2s8EbOFEee3VKwWjjrc7A">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']"/>
+        <target xmi:type="gsn:SafetyCase" href="powerSD.gsn#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_t2s8EbOFEee3VKwWjjrc7A" name="PowerSD Safety Case Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_t2s8ErOFEee3VKwWjjrc7A" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_t2s8E7OFEee3VKwWjjrc7A"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_t21e8LOFEee3VKwWjjrc7A" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_t21e8bOFEee3VKwWjjrc7A" type="Sirius" element="_t2s8EbOFEee3VKwWjjrc7A" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_t3EvgLOFEee3VKwWjjrc7A" type="2001" element="_t2tjILOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_t3MEQLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_t3MEQbOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucYcALOFEee3VKwWjjrc7A" type="3005" element="_t2tjIbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucYcAbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucYcArOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_t3EvgbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t3EvgrOFEee3VKwWjjrc7A" x="864" y="420" width="132" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ubPzkLOFEee3VKwWjjrc7A" type="2001" element="_t2tjIrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ubQaoLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubQaobOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZDELOFEee3VKwWjjrc7A" type="3005" element="_t2tjI7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZDEbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZDErOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ubPzkbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubPzkrOFEee3VKwWjjrc7A" x="180" y="156" width="132" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ubQaorOFEee3VKwWjjrc7A" type="2001" element="_t2tjJLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ubRBsLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubRBsbOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZDE7OFEee3VKwWjjrc7A" type="3005" element="_t2tjJbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZDFLOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZDFbOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ubQao7OFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubQapLOFEee3VKwWjjrc7A" x="864" y="156" width="132" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ubRBsrOFEee3VKwWjjrc7A" type="2001" element="_t2tjJrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ubRBtbOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubRBtrOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZDFrOFEee3VKwWjjrc7A" type="3005" element="_t2tjJ7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZDF7OFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZDGLOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ubRBs7OFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubRBtLOFEee3VKwWjjrc7A" x="1416" y="156" width="132" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ubRowLOFEee3VKwWjjrc7A" type="2001" element="_t2tjKLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ubRow7OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubRoxLOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZDGbOFEee3VKwWjjrc7A" type="3005" element="_t2tjKbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZDGrOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZDG7OFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ubRowbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubRowrOFEee3VKwWjjrc7A" x="1764" y="156" width="132" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ubSP0LOFEee3VKwWjjrc7A" type="2001" element="_t2tjKrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ubSP07OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubSP1LOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZDHLOFEee3VKwWjjrc7A" type="3005" element="_t2tjK7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZDHbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZDHrOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ubSP0bOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubSP0rOFEee3VKwWjjrc7A" x="1056" y="156" width="132" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ubS24LOFEee3VKwWjjrc7A" type="2001" element="_t2tjLLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ubS247OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubS25LOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZqILOFEee3VKwWjjrc7A" type="3005" element="_t2tjLbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZqIbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZqIrOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ubS24bOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubS24rOFEee3VKwWjjrc7A" x="504" y="156" width="132" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ubS25bOFEee3VKwWjjrc7A" type="2001" element="_t2tjLrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ubTd8LOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ubTd8bOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZqI7OFEee3VKwWjjrc7A" type="3005" element="_t2tjL7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZqJLOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZqJbOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ubS25rOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ubS257OFEee3VKwWjjrc7A" x="948" y="288" width="166" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ub8XILOFEee3VKwWjjrc7A" type="2001" element="_t2tjMLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ub8-MLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ub8-MbOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZqJrOFEee3VKwWjjrc7A" type="3005" element="_t2tjMbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZqJ7OFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZqKLOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ub8XIbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ub8XIrOFEee3VKwWjjrc7A" x="204" width="93" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucJygLOFEee3VKwWjjrc7A" type="2001" element="_t2tjMrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucKZkLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucKZkbOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZqKbOFEee3VKwWjjrc7A" type="3005" element="_t2tjM7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZqKrOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZqK7OFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucJygbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucJygrOFEee3VKwWjjrc7A" x="912" width="93" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucKZkrOFEee3VKwWjjrc7A" type="2001" element="_t2tjNLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucKZlbOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucKZlrOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZqLLOFEee3VKwWjjrc7A" type="3005" element="_t2tjNbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZqLbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZqLrOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucKZk7OFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucKZlLOFEee3VKwWjjrc7A" x="1608" width="93" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucLAoLOFEee3VKwWjjrc7A" type="2001" element="_t2tjNrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucLAo7OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucLApLOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucZqL7OFEee3VKwWjjrc7A" type="3005" element="_t2tjN7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucZqMLOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucZqMbOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucLAobOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucLAorOFEee3VKwWjjrc7A" x="1968" width="93" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucLApbOFEee3VKwWjjrc7A" type="2001" element="_t2tjOLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucLnsLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucLnsbOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucaRMLOFEee3VKwWjjrc7A" type="3005" element="_t2tjObOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucaRMbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucaRMrOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucLAprOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucLAp7OFEee3VKwWjjrc7A" x="1056" width="93" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucMOwLOFEee3VKwWjjrc7A" type="2001" element="_t2tjOrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucMOw7OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucMOxLOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucaRM7OFEee3VKwWjjrc7A" type="3005" element="_t2tjO7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucaRNLOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucaRNbOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucMOwbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucMOwrOFEee3VKwWjjrc7A" x="348" width="93" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucMOxbOFEee3VKwWjjrc7A" type="2001" element="_t2tjPLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucMOyLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucMOybOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucaRNrOFEee3VKwWjjrc7A" type="3005" element="_t2tjPbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucaRN7OFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucaROLOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucMOxrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucMOx7OFEee3VKwWjjrc7A" x="744" y="288" width="140" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucUKkLOFEee3VKwWjjrc7A" type="2001" element="_t2tjPrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucUxoLOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucUxobOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uca4QLOFEee3VKwWjjrc7A" type="3005" element="_t2tjP7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uca4QbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uca4QrOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucUKkbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucUKkrOFEee3VKwWjjrc7A" width="140" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucVYsLOFEee3VKwWjjrc7A" type="2001" element="_t2tjQLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucVYs7OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucVYtLOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uca4Q7OFEee3VKwWjjrc7A" type="3005" element="_t2tjQbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uca4RLOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uca4RbOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucVYsbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucVYsrOFEee3VKwWjjrc7A" x="708" width="140" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucV_wLOFEee3VKwWjjrc7A" type="2001" element="_t2tjQrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucV_w7OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucV_xLOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uca4RrOFEee3VKwWjjrc7A" type="3005" element="_t2tjQ7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uca4R7OFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uca4SLOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucV_wbOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucV_wrOFEee3VKwWjjrc7A" x="1416" width="140" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucWm0LOFEee3VKwWjjrc7A" type="2001" element="_t2tjRLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucWm07OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucWm1LOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uca4SbOFEee3VKwWjjrc7A" type="3005" element="_t2tjRbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uca4SrOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uca4S7OFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucWm0bOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucWm0rOFEee3VKwWjjrc7A" x="1764" width="140" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucWm1bOFEee3VKwWjjrc7A" type="2001" element="_t2tjRrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucWm2LOFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucWm2bOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uca4TLOFEee3VKwWjjrc7A" type="3005" element="_t2tjR7OFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uca4TbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uca4TrOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucWm1rOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucWm17OFEee3VKwWjjrc7A" x="1212" width="140" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ucXN4LOFEee3VKwWjjrc7A" type="2001" element="_t2tjSLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_ucXN47OFEee3VKwWjjrc7A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucXN5LOFEee3VKwWjjrc7A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucbfULOFEee3VKwWjjrc7A" type="3005" element="_t2tjSbOFEee3VKwWjjrc7A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ucbfUbOFEee3VKwWjjrc7A" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucbfUrOFEee3VKwWjjrc7A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ucXN4bOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucXN4rOFEee3VKwWjjrc7A" x="504" width="140" height="76"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_t21e8rOFEee3VKwWjjrc7A"/>
+        <edges xmi:type="notation:Edge" xmi:id="_ucg-4LOFEee3VKwWjjrc7A" type="4001" element="_t2tjSrOFEee3VKwWjjrc7A" source="_t3EvgLOFEee3VKwWjjrc7A" target="_ubS25bOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uci0ELOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uci0EbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uci0ErOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uci0E7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ucjbILOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucjbIbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ucg-4bOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ucg-4rOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ucg-47OFEee3VKwWjjrc7A" points="[0, 0, -107, 60]$[107, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ucz50LOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc0g4LOFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc0g4bOFEee3VKwWjjrc7A" type="4001" element="_t2tjTbOFEee3VKwWjjrc7A" source="_ubPzkLOFEee3VKwWjjrc7A" target="_ub8XILOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc0g5bOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc0g5rOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc0g57OFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc0g6LOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc0g6bOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc0g6rOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc0g4rOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc0g47OFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc0g5LOFEee3VKwWjjrc7A" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1H8LOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1H8bOFEee3VKwWjjrc7A" id="(0.4946236559139785,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc1H8rOFEee3VKwWjjrc7A" type="4001" element="_t2tjULOFEee3VKwWjjrc7A" source="_ubQaorOFEee3VKwWjjrc7A" target="_ucJygLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc1H9rOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1H97OFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc1H-LOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1H-bOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc1H-rOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1H-7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc1H87OFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc1H9LOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc1H9bOFEee3VKwWjjrc7A" points="[0, 0, -18, 60]$[18, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1H_LOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1H_bOFEee3VKwWjjrc7A" id="(0.4946236559139785,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc1H_rOFEee3VKwWjjrc7A" type="4001" element="_t2tjU7OFEee3VKwWjjrc7A" source="_ubRBsrOFEee3VKwWjjrc7A" target="_ucKZkrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc1vALOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vAbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc1vArOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vA7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc1vBLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vBbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc1H_7OFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc1IALOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc1IAbOFEee3VKwWjjrc7A" points="[0, 0, -176, 60]$[176, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1vBrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1vB7OFEee3VKwWjjrc7A" id="(0.4946236559139785,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc1vCLOFEee3VKwWjjrc7A" type="4001" element="_t2tjVrOFEee3VKwWjjrc7A" source="_ubRowLOFEee3VKwWjjrc7A" target="_ucLAoLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc1vDLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vDbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc1vDrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vD7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc1vELOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vEbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc1vCbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc1vCrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc1vC7OFEee3VKwWjjrc7A" points="[0, 0, -176, 60]$[176, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1vErOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc1vE7OFEee3VKwWjjrc7A" id="(0.4946236559139785,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc1vFLOFEee3VKwWjjrc7A" type="4001" element="_t2tjWbOFEee3VKwWjjrc7A" source="_ubSP0LOFEee3VKwWjjrc7A" target="_ucLApbOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc1vGLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vGbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc1vGrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc1vG7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc2WELOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc2WEbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc1vFbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc1vFrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc1vF7OFEee3VKwWjjrc7A" points="[0, 0, 21, 60]$[-21, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc2WErOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc2WE7OFEee3VKwWjjrc7A" id="(0.4946236559139785,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc2WFLOFEee3VKwWjjrc7A" type="4001" element="_t2tjXLOFEee3VKwWjjrc7A" source="_ubS24LOFEee3VKwWjjrc7A" target="_ucMOwLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc2WGLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc2WGbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc2WGrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc2WG7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc2WHLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc2WHbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc2WFbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc2WFrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc2WF7OFEee3VKwWjjrc7A" points="[0, 0, 177, 60]$[-177, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc2WHrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc2WH7OFEee3VKwWjjrc7A" id="(0.4946236559139785,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc2WILOFEee3VKwWjjrc7A" type="4001" element="_t2tjX7OFEee3VKwWjjrc7A" source="_ubS25bOFEee3VKwWjjrc7A" target="_ubPzkLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc2WJLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc2WJbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc2WJrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc2WJ7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc2WKLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc2WKbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc2WIbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc2WIrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc2WI7OFEee3VKwWjjrc7A" points="[0, 0, 786, 60]$[-786, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc29ILOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc29IbOFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc29IrOFEee3VKwWjjrc7A" type="4001" element="_t2tjYrOFEee3VKwWjjrc7A" source="_ubS25bOFEee3VKwWjjrc7A" target="_ubQaorOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc29JrOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc29J7OFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc29KLOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc29KbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc29KrOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc29K7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc29I7OFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc29JLOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc29JbOFEee3VKwWjjrc7A" points="[0, 0, 98, 60]$[-98, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc29LLOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc29LbOFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc29LrOFEee3VKwWjjrc7A" type="4001" element="_t2tjZbOFEee3VKwWjjrc7A" source="_ubS25bOFEee3VKwWjjrc7A" target="_ubRBsrOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc3kMLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc3kMbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc3kMrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc3kM7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc3kNLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc3kNbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc29L7OFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc29MLOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc29MbOFEee3VKwWjjrc7A" points="[0, 0, -450, 60]$[450, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc3kNrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc3kN7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc3kOLOFEee3VKwWjjrc7A" type="4001" element="_t2tjaLOFEee3VKwWjjrc7A" source="_ubS25bOFEee3VKwWjjrc7A" target="_ubRowLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc3kPLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc3kPbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc3kPrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc3kP7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc3kQLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc3kQbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc3kObOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc3kOrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc3kO7OFEee3VKwWjjrc7A" points="[0, 0, -803, 60]$[803, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc3kQrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc3kQ7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc3kRLOFEee3VKwWjjrc7A" type="4001" element="_t2tja7OFEee3VKwWjjrc7A" source="_ubS25bOFEee3VKwWjjrc7A" target="_ubSP0LOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc4LQLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4LQbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4LQrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4LQ7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4LRLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4LRbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc3kRbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc3kRrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc3kR7OFEee3VKwWjjrc7A" points="[0, 0, -94, 60]$[94, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4LRrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4LR7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc4LSLOFEee3VKwWjjrc7A" type="4001" element="_t2tjbrOFEee3VKwWjjrc7A" source="_ubS25bOFEee3VKwWjjrc7A" target="_ubS24LOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc4LTLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4LTbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4LTrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4LT7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4LULOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4LUbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc4LSbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc4LSrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc4LS7OFEee3VKwWjjrc7A" points="[0, 0, 456, 60]$[-456, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4LUrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4LU7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc4LVLOFEee3VKwWjjrc7A" type="4001" element="_t2tjcbOFEee3VKwWjjrc7A" source="_t3EvgLOFEee3VKwWjjrc7A" target="_ucMOxbOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc4yULOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4yUbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4yUrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4yU7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4yVLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4yVbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc4LVbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc4LVrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc4LV7OFEee3VKwWjjrc7A" points="[0, 0, 106, 60]$[-106, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4yVrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4yV7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc4yWLOFEee3VKwWjjrc7A" type="4001" element="_t2tjdLOFEee3VKwWjjrc7A" source="_ubPzkLOFEee3VKwWjjrc7A" target="_ucUKkLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc4yXLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4yXbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4yXrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4yX7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc4yYLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc4yYbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc4yWbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc4yWrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc4yW7OFEee3VKwWjjrc7A" points="[0, 0, 176, 60]$[-176, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4yYrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc4yY7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc5ZYLOFEee3VKwWjjrc7A" type="4001" element="_t2tjd7OFEee3VKwWjjrc7A" source="_ubQaorOFEee3VKwWjjrc7A" target="_ucVYsLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc5ZZLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc5ZZbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc6AcLOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc6AcbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc6AcrOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc6Ac7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc5ZYbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc5ZYrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc5ZY7OFEee3VKwWjjrc7A" points="[0, 0, 158, 60]$[-158, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc6ngLOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc6ngbOFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc6ngrOFEee3VKwWjjrc7A" type="4001" element="_t2tjerOFEee3VKwWjjrc7A" source="_ubRBsrOFEee3VKwWjjrc7A" target="_ucV_wLOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc6nhrOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc6nh7OFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc6niLOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc6nibOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc6nirOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc6ni7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc6ng7OFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc6nhLOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc6nhbOFEee3VKwWjjrc7A" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc6njLOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc6njbOFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc6njrOFEee3VKwWjjrc7A" type="4001" element="_t2tjfbOFEee3VKwWjjrc7A" source="_ubRowLOFEee3VKwWjjrc7A" target="_ucWm0LOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc7OkLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc7OkbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc7OkrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc7Ok7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc7OlLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc7OlbOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc6nj7OFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc6nkLOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc6nkbOFEee3VKwWjjrc7A" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc7OlrOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc7Ol7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc7OmLOFEee3VKwWjjrc7A" type="4001" element="_t2tjgLOFEee3VKwWjjrc7A" source="_ubSP0LOFEee3VKwWjjrc7A" target="_ucWm1bOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc7OnLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc7OnbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc7OnrOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc7On7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc7OoLOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc7OobOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc7OmbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc7OmrOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc7Om7OFEee3VKwWjjrc7A" points="[0, 0, -156, 60]$[156, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc7OorOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc7Oo7OFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uc7OpLOFEee3VKwWjjrc7A" type="4001" element="_t2tjg7OFEee3VKwWjjrc7A" source="_ubS24LOFEee3VKwWjjrc7A" target="_ucXN4LOFEee3VKwWjjrc7A">
+          <children xmi:type="notation:Node" xmi:id="_uc7OqLOFEee3VKwWjjrc7A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc7OqbOFEee3VKwWjjrc7A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc71oLOFEee3VKwWjjrc7A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc71obOFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uc71orOFEee3VKwWjjrc7A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uc71o7OFEee3VKwWjjrc7A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uc7OpbOFEee3VKwWjjrc7A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uc7OprOFEee3VKwWjjrc7A" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uc7Op7OFEee3VKwWjjrc7A" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc71pLOFEee3VKwWjjrc7A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uc71pbOFEee3VKwWjjrc7A" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjILOFEee3VKwWjjrc7A" name="SG1 Overall Goal" outgoingEdges="_t2tjSrOFEee3VKwWjjrc7A _t2tjcbOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.0"/>
+      <semanticElements xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjIbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Goal.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjIrOFEee3VKwWjjrc7A" name="B1 Sub-Goal 1" outgoingEdges="_t2tjTbOFEee3VKwWjjrc7A _t2tjdLOFEee3VKwWjjrc7A" incomingEdges="_t2tjX7OFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.1"/>
+      <semanticElements xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjI7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Goal.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjJLOFEee3VKwWjjrc7A" name="B2 Sub-Goal 2" outgoingEdges="_t2tjULOFEee3VKwWjjrc7A _t2tjd7OFEee3VKwWjjrc7A" incomingEdges="_t2tjYrOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.2"/>
+      <semanticElements xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.2"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjJbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Goal.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjJrOFEee3VKwWjjrc7A" name="B3 Sub-Goal 3" outgoingEdges="_t2tjU7OFEee3VKwWjjrc7A _t2tjerOFEee3VKwWjjrc7A" incomingEdges="_t2tjZbOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.3"/>
+      <semanticElements xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjJ7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Goal.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjKLOFEee3VKwWjjrc7A" name="B4 Sub-Goal 4" outgoingEdges="_t2tjVrOFEee3VKwWjjrc7A _t2tjfbOFEee3VKwWjjrc7A" incomingEdges="_t2tjaLOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.4"/>
+      <semanticElements xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.4"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjKbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Goal.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjKrOFEee3VKwWjjrc7A" name="B5 Sub-Goal 5" outgoingEdges="_t2tjWbOFEee3VKwWjjrc7A _t2tjgLOFEee3VKwWjjrc7A" incomingEdges="_t2tja7OFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.5"/>
+      <semanticElements xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.5"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjK7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Goal.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjLLOFEee3VKwWjjrc7A" name="B6 Sub-Goal 6" outgoingEdges="_t2tjXLOFEee3VKwWjjrc7A _t2tjg7OFEee3VKwWjjrc7A" incomingEdges="_t2tjbrOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.6"/>
+      <semanticElements xmi:type="gsn:Goal" href="powerSD.gsn#//@goals.6"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjLbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Goal.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjLrOFEee3VKwWjjrc7A" name="S1 AND Refinement." outgoingEdges="_t2tjX7OFEee3VKwWjjrc7A _t2tjYrOFEee3VKwWjjrc7A _t2tjZbOFEee3VKwWjjrc7A _t2tjaLOFEee3VKwWjjrc7A _t2tja7OFEee3VKwWjjrc7A _t2tjbrOFEee3VKwWjjrc7A" incomingEdges="_t2tjSrOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Strategy" href="powerSD.gsn#//@strategies.0"/>
+      <semanticElements xmi:type="gsn:Strategy" href="powerSD.gsn#//@strategies.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjL7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Strategy.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='StrategyNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='StrategyNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjMLOFEee3VKwWjjrc7A" name="Sn1 Solution for B1" incomingEdges="_t2tjTbOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.0"/>
+      <semanticElements xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjMbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Solution.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjMrOFEee3VKwWjjrc7A" name="Sn2 Solution for B2" incomingEdges="_t2tjULOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.1"/>
+      <semanticElements xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjM7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Solution.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjNLOFEee3VKwWjjrc7A" name="Sn3 Solution for B3" incomingEdges="_t2tjU7OFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.2"/>
+      <semanticElements xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.2"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjNbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Solution.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjNrOFEee3VKwWjjrc7A" name="Sn4 Solution for B4" incomingEdges="_t2tjVrOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.3"/>
+      <semanticElements xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjN7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Solution.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjOLOFEee3VKwWjjrc7A" name="Sn5 Solution for B5" incomingEdges="_t2tjWbOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.4"/>
+      <semanticElements xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.4"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjObOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Solution.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjOrOFEee3VKwWjjrc7A" name="Sn6 Solution for B6" incomingEdges="_t2tjXLOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.5"/>
+      <semanticElements xmi:type="gsn:Solution" href="powerSD.gsn#//@solutions.5"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjO7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/Solution.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjPLOFEee3VKwWjjrc7A" name="C1 ASIL of SG1" incomingEdges="_t2tjcbOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.0"/>
+      <semanticElements xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjPbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/ASIL.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjPrOFEee3VKwWjjrc7A" name="C1_1 ASIL of B1" incomingEdges="_t2tjdLOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.1"/>
+      <semanticElements xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.1"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjP7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/ASIL.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjQLOFEee3VKwWjjrc7A" name="C1_2 ASIL of B2" incomingEdges="_t2tjd7OFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.2"/>
+      <semanticElements xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.2"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjQbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/ASIL.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjQrOFEee3VKwWjjrc7A" name="C1_3 ASIL of B3" incomingEdges="_t2tjerOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.3"/>
+      <semanticElements xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjQ7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/ASIL.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjRLOFEee3VKwWjjrc7A" name="C1_4 ASIL of B4" incomingEdges="_t2tjfbOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.4"/>
+      <semanticElements xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.4"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjRbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/ASIL.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjRrOFEee3VKwWjjrc7A" name="C1_5 ASIL of B5" incomingEdges="_t2tjgLOFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.5"/>
+      <semanticElements xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.5"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjR7OFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/ASIL.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2tjSLOFEee3VKwWjjrc7A" name="C1_6 ASIL of B6" incomingEdges="_t2tjg7OFEee3VKwWjjrc7A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.6"/>
+      <semanticElements xmi:type="gsn:ASIL" href="powerSD.gsn#//@ASILLevels.6"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_t2tjSbOFEee3VKwWjjrc7A" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.nlsfung.gsn.design/icons/ASIL.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjSrOFEee3VKwWjjrc7A" sourceNode="_t2tjILOFEee3VKwWjjrc7A" targetNode="_t2tjLrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.0/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.0/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjS7OFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjTLOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjTbOFEee3VKwWjjrc7A" sourceNode="_t2tjIrOFEee3VKwWjjrc7A" targetNode="_t2tjMLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.1/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.1/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjTrOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjT7OFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjULOFEee3VKwWjjrc7A" sourceNode="_t2tjJLOFEee3VKwWjjrc7A" targetNode="_t2tjMrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.2/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.2/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjUbOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjUrOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjU7OFEee3VKwWjjrc7A" sourceNode="_t2tjJrOFEee3VKwWjjrc7A" targetNode="_t2tjNLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.3/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.3/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjVLOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjVbOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjVrOFEee3VKwWjjrc7A" sourceNode="_t2tjKLOFEee3VKwWjjrc7A" targetNode="_t2tjNrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.4/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.4/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjV7OFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjWLOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjWbOFEee3VKwWjjrc7A" sourceNode="_t2tjKrOFEee3VKwWjjrc7A" targetNode="_t2tjOLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.5/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.5/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjWrOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjW7OFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjXLOFEee3VKwWjjrc7A" sourceNode="_t2tjLLOFEee3VKwWjjrc7A" targetNode="_t2tjOrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.6/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@goals.6/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjXbOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjXrOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjX7OFEee3VKwWjjrc7A" sourceNode="_t2tjLrOFEee3VKwWjjrc7A" targetNode="_t2tjIrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.0"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjYLOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjYbOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjYrOFEee3VKwWjjrc7A" sourceNode="_t2tjLrOFEee3VKwWjjrc7A" targetNode="_t2tjJLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.1"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjY7OFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjZLOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjZbOFEee3VKwWjjrc7A" sourceNode="_t2tjLrOFEee3VKwWjjrc7A" targetNode="_t2tjJrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.2"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjZrOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjZ7OFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjaLOFEee3VKwWjjrc7A" sourceNode="_t2tjLrOFEee3VKwWjjrc7A" targetNode="_t2tjKLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.3"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjabOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjarOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tja7OFEee3VKwWjjrc7A" sourceNode="_t2tjLrOFEee3VKwWjjrc7A" targetNode="_t2tjKrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.4"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjbLOFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjbbOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjbrOFEee3VKwWjjrc7A" sourceNode="_t2tjLrOFEee3VKwWjjrc7A" targetNode="_t2tjLLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.5"/>
+      <semanticElements xmi:type="gsn:SupportedBy" href="powerSD.gsn#//@strategies.0/@supportedBy.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjb7OFEee3VKwWjjrc7A" targetArrow="InputFillClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjcLOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjcbOFEee3VKwWjjrc7A" sourceNode="_t2tjILOFEee3VKwWjjrc7A" targetNode="_t2tjPLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.0/@inContextOf.0"/>
+      <semanticElements xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.0/@inContextOf.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjcrOFEee3VKwWjjrc7A" targetArrow="InputClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjc7OFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjdLOFEee3VKwWjjrc7A" sourceNode="_t2tjIrOFEee3VKwWjjrc7A" targetNode="_t2tjPrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.1/@inContextOf.0"/>
+      <semanticElements xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.1/@inContextOf.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjdbOFEee3VKwWjjrc7A" targetArrow="InputClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjdrOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjd7OFEee3VKwWjjrc7A" sourceNode="_t2tjJLOFEee3VKwWjjrc7A" targetNode="_t2tjQLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.2/@inContextOf.0"/>
+      <semanticElements xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.2/@inContextOf.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjeLOFEee3VKwWjjrc7A" targetArrow="InputClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjebOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjerOFEee3VKwWjjrc7A" sourceNode="_t2tjJrOFEee3VKwWjjrc7A" targetNode="_t2tjQrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.3/@inContextOf.0"/>
+      <semanticElements xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.3/@inContextOf.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tje7OFEee3VKwWjjrc7A" targetArrow="InputClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjfLOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjfbOFEee3VKwWjjrc7A" sourceNode="_t2tjKLOFEee3VKwWjjrc7A" targetNode="_t2tjRLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.4/@inContextOf.0"/>
+      <semanticElements xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.4/@inContextOf.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjfrOFEee3VKwWjjrc7A" targetArrow="InputClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjf7OFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjgLOFEee3VKwWjjrc7A" sourceNode="_t2tjKrOFEee3VKwWjjrc7A" targetNode="_t2tjRrOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.5/@inContextOf.0"/>
+      <semanticElements xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.5/@inContextOf.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjgbOFEee3VKwWjjrc7A" targetArrow="InputClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjgrOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_t2tjg7OFEee3VKwWjjrc7A" sourceNode="_t2tjLLOFEee3VKwWjjrc7A" targetNode="_t2tjSLOFEee3VKwWjjrc7A">
+      <target xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.6/@inContextOf.0"/>
+      <semanticElements xmi:type="gsn:InContextOf" href="powerSD.gsn#//@goals.6/@inContextOf.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_t2tjhLOFEee3VKwWjjrc7A" targetArrow="InputClosedArrow" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_t2tjhbOFEee3VKwWjjrc7A"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_t2tjhrOFEee3VKwWjjrc7A"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.nlsfung.gsn.design/description/gsn.odesign#//@ownedViewpoints[name='safety%20cases']/@ownedRepresentations[name='Safety%20case%20diagram']/@defaultLayer"/>
+    <target xmi:type="gsn:SafetyCase" href="powerSD.gsn#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
