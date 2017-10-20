@@ -12,11 +12,11 @@
   <models uri="w2" name="w2" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="C2Recheck" name="C2Recheck" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="w3" name="w3" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
-  <models uri="w5" name="w5" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
+  <models uri="C2Revise" name="C2Revise" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="C3Recheck1" name="C3Recheck1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="w4" name="w4" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="C3Recheck2" name="C3Recheck2" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
-  <models uri="C2Revise" name="C2Revise" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid"/>
+  <models uri="w6" name="w6" level="WORKFLOWS" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" origin="CREATED" fileExtension="gsn"/>
   <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
     <inputs uri="" name="mids1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
@@ -73,9 +73,10 @@
     <outputs uri="" name="mappedMids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
     <generics uri="" name="GSNSliceRecheck" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerecheck"/>
   </operators>
-  <operators uri="" name="Union" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union" dynamic="true">
-    <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
-    <outputs uri="" name="unionMid" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Union/unionMid" dynamic="true" lowerBound="1" upperBound="1" target="//@models.16"/>
+  <operators uri="" name="GSNAnnotate" level="WORKFLOWS" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnannotate" dynamic="true">
+    <inputs uri="" name="revise" level="WORKFLOWS" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnannotate/revise" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
+    <inputs uri="" name="recheck" level="WORKFLOWS" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnannotate/recheck" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
+    <outputs uri="" name="annotate" level="WORKFLOWS" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnannotate/annotate" dynamic="true" lowerBound="1" upperBound="1" target="//@models.16"/>
   </operators>
   <extendibleTable key="sys" value="//@models.0"/>
   <extendibleTable key="safetyCase" value="//@models.1"/>
@@ -92,6 +93,6 @@
   <extendibleTable key="C3Recheck1" value="//@models.13"/>
   <extendibleTable key="w4" value="//@models.14"/>
   <extendibleTable key="C3Recheck2" value="//@models.15"/>
-  <extendibleTable key="C2Revise" value="//@models.16"/>
   <extendibleTable key="w5" value="//@models.12"/>
+  <extendibleTable key="w6" value="//@models.16"/>
 </mid:MID>

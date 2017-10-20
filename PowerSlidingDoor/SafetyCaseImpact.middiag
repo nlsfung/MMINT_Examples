@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_zIu80LU6EeewpJgTevpr_A" type="MID" name="SafetyCaseImpact.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_zIynMLU6EeewpJgTevpr_A" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zIzOQrU6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zIzOQ7U6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOQLU6EeewpJgTevpr_A" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOQbU6EeewpJgTevpr_A" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zIynMbU6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zIynMrU6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zIynM7U6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIynNLU6EeewpJgTevpr_A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zIzORLU6EeewpJgTevpr_A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zIzOS7U6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zIzOTLU6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOSbU6EeewpJgTevpr_A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOSrU6EeewpJgTevpr_A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zIzORbU6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zIzORrU6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zIzOR7U6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIzOSLU6EeewpJgTevpr_A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zIzOTbU6EeewpJgTevpr_A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zIzOVLU6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zIzOVbU6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOUrU6EeewpJgTevpr_A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOU7U6EeewpJgTevpr_A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zIzOTrU6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zIzOT7U6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zIzOULU6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIzOUbU6EeewpJgTevpr_A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zIzOVrU6EeewpJgTevpr_A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zIzOXbU6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zIzOXrU6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOW7U6EeewpJgTevpr_A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOXLU6EeewpJgTevpr_A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zIzOV7U6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zIzOWLU6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zIzOWbU6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIzOWrU6EeewpJgTevpr_A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zIzOX7U6EeewpJgTevpr_A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zIzOZrU6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zIzOZ7U6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOZLU6EeewpJgTevpr_A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zIzOZbU6EeewpJgTevpr_A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zIzOYLU6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zIzOYbU6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zIzOYrU6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIzOY7U6EeewpJgTevpr_A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_zxK10LU6EeewpJgTevpr_A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zxK117U6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zxK12LU6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zxK11bU6EeewpJgTevpr_A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_zxK11rU6EeewpJgTevpr_A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zxK10bU6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zxK10rU6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zxK107U6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zxK11LU6EeewpJgTevpr_A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_z8R5oLU6EeewpJgTevpr_A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z8R5p7U6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z8R5qLU6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_z8R5pbU6EeewpJgTevpr_A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_z8R5prU6EeewpJgTevpr_A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_z8R5obU6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_z8R5orU6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_z8R5o7U6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.5"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z8R5pLU6EeewpJgTevpr_A"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_z8et8LU6EeewpJgTevpr_A" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z8et97U6EeewpJgTevpr_A" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z8et-LU6EeewpJgTevpr_A" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_z8et9bU6EeewpJgTevpr_A" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_z8et9rU6EeewpJgTevpr_A" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_z8et8bU6EeewpJgTevpr_A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_z8et8rU6EeewpJgTevpr_A" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_z8et87U6EeewpJgTevpr_A" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.6"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z8et9LU6EeewpJgTevpr_A"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zIu80bU6EeewpJgTevpr_A"/>
+  <element xmi:type="mid:MID" href="SafetyCaseImpact.mid#/"/>
+</notation:Diagram>
