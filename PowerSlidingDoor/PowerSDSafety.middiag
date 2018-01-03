@@ -11,7 +11,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_6mGkklqpEeeS77fpGMCCWQ" fontName="Ubuntu"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6mGkk1qpEeeS77fpGMCCWQ" hint="Mid"/>
       <element xmi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6mGklFqpEeeS77fpGMCCWQ" x="24" y="144"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6mGklFqpEeeS77fpGMCCWQ" x="28" y="147"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_8YJxAFqpEeeS77fpGMCCWQ" type="2002">
       <children xmi:type="notation:DecorationNode" xmi:id="_8YJxBVqpEeeS77fpGMCCWQ" type="5003"/>
@@ -20,7 +20,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_8YJxAlqpEeeS77fpGMCCWQ" fontName="Ubuntu"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8YJxA1qpEeeS77fpGMCCWQ" hint="Mid"/>
       <element xmi:type="mid:Model" href="PowerSDSafety.mid#//@models.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8YJxBFqpEeeS77fpGMCCWQ" x="276" y="144"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8YJxBFqpEeeS77fpGMCCWQ" x="364" y="147"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_XA9dkFtYEeeZY7sE8PrcHg" type="2002">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XBBH8FtYEeeZY7sE8PrcHg" source="Shortcut">
@@ -32,7 +32,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_XA9dkltYEeeZY7sE8PrcHg" fontName="Ubuntu"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_XA9dk1tYEeeZY7sE8PrcHg" hint="Mid"/>
       <element xmi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XA9dlFtYEeeZY7sE8PrcHg" x="456" y="144"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XA9dlFtYEeeZY7sE8PrcHg" x="644" y="147"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_GSw_UFvDEeevJ9tD0ETuyQ" type="2003">
       <children xmi:type="notation:DecorationNode" xmi:id="_GSxmYFvDEeevJ9tD0ETuyQ" type="5005"/>
@@ -41,7 +41,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_GSw_UlvDEeevJ9tD0ETuyQ" fontName="Cantarell"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_GSw_U1vDEeevJ9tD0ETuyQ" diagramLink="_OlylcFvDEeevJ9tD0ETuyQ" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="PowerSDSafety.mid#//@models.1"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GSw_VFvDEeevJ9tD0ETuyQ" x="185" y="35"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GSw_VFvDEeevJ9tD0ETuyQ" x="203" y="28"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_KI900FvDEeevJ9tD0ETuyQ" type="2003">
       <children xmi:type="notation:DecorationNode" xmi:id="_KI901VvDEeevJ9tD0ETuyQ" type="5005"/>
@@ -50,7 +50,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_KI900lvDEeevJ9tD0ETuyQ" fontName="Cantarell"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_KI9001vDEeevJ9tD0ETuyQ" diagramLink="_-w2U0LLcEeeaitLzqlIrbQ" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="PowerSDSafety.mid#//@models.2"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KI901FvDEeevJ9tD0ETuyQ" x="390" y="35"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KI901FvDEeevJ9tD0ETuyQ" x="553" y="28"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_V4BpMVqgEee2fuw-fX7UxQ"/>
     <element xmi:type="mid:MID" href="PowerSDSafety.mid#/"/>
@@ -64,7 +64,9 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_IENHwVvDEeevJ9tD0ETuyQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_IENHwlvDEeevJ9tD0ETuyQ" fontName="Cantarell"/>
       <element xmi:type="mid:ModelEndpoint" href="PowerSDSafety.mid#//@models.1/@modelEndpoints.0"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IENHw1vDEeevJ9tD0ETuyQ" points="[-22, 30, 117, -79]$[-37, 136, 102, 27]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IENHw1vDEeevJ9tD0ETuyQ" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WxqSwLqOEeeLftontElqkA" id="(0.33189655172413796,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wxrg4LqOEeeLftontElqkA" id="(0.9130434782608695,0.0)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_IYU9oFvDEeevJ9tD0ETuyQ" type="4002" source="_GSw_UFvDEeevJ9tD0ETuyQ" target="_8YJxAFqpEeeS77fpGMCCWQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_IYVksFvDEeevJ9tD0ETuyQ" type="6001">
@@ -76,7 +78,9 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_IYU9oVvDEeevJ9tD0ETuyQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_IYU9olvDEeevJ9tD0ETuyQ" fontName="Cantarell"/>
       <element xmi:type="mid:ModelEndpoint" href="PowerSDSafety.mid#//@models.1/@modelEndpoints.1"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYU9o1vDEeevJ9tD0ETuyQ" points="[22, 30, -67, -79]$[40, 79, -49, -30]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IYU9o1vDEeevJ9tD0ETuyQ" points="[0, 0, -78, -60]$[78, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WxnPcLqOEeeLftontElqkA" id="(0.6637931034482759,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wxn2gLqOEeeLftontElqkA" id="(0.3302325581395349,0.0)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_N_6RMFvDEeevJ9tD0ETuyQ" type="4002" source="_KI900FvDEeevJ9tD0ETuyQ" target="_XA9dkFtYEeeZY7sE8PrcHg">
       <children xmi:type="notation:DecorationNode" xmi:id="_N_6RNFvDEeevJ9tD0ETuyQ" type="6001">
@@ -88,8 +92,9 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N_6RMVvDEeevJ9tD0ETuyQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N_6RMlvDEeevJ9tD0ETuyQ" fontName="Cantarell"/>
       <element xmi:type="mid:ModelEndpoint" href="PowerSDSafety.mid#//@models.2/@modelEndpoints.0"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N_6RM1vDEeevJ9tD0ETuyQ" points="[19, 30, -64, -95]$[30, 139, -53, 14]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OAAX0FvDEeevJ9tD0ETuyQ" id="(0.30990415335463256,0.7666666666666667)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N_6RM1vDEeevJ9tD0ETuyQ" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WxtWELqOEeeLftontElqkA" id="(0.49783549783549785,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OAAX0FvDEeevJ9tD0ETuyQ" id="(0.060810810810810814,0.0)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_OR-RkFvDEeevJ9tD0ETuyQ" type="4002" source="_KI900FvDEeevJ9tD0ETuyQ" target="_8YJxAFqpEeeS77fpGMCCWQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_OR-RlFvDEeevJ9tD0ETuyQ" type="6001">
@@ -101,8 +106,9 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_OR-RkVvDEeevJ9tD0ETuyQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_OR-RklvDEeevJ9tD0ETuyQ" fontName="Cantarell"/>
       <element xmi:type="mid:ModelEndpoint" href="PowerSDSafety.mid#//@models.2/@modelEndpoints.1"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OR-Rk1vDEeevJ9tD0ETuyQ" points="[-20, 30, 50, -76]$[-37, 103, 33, -3]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OSDKEFvDEeevJ9tD0ETuyQ" id="(0.7898089171974523,0.45)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OR-Rk1vDEeevJ9tD0ETuyQ" points="[0, 0, 101, -60]$[-101, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WxvLQLqOEeeLftontElqkA" id="(0.24675324675324675,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OSDKEFvDEeevJ9tD0ETuyQ" id="(0.6651162790697674,0.0)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_W9_ywFqgEee2fuw-fX7UxQ" type="Relationship" measurementUnit="Pixel">

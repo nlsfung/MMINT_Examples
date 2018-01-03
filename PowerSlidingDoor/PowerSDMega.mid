@@ -345,6 +345,33 @@
     <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.8/@sourceLifeline.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[sourceLifeline->] Source Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SourceLifelineReference" featureName="sourceLifeline" relatedClassName="Message"/>
     </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="AttributeReference" featureName="attributes" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@targetLifeline.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[targetLifeline->] Target Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="TargetLifelineReference" featureName="targetLifeline" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@operation.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="OperationReference" featureName="operation" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="AttributeReference" featureName="attributes" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@attributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="AttributeReference" featureName="attributes" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.1/@operation.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="OperationReference" featureName="operation" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@attributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="AttributeReference" featureName="attributes" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@operation.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="OperationReference" featureName="operation" relatedClassName="Message"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@targetLifeline.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[targetLifeline->] Target Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="TargetLifelineReference" featureName="targetLifeline" relatedClassName="Message"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="CD &lt;-> SD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
@@ -684,4 +711,13 @@
   <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@lifelines.1/@activationBoxes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.86"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.8/@sourceLifeline.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.87"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.classdiagram#//@classes.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.25"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.88"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@targetLifeline.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.89"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@operation.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.90"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@attributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.91"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@attributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.92"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.1/@operation.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.93"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.9/@attributes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.94"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@operation.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.95"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.icse15_sequencediagram_mavo#//@messages.5/@targetLifeline.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.96"/>
 </mid:MID>
