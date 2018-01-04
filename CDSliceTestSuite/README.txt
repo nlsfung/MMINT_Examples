@@ -30,43 +30,6 @@ digit ("1") corresponds to the group the test case belongs to, and the
 remaining two digits ("23") identifies the test case within that group.
 
 
---- Dependency Rules for Class Diagram Slicer ---
-
-Since some test cases relate to specific dependency rules, it is useful to 
-first summarise what these are, which will be presented here in the following 
-format:
-
-R00 Type => Rule,
-
-where "R00" is the placeholder for the unique ID of a dependency rule, "Type" 
-the type of the model element to be sliced (e.g. class in a class diagram), and
-"Rule" the elements to be included in the slice (e.g. the attributes and 
-operations of the class). Unless otherwise stated, it is implicitly assumed 
-that the resulting slices always contain the original element to be sliced.
-
-As shown in CDMetaModel.png, a class diagram is modelled to contain classes, 
-associations and dependencies, and each class is in turn modelled to contain 
-attributes and operations. Thus including the complete class diagram itself, 
-there are six different types of model elements that can be sliced and 
-therefore six different dependency rules, which are as follows:
-
-R01: Class Diagram => Everything in class diagram 
-R02: Class => Owned attributes and operations AND
-              Associations whose source and/or target is the class AND
-              Dependencies whose depender and/or dependee is the class AND 
-              Sub-classes and nested classes AND
-              Attributes and operations whose type is the class AND
-              Results of applying R02 to R06 to the sliced elements
-R03: Association => Source class
-                    Results of applying R02 to the newly sliced classes 
-R04: Dependency => Depender class
-                   Results of applying R02 to the newly sliced classes
-R05: Attribute => The owner class
-                  Results of applying R02 to the newly sliced class
-R06: Operation => The owner class
-                  Results of applying R02 to the newly sliced class
-
-
 --- G01 Tests for Specific Dependency Rule ---
 
 T101 Model: Single empty class (Class A)
@@ -157,6 +120,14 @@ T120 Model: Single class (Class A) with sub-class (Class SubA)
      Crit:  Class SubA
      Slice: Class SubA
 
+T121 Model: Single class (Class A) with single association (assocA2B)
+     Crit:  Class Diagram
+     Slice: Everything
+
+T118 Model: Single class (Class A) with single dependency (dependA)
+     Crit:  Class Diagram
+     Slice: Everything
+
 
 --- G02 Tests for Recursion ---
 (Note: Ill-formed class diagrams may be used in these tests.)
@@ -221,6 +192,14 @@ T304 Model: Two independent pair of classes (A and B) with same associations
 T305 Model: Two independent pair of classes (A & B) with same dependencies
      Crit:  Class A
      Slice: Class A and its associated slice
+
+T306 Model: Association (assocA2B) without target class
+     Crit:  Association assocA2B
+     Slice: assocA2B and its source clase
+
+T306 Model: Dependency (dependB2A) without depender class
+     Crit:  Dependency dependB2A
+     Slice: dependB2A
 
 
 --- G04 Tests for Overall Slicing Algorithm ---
