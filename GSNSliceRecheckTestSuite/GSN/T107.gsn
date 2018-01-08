@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
   <goals id="SuperG" name="SuperG"  >
-    <supportedBy/>
+    <supportedBy premise="//@strategies.0"/>
   </goals>
-  <strategies id="SuperS" name="SuperS" supports="//@goals.0/@supportedBy">
-    <supportedBy/>
+  <strategies id="SuperS" name="SuperS" supports="//@goals.0/@supportedBy.0">
+    <supportedBy premise="//@goals.1"/>
+    <supportedBy premise="//@goals.2"/>
   </strategies>
-  <goals id="G1" name="G1" supports="//@strategies.0/@supportedBy">
-    <supportedBy/>
-    <inContextOf contexts="//@contexts.0" />
+  <goals id="G1" name="G1" supports="//@strategies.0/@supportedBy.0">
+    <supportedBy premise="//@solutions.0"/>
+    <inContextOf context="//@contexts.0" />
   </goals>
-  <goals id="G2" name="G2" supports="//@strategies.0/@supportedBy">
-    <supportedBy/>
+  <goals id="G2" name="G2" supports="//@strategies.0/@supportedBy.1">
+    <supportedBy premise="//@strategies.1"/>
   </goals>
-  <contexts id="C" name="C" contextOf="//@goals.1/@inContextOf //@strategies.1/@inContextOf //@goals.3/@inContextOf" />
-  <solutions id="Sol1" name="Sol1" supports="//@goals.1/@supportedBy" />
-  <strategies id="SubS" name="SubS" supports="//@goals.2/@supportedBy"   >
-    <supportedBy/>
-    <inContextOf contexts="//@contexts.0" />
+  <contexts id="C" name="C" contextOf="//@goals.1/@inContextOf.0 //@strategies.1/@inContextOf.0 //@goals.3/@inContextOf.0" />
+  <solutions id="Sol1" name="Sol1" supports="//@goals.1/@supportedBy.0" />
+  <strategies id="SubS" name="SubS" supports="//@goals.2/@supportedBy.0"   >
+    <supportedBy premise="//@goals.3"/>
+    <inContextOf context="//@contexts.0" />
   </strategies>
-  <goals id="SubG" name="SubG" supports="//@strategies.1/@supportedBy"   >
-    <supportedBy/>
-    <inContextOf contexts="//@contexts.0" />
+  <goals id="SubG" name="SubG" supports="//@strategies.1/@supportedBy.0"   >
+    <supportedBy premise="//@solutions.0"/>
+    <inContextOf context="//@contexts.0" />
   </goals>
-  <solutions id="Sol2" name="Sol2" supports="//@goals.3/@supportedBy" />
+  <solutions id="Sol2" name="Sol2" supports="//@goals.3/@supportedBy.0" />
 </gsn:SafetyCase>

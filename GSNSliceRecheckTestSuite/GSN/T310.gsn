@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <strategies id="S" name="S">
-    <supportedBy premise="//@goals.0" />
+  <strategies id="S" name="S"  >
+    <inContextOf />
   </strategies>
-  <goals id="G" name="G" supports="//@strategies.0/@supportedBy.0"  >
-  </goals>
 </gsn:SafetyCase>

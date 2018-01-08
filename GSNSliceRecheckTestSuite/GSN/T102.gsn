@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
   <goals id="G2" name="G2"  >
-    <supportedBy/>
+    <supportedBy premise="//@strategies.0"/>
   </goals>
-  <strategies id="S" name="S" supports="//@goals.0/@supportedBy"  >
-    <supportedBy/>
+  <strategies id="S" name="S" supports="//@goals.0/@supportedBy.0"  >
+    <supportedBy premise="//@goals.1"/>
   </strategies>
-  <goals id="G1" name="G1" supports="//@strategies.0/@supportedBy"   >
-    <supportedBy/>
+  <goals id="G1" name="G1" supports="//@strategies.0/@supportedBy.0"   >
+    <supportedBy premise="//@solutions.0"/>
   </goals>
-  <solutions id="Sol" name="Sol" supports="//@goals.1/@supportedBy" />
+  <solutions id="Sol" name="Sol" supports="//@goals.1/@supportedBy.0" />
 </gsn:SafetyCase>
