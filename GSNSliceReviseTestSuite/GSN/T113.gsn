@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
+  <goals id="G" name="G">
+    <supportedBy premise="//@strategies.0"/>
+    <inContextOf context="//@ASILLevels.0"/>
+  </goals>
+  <goals id="SubG1" name="SubG1" supports="//@strategies.0/@supportedBy.0">
+    <supportedBy premise="//@solutions.0"/>
+  </goals>
+  <goals id="SubG2" name="SubG2" supports="//@strategies.0/@supportedBy.1">
+    <supportedBy premise="//@solutions.1"/>
+  </goals>
+  <strategies id="S" name="S" supports="//@goals.0/@supportedBy.0">
+    <supportedBy premise="//@goals.1"/>
+    <supportedBy premise="//@goals.2"/>
+    <inContextOf context="//@contexts.0"/>
+  </strategies>
+  <solutions id="Sol1" name="Sol1" supports="//@goals.1/@supportedBy.0"/>
+  <solutions id="Sol2" name="Sol2" supports="//@goals.2/@supportedBy.0"/>
+  <ASILLevels id="ASIL" name="ASIL" contextOf="//@goals.0/@inContextOf.0" level="A"/>
+  <contexts id="C" name="C" contextOf="//@strategies.0/@inContextOf.0"/>
+</gsn:SafetyCase>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <goals id="G1" name="G1" supports="//@strategies.2/@supportedBy">
-    <supportedBy premises="//@strategies.0"/>
+  <goals id="G1" name="G1" supports="//@strategies.2/@supportedBy.0">
+    <supportedBy premise="//@strategies.0"/>
   </goals>
-  <goals id="G2" name="G2" supports="//@strategies.0/@supportedBy">
-    <supportedBy premises="//@strategies.1"/>
+  <goals id="G2" name="G2" supports="//@strategies.0/@supportedBy.0">
+    <supportedBy premise="//@strategies.1"/>
   </goals>
-  <goals id="G3" name="G3" supports="//@strategies.1/@supportedBy">
-    <supportedBy premises="//@strategies.2"/>
+  <goals id="G3" name="G3" supports="//@strategies.1/@supportedBy.0">
+    <supportedBy premise="//@strategies.2"/>
   </goals>
-  <strategies id="S1" name="S1" supports="//@goals.0/@supportedBy">
-    <supportedBy premises="//@goals.1"/>
+  <strategies id="S1" name="S1" supports="//@goals.0/@supportedBy.0">
+    <supportedBy premise="//@goals.1"/>
   </strategies>
-  <strategies id="S2" name="S2" supports="//@goals.1/@supportedBy">
-    <supportedBy premises="//@goals.2"/>
+  <strategies id="S2" name="S2" supports="//@goals.1/@supportedBy.0">
+    <supportedBy premise="//@goals.2"/>
   </strategies>
-  <strategies id="S3" name="S3" supports="//@goals.2/@supportedBy">
-    <supportedBy premises="//@goals.0"/>
+  <strategies id="S3" name="S3" supports="//@goals.2/@supportedBy.0">
+    <supportedBy premise="//@goals.0"/>
   </strategies>
 </gsn:SafetyCase>

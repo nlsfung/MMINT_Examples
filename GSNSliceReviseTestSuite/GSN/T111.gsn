@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
-  <goals id="SuperG" name="SuperG"  >
-    <supportedBy/>
+  <goals id="G" name="G"  >
+    <supportedBy premise="//@strategies.0"/>
   </goals>
-  <strategies id="S" name="S" supports="//@goals.0/@supportedBy">
-    <supportedBy/>
+  <strategies id="S" name="S" supports="//@goals.0/@supportedBy.0">
+    <supportedBy premise="//@goals.1" />
+    <supportedBy premise="//@goals.2" />
   </strategies>
-  <goals id="G1" name="G1" supports="//@strategies.0/@supportedBy"  >
-    <supportedBy/>
+  <goals id="SubG1" name="SubG1" supports="//@strategies.0/@supportedBy.0"  >
+    <supportedBy premise="//@solutions.0" />
   </goals>
-  <goals id="G2" name="G2" supports="//@strategies.0/@supportedBy"  >
-    <supportedBy/>
+  <goals id="SubG2" name="SubG2" supports="//@strategies.0/@supportedBy.1"  >
+    <supportedBy premise="//@solutions.1" />
   </goals>
-  <solutions id="Sol1" name="Sol1" supports="//@goals.1/@supportedBy" />
-  <solutions id="Sol2" name="Sol2" supports="//@goals.2/@supportedBy" />
+  <solutions id="Sol1" name="Sol1" supports="//@goals.1/@supportedBy.0" />
+  <solutions id="Sol2" name="Sol2" supports="//@goals.2/@supportedBy.0" />
 </gsn:SafetyCase>

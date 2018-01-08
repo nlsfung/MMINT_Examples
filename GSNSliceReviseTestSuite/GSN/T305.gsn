@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
   <strategies id="S" name="S"  >
-    <inContextOf/>
+    <inContextOf context="//@contexts.0" />
   </strategies>
-  <contexts id="C" name="C" contextOf="//@strategies.0/@inContextOf" />
+  <contexts id="C" name="C" contextOf="//@strategies.0/@inContextOf.0" />
 </gsn:SafetyCase>

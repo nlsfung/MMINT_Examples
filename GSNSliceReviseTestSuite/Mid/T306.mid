@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
   <models uri="/GSNSliceReviseTestSuite/GSN/T306.gsn" name="T306" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
-    <modelElems uri="/GSNSliceReviseTestSuite/GSN/T306.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal G" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
-      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
-    </modelElems>
-    <modelElems uri="/GSNSliceReviseTestSuite/GSN/T306.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
-      <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
-    </modelElems>
-    <modelElems uri="/GSNSliceReviseTestSuite/GSN/T306.gsn#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sol1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
-      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
-    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="criteria" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="T306" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
-    </modelEndpointRefs>
-  </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
-    <modelEndpoints uri="" name="T306" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true"/>
     </modelEndpointRefs>
   </models>
   <editors uri="/GSNSliceReviseTestSuite/GSN/T306.gsn" name="GSN Editor for model /GSNSliceReviseTestSuite/GSN/T306.gsn" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/editor" dynamic="true" modelUri="/GSNSliceReviseTestSuite/GSN/T306.gsn" id="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNEditorID" wizardId="edu.toronto.cs.se.nlsfung.gsn.presentation.GSNModelWizardID">
     <fileExtensions>gsn</fileExtensions>
   </editors>
-  <operators uri="" name="GSNSliceRevise" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise" dynamic="true" updateMID="true" executionTime="2837402">
-    <inputs uri="" name="criterion" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
-    <outputs uri="" name="slice" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn/operator/gsnslicerevise/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
-  </operators>
-  <extendibleTable key="/GSNSliceReviseTestSuite/GSN/T306.gsn" value="//@models.0"/>
-  <extendibleTable key="/GSNSliceReviseTestSuite/GSN/T306.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
-  <extendibleTable key="/GSNSliceReviseTestSuite/GSN/T306.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
-  <extendibleTable key="/GSNSliceReviseTestSuite/GSN/T306.gsn#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
 </mid:MID>
