@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>CDSlice.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">Eclipse Application (8-Jan-2018 6:43:10 PM)</a> &gt; <a href="../../index.html" class="el_group">edu.toronto.cs.se.modelepedia.classdiagram_mavo.operator</a> &gt; <a href="../index.html" class="el_bundle">src</a> &gt; <a href="index.source.html" class="el_package">edu.toronto.cs.se.modelepedia.classdiagram.operator</a> &gt; <span class="el_source">CDSlice.java</span></div><h1>CDSlice.java</h1><pre class="source lang-java linenums">/**
+ * Copyright (c) 2012-2017 Marsha Chechik, Alessio Di Sandro, Michalis Famelis,
+ * Rick Salay, Nick Fung.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *    Alessio Di Sandro - Implementation.
+ *    Nick Fung - Implementation.
+ */
+package edu.toronto.cs.se.modelepedia.classdiagram.operator;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.eclipse.emf.ecore.EObject;
+
+import edu.toronto.cs.se.mmint.operator.slice.Slice;
+import edu.toronto.cs.se.modelepedia.classdiagram.Association;
+import edu.toronto.cs.se.modelepedia.classdiagram.Attribute;
+import edu.toronto.cs.se.modelepedia.classdiagram.Class;
+import edu.toronto.cs.se.modelepedia.classdiagram.ClassDiagram;
+import edu.toronto.cs.se.modelepedia.classdiagram.Dependency;
+import edu.toronto.cs.se.modelepedia.classdiagram.Operation;
+
+<span class="fc" id="L28">public class CDSlice extends Slice {</span>
+
+	@Override
+	// Get all model elements that are potentially impacted by the input set.
+	public Set&lt;EObject&gt; getAllImpactedElements(Set&lt;EObject&gt; elemSet) {
+<span class="fc" id="L33">		Set&lt;EObject&gt; impactedAll = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L34">		Set&lt;EObject&gt; impactedCur = new HashSet&lt;&gt;();</span>
+<span class="fc" id="L35">		Set&lt;EObject&gt; impactedNext = new HashSet&lt;&gt;();</span>
+		
+		// Iterate through the current set of newly added model elements 
+		// to identify all others that may be potentially impacted. 
+<span class="fc" id="L39">		impactedAll.addAll(elemSet);</span>
+<span class="fc" id="L40">		impactedCur.addAll(elemSet);</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">		while (!impactedCur.isEmpty()) {</span>
+<span class="fc bfc" id="L42" title="All 2 branches covered.">			for (EObject elem : impactedCur) {</span>
+				// Get all model elements directly impacted by the current 
+				// one in consideration and remove duplicates.
+<span class="fc bfc" id="L45" title="All 2 branches covered.">				for (EObject newElem : getDirectlyImpactedElements(elem)) {</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">					if (!impactedAll.contains(newElem)) {</span>
+<span class="fc" id="L47">						impactedAll.add(newElem);</span>
+<span class="fc" id="L48">						impactedNext.add(newElem);</span>
+					}
+				}
+			}
+			
+			// Prepare for next iteration.
+<span class="fc" id="L54">			impactedCur.clear();</span>
+<span class="fc" id="L55">			impactedCur.addAll(impactedNext);</span>
+<span class="fc" id="L56">			impactedNext.clear();</span>
+		}
+		
+<span class="fc" id="L59">		return impactedAll;</span>
+	}
+	
+	// Get impacted model elements directly reachable from the input element.
+	@Override
+	public Set&lt;EObject&gt; getDirectlyImpactedElements(EObject elem) {
+<span class="fc" id="L65">		Set&lt;EObject&gt; impacted = new HashSet&lt;&gt;();</span>
+
+		// The input element itself is always impacted.
+<span class="fc" id="L68">		impacted.add(elem);</span>
+
+		// If input is a class diagram, then the following are also impacted:
+		// 1) Owned classes, associations and dependencies.
+<span class="fc bfc" id="L72" title="All 2 branches covered.">		if (elem instanceof ClassDiagram) {</span>
+<span class="fc" id="L73">			ClassDiagram cd = (ClassDiagram) elem;</span>
+<span class="fc" id="L74">			impacted.addAll(cd.getClasses());</span>
+<span class="fc" id="L75">			impacted.addAll(cd.getAssociations());</span>
+<span class="fc" id="L76">			impacted.addAll(cd.getDependencies());</span>
+		}
+
+		// If input is a class, then the following are also impacted:
+		// 1) Owned attributes and operations.
+		// 2) All associations and dependencies connected to it.
+		// 3) Attributes and operations whose type is the input.
+		// 4) Classes directly nested in or extending from the input.
+		// 5) The class that the input is nested in (if any).
+<span class="fc bfc" id="L85" title="All 2 branches covered.">		if (elem instanceof Class) {</span>
+<span class="fc" id="L86">			Class c = (Class) elem;</span>
+<span class="fc" id="L87">			impacted.addAll(c.getOwnedAttributes());</span>
+<span class="fc" id="L88">			impacted.addAll(c.getOwnedOperations());</span>
+<span class="fc" id="L89">			impacted.addAll(c.getAssociationsAsSource());</span>
+<span class="fc" id="L90">			impacted.addAll(c.getAssociationsAsTarget());</span>
+<span class="fc" id="L91">			impacted.addAll(c.getDependenciesAsDependee());</span>
+<span class="fc" id="L92">			impacted.addAll(c.getDependenciesAsDepender());</span>
+<span class="fc" id="L93">			impacted.addAll(c.getNested());</span>
+<span class="fc" id="L94">			impacted.addAll(c.getSubclasses());</span>
+<span class="fc" id="L95">			impacted.add(c.getNestedIn());</span>
+			
+			// Get all attributes and operations from the class diagram
+			// for checking their type.
+<span class="fc" id="L99">			ClassDiagram cd = (ClassDiagram) c.eContainer();</span>
+<span class="pc bpc" id="L100" title="1 of 2 branches missed.">			if (cd.getClasses() != null) {</span>
+<span class="fc bfc" id="L101" title="All 2 branches covered.">				for (Class c2 : cd.getClasses()) {</span>
+<span class="pc bpc" id="L102" title="1 of 2 branches missed.">					if (c2.getOwnedAttributes() != null) {</span>
+<span class="fc bfc" id="L103" title="All 2 branches covered.">						for (Attribute a : c2.getOwnedAttributes()) {</span>
+<span class="fc bfc" id="L104" title="All 2 branches covered.">							if (a.getType() == c) {</span>
+<span class="fc" id="L105">								impacted.add(a);</span>
+							}
+						}
+					}
+
+<span class="pc bpc" id="L110" title="1 of 2 branches missed.">					if (c2.getOwnedOperations() != null) {</span>
+<span class="fc bfc" id="L111" title="All 2 branches covered.">						for (Operation o : c2.getOwnedOperations()) {</span>
+<span class="fc bfc" id="L112" title="All 2 branches covered.">							if (o.getType() == c) {</span>
+<span class="fc" id="L113">								impacted.add(o);</span>
+							}
+						}
+					}
+				}
+			}
+<span class="fc" id="L119">		}</span>
+
+		// If input is an attribute, then its class is also impacted.
+<span class="fc bfc" id="L122" title="All 2 branches covered.">		else if (elem instanceof Attribute) {</span>
+<span class="fc" id="L123">			Attribute a = (Attribute) elem;</span>
+<span class="fc" id="L124">			impacted.add(a.getOwner());</span>
+<span class="fc" id="L125">		}</span>
+
+		// If input is an operation, then its class is also impacted.
+<span class="fc bfc" id="L128" title="All 2 branches covered.">		else if (elem instanceof Operation) {</span>
+<span class="fc" id="L129">			Operation o = (Operation) elem;</span>
+<span class="fc" id="L130">			impacted.add(o.getOwner());</span>
+<span class="fc" id="L131">		}</span>
+
+		// If input is an association, then its source class is also impacted.
+<span class="fc bfc" id="L134" title="All 2 branches covered.">		else if (elem instanceof Association) {</span>
+<span class="fc" id="L135">			Association a = (Association) elem;</span>
+<span class="fc" id="L136">			impacted.add(a.getSource());</span>
+<span class="fc" id="L137">		}</span>
+
+		// If input is a dependency, then its depender class is also impacted.
+<span class="fc bfc" id="L140" title="All 2 branches covered.">		else if (elem instanceof Dependency) {</span>
+<span class="fc" id="L141">			Dependency d = (Dependency) elem;</span>
+<span class="fc" id="L142">			impacted.add(d.getDepender());</span>
+		}
+
+		// Remove possible null element from impacted set.
+<span class="fc" id="L146">		impacted.remove(null);</span>
+		
+<span class="fc" id="L148">		return impacted;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span>Eclipse Application (8-Jan-2018 6:43:10 PM)</div></body></html>
