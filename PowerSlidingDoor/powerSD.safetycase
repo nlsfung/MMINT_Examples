@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gsn:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gsn="http://www.cs.toronto.edu/~nlsfung/gsn">
+<safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
   <goals id="SG1" name="Overall Goal" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True">
     <supportedBy premise="//@strategies.0"/>
     <inContextOf context="//@ASILLevels.0"/>
@@ -49,4 +49,4 @@
   <ASILLevels id="C1_4" name="ASIL of B4" description="" contextOf="//@goals.4/@inContextOf.0" state="Valid" level="A"/>
   <ASILLevels id="C1_5" name="ASIL of B5" description="" contextOf="//@goals.5/@inContextOf.0" state="Valid" level="C"/>
   <ASILLevels id="C1_6" name="ASIL of B6" description="" contextOf="//@goals.6/@inContextOf.0" state="Valid" level="C"/>
-</gsn:SafetyCase>
+</safetycase:SafetyCase>

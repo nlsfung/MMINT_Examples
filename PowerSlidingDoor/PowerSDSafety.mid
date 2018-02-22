@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="ASCII"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
-  <models uri="/PowerSlidingDoor/powerSD.gsn" name="powerSD_GSN" metatypeUri="http://www.cs.toronto.edu/~nlsfung/gsn" dynamic="true" fileExtension="gsn" editors="//@editors.0">
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+  <models uri="/PowerSlidingDoor/powerSD.safetycase" name="powerSD_GSN" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.0">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B1 Sub-Goal 1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B2 Sub-Goal 2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B2 Sub-Goal 2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B3 Sub-Goal 3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B3 Sub-Goal 3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B4 Sub-Goal 4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B4 Sub-Goal 4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B5 Sub-Goal 5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B5 Sub-Goal 5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B6 Sub-Goal 6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal B6 Sub-Goal 6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[strategies->] Strategy S1 AND Refinement." metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[strategies->] Strategy S1 AND Refinement." metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Strategy" featureName="strategies" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.6/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn6 Solution for B6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn6 Solution for B6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn4 Solution for B4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@solutions.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn4 Solution for B4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn3 Solution for B3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn3 Solution for B3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.5/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.5/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.3/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.3/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn5 Solution for B5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@solutions.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn5 Solution for B5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.4/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.4/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn1 Solution for B1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn1 Solution for B1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn2 Solution for B2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[solutions->] Solution Sn2 Solution for B2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.4/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.4/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.6/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.5/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.5/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.2/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.1/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@goals.3/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.3/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Goal"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
     </modelElems>
-    <modelElems uri="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[supportedBy->] Supported By" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="SupportedBy" featureName="supportedBy" relatedClassName="Strategy"/>
     </modelElems>
   </models>
@@ -631,43 +631,43 @@
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true"/>
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.1" modifiable="true"/>
   </models>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_t2s8EbOFEee3VKwWjjrc7A" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD.gsn" metatypeUri="Safety case diagram" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.gsn" id="edu.toronto.cs.se.nlsfung.gsn.design">
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_BoVU8QrlEeiYM4ZMH_QRAw" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
     <fileExtensions>aird</fileExtensions>
   </editors>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn" value="//@models.0"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.10"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.11"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.12"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.13"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.5/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.14"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.3/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.15"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.16"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.4/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.17"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.18"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.19"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.20"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.21"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.4/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.22"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.6/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.23"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.24"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.25"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.26"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.5/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.27"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.2/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.28"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.1/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.29"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@goals.3/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.30"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.31"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.32"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.33"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD.gsn#//@strategies.0/@supportedBy.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.34"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase" value="//@models.0"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.6"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.7"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.8"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.6/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.9"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.10"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.0/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.11"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@solutions.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.12"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.13"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.5/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.14"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.3/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.15"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@solutions.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.16"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.4/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.17"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.18"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.19"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.1/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.20"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.2/@supportedBy_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.21"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.4/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.22"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.6/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.23"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.24"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.25"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.26"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.5/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.27"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.2/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.28"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.1/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.29"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.3/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.30"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.31"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.32"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.33"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.0/@supportedBy.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.34"/>
 </mid:MID>
