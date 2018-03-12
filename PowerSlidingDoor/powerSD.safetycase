@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
-  <goals id="SG1" name="Overall Goal" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True">
+  <goals id="SG1" name="Overall Goal" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True" asil="C">
     <supportedBy premise="//@strategies.0"/>
-    <inContextOf context="//@ASILLevels.0"/>
   </goals>
-  <goals id="B1" name="Sub-Goal 1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." supports="//@strategies.0/@supportedBy.0" state="True">
+  <goals id="B1" name="Sub-Goal 1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." supports="//@strategies.0/@supportedBy.0" state="True" asil="C">
     <supportedBy premise="//@solutions.0"/>
-    <inContextOf context="//@ASILLevels.1"/>
   </goals>
-  <goals id="B2" name="Sub-Goal 2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." supports="//@strategies.0/@supportedBy.1" state="True">
+  <goals id="B2" name="Sub-Goal 2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." supports="//@strategies.0/@supportedBy.1" state="True" asil="B">
     <supportedBy premise="//@solutions.1"/>
-    <inContextOf context="//@ASILLevels.2"/>
   </goals>
-  <goals id="B3" name="Sub-Goal 3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." supports="//@strategies.0/@supportedBy.2" state="True">
+  <goals id="B3" name="Sub-Goal 3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." supports="//@strategies.0/@supportedBy.2" state="True" asil="C">
     <supportedBy premise="//@solutions.2"/>
-    <inContextOf context="//@ASILLevels.3"/>
   </goals>
-  <goals id="B4" name="Sub-Goal 4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." supports="//@strategies.0/@supportedBy.3" state="True">
+  <goals id="B4" name="Sub-Goal 4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." supports="//@strategies.0/@supportedBy.3" state="True" asil="A">
     <supportedBy premise="//@solutions.3"/>
-    <inContextOf context="//@ASILLevels.4"/>
   </goals>
-  <goals id="B5" name="Sub-Goal 5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." supports="//@strategies.0/@supportedBy.4" state="True">
+  <goals id="B5" name="Sub-Goal 5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." supports="//@strategies.0/@supportedBy.4" state="True" asil="C">
     <supportedBy premise="//@solutions.4"/>
-    <inContextOf context="//@ASILLevels.5"/>
   </goals>
-  <goals id="B6" name="Sub-Goal 6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." supports="//@strategies.0/@supportedBy.5" state="True">
+  <goals id="B6" name="Sub-Goal 6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." supports="//@strategies.0/@supportedBy.5" state="True" asil="C">
     <supportedBy premise="//@solutions.5"/>
-    <inContextOf context="//@ASILLevels.6"/>
   </goals>
   <strategies id="S1" name="AND Refinement." description="Decompose by AND refinement." supports="//@goals.0/@supportedBy.0" state="Valid">
     <supportedBy premise="//@goals.1"/>
@@ -42,11 +35,4 @@
   <solutions id="Sn4" name="Solution for B4" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." supports="//@goals.4/@supportedBy.0" state="Valid"/>
   <solutions id="Sn5" name="Solution for B5" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." supports="//@goals.5/@supportedBy.0" state="Valid"/>
   <solutions id="Sn6" name="Solution for B6" description="Expert Judgement." supports="//@goals.6/@supportedBy.0" state="Valid"/>
-  <ASILLevels id="C1" name="ASIL of SG1" description="" contextOf="//@goals.0/@inContextOf.0" state="Valid" level="C"/>
-  <ASILLevels id="C1_1" name="ASIL of B1" description="" contextOf="//@goals.1/@inContextOf.0" state="Valid" level="C"/>
-  <ASILLevels id="C1_2" name="ASIL of B2" description="" contextOf="//@goals.2/@inContextOf.0" state="Valid" level="B"/>
-  <ASILLevels id="C1_3" name="ASIL of B3" description="" contextOf="//@goals.3/@inContextOf.0" state="Valid" level="C"/>
-  <ASILLevels id="C1_4" name="ASIL of B4" description="" contextOf="//@goals.4/@inContextOf.0" state="Valid" level="A"/>
-  <ASILLevels id="C1_5" name="ASIL of B5" description="" contextOf="//@goals.5/@inContextOf.0" state="Valid" level="C"/>
-  <ASILLevels id="C1_6" name="ASIL of B6" description="" contextOf="//@goals.6/@inContextOf.0" state="Valid" level="C"/>
 </safetycase:SafetyCase>

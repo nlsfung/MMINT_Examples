@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis xmi:id="_8iYHwArkEeiYM4ZMH_QRAw" selectedViews="_APpDsArlEeiYM4ZMH_QRAw" version="11.1.0.201608251200">
     <semanticResources>PowerSDMega.mid</semanticResources>
     <semanticResources>PowerSDMega.middiag</semanticResources>
@@ -32,6 +32,26 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']"/>
         <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_nhsAYB5lEeiyKvlaC7-euA" name="new SafetyCaseStatistics2" representation="_nhsAYR5lEeiyKvlaC7-euA">
+        <description xmi:type="description_2:CrossTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics2']"/>
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_mpWIgB54Eei8kc8OmHXZvg" name="new SafetyCaseStatistics" representation="_mpWIgR54Eei8kc8OmHXZvg">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_QyUtYB_iEei-m5mPrpAgXQ" name="new SafetyCaseStatistics" representation="_QyUtYR_iEei-m5mPrpAgXQ">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_eZ5kACMcEeiL1_yUiNFtlA" name="new SafetyCaseStatistics" representation="_eaBf0CMcEeiL1_yUiNFtlA">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_V-0jMCWPEeiY9YfYWhve9A" name="new SafetyCaseStatistics" representation="_V-1KQCWPEeiY9YfYWhve9A">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <diagram:DSemanticDiagram xmi:id="_BoVU8QrlEeiYM4ZMH_QRAw" name="new SafetyCaseRepresentation">
@@ -44,12 +64,12 @@
           <children xmi:type="notation:Node" xmi:id="_BocpsArlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BocpsQrlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo4HgArlEeiYM4ZMH_QRAw" type="3005" element="_BoVU9QrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo4HgQrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo4HggrlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_BpDN8CQQEei9fKnvpRs-3g" type="3005" element="_Bo75MCQQEei9fKnvpRs-3g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_BpDN8SQQEei9fKnvpRs-3g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpDN8iQQEei9fKnvpRs-3g"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BoY_UQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoY_UgrlEeiYM4ZMH_QRAw" x="852" y="420" width="132" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoY_UgrlEeiYM4ZMH_QRAw" x="480" width="132" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BoklgArlEeiYM4ZMH_QRAw" type="2001" element="_BoVU9grlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BoklgwrlEeiYM4ZMH_QRAw" type="5002">
@@ -60,73 +80,73 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo4ukgrlEeiYM4ZMH_QRAw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BoklgQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoklggrlEeiYM4ZMH_QRAw" x="180" y="156" width="132" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoklggrlEeiYM4ZMH_QRAw" x="192" y="276" width="132" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BolMkArlEeiYM4ZMH_QRAw" type="2001" element="_BoVU-ArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BolMkwrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BolMlArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo4ukwrlEeiYM4ZMH_QRAw" type="3005" element="_BoVU-QrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo4ulArlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo4ulQrlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_XiaCsCQXEei2kLSuMoC6zA" type="3005" element="_XiSG4CQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XiaCsSQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XiaCsiQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BolMkQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BolMkgrlEeiYM4ZMH_QRAw" x="1392" y="156" width="132" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BolMkgrlEeiYM4ZMH_QRAw" x="960" y="276" width="132" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BolzoArlEeiYM4ZMH_QRAw" type="2001" element="_BoVU-grlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BolzowrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BolzpArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo4ulgrlEeiYM4ZMH_QRAw" type="3005" element="_BoVU-wrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo4ulwrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo4umArlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_W-8JQCQXEei2kLSuMoC6zA" type="3005" element="_W-0NcCQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_W-8JQSQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W-8JQiQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BolzoQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BolzogrlEeiYM4ZMH_QRAw" x="1056" y="156" width="132" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BolzogrlEeiYM4ZMH_QRAw" x="576" y="276" width="132" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BomasArlEeiYM4ZMH_QRAw" type="2001" element="_BoVU_ArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BomaswrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BomatArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo5VoArlEeiYM4ZMH_QRAw" type="3005" element="_BoVU_QrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo5VoQrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo5VogrlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_WqYOgCQXEei2kLSuMoC6zA" type="3005" element="_WqQSsCQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WqYOgSQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WqYOgiQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BomasQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BomasgrlEeiYM4ZMH_QRAw" x="504" y="156" width="132" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BomasgrlEeiYM4ZMH_QRAw" x="768" y="276" width="132" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BonBwArlEeiYM4ZMH_QRAw" type="2001" element="_BoVU_grlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BonBwwrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BonBxArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo5VowrlEeiYM4ZMH_QRAw" type="3005" element="_BoVU_wrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo5VpArlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo5VpQrlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_WcMBgCQXEei2kLSuMoC6zA" type="3005" element="_WcEFsCQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcMBgSQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcMBgiQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BonBwQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BonBwgrlEeiYM4ZMH_QRAw" x="1764" y="156" width="132" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BonBwgrlEeiYM4ZMH_QRAw" x="384" y="276" width="132" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_Bono0ArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVAArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bono0wrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_Bono1ArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo5VpgrlEeiYM4ZMH_QRAw" type="3005" element="_BoVVAQrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo5VpwrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo5VqArlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_Xz1w8CQXEei2kLSuMoC6zA" type="3005" element="_Xzt1ICQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Xz1w8SQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xz1w8iQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Bono0QrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bono0grlEeiYM4ZMH_QRAw" x="864" y="156" width="132" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bono0grlEeiYM4ZMH_QRAw" y="276" width="132" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BooP4ArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVAgrlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BooP4wrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BooP5ArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo58sArlEeiYM4ZMH_QRAw" type="3005" element="_BoVVAwrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo58sQrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo58sgrlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_WMq-0CQXEei2kLSuMoC6zA" type="3005" element="_WMagICQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_WMq-0SQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WMq-0iQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BooP4QrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BooP4grlEeiYM4ZMH_QRAw" x="936" y="288" width="166" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BooP4grlEeiYM4ZMH_QRAw" x="468" y="132" width="166" height="76"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BoqsIArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVBArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BoqsIwrlEeiYM4ZMH_QRAw" type="5002">
@@ -137,18 +157,18 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo58tQrlEeiYM4ZMH_QRAw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BoqsIQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoqsIgrlEeiYM4ZMH_QRAw" x="204" width="93" height="93"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoqsIgrlEeiYM4ZMH_QRAw" x="216" y="408" width="93" height="93"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BoshUArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVBgrlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BoshUwrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BoshVArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo58tgrlEeiYM4ZMH_QRAw" type="3005" element="_BoVVBwrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo58twrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo58uArlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_YCJ5wCQXEei2kLSuMoC6zA" type="3005" element="_YCClACQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YCJ5wSQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YCJ5wiQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BoshUQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoshUgrlEeiYM4ZMH_QRAw" x="1416" width="93" height="93"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BoshUgrlEeiYM4ZMH_QRAw" x="984" y="408" width="93" height="93"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BotIYArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVCArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BotIYwrlEeiYM4ZMH_QRAw" type="5002">
@@ -159,29 +179,29 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo58uwrlEeiYM4ZMH_QRAw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BotIYQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BotIYgrlEeiYM4ZMH_QRAw" x="1056" width="93" height="93"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BotIYgrlEeiYM4ZMH_QRAw" x="600" y="408" width="93" height="93"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BotvcArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVCgrlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bou9kArlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_Bou9kQrlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo6jwArlEeiYM4ZMH_QRAw" type="3005" element="_BoVVCwrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo6jwQrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo6jwgrlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_ZG0bwCQXEei2kLSuMoC6zA" type="3005" element="_ZGu8MCQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ZG0bwSQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZG0bwiQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BotvcQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BotvcgrlEeiYM4ZMH_QRAw" x="348" width="93" height="93"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BotvcgrlEeiYM4ZMH_QRAw" x="792" y="408" width="93" height="93"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_Bou9kgrlEeiYM4ZMH_QRAw" type="2001" element="_BoVVDArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BovkoArlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BovkoQrlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo6jwwrlEeiYM4ZMH_QRAw" type="3005" element="_BoVVDQrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo6jxArlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo6jxQrlEeiYM4ZMH_QRAw"/>
+          <children xmi:type="notation:Node" xmi:id="_Y1Jc8CQXEei2kLSuMoC6zA" type="3005" element="_Y1CvQCQXEei2kLSuMoC6zA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Y1Jc8SQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y1Jc8iQXEei2kLSuMoC6zA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Bou9kwrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bou9lArlEeiYM4ZMH_QRAw" x="1968" width="93" height="93"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bou9lArlEeiYM4ZMH_QRAw" x="408" y="408" width="93" height="93"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_BovkogrlEeiYM4ZMH_QRAw" type="2001" element="_BoVVDgrlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BowLsArlEeiYM4ZMH_QRAw" type="5002">
@@ -192,101 +212,24 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo6jyArlEeiYM4ZMH_QRAw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BovkowrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BovkpArlEeiYM4ZMH_QRAw" x="708" width="93" height="93"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_BowLsgrlEeiYM4ZMH_QRAw" type="2001" element="_BoVVEArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_BowywgrlEeiYM4ZMH_QRAw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_BowywwrlEeiYM4ZMH_QRAw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo7K0ArlEeiYM4ZMH_QRAw" type="3005" element="_BoVVEQrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo7K0QrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo7K0grlEeiYM4ZMH_QRAw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_BowywArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BowywQrlEeiYM4ZMH_QRAw" x="744" y="288" width="140" height="76"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_BozPAArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVEgrlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Boz2EArlEeiYM4ZMH_QRAw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Boz2EQrlEeiYM4ZMH_QRAw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo7x4ArlEeiYM4ZMH_QRAw" type="3005" element="_BoVVEwrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo7x4QrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo7x4grlEeiYM4ZMH_QRAw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_BozPAQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BozPAgrlEeiYM4ZMH_QRAw" width="140" height="76"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_Bo0dIArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVFArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bo0dIwrlEeiYM4ZMH_QRAw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Bo0dJArlEeiYM4ZMH_QRAw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo7x4wrlEeiYM4ZMH_QRAw" type="3005" element="_BoVVFQrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo7x5ArlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo7x5QrlEeiYM4ZMH_QRAw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo0dIQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo0dIgrlEeiYM4ZMH_QRAw" x="1560" width="140" height="76"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_Bo1EMArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVFgrlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bo1EMwrlEeiYM4ZMH_QRAw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Bo1ENArlEeiYM4ZMH_QRAw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo7x5grlEeiYM4ZMH_QRAw" type="3005" element="_BoVVFwrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo7x5wrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo7x6ArlEeiYM4ZMH_QRAw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo1EMQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo1EMgrlEeiYM4ZMH_QRAw" x="1212" width="140" height="76"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_Bo1rQArlEeiYM4ZMH_QRAw" type="2001" element="_BoVVGArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bo2SUArlEeiYM4ZMH_QRAw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Bo2SUQrlEeiYM4ZMH_QRAw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo8Y8ArlEeiYM4ZMH_QRAw" type="3005" element="_BoVVGQrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo8Y8QrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo8Y8grlEeiYM4ZMH_QRAw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo1rQQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo1rQgrlEeiYM4ZMH_QRAw" x="504" width="140" height="76"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_Bo2SUgrlEeiYM4ZMH_QRAw" type="2001" element="_BoVVGgrlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bo25YArlEeiYM4ZMH_QRAw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Bo25YQrlEeiYM4ZMH_QRAw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo8Y8wrlEeiYM4ZMH_QRAw" type="3005" element="_BoVVGwrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo8Y9ArlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo8Y9QrlEeiYM4ZMH_QRAw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo2SUwrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo2SVArlEeiYM4ZMH_QRAw" x="1764" width="140" height="76"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_Bo25YgrlEeiYM4ZMH_QRAw" type="2001" element="_BoVVHArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bo3gcArlEeiYM4ZMH_QRAw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Bo3gcQrlEeiYM4ZMH_QRAw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bo8Y9grlEeiYM4ZMH_QRAw" type="3005" element="_BoVVHQrlEeiYM4ZMH_QRAw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo8Y9wrlEeiYM4ZMH_QRAw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo8Y-ArlEeiYM4ZMH_QRAw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Bo25YwrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bo25ZArlEeiYM4ZMH_QRAw" x="864" width="140" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BovkpArlEeiYM4ZMH_QRAw" x="24" y="408" width="93" height="93"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_BoXKIgrlEeiYM4ZMH_QRAw"/>
         <edges xmi:type="notation:Edge" xmi:id="_BpNesArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVHgrlEeiYM4ZMH_QRAw" source="_BoY_UArlEeiYM4ZMH_QRAw" target="_BooP4ArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_BpwRQArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpwRQQrlEeiYM4ZMH_QRAw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpwRQQrlEeiYM4ZMH_QRAw" x="5" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bpw4UArlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bpw4UQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bpw4UQrlEeiYM4ZMH_QRAw" x="-6" y="8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_BpxfYArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpxfYQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpxfYQrlEeiYM4ZMH_QRAw" x="-2" y="6"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_BpNesQrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_BpNesgrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BpNeswrlEeiYM4ZMH_QRAw" points="[0, 0, -107, 60]$[107, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp1JwArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp1JwQrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BpNeswrlEeiYM4ZMH_QRAw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp1JwArlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp1JwQrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp1JwgrlEeiYM4ZMH_QRAw" type="4001" element="_BoVVIQrlEeiYM4ZMH_QRAw" source="_BoklgArlEeiYM4ZMH_QRAw" target="_BoqsIArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp1w0ArlEeiYM4ZMH_QRAw" type="6001">
@@ -300,9 +243,9 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp1JwwrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp1JxArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp1JxQrlEeiYM4ZMH_QRAw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X4ArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X4QrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp1JxQrlEeiYM4ZMH_QRAw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X4ArlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X4QrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp2X4grlEeiYM4ZMH_QRAw" type="4001" element="_BoVVJArlEeiYM4ZMH_QRAw" source="_BolMkArlEeiYM4ZMH_QRAw" target="_BoshUArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp2X5grlEeiYM4ZMH_QRAw" type="6001">
@@ -316,9 +259,9 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp2X4wrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp2X5ArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp2X5QrlEeiYM4ZMH_QRAw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X7ArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X7QrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp2X5QrlEeiYM4ZMH_QRAw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X7ArlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2X7QrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp2-8ArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVJwrlEeiYM4ZMH_QRAw" source="_BolzoArlEeiYM4ZMH_QRAw" target="_BotIYArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp2-9ArlEeiYM4ZMH_QRAw" type="6001">
@@ -332,9 +275,9 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp2-8QrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp2-8grlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp2-8wrlEeiYM4ZMH_QRAw" points="[0, 0, 11, 60]$[-11, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2--grlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2--wrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp2-8wrlEeiYM4ZMH_QRAw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2--grlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp2--wrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp2-_ArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVKgrlEeiYM4ZMH_QRAw" source="_BomasArlEeiYM4ZMH_QRAw" target="_BotvcArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp3mAArlEeiYM4ZMH_QRAw" type="6001">
@@ -348,9 +291,9 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp2-_QrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp2-_grlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp2-_wrlEeiYM4ZMH_QRAw" points="[0, 0, 177, 60]$[-177, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp3mBgrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp3mBwrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp2-_wrlEeiYM4ZMH_QRAw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp3mBgrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp3mBwrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp3mCArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVLQrlEeiYM4ZMH_QRAw" source="_BonBwArlEeiYM4ZMH_QRAw" target="_Bou9kgrlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp4NEArlEeiYM4ZMH_QRAw" type="6001">
@@ -364,245 +307,133 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp3mCQrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp3mCgrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp3mCwrlEeiYM4ZMH_QRAw" points="[0, 0, -176, 60]$[176, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp4NFgrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp4NFwrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp3mCwrlEeiYM4ZMH_QRAw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp4NFgrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp4NFwrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp4NGArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVMArlEeiYM4ZMH_QRAw" source="_Bono0ArlEeiYM4ZMH_QRAw" target="_BovkogrlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp4NHArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp4NHQrlEeiYM4ZMH_QRAw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp4NHQrlEeiYM4ZMH_QRAw" x="18" y="-1"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp4NHgrlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp4NHwrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp4NHwrlEeiYM4ZMH_QRAw" x="-8" y="-4"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp40IArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp40IQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp40IQrlEeiYM4ZMH_QRAw" x="5" y="-5"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp4NGQrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp4NGgrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp4NGwrlEeiYM4ZMH_QRAw" points="[0, 0, 172, 60]$[-172, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp40IgrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp40IwrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp4NGwrlEeiYM4ZMH_QRAw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp40IgrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp40IwrlEeiYM4ZMH_QRAw" id="(0.4946236559139785,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp40JArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVMwrlEeiYM4ZMH_QRAw" source="_BooP4ArlEeiYM4ZMH_QRAw" target="_BoklgArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp40KArlEeiYM4ZMH_QRAw" type="6001">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp40KQrlEeiYM4ZMH_QRAw" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp40KgrlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp40KwrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp40KwrlEeiYM4ZMH_QRAw" x="1" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp40LArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp40LQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp40LQrlEeiYM4ZMH_QRAw" x="1" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp40JQrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp40JgrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp40JwrlEeiYM4ZMH_QRAw" points="[0, 0, 779, 60]$[-779, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bMArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bMQrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp40JwrlEeiYM4ZMH_QRAw" points="[0, 0, 288, -60]$[-288, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bMArlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bMQrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp5bMgrlEeiYM4ZMH_QRAw" type="4001" element="_BoVVNgrlEeiYM4ZMH_QRAw" source="_BooP4ArlEeiYM4ZMH_QRAw" target="_BolMkArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp5bNgrlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp5bNwrlEeiYM4ZMH_QRAw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp5bNwrlEeiYM4ZMH_QRAw" x="7" y="-8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp5bOArlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp5bOQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp5bOQrlEeiYM4ZMH_QRAw" x="-3" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp5bOgrlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp5bOwrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp5bOwrlEeiYM4ZMH_QRAw" x="-7" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp5bMwrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp5bNArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp5bNQrlEeiYM4ZMH_QRAw" points="[0, 0, -433, 60]$[433, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bPArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bPQrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp5bNQrlEeiYM4ZMH_QRAw" points="[0, 0, -480, -60]$[480, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bPArlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp5bPQrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp5bPgrlEeiYM4ZMH_QRAw" type="4001" element="_BoVVOQrlEeiYM4ZMH_QRAw" source="_BooP4ArlEeiYM4ZMH_QRAw" target="_BolzoArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp6CQArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CQQrlEeiYM4ZMH_QRAw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CQQrlEeiYM4ZMH_QRAw" x="-2" y="-11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp6CQgrlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CQwrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CQwrlEeiYM4ZMH_QRAw" x="1" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp6CRArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CRQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CRQrlEeiYM4ZMH_QRAw" x="-1" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp5bPwrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp5bQArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp5bQQrlEeiYM4ZMH_QRAw" points="[0, 0, -91, 60]$[91, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6CRgrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6CRwrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp5bQQrlEeiYM4ZMH_QRAw" points="[0, 0, -96, -60]$[96, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6CRgrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6CRwrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp6CSArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVPArlEeiYM4ZMH_QRAw" source="_BooP4ArlEeiYM4ZMH_QRAw" target="_BomasArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp6CTArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CTQrlEeiYM4ZMH_QRAw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CTQrlEeiYM4ZMH_QRAw" x="3" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp6CTgrlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CTwrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CTwrlEeiYM4ZMH_QRAw" x="-1" y="11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp6CUArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CUQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6CUQrlEeiYM4ZMH_QRAw" x="-1" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp6CSQrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp6CSgrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp6CSwrlEeiYM4ZMH_QRAw" points="[0, 0, 449, 60]$[-449, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pUArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pUQrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp6CSwrlEeiYM4ZMH_QRAw" points="[0, 0, -288, -60]$[288, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pUArlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pUQrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp6pUgrlEeiYM4ZMH_QRAw" type="4001" element="_BoVVPwrlEeiYM4ZMH_QRAw" source="_BooP4ArlEeiYM4ZMH_QRAw" target="_BonBwArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp6pVgrlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6pVwrlEeiYM4ZMH_QRAw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6pVwrlEeiYM4ZMH_QRAw" x="2" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp6pWArlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6pWQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6pWQrlEeiYM4ZMH_QRAw" x="-1" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp6pWgrlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6pWwrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp6pWwrlEeiYM4ZMH_QRAw" x="-2" y="11"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp6pUwrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp6pVArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp6pVQrlEeiYM4ZMH_QRAw" points="[0, 0, -810, 60]$[810, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pXArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pXQrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp6pVQrlEeiYM4ZMH_QRAw" points="[0, 0, 96, -60]$[-96, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pXArlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp6pXQrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Bp6pXgrlEeiYM4ZMH_QRAw" type="4001" element="_BoVVQgrlEeiYM4ZMH_QRAw" source="_BooP4ArlEeiYM4ZMH_QRAw" target="_Bono0ArlEeiYM4ZMH_QRAw">
           <children xmi:type="notation:Node" xmi:id="_Bp7QYArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QYQrlEeiYM4ZMH_QRAw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QYQrlEeiYM4ZMH_QRAw" x="-8" y="2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp7QYgrlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QYwrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QYwrlEeiYM4ZMH_QRAw" x="-13" y="3"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Bp7QZArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QZQrlEeiYM4ZMH_QRAw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QZQrlEeiYM4ZMH_QRAw" x="-11" y="4"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp6pXwrlEeiYM4ZMH_QRAw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Bp6pYArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp6pYQrlEeiYM4ZMH_QRAw" points="[0, 0, 101, 60]$[-101, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp7QZgrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp7QZwrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_Bp7QaArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVRQrlEeiYM4ZMH_QRAw" source="_BoY_UArlEeiYM4ZMH_QRAw" target="_BowLsgrlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bp7QbArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QbQrlEeiYM4ZMH_QRAw" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp7QbgrlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp7QbwrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp73cArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp73cQrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp7QaQrlEeiYM4ZMH_QRAw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Bp7QagrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp7QawrlEeiYM4ZMH_QRAw" points="[0, 0, 106, 60]$[-106, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp73cgrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp73cwrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_Bp73dArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVSArlEeiYM4ZMH_QRAw" source="_BoklgArlEeiYM4ZMH_QRAw" target="_BozPAArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bp73eArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp73eQrlEeiYM4ZMH_QRAw" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp73egrlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp73ewrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp73fArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp73fQrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp73dQrlEeiYM4ZMH_QRAw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Bp73dgrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp73dwrlEeiYM4ZMH_QRAw" points="[0, 0, 176, 60]$[-176, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp73fgrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp73fwrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_Bp8egArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVSwrlEeiYM4ZMH_QRAw" source="_BolMkArlEeiYM4ZMH_QRAw" target="_Bo0dIArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bp9FkArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp9FkQrlEeiYM4ZMH_QRAw" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp-TsArlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp-TsQrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp-TsgrlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp-TswrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp8egQrlEeiYM4ZMH_QRAw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Bp8eggrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp8egwrlEeiYM4ZMH_QRAw" points="[0, 0, -177, 60]$[177, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp-6wArlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp-6wQrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_Bp-6wgrlEeiYM4ZMH_QRAw" type="4001" element="_BoVVTgrlEeiYM4ZMH_QRAw" source="_BolzoArlEeiYM4ZMH_QRAw" target="_Bo1EMArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bp-6xgrlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp-6xwrlEeiYM4ZMH_QRAw" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp-6yArlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp-6yQrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp_h0ArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp_h0QrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp-6wwrlEeiYM4ZMH_QRAw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Bp-6xArlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp-6xQrlEeiYM4ZMH_QRAw" points="[0, 0, -166, 60]$[166, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp_h0grlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp_h0wrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_Bp_h1ArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVUQrlEeiYM4ZMH_QRAw" source="_BomasArlEeiYM4ZMH_QRAw" target="_Bo1rQArlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_Bp_h2ArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp_h2QrlEeiYM4ZMH_QRAw" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp_h2grlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp_h2wrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_Bp_h3ArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bp_h3QrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Bp_h1QrlEeiYM4ZMH_QRAw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Bp_h1grlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp_h1wrlEeiYM4ZMH_QRAw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp_h3grlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp_h3wrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_BqAI4ArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVVArlEeiYM4ZMH_QRAw" source="_BonBwArlEeiYM4ZMH_QRAw" target="_Bo2SUgrlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_BqAI5ArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqAI5QrlEeiYM4ZMH_QRAw" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_BqAI5grlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqAI5wrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_BqAI6ArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqAI6QrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_BqAI4QrlEeiYM4ZMH_QRAw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_BqAI4grlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BqAI4wrlEeiYM4ZMH_QRAw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BqAI6grlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BqAI6wrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_BqAI7ArlEeiYM4ZMH_QRAw" type="4001" element="_BoVVVwrlEeiYM4ZMH_QRAw" source="_Bono0ArlEeiYM4ZMH_QRAw" target="_Bo25YgrlEeiYM4ZMH_QRAw">
-          <children xmi:type="notation:Node" xmi:id="_BqAI8ArlEeiYM4ZMH_QRAw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqAI8QrlEeiYM4ZMH_QRAw" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_BqAI8grlEeiYM4ZMH_QRAw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqAI8wrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_BqAv8ArlEeiYM4ZMH_QRAw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqAv8QrlEeiYM4ZMH_QRAw" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_BqAI7QrlEeiYM4ZMH_QRAw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_BqAI7grlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BqAI7wrlEeiYM4ZMH_QRAw" points="[0, 0, -5, 60]$[5, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BqAv8grlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BqAv8wrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bp6pYQrlEeiYM4ZMH_QRAw" points="[0, 0, 480, -60]$[-480, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp7QZgrlEeiYM4ZMH_QRAw" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bp7QZwrlEeiYM4ZMH_QRAw" id="(0.5,0.0)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9ArlEeiYM4ZMH_QRAw" name="SG1 Overall Goal" outgoingEdges="_BoVVHgrlEeiYM4ZMH_QRAw _BoVVRQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9ArlEeiYM4ZMH_QRAw" name="SG1 Overall Goal" outgoingEdges="_BoVVHgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.0"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.0"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVU9QrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Bo75MCQQEei9fKnvpRs-3g" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9grlEeiYM4ZMH_QRAw" name="B1 Sub-Goal 1" outgoingEdges="_BoVVIQrlEeiYM4ZMH_QRAw _BoVVSArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVMwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9grlEeiYM4ZMH_QRAw" name="B1 Sub-Goal 1" outgoingEdges="_BoVVIQrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVMwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.1"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.1"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVU9wrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
@@ -610,42 +441,42 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-ArlEeiYM4ZMH_QRAw" name="B2 Sub-Goal 2" outgoingEdges="_BoVVJArlEeiYM4ZMH_QRAw _BoVVSwrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVNgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-ArlEeiYM4ZMH_QRAw" name="B2 Sub-Goal 2" outgoingEdges="_BoVVJArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVNgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.2"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.2"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVU-QrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XiSG4CQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-grlEeiYM4ZMH_QRAw" name="B3 Sub-Goal 3" outgoingEdges="_BoVVJwrlEeiYM4ZMH_QRAw _BoVVTgrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVOQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-grlEeiYM4ZMH_QRAw" name="B3 Sub-Goal 3" outgoingEdges="_BoVVJwrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVOQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.3"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.3"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVU-wrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_W-0NcCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_ArlEeiYM4ZMH_QRAw" name="B4 Sub-Goal 4" outgoingEdges="_BoVVKgrlEeiYM4ZMH_QRAw _BoVVUQrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_ArlEeiYM4ZMH_QRAw" name="B4 Sub-Goal 4" outgoingEdges="_BoVVKgrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.4"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.4"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVU_QrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_WqQSsCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_grlEeiYM4ZMH_QRAw" name="B5 Sub-Goal 5" outgoingEdges="_BoVVLQrlEeiYM4ZMH_QRAw _BoVVVArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_grlEeiYM4ZMH_QRAw" name="B5 Sub-Goal 5" outgoingEdges="_BoVVLQrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.5"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.5"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVU_wrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_WcEFsCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVAArlEeiYM4ZMH_QRAw" name="B6 Sub-Goal 6" outgoingEdges="_BoVVMArlEeiYM4ZMH_QRAw _BoVVVwrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVQgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVAArlEeiYM4ZMH_QRAw" name="B6 Sub-Goal 6" outgoingEdges="_BoVVMArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVQgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.6"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.6"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVAQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Xzt1ICQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
@@ -653,7 +484,7 @@
     <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVAgrlEeiYM4ZMH_QRAw" name="S1 AND Refinement." outgoingEdges="_BoVVMwrlEeiYM4ZMH_QRAw _BoVVNgrlEeiYM4ZMH_QRAw _BoVVOQrlEeiYM4ZMH_QRAw _BoVVPArlEeiYM4ZMH_QRAw _BoVVPwrlEeiYM4ZMH_QRAw _BoVVQgrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVHgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Strategy" href="powerSD.safetycase#//@strategies.0"/>
       <semanticElements xmi:type="safetycase:Strategy" href="powerSD.safetycase#//@strategies.0"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVAwrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Strategy.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_WMagICQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Strategy.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='StrategyNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='StrategyNode']"/>
@@ -669,7 +500,7 @@
     <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVBgrlEeiYM4ZMH_QRAw" name="Sn2 Solution for B2" incomingEdges="_BoVVJArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.1"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.1"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVBwrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_YCClACQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
@@ -685,7 +516,7 @@
     <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVCgrlEeiYM4ZMH_QRAw" name="Sn4 Solution for B4" incomingEdges="_BoVVKgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.3"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.3"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVCwrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ZGu8MCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
@@ -693,7 +524,7 @@
     <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVDArlEeiYM4ZMH_QRAw" name="Sn5 Solution for B5" incomingEdges="_BoVVLQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.4"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.4"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVDQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Y1CvQCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
@@ -705,62 +536,6 @@
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVEArlEeiYM4ZMH_QRAw" name="C1 ASIL of SG1" incomingEdges="_BoVVRQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
-      <target xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.0"/>
-      <semanticElements xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.0"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVEQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/ASIL.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVEgrlEeiYM4ZMH_QRAw" name="C1_1 ASIL of B1" incomingEdges="_BoVVSArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
-      <target xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.1"/>
-      <semanticElements xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.1"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVEwrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/ASIL.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVFArlEeiYM4ZMH_QRAw" name="C1_2 ASIL of B2" incomingEdges="_BoVVSwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
-      <target xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.2"/>
-      <semanticElements xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.2"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVFQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/ASIL.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVFgrlEeiYM4ZMH_QRAw" name="C1_3 ASIL of B3" incomingEdges="_BoVVTgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
-      <target xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.3"/>
-      <semanticElements xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.3"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVFwrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/ASIL.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVGArlEeiYM4ZMH_QRAw" name="C1_4 ASIL of B4" incomingEdges="_BoVVUQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
-      <target xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.4"/>
-      <semanticElements xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.4"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVGQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/ASIL.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVGgrlEeiYM4ZMH_QRAw" name="C1_5 ASIL of B5" incomingEdges="_BoVVVArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
-      <target xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.5"/>
-      <semanticElements xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.5"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVGwrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/ASIL.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVHArlEeiYM4ZMH_QRAw" name="C1_6 ASIL of B6" incomingEdges="_BoVVVwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
-      <target xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.6"/>
-      <semanticElements xmi:type="safetycase:ASIL" href="powerSD.safetycase#//@ASILLevels.6"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVHQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/ASIL.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='ASILLevelNode']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVHgrlEeiYM4ZMH_QRAw" sourceNode="_BoVU9ArlEeiYM4ZMH_QRAw" targetNode="_BoVVAgrlEeiYM4ZMH_QRAw">
       <target xmi:type="safetycase:SupportedBy" href="powerSD.safetycase#//@goals.0/@supportedBy.0"/>
@@ -879,72 +654,279 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='SupportedByEdge']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVRQrlEeiYM4ZMH_QRAw" sourceNode="_BoVU9ArlEeiYM4ZMH_QRAw" targetNode="_BoVVEArlEeiYM4ZMH_QRAw">
-      <target xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.0/@inContextOf.0"/>
-      <semanticElements xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.0/@inContextOf.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BoVVRgrlEeiYM4ZMH_QRAw" targetArrow="InputClosedArrow" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BoVVRwrlEeiYM4ZMH_QRAw"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVSArlEeiYM4ZMH_QRAw" sourceNode="_BoVU9grlEeiYM4ZMH_QRAw" targetNode="_BoVVEgrlEeiYM4ZMH_QRAw">
-      <target xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.1/@inContextOf.0"/>
-      <semanticElements xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.1/@inContextOf.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BoVVSQrlEeiYM4ZMH_QRAw" targetArrow="InputClosedArrow" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BoVVSgrlEeiYM4ZMH_QRAw"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVSwrlEeiYM4ZMH_QRAw" sourceNode="_BoVU-ArlEeiYM4ZMH_QRAw" targetNode="_BoVVFArlEeiYM4ZMH_QRAw">
-      <target xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.2/@inContextOf.0"/>
-      <semanticElements xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.2/@inContextOf.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BoVVTArlEeiYM4ZMH_QRAw" targetArrow="InputClosedArrow" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BoVVTQrlEeiYM4ZMH_QRAw"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVTgrlEeiYM4ZMH_QRAw" sourceNode="_BoVU-grlEeiYM4ZMH_QRAw" targetNode="_BoVVFgrlEeiYM4ZMH_QRAw">
-      <target xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.3/@inContextOf.0"/>
-      <semanticElements xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.3/@inContextOf.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BoVVTwrlEeiYM4ZMH_QRAw" targetArrow="InputClosedArrow" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BoVVUArlEeiYM4ZMH_QRAw"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVUQrlEeiYM4ZMH_QRAw" sourceNode="_BoVU_ArlEeiYM4ZMH_QRAw" targetNode="_BoVVGArlEeiYM4ZMH_QRAw">
-      <target xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.4/@inContextOf.0"/>
-      <semanticElements xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.4/@inContextOf.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BoVVUgrlEeiYM4ZMH_QRAw" targetArrow="InputClosedArrow" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BoVVUwrlEeiYM4ZMH_QRAw"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVVArlEeiYM4ZMH_QRAw" sourceNode="_BoVU_grlEeiYM4ZMH_QRAw" targetNode="_BoVVGgrlEeiYM4ZMH_QRAw">
-      <target xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.5/@inContextOf.0"/>
-      <semanticElements xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.5/@inContextOf.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BoVVVQrlEeiYM4ZMH_QRAw" targetArrow="InputClosedArrow" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BoVVVgrlEeiYM4ZMH_QRAw"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BoVVVwrlEeiYM4ZMH_QRAw" sourceNode="_BoVVAArlEeiYM4ZMH_QRAw" targetNode="_BoVVHArlEeiYM4ZMH_QRAw">
-      <target xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.6/@inContextOf.0"/>
-      <semanticElements xmi:type="safetycase:InContextOf" href="powerSD.safetycase#//@goals.6/@inContextOf.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_BoVVWArlEeiYM4ZMH_QRAw" targetArrow="InputClosedArrow" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BoVVWQrlEeiYM4ZMH_QRAw"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@edgeMappings[name='InContextOfEdge']"/>
-    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_BoVVWgrlEeiYM4ZMH_QRAw"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer"/>
     <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
   </diagram:DSemanticDiagram>
+  <table:DTable xmi:id="_nhsAYR5lEeiyKvlaC7-euA" name="new SafetyCaseStatistics2" headerColumnWidth="108">
+    <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_SIqQgB5pEeiRi7rpgeDtFQ" label="Safety Case">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics2']/@ownedLineMappings[name='GoalLineTwo']"/>
+    </lines>
+    <columns xmi:type="table:DTargetColumn" xmi:id="_SIxlQB5pEeiRi7rpgeDtFQ" label="Safety Case">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <originMapping xmi:type="description_2:ElementColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics2']/@ownedColumnMappings.0"/>
+    </columns>
+    <description xmi:type="description_2:CrossTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics2']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_mpWIgR54Eei8kc8OmHXZvg" name="new SafetyCaseStatistics" headerColumnWidth="110">
+    <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_mpWIgh54Eei8kc8OmHXZvg" label="Safety Case">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='SafetyCaseLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_mpWIgx54Eei8kc8OmHXZvg" label="Total: 7&#xA;Revise: 5 (71%)&#xA;Recheck: 2 (28%)&#xA;Reuse: 0 (0%)" column="_mpWIhB54Eei8kc8OmHXZvg">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_t841UB59Eeij78MJ5Y8r0g" label="Total: 1&#xA;Revise: 0 (0%)&#xA;Recheck: 1 (100%)&#xA;Reuse: 0 (0%)" column="_t82ZEB59Eeij78MJ5Y8r0g">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_t874oB59Eeij78MJ5Y8r0g" label="Total: 6&#xA;Revise: 6 (100%)&#xA;Recheck: 0 (0%)&#xA;Reuse: 0 (0%)" column="_t84OQB59Eeij78MJ5Y8r0g">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_mpWIhB54Eei8kc8OmHXZvg" label="Goals" cells="_mpWIgx54Eei8kc8OmHXZvg" width="97" featureName="goals">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='GoalColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_t82ZEB59Eeij78MJ5Y8r0g" label="Strategies" cells="_t841UB59Eeij78MJ5Y8r0g" width="97" featureName="strategies">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='StrategyColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_t84OQB59Eeij78MJ5Y8r0g" label="Solutions" cells="_t874oB59Eeij78MJ5Y8r0g" featureName="solutions">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='SolutionColumn']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_QyUtYR_iEei-m5mPrpAgXQ" name="new SafetyCaseStatistics" headerColumnWidth="102">
+    <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_QyUtYh_iEei-m5mPrpAgXQ" label="Safety Case">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='SafetyCaseLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_QyUtYx_iEei-m5mPrpAgXQ" label="Total: 7&#xA;Revise: 5 (71%)&#xA;Recheck: 2 (28%)&#xA;Reuse: 0 (0%)" column="_QyUtZh_iEei-m5mPrpAgXQ">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_QyUtZB_iEei-m5mPrpAgXQ" label="Total: 1&#xA;Revise: 0 (0%)&#xA;Recheck: 1 (100%)&#xA;Reuse: 0 (0%)" column="_QyUtZx_iEei-m5mPrpAgXQ">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_QyUtZR_iEei-m5mPrpAgXQ" label="Total: 6&#xA;Revise: 6 (100%)&#xA;Recheck: 0 (0%)&#xA;Reuse: 0 (0%)" column="_QyUtaB_iEei-m5mPrpAgXQ">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_QyUtZh_iEei-m5mPrpAgXQ" label="Goals" cells="_QyUtYx_iEei-m5mPrpAgXQ" width="97" featureName="goals">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='GoalColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_QyUtZx_iEei-m5mPrpAgXQ" label="Strategies" cells="_QyUtZB_iEei-m5mPrpAgXQ" width="103" featureName="strategies">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='StrategyColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_QyUtaB_iEei-m5mPrpAgXQ" label="Solutions" cells="_QyUtZR_iEei-m5mPrpAgXQ" featureName="solutions">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='SolutionColumn']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_eaBf0CMcEeiL1_yUiNFtlA" name="new SafetyCaseStatistics" headerColumnWidth="102">
+    <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_uCQJUCQWEei2kLSuMoC6zA" label="Revise">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='ReviseLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_uCUawCQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1SMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uClggCQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1iMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCoj0CQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1yMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_uCR-gCQWEei2kLSuMoC6zA" label="Recheck">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='RecheckLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_uCsOMCQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1SMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCs1QCQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1iMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCtcUCQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1yMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_uCR-gSQWEei2kLSuMoC6zA" label="Reuse">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='ReuseLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_uCtcUSQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1SMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCuqcCQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1iMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCuqcSQWEei2kLSuMoC6zA" label="0 (0%)" column="_eaBf1yMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_uCSlkCQWEei2kLSuMoC6zA" label="Undetermined">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='UndeterminedLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_uCvRgCQWEei2kLSuMoC6zA" label="7 (100%)" column="_eaBf1SMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCv4kCQWEei2kLSuMoC6zA" label="1 (100%)" column="_eaBf1iMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCv4kSQWEei2kLSuMoC6zA" label="6 (100%)" column="_eaBf1yMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_uCSlkSQWEei2kLSuMoC6zA" label="Total">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='TotalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_uCwfoCQWEei2kLSuMoC6zA" label="7" column="_eaBf1SMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCxGsCQWEei2kLSuMoC6zA" label="1" column="_eaBf1iMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_uCxtwCQWEei2kLSuMoC6zA" label="6" column="_eaBf1yMcEeiL1_yUiNFtlA">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD.safetycase#/"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_eaBf1SMcEeiL1_yUiNFtlA" label="Goals" cells="_uCUawCQWEei2kLSuMoC6zA _uCsOMCQWEei2kLSuMoC6zA _uCtcUSQWEei2kLSuMoC6zA _uCvRgCQWEei2kLSuMoC6zA _uCwfoCQWEei2kLSuMoC6zA" width="91" featureName="goals">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='GoalColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_eaBf1iMcEeiL1_yUiNFtlA" label="Strategies" cells="_uClggCQWEei2kLSuMoC6zA _uCs1QCQWEei2kLSuMoC6zA _uCuqcCQWEei2kLSuMoC6zA _uCv4kCQWEei2kLSuMoC6zA _uCxGsCQWEei2kLSuMoC6zA" width="91" featureName="strategies">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='StrategyColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_eaBf1yMcEeiL1_yUiNFtlA" label="Solutions" cells="_uCoj0CQWEei2kLSuMoC6zA _uCtcUCQWEei2kLSuMoC6zA _uCuqcSQWEei2kLSuMoC6zA _uCv4kSQWEei2kLSuMoC6zA _uCxtwCQWEei2kLSuMoC6zA" featureName="solutions">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='SolutionColumn']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+  </table:DTable>
+  <table:DTable xmi:id="_V-1KQCWPEeiY9YfYWhve9A" name="new SafetyCaseStatistics" headerColumnWidth="123">
+    <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_V-1KQSWPEeiY9YfYWhve9A" label="Revise">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='ReviseLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KQiWPEeiY9YfYWhve9A" label="5 (71%)" column="_V-1KVSWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KQyWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KViWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KRCWPEeiY9YfYWhve9A" label="6 (100%)" column="_V-1KVyWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_V-1KRSWPEeiY9YfYWhve9A" label="Recheck">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='RecheckLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KRiWPEeiY9YfYWhve9A" label="2 (28%)" column="_V-1KVSWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KRyWPEeiY9YfYWhve9A" label="1 (100%)" column="_V-1KViWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KSCWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KVyWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_V-1KSSWPEeiY9YfYWhve9A" label="Reuse">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='ReuseLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KSiWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KVSWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KSyWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KViWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KTCWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KVyWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_V-1KTSWPEeiY9YfYWhve9A" label="Undetermined">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='UndeterminedLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KTiWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KVSWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KTyWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KViWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KUCWPEeiY9YfYWhve9A" label="0 (0%)" column="_V-1KVyWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_V-1KUSWPEeiY9YfYWhve9A" label="Total">
+      <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedLineMappings[name='TotalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KUiWPEeiY9YfYWhve9A" label="7" column="_V-1KVSWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KUyWPEeiY9YfYWhve9A" label="1" column="_V-1KViWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_V-1KVCWPEeiY9YfYWhve9A" label="6" column="_V-1KVyWPEeiY9YfYWhve9A">
+        <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+        <semanticElements xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_V-1KVSWPEeiY9YfYWhve9A" label="Goals" cells="_V-1KQiWPEeiY9YfYWhve9A _V-1KRiWPEeiY9YfYWhve9A _V-1KSiWPEeiY9YfYWhve9A _V-1KTiWPEeiY9YfYWhve9A _V-1KUiWPEeiY9YfYWhve9A" width="47" featureName="goals">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='GoalColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_V-1KViWPEeiY9YfYWhve9A" label="Strategies" cells="_V-1KQyWPEeiY9YfYWhve9A _V-1KRyWPEeiY9YfYWhve9A _V-1KSyWPEeiY9YfYWhve9A _V-1KTyWPEeiY9YfYWhve9A _V-1KUyWPEeiY9YfYWhve9A" width="53" featureName="strategies">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='StrategyColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_V-1KVyWPEeiY9YfYWhve9A" label="Solutions" cells="_V-1KRCWPEeiY9YfYWhve9A _V-1KSCWPEeiY9YfYWhve9A _V-1KTCWPEeiY9YfYWhve9A _V-1KUCWPEeiY9YfYWhve9A _V-1KVCWPEeiY9YfYWhve9A" featureName="solutions">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']/@ownedColumnMappings[name='SolutionColumn']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseStatistics']"/>
+  </table:DTable>
 </xmi:XMI>
