@@ -119,9 +119,9 @@
           <children xmi:type="notation:Node" xmi:id="_BonBwwrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BonBxArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_WcMBgCQXEei2kLSuMoC6zA" type="3005" element="_WcEFsCQXEei2kLSuMoC6zA">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_WcMBgSQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcMBgiQXEei2kLSuMoC6zA"/>
+          <children xmi:type="notation:Node" xmi:id="_4z09wCWQEeiJB_a3kErSfA" type="3005" element="_4ztB8CWQEeiJB_a3kErSfA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_4z09wSWQEeiJB_a3kErSfA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4z09wiWQEeiJB_a3kErSfA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BonBwQrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BonBwgrlEeiYM4ZMH_QRAw" x="384" y="276" width="132" height="76"/>
@@ -141,9 +141,9 @@
           <children xmi:type="notation:Node" xmi:id="_BooP4wrlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BooP5ArlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_WMq-0CQXEei2kLSuMoC6zA" type="3005" element="_WMagICQXEei2kLSuMoC6zA">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_WMq-0SQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WMq-0iQXEei2kLSuMoC6zA"/>
+          <children xmi:type="notation:Node" xmi:id="_5pnWQCWQEeiJB_a3kErSfA" type="3005" element="_5pgBgCWQEeiJB_a3kErSfA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5pnWQSWQEeiJB_a3kErSfA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5pnWQiWQEeiJB_a3kErSfA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_BooP4QrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BooP4grlEeiYM4ZMH_QRAw" x="468" y="132" width="166" height="76"/>
@@ -196,9 +196,9 @@
           <children xmi:type="notation:Node" xmi:id="_BovkoArlEeiYM4ZMH_QRAw" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BovkoQrlEeiYM4ZMH_QRAw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Y1Jc8CQXEei2kLSuMoC6zA" type="3005" element="_Y1CvQCQXEei2kLSuMoC6zA">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Y1Jc8SQXEei2kLSuMoC6zA" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y1Jc8iQXEei2kLSuMoC6zA"/>
+          <children xmi:type="notation:Node" xmi:id="_39cvYCWQEeiJB_a3kErSfA" type="3005" element="_39WBsCWQEeiJB_a3kErSfA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_39cvYSWQEeiJB_a3kErSfA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_39cvYiWQEeiJB_a3kErSfA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Bou9kwrlEeiYM4ZMH_QRAw" fontName="Ubuntu" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bou9lArlEeiYM4ZMH_QRAw" x="408" y="408" width="93" height="93"/>
@@ -425,7 +425,7 @@
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9ArlEeiYM4ZMH_QRAw" name="SG1 Overall Goal" outgoingEdges="_BoVVHgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9ArlEeiYM4ZMH_QRAw" name="SG1 Avoid activating the actuator while the vehicle speed is greater than 15 km/h. (ASIL C)" outgoingEdges="_BoVVHgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.0"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.0"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Bo75MCQQEei9fKnvpRs-3g" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
@@ -433,7 +433,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9grlEeiYM4ZMH_QRAw" name="B1 Sub-Goal 1" outgoingEdges="_BoVVIQrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVMwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU9grlEeiYM4ZMH_QRAw" name="B1 The VS ECU sends the accurate vehicle speed information to the AC ECU. (ASIL C)" outgoingEdges="_BoVVIQrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVMwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.1"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.1"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVU9wrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
@@ -441,7 +441,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-ArlEeiYM4ZMH_QRAw" name="B2 Sub-Goal 2" outgoingEdges="_BoVVJArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVNgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-ArlEeiYM4ZMH_QRAw" name="B2 The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h. (ASIL B)" outgoingEdges="_BoVVJArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVNgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.2"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.2"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_XiSG4CQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
@@ -449,7 +449,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-grlEeiYM4ZMH_QRAw" name="B3 Sub-Goal 3" outgoingEdges="_BoVVJwrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVOQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU-grlEeiYM4ZMH_QRAw" name="B3 The VS ECU sends accurate vehicle speed information to the Redundant Switch. (ASIL C)" outgoingEdges="_BoVVJwrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVOQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.3"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.3"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_W-0NcCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
@@ -457,7 +457,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_ArlEeiYM4ZMH_QRAw" name="B4 Sub-Goal 4" outgoingEdges="_BoVVKgrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_ArlEeiYM4ZMH_QRAw" name="B4 The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h. (ASIL A)" outgoingEdges="_BoVVKgrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.4"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.4"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_WqQSsCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
@@ -465,15 +465,15 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_grlEeiYM4ZMH_QRAw" name="B5 Sub-Goal 5" outgoingEdges="_BoVVLQrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVU_grlEeiYM4ZMH_QRAw" name="B5 The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed. (ASIL C)" outgoingEdges="_BoVVLQrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVPwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.5"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.5"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_WcEFsCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_4ztB8CWQEeiJB_a3kErSfA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVAArlEeiYM4ZMH_QRAw" name="B6 Sub-Goal 6" outgoingEdges="_BoVVMArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVQgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVAArlEeiYM4ZMH_QRAw" name="B6 Sufficient independence of the AC ECU and the Redundant Switch is shown. (ASIL C)" outgoingEdges="_BoVVMArlEeiYM4ZMH_QRAw" incomingEdges="_BoVVQgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.6"/>
       <semanticElements xmi:type="safetycase:Goal" href="powerSD.safetycase#//@goals.6"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Xzt1ICQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Goal.svg">
@@ -481,15 +481,15 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='GoalNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVAgrlEeiYM4ZMH_QRAw" name="S1 AND Refinement." outgoingEdges="_BoVVMwrlEeiYM4ZMH_QRAw _BoVVNgrlEeiYM4ZMH_QRAw _BoVVOQrlEeiYM4ZMH_QRAw _BoVVPArlEeiYM4ZMH_QRAw _BoVVPwrlEeiYM4ZMH_QRAw _BoVVQgrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVHgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVAgrlEeiYM4ZMH_QRAw" name="S1 Decompose by AND refinement." outgoingEdges="_BoVVMwrlEeiYM4ZMH_QRAw _BoVVNgrlEeiYM4ZMH_QRAw _BoVVOQrlEeiYM4ZMH_QRAw _BoVVPArlEeiYM4ZMH_QRAw _BoVVPwrlEeiYM4ZMH_QRAw _BoVVQgrlEeiYM4ZMH_QRAw" incomingEdges="_BoVVHgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Strategy" href="powerSD.safetycase#//@strategies.0"/>
       <semanticElements xmi:type="safetycase:Strategy" href="powerSD.safetycase#//@strategies.0"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_WMagICQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Strategy.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_5pgBgCWQEeiJB_a3kErSfA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Strategy.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='StrategyNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='StrategyNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVBArlEeiYM4ZMH_QRAw" name="Sn1 Solution for B1" incomingEdges="_BoVVIQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVBArlEeiYM4ZMH_QRAw" name="Sn1 Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." incomingEdges="_BoVVIQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.0"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.0"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVBQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
@@ -497,7 +497,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVBgrlEeiYM4ZMH_QRAw" name="Sn2 Solution for B2" incomingEdges="_BoVVJArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVBgrlEeiYM4ZMH_QRAw" name="Sn2 Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." incomingEdges="_BoVVJArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.1"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.1"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_YCClACQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
@@ -505,7 +505,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVCArlEeiYM4ZMH_QRAw" name="Sn3 Solution for B3" incomingEdges="_BoVVJwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVCArlEeiYM4ZMH_QRAw" name="Sn3 Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." incomingEdges="_BoVVJwrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.2"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.2"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVCQrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
@@ -513,7 +513,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVCgrlEeiYM4ZMH_QRAw" name="Sn4 Solution for B4" incomingEdges="_BoVVKgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVCgrlEeiYM4ZMH_QRAw" name="Sn4 Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." incomingEdges="_BoVVKgrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.3"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.3"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ZGu8MCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
@@ -521,15 +521,15 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVDArlEeiYM4ZMH_QRAw" name="Sn5 Solution for B5" incomingEdges="_BoVVLQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVDArlEeiYM4ZMH_QRAw" name="Sn5 Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." incomingEdges="_BoVVLQrlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.4"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.4"/>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Y1CvQCQXEei2kLSuMoC6zA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_39WBsCWQEeiJB_a3kErSfA" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer/@nodeMappings[name='SolutionNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVDgrlEeiYM4ZMH_QRAw" name="Sn6 Solution for B6" incomingEdges="_BoVVMArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BoVVDgrlEeiYM4ZMH_QRAw" name="Sn6 Expert Judgement." incomingEdges="_BoVVMArlEeiYM4ZMH_QRAw" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.5"/>
       <semanticElements xmi:type="safetycase:Solution" href="powerSD.safetycase#//@solutions.5"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BoVVDwrlEeiYM4ZMH_QRAw" showIcon="false" labelPosition="node" workspacePath="/edu.toronto.cs.se.modelepedia.safetycase.design/icons/Solution.svg">
