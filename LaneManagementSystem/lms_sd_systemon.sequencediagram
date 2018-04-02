@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequencediagram:SequenceDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram">
+  <objects xsi:type="sequencediagram:Actor" name="IgnitionSystem">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.0">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.1">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.2">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.3">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <classes name="SupervisoryControlSystem">
+    <operations name="TurnOn()"/>
+  </classes>
+  <classes name="LaneKeepingSystem">
+    <operations name="TurnOn()"/>
+    <operations name="CheckStatus()"/>
+  </classes>
+  <classes name="LaneCenteringSystem">
+    <operations name="TurnOn()"/>
+    <operations name="CheckStatus()"/>
+  </classes>
+  <classes name="LaneDepartureWarningSystem">
+    <operations name="TurnOn()"/>
+    <operations name="CheckStatus()"/>
+  </classes>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="//@classes.0/@operations.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.2/@lifeline/@activationBoxes.0" content="//@classes.1/@operations.0"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.2/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.2/@lifeline/@activationBoxes.0" content="//@classes.1/@operations.1"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.2/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.3/@lifeline/@activationBoxes.0" content="//@classes.2/@operations.0"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.3/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.3/@lifeline/@activationBoxes.0" content="//@classes.2/@operations.1"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.3/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.4/@lifeline/@activationBoxes.0" content="//@classes.3/@operations.0"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.4/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.4/@lifeline/@activationBoxes.0" content="//@classes.3/@operations.1"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.4/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="[subsystemsOK = true] ..."/>
+</sequencediagram:SequenceDiagram>
