@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequencediagram:SequenceDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram">
+  <objects xsi:type="sequencediagram:Actor" name="Driver">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.0">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.1">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.2">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.3">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.4">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.5">
+    <lifeline>
+      <activationBoxes/>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="//@classes.6">
+    <lifeline>
+      <activationBoxes/>
+    </lifeline>
+  </objects>
+  <classes name="SupervisoryControlSystem">
+    <operations name="OkLightOff()"/>
+    <operations name="WarningIndicatorOn()"/>
+  </classes>
+  <classes name="ImageProcessing">
+    <operations name="CheckStatus()"/>
+  </classes>
+  <classes name="LaneCenteringSystem">
+    <operations name="TurnOff()"/>
+  </classes>
+  <classes name="LaneKeepingSystem">
+    <operations name="TurnOff()"/>
+  </classes>
+  <classes name="LaneDepartureWarningSystem">
+    <operations name="TurnOff()"/>
+  </classes>
+  <classes name="Alarm">
+    <operations name="Activate()"/>
+    <operations name="Deactivate()"/>
+  </classes>
+  <classes name="UserInterface">
+    <operations name="DeactivateAlarm()"/>
+  </classes>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.2/@lifeline/@activationBoxes.0" content="//@classes.1/@operations.0"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.2/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="false"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="//@classes.0/@operations.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="//@classes.0/@operations.1"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.3/@lifeline/@activationBoxes.0" content="//@classes.2/@operations.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.4/@lifeline/@activationBoxes.0" content="//@classes.3/@operations.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.5/@lifeline/@activationBoxes.0" content="//@classes.4/@operations.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.6/@lifeline/@activationBoxes.0" content="//@classes.5/@operations.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0" target="//@objects.7/@lifeline/@activationBoxes.0" content="//@classes.6/@operations.0"/>
+  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.7/@lifeline/@activationBoxes.0" target="//@objects.6/@lifeline/@activationBoxes.1" content="//@classes.5/@operations.1"/>
+  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.6/@lifeline/@activationBoxes.1" target="//@objects.7/@lifeline/@activationBoxes.0"/>
+</sequencediagram:SequenceDiagram>

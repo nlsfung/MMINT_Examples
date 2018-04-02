@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_7f880CixEeihd4XNMicbhg" selectedViews="_8__zQCixEeihd4XNMicbhg" version="11.1.0.201608251200">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sequence="http://www.eclipse.org/sirius/diagram/sequence/2.0.0" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_7f880CixEeihd4XNMicbhg" selectedViews="_8__zQCixEeihd4XNMicbhg _gM9EMDFNEei61fNVf9iDmw" version="11.1.0.201608251200">
     <semanticResources>lms_cd.classdiagram</semanticResources>
+    <semanticResources>lms_sd_failurestate.sequencediagram</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_8__zQCixEeihd4XNMicbhg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.modelepedia.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagramViewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="__zFl8CixEeihd4XNMicbhg" name="new ClassDiagramRepresentation" representation="__zFl8SixEeihd4XNMicbhg">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_ClassDiagram']"/>
         <target xmi:type="classdiagram:ClassDiagram" href="lms_cd.classdiagram#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_gM9EMDFNEei61fNVf9iDmw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_vIb1sDH1EeiXcoc2dchEbQ" name="new SequenceDiagramRepresentation" representation="_vIeR8DH1EeiXcoc2dchEbQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']"/>
+        <target xmi:type="sequencediagram:SequenceDiagram" href="My.sequencediagram#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_WmRccDXwEeilHtSnNFUp0A" name="new SequenceDiagramRepresentation" representation="_WmSDgDXwEeilHtSnNFUp0A">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']"/>
+        <target xmi:type="sequencediagram:SequenceDiagram" href="lms_sd.sequencediagram#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_ymZzYDbBEeiFr_4W2AC1pg" name="new SequenceDiagramRepresentation" representation="_ymhIIDbBEeiFr_4W2AC1pg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']"/>
+        <target xmi:type="sequencediagram:SequenceDiagram" href="lms_sd_failurestate.sequencediagram#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -2329,5 +2345,1117 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="__zFl9CixEeihd4XNMicbhg"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_ClassDiagram']/@defaultLayer"/>
     <target xmi:type="classdiagram:ClassDiagram" href="lms_cd.classdiagram#/"/>
+  </diagram:DSemanticDiagram>
+  <sequence:SequenceDDiagram xmi:id="_vIeR8DH1EeiXcoc2dchEbQ" name="new SequenceDiagramRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_vIeR8TH1EeiXcoc2dchEbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_vIeR8jH1EeiXcoc2dchEbQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_vIuJkDH1EeiXcoc2dchEbQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vIuJkTH1EeiXcoc2dchEbQ" type="Sirius" element="_vIeR8DH1EeiXcoc2dchEbQ" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vIuJkjH1EeiXcoc2dchEbQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_vIeR8zH1EeiXcoc2dchEbQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer"/>
+    <target xmi:type="sequencediagram:SequenceDiagram" href="My.sequencediagram#/"/>
+  </sequence:SequenceDDiagram>
+  <diagram:DSemanticDiagram xmi:id="_WmSDgDXwEeilHtSnNFUp0A" name="new SequenceDiagramRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_WmSDgTXwEeilHtSnNFUp0A" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_WmSDgjXwEeilHtSnNFUp0A"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_WmXjEDXwEeilHtSnNFUp0A" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_WmXjETXwEeilHtSnNFUp0A" type="Sirius" element="_WmSDgDXwEeilHtSnNFUp0A" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_WmXjEjXwEeilHtSnNFUp0A"/>
+      </data>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_WmSDhTXwEeilHtSnNFUp0A"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer"/>
+    <target xmi:type="sequencediagram:SequenceDiagram" href="lms_sd.sequencediagram#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_ymhIIDbBEeiFr_4W2AC1pg" name="new SequenceDiagramRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ymhIITbBEeiFr_4W2AC1pg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_ymhIIjbBEeiFr_4W2AC1pg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ymi9UDbBEeiFr_4W2AC1pg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_ymi9UTbBEeiFr_4W2AC1pg" type="Sirius" element="_ymhIIDbBEeiFr_4W2AC1pg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_2liicDbBEeiFr_4W2AC1pg" type="2001" element="_2le4EDbBEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_2ljwkDbBEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2ljwkTbBEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2lk-sDbBEeiFr_4W2AC1pg" type="3003" element="_2le4ETbBEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2lk-sTbBEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2lk-sjbBEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mdvjADbCEeiFr_4W2AC1pg" type="3001" element="_mdr4oDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_mdvjAzbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_mdvjBDbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_mdx_QDbCEeiFr_4W2AC1pg" type="3003" element="_mdsfsDbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_mdx_QTbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mdx_QjbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_K0rDUDbEEeiFr_4W2AC1pg" type="3001" element="_K0igcDbEEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_K0rqYDbEEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_K0rqYTbEEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_K0rqYjbEEeiFr_4W2AC1pg" type="3003" element="_K0igcTbEEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_K0rqYzbEEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K0rqZDbEEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_K0rDUTbEEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K0rDUjbEEeiFr_4W2AC1pg" x="22" y="422" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mdvjATbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mdvjAjbCEeiFr_4W2AC1pg" x="36" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2liicTbBEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2liicjbBEeiFr_4W2AC1pg" x="36" y="60" width="97" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_50JMcDbBEeiFr_4W2AC1pg" type="2003" element="_50GwMDbBEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_50JzgDbBEeiFr_4W2AC1pg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_50KakDbBEeiFr_4W2AC1pg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_RPmU0DbDEeiFr_4W2AC1pg" type="3010" element="_RPdx8DbDEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_RPmU0TbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_RPmU0jbDEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TRRRoDbDEeiFr_4W2AC1pg" type="3010" element="_TRIuwDbDEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_TRRRoTbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TRRRojbDEeiFr_4W2AC1pg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_50KakTbBEeiFr_4W2AC1pg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_50KakjbBEeiFr_4W2AC1pg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_50JMcTbBEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_50JMcjbBEeiFr_4W2AC1pg" x="1295" y="72"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FXBZwDbCEeiFr_4W2AC1pg" type="2003" element="_FW-9gDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_FXCA0DbCEeiFr_4W2AC1pg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_FXCA0TbCEeiFr_4W2AC1pg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_4nA1gDbCEeiFr_4W2AC1pg" type="3010" element="_4m0BMDbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_4nA1gTbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4nA1gjbCEeiFr_4W2AC1pg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_FXCA0jbCEeiFr_4W2AC1pg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_FXCA0zbCEeiFr_4W2AC1pg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FXBZwTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FXBZwjbCEeiFr_4W2AC1pg" x="1317" y="143" width="88" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FXCA1DbCEeiFr_4W2AC1pg" type="2003" element="_FW_kkDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_FXCn4DbCEeiFr_4W2AC1pg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_FXCn4TbCEeiFr_4W2AC1pg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_tSGWQDbDEeiFr_4W2AC1pg" type="3010" element="_tR9zYDbDEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_tSGWQTbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_tSGWQjbDEeiFr_4W2AC1pg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_FXCn4jbCEeiFr_4W2AC1pg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_FXCn4zbCEeiFr_4W2AC1pg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FXCA1TbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FXCA1jbCEeiFr_4W2AC1pg" x="1306" y="201" width="111" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FXCn5DbCEeiFr_4W2AC1pg" type="2003" element="_FW_kkjbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_FXDO8DbCEeiFr_4W2AC1pg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_FXDO8TbCEeiFr_4W2AC1pg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_ufO3wDbDEeiFr_4W2AC1pg" type="3010" element="_ufCqgDbDEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_ufO3wTbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ufO3wjbDEeiFr_4W2AC1pg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_FXDO8jbCEeiFr_4W2AC1pg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_FXDO8zbCEeiFr_4W2AC1pg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FXCn5TbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FXCn5jbCEeiFr_4W2AC1pg" x="1310" y="259" width="103" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FXDO9DbCEeiFr_4W2AC1pg" type="2003" element="_FW_klDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_FXD2ADbCEeiFr_4W2AC1pg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_FXD2ATbCEeiFr_4W2AC1pg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vcZDkDbDEeiFr_4W2AC1pg" type="3010" element="_vcSV4DbDEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vcZDkTbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vcZDkjbDEeiFr_4W2AC1pg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_FXD2AjbCEeiFr_4W2AC1pg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_FXD2AzbCEeiFr_4W2AC1pg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FXDO9TbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FXDO9jbCEeiFr_4W2AC1pg" x="1284" y="317" width="154" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FXD2BDbCEeiFr_4W2AC1pg" type="2003" element="_FXALoDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_FXD2BzbCEeiFr_4W2AC1pg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_FXEdEDbCEeiFr_4W2AC1pg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_yjxrQDbDEeiFr_4W2AC1pg" type="3010" element="_yjpvcDbDEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_yjxrQTbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yjxrQjbDEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_OV9_0DbEEeiFr_4W2AC1pg" type="3010" element="_OV1c8DbEEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_OV9_0TbEEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OV9_0jbEEeiFr_4W2AC1pg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_FXEdETbCEeiFr_4W2AC1pg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_FXEdEjbCEeiFr_4W2AC1pg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FXD2BTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FXD2BjbCEeiFr_4W2AC1pg" x="1321" y="375" width="81" height="53"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FXEdEzbCEeiFr_4W2AC1pg" type="2003" element="_FXALojbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_FXEdFjbCEeiFr_4W2AC1pg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_FXFEIDbCEeiFr_4W2AC1pg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_NE7OsDbEEeiFr_4W2AC1pg" type="3010" element="_NEzS4DbEEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_NE7OsTbEEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_NE7OsjbEEeiFr_4W2AC1pg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_FXFEITbCEeiFr_4W2AC1pg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_FXFEIjbCEeiFr_4W2AC1pg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FXEdFDbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FXEdFTbCEeiFr_4W2AC1pg" x="1305" y="444"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Sm57cDbCEeiFr_4W2AC1pg" type="2001" element="_Sm24IDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_Sm6igDbCEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Sm6igTbCEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Sm6igjbCEeiFr_4W2AC1pg" type="3003" element="_Sm3fMDbCEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Sm6igzbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sm6ihDbCEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ny5_IDbCEeiFr_4W2AC1pg" type="3001" element="_ny1tsDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_ny6mMDbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ny6mMTbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ny6mMjbCEeiFr_4W2AC1pg" type="3003" element="_ny1tsTbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ny6mMzbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ny6mNDbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vWTfIDbCEeiFr_4W2AC1pg" type="3001" element="_vWQb0DbCEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_vWUGMDbCEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vWUGMTbCEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_vWUtQDbCEeiFr_4W2AC1pg" type="3003" element="_vWQb0TbCEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_vWUtQTbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vWUtQjbCEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vWTfITbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vWTfIjbCEeiFr_4W2AC1pg" x="22" y="26" width="30" height="349"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ny5_ITbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ny5_IjbCEeiFr_4W2AC1pg" x="60" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Sm57cTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sm57cjbCEeiFr_4W2AC1pg" x="156" y="60" width="145" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YOiSUDbCEeiFr_4W2AC1pg" type="2001" element="_YOfPADbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_YOi5YDbCEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YOi5YTbCEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YOkukjbCEeiFr_4W2AC1pg" type="3003" element="_YOf2EDbCEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YOkukzbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOkulDbCEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oR62YDbCEeiFr_4W2AC1pg" type="3001" element="_oR4aIDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_oR62YzbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oR62ZDbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_oR7dcDbCEeiFr_4W2AC1pg" type="3003" element="_oR4aITbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_oR7dcTbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oR7dcjbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yPsuIDbCEeiFr_4W2AC1pg" type="3001" element="_yPnOkDbCEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_yPtVMDbCEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_yPtVMTbCEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_yPtVMjbCEeiFr_4W2AC1pg" type="3003" element="_yPnOkTbCEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_yPtVMzbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPtVNDbCEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_yPsuITbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yPsuIjbCEeiFr_4W2AC1pg" x="-22" y="36" width="30" height="38"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oR62YTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oR62YjbCEeiFr_4W2AC1pg" x="36" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YOiSUTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOiSUjbCEeiFr_4W2AC1pg" x="372" y="62" width="114" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YOi5YjbCEeiFr_4W2AC1pg" type="2001" element="_YOf2ETbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_YOi5ZTbCEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YOi5ZjbCEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YOlVoDbCEeiFr_4W2AC1pg" type="3003" element="_YOf2EjbCEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YOlVoTbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOlVojbCEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ohlDADbCEeiFr_4W2AC1pg" type="3001" element="_oheVUDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_ohlDAzbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ohlDBDbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ohlDBTbCEeiFr_4W2AC1pg" type="3003" element="_oheVUTbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ohlDBjbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ohlDBzbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2BAnIDbDEeiFr_4W2AC1pg" type="3001" element="_2A5SYDbDEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_2BAnIzbDEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2BAnJDbDEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2BBOMDbDEeiFr_4W2AC1pg" type="3003" element="_2A5SYTbDEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2BBOMTbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2BBOMjbDEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2BAnITbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2BAnIjbDEeiFr_4W2AC1pg" x="-22" y="210" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ohlDATbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ohlDAjbCEeiFr_4W2AC1pg" x="48" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YOi5YzbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOi5ZDbCEeiFr_4W2AC1pg" x="504" y="62" width="138" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YOjgcDbCEeiFr_4W2AC1pg" type="2001" element="_YOf2EzbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_YOjgczbCEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YOjgdDbCEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YOlVozbCEeiFr_4W2AC1pg" type="3003" element="_YOf2FDbCEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YOlVpDbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOlVpTbCEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o8ut8DbCEeiFr_4W2AC1pg" type="3001" element="_o8rqoDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_o8ut8zbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_o8ut9DbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_o8ut9TbCEeiFr_4W2AC1pg" type="3003" element="_o8rqoTbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_o8ut9jbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o8ut9zbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_239dQDbDEeiFr_4W2AC1pg" type="3001" element="_231hcDbDEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_239dQzbDEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_239dRDbDEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_23-EUDbDEeiFr_4W2AC1pg" type="3003" element="_231hcTbDEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_23-EUTbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_23-EUjbDEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_239dQTbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_239dQjbDEeiFr_4W2AC1pg" x="-22" y="254" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_o8ut8TbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o8ut8jbCEeiFr_4W2AC1pg" x="48" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YOjgcTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOjgcjbCEeiFr_4W2AC1pg" x="660" y="62" width="138" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YOjgdTbCEeiFr_4W2AC1pg" type="2001" element="_YOgdIDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_YOkHgDbCEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YOkHgTbCEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YOlVpjbCEeiFr_4W2AC1pg" type="3003" element="_YOgdITbCEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YOlVpzbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOlVqDbCEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pJWNoDbCEeiFr_4W2AC1pg" type="3001" element="_pJR8MDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_pJWNozbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pJWNpDbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pJW0sDbCEeiFr_4W2AC1pg" type="3003" element="_pJR8MTbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pJW0sTbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pJW0sjbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_4BLvIDbDEeiFr_4W2AC1pg" type="3001" element="_4A2_ADbDEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_4BMWMDbDEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_4BMWMTbDEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_4BMWMjbDEeiFr_4W2AC1pg" type="3003" element="_4A2_ATbDEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_4BMWMzbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4BMWNDbDEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_4BLvITbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4BLvIjbDEeiFr_4W2AC1pg" x="-22" y="296" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_pJWNoTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pJWNojbCEeiFr_4W2AC1pg" x="72" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YOjgdjbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOjgdzbCEeiFr_4W2AC1pg" x="816" y="62" width="186" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YOkHgjbCEeiFr_4W2AC1pg" type="2001" element="_YOgdIjbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_YOkHhTbCEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YOkHhjbCEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YOlVqTbCEeiFr_4W2AC1pg" type="3003" element="_YOgdIzbCEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YOlVqjbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOlVqzbCEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pXIK8DbCEeiFr_4W2AC1pg" type="3001" element="_pXFusDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_pXIyADbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pXIyATbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pXIyAjbCEeiFr_4W2AC1pg" type="3003" element="_pXFusTbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pXIyAzbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pXIyBDbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5Axj4DbDEeiFr_4W2AC1pg" type="3001" element="_5ArdQDbDEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_5AyK8DbDEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_5AyK8TbDEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_5AyK8jbDEeiFr_4W2AC1pg" type="3003" element="_5ArdQTbDEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_5AyK8zbDEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5AyK9DbDEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_5Axj4TbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Axj4jbDEeiFr_4W2AC1pg" x="-22" y="344" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TRookDbEEeiFr_4W2AC1pg" type="3001" element="_TRjwEDbEEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_TRookzbEEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_TRoolDbEEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_TRpPoDbEEeiFr_4W2AC1pg" type="3003" element="_TRkXIDbEEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_TRpPoTbEEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TRpPojbEEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TRookTbEEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TRookjbEEeiFr_4W2AC1pg" x="22" y="468" width="30" height="37"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_pXIK8TbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pXIK8jbCEeiFr_4W2AC1pg" x="24" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YOkHgzbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOkHhDbCEeiFr_4W2AC1pg" x="1008" y="62" width="66" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YOkHhzbCEeiFr_4W2AC1pg" type="2001" element="_YOgdJDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_YOkukDbCEeiFr_4W2AC1pg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YOkukTbCEeiFr_4W2AC1pg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YOl8sDbCEeiFr_4W2AC1pg" type="3003" element="_YOgdJTbCEeiFr_4W2AC1pg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_YOl8sTbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOl8sjbCEeiFr_4W2AC1pg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pk79cDbCEeiFr_4W2AC1pg" type="3001" element="_pk5hMDbCEeiFr_4W2AC1pg">
+            <children xmi:type="notation:Node" xmi:id="_pk9LkDbCEeiFr_4W2AC1pg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pk9LkTbCEeiFr_4W2AC1pg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pk9LkjbCEeiFr_4W2AC1pg" type="3003" element="_pk5hMTbCEeiFr_4W2AC1pg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pk9LkzbCEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pk9LlDbCEeiFr_4W2AC1pg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_RXDyQDbEEeiFr_4W2AC1pg" type="3001" element="_RXAu8DbEEeiFr_4W2AC1pg">
+              <children xmi:type="notation:Node" xmi:id="_RXDyQzbEEeiFr_4W2AC1pg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_RXDyRDbEEeiFr_4W2AC1pg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_RXEZUDbEEeiFr_4W2AC1pg" type="3003" element="_RXBWADbEEeiFr_4W2AC1pg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_RXEZUTbEEeiFr_4W2AC1pg" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RXEZUjbEEeiFr_4W2AC1pg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_RXDyQTbEEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RXDyQjbEEeiFr_4W2AC1pg" x="-22" y="422" width="30" height="85"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_pk79cTbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pk79cjbCEeiFr_4W2AC1pg" x="36" y="22" width="30" height="519"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_YOkHiDbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YOkHiTbCEeiFr_4W2AC1pg" x="1152" y="62" width="109" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_ymi9UjbBEeiFr_4W2AC1pg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_8tEr8DbCEeiFr_4W2AC1pg" type="4001" element="_8s5FwDbCEeiFr_4W2AC1pg" source="_vWTfIDbCEeiFr_4W2AC1pg" target="_yPsuIDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_8tEr9DbCEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8tEr9TbCEeiFr_4W2AC1pg" x="-3" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8tEr9jbCEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8tEr9zbCEeiFr_4W2AC1pg" x="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8tFTADbCEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8tFTATbCEeiFr_4W2AC1pg" x="4" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8tEr8TbCEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8tEr8jbCEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8tEr8zbCEeiFr_4W2AC1pg" points="[13, -2, -118, -2]$[131, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8tFTAjbCEeiFr_4W2AC1pg" id="(0.5666666666666667,0.03724928366762178)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8tFTAzbCEeiFr_4W2AC1pg" id="(0.0,0.02631578947368421)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_HI2HQDbDEeiFr_4W2AC1pg" type="4001" element="_HIpS8DbDEeiFr_4W2AC1pg" source="_yPsuIDbCEeiFr_4W2AC1pg" target="_vWTfIDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_HI2uUDbDEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HI2uUTbDEeiFr_4W2AC1pg" x="9" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HI2uUjbDEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HI2uUzbDEeiFr_4W2AC1pg" x="4" y="14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HI2uVDbDEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HI2uVTbDEeiFr_4W2AC1pg" x="12" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_HI2HQTbDEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HI2HQjbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HI2HQzbDEeiFr_4W2AC1pg" points="[0, -7, 119, 2]$[-118, -9, 1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HI2uVjbDEeiFr_4W2AC1pg" id="(0.0,1.0263157894736843)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HI2uVzbDEeiFr_4W2AC1pg" id="(0.9666666666666667,0.12034383954154727)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_YJ830DbDEeiFr_4W2AC1pg" type="4001" element="_YJ08ADbDEeiFr_4W2AC1pg" source="_vWTfIDbCEeiFr_4W2AC1pg" target="_vWTfIDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_YJ831DbDEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YJ831TbDEeiFr_4W2AC1pg" y="-23"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YJ831jbDEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YJ831zbDEeiFr_4W2AC1pg" x="11" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YJ832DbDEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YJ832TbDEeiFr_4W2AC1pg" x="1" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_YJ830TbDEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_YJ830jbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YJ830zbDEeiFr_4W2AC1pg" points="[0, 0, 2, -32]$[32, 0, 34, -32]$[32, 32, 34, 0]$[0, 32, 2, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YJ832jbDEeiFr_4W2AC1pg" id="(1.0,0.20630372492836677)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YJ832zbDEeiFr_4W2AC1pg" id="(0.9333333333333333,0.2979942693409742)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ce77EDbDEeiFr_4W2AC1pg" type="4001" element="_cevt0DbDEeiFr_4W2AC1pg" source="_vWTfIDbCEeiFr_4W2AC1pg" target="_vWTfIDbCEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_ce8iIDbDEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ce8iITbDEeiFr_4W2AC1pg" y="-43"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ce8iIjbDEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ce8iIzbDEeiFr_4W2AC1pg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ce8iJDbDEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ce8iJTbDEeiFr_4W2AC1pg" x="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ce77ETbDEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ce77EjbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ce77EzbDEeiFr_4W2AC1pg" points="[0, 0, 4, -33]$[32, 0, 36, -33]$[32, 33, 36, 0]$[0, 33, 4, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ce8iJjbDEeiFr_4W2AC1pg" id="(1.0,0.38108882521489973)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ce8iJzbDEeiFr_4W2AC1pg" id="(0.8666666666666667,0.47564469914040114)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_6OyPIDbDEeiFr_4W2AC1pg" type="4001" element="_6OpFMDbDEeiFr_4W2AC1pg" source="_vWTfIDbCEeiFr_4W2AC1pg" target="_2BAnIDbDEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_6OyPJDbDEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6OyPJTbDEeiFr_4W2AC1pg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6OyPJjbDEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6OyPJzbDEeiFr_4W2AC1pg" x="-2" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6OyPKDbDEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6OyPKTbDEeiFr_4W2AC1pg" x="-1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6OyPITbDEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_6OyPIjbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6OyPIzbDEeiFr_4W2AC1pg" points="[0, 0, -262, -2]$[262, 2, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6OyPKjbDEeiFr_4W2AC1pg" id="(1.0,0.5702005730659025)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6OyPKzbDEeiFr_4W2AC1pg" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7LThwDbDEeiFr_4W2AC1pg" type="4001" element="_7LLl8DbDEeiFr_4W2AC1pg" source="_vWTfIDbCEeiFr_4W2AC1pg" target="_239dQDbDEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_7LUI0DbDEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7LUI0TbDEeiFr_4W2AC1pg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7LUI0jbDEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7LUI0zbDEeiFr_4W2AC1pg" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7LUI1DbDEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7LUI1TbDEeiFr_4W2AC1pg" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7LThwTbDEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7LThwjbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7LThwzbDEeiFr_4W2AC1pg" points="[0, 0, -418, -2]$[418, 2, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LUI1jbDEeiFr_4W2AC1pg" id="(1.0,0.6876790830945558)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LUI1zbDEeiFr_4W2AC1pg" id="(0.0,0.4)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_8vTrIDbDEeiFr_4W2AC1pg" type="4001" element="_8vM9cDbDEeiFr_4W2AC1pg" source="_vWTfIDbCEeiFr_4W2AC1pg" target="_4BLvIDbDEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_8vTrJDbDEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vTrJTbDEeiFr_4W2AC1pg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8vTrJjbDEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vTrJzbDEeiFr_4W2AC1pg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8vTrKDbDEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8vTrKTbDEeiFr_4W2AC1pg" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8vTrITbDEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8vTrIjbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8vTrIzbDEeiFr_4W2AC1pg" points="[0, 0, -598, -2]$[598, 2, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8vTrKjbDEeiFr_4W2AC1pg" id="(1.0,0.8252148997134671)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8vTrKzbDEeiFr_4W2AC1pg" id="(0.0,0.6)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_9m72sDbDEeiFr_4W2AC1pg" type="4001" element="_9m0h8DbDEeiFr_4W2AC1pg" source="_vWTfIDbCEeiFr_4W2AC1pg" target="_5Axj4DbDEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_9m72tDbDEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9m72tTbDEeiFr_4W2AC1pg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9m72tjbDEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9m72tzbDEeiFr_4W2AC1pg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9m72uDbDEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9m72uTbDEeiFr_4W2AC1pg" x="-1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_9m72sTbDEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_9m72sjbDEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9m72szbDEeiFr_4W2AC1pg" points="[0, 0, -742, -2]$[742, 2, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9m72ujbDEeiFr_4W2AC1pg" id="(1.0,0.9283667621776505)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9m72uzbDEeiFr_4W2AC1pg" id="(0.0,0.2)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ULzx0DbEEeiFr_4W2AC1pg" type="4001" element="_ULxVkDbEEeiFr_4W2AC1pg" source="_K0rDUDbEEeiFr_4W2AC1pg" target="_RXDyQDbEEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_UL0Y4DbEEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UL0Y4TbEEeiFr_4W2AC1pg" x="-12" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UL0Y4jbEEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UL0Y4zbEEeiFr_4W2AC1pg" x="-5" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UL0Y5DbEEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UL0Y5TbEEeiFr_4W2AC1pg" x="-22" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ULzx0TbEEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ULzx0jbEEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ULzx0zbEEeiFr_4W2AC1pg" points="[1, 0, -1042, 0]$[1043, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UL0Y5jbEEeiFr_4W2AC1pg" id="(0.9666666666666667,0.4666666666666667)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UL0Y5zbEEeiFr_4W2AC1pg" id="(0.0,0.1411764705882353)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_W59aIDbEEeiFr_4W2AC1pg" type="4001" element="_W55vwDbEEeiFr_4W2AC1pg" source="_RXDyQDbEEeiFr_4W2AC1pg" target="_TRookDbEEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_W5-BMDbEEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W5-BMTbEEeiFr_4W2AC1pg" x="6" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W5-BMjbEEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W5-BMzbEEeiFr_4W2AC1pg" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W5-BNDbEEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W5-BNTbEEeiFr_4W2AC1pg" x="-2" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_W59aITbEEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_W59aIjbEEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W59aIzbEEeiFr_4W2AC1pg" points="[-2, -8, 83, 1]$[-84, -8, 1, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W5-BNjbEEeiFr_4W2AC1pg" id="(0.06666666666666667,0.6941176470588235)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W5-BNzbEEeiFr_4W2AC1pg" id="(0.9666666666666667,0.10810810810810811)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XqVHIDbEEeiFr_4W2AC1pg" type="4001" element="_XqPnkDbEEeiFr_4W2AC1pg" source="_TRookDbEEeiFr_4W2AC1pg" target="_RXDyQDbEEeiFr_4W2AC1pg">
+          <children xmi:type="notation:Node" xmi:id="_XqVuMDbEEeiFr_4W2AC1pg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XqVuMTbEEeiFr_4W2AC1pg" x="-31" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XqVuMjbEEeiFr_4W2AC1pg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XqVuMzbEEeiFr_4W2AC1pg" x="-5" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XqVuNDbEEeiFr_4W2AC1pg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XqVuNTbEEeiFr_4W2AC1pg" x="-25" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XqVHITbEEeiFr_4W2AC1pg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XqVHIjbEEeiFr_4W2AC1pg" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XqVHIzbEEeiFr_4W2AC1pg" points="[3, -1, -93, -1]$[85, -1, -11, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XqVuNjbEEeiFr_4W2AC1pg" id="(0.9,0.8108108108108109)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XqVuNzbEEeiFr_4W2AC1pg" id="(0.36666666666666664,0.8941176470588236)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2le4EDbBEeiFr_4W2AC1pg" name="Driver : Actor" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Actor" href="lms_sd_failurestate.sequencediagram#//@objects.0"/>
+      <semanticElements xmi:type="sequencediagram:Actor" href="lms_sd_failurestate.sequencediagram#//@objects.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_mdr4oDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.0/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.0/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_K0igcDbEEeiFr_4W2AC1pg" outgoingEdges="_ULxVkDbEEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_K0igcTbEEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_mdsfsDbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_2le4ETbBEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Actor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Actor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_50GwMDbBEeiFr_4W2AC1pg" name="SupervisoryControlSystem">
+      <target xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.0"/>
+      <semanticElements xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_50GwMTbBEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RPdx8DbDEeiFr_4W2AC1pg" name="OkLightOff()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.0/@operations.0"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.0/@operations.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_RPdx8TbDEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_TRIuwDbDEeiFr_4W2AC1pg" name="WarningIndicatorOn()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.0/@operations.1"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.0/@operations.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_TRIuwTbDEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_FW-9gDbCEeiFr_4W2AC1pg" name="ImageProcessing">
+      <target xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.1"/>
+      <semanticElements xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_FW-9gTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_4m0BMDbCEeiFr_4W2AC1pg" name="CheckStatus()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.1/@operations.0"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.1/@operations.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_4m0oQDbCEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_FW_kkDbCEeiFr_4W2AC1pg" name="LaneCenteringSystem">
+      <target xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.2"/>
+      <semanticElements xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_FW_kkTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_tR9zYDbDEeiFr_4W2AC1pg" name="TurnOff()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.2/@operations.0"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.2/@operations.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_tR9zYTbDEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_FW_kkjbCEeiFr_4W2AC1pg" name="LaneKeepingSystem">
+      <target xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.3"/>
+      <semanticElements xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_FW_kkzbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ufCqgDbDEeiFr_4W2AC1pg" name="TurnOff()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.3/@operations.0"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.3/@operations.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_ufCqgTbDEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_FW_klDbCEeiFr_4W2AC1pg" name="LaneDepartureWarningSystem">
+      <target xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.4"/>
+      <semanticElements xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_FW_klTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_vcSV4DbDEeiFr_4W2AC1pg" name="TurnOff()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.4/@operations.0"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.4/@operations.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_vcSV4TbDEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_FXALoDbCEeiFr_4W2AC1pg" name="Alarm">
+      <target xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.5"/>
+      <semanticElements xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_FXALoTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_yjpvcDbDEeiFr_4W2AC1pg" name="Activate()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.5/@operations.0"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.5/@operations.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_yjqWgDbDEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OV1c8DbEEeiFr_4W2AC1pg" name="Deactivate()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.5/@operations.1"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.5/@operations.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_OV1c8TbEEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_FXALojbCEeiFr_4W2AC1pg" name="UserInterface">
+      <target xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.6"/>
+      <semanticElements xmi:type="sequencediagram:Class" href="lms_sd_failurestate.sequencediagram#//@classes.6"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_FXALozbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_NEzS4DbEEeiFr_4W2AC1pg" name="DeactivateAlarm()">
+        <target xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.6/@operations.0"/>
+        <semanticElements xmi:type="sequencediagram:Operation" href="lms_sd_failurestate.sequencediagram#//@classes.6/@operations.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_NEzS4TbEEeiFr_4W2AC1pg" labelSize="9" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Sm24IDbCEeiFr_4W2AC1pg" name=" : SupervisoryControlSystem" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.1"/>
+      <semanticElements xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_ny1tsDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.1/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.1/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_vWQb0DbCEeiFr_4W2AC1pg" outgoingEdges="_8s5FwDbCEeiFr_4W2AC1pg _YJ08ADbDEeiFr_4W2AC1pg _cevt0DbDEeiFr_4W2AC1pg _6OpFMDbDEeiFr_4W2AC1pg _7LLl8DbDEeiFr_4W2AC1pg _8vM9cDbDEeiFr_4W2AC1pg _9m0h8DbDEeiFr_4W2AC1pg" incomingEdges="_HIpS8DbDEeiFr_4W2AC1pg _YJ08ADbDEeiFr_4W2AC1pg _cevt0DbDEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.1/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.1/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_vWQb0TbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_ny1tsTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_Sm3fMDbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YOfPADbCEeiFr_4W2AC1pg" name=" : ImageProcessing" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.2"/>
+      <semanticElements xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_oR4aIDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.2/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.2/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_yPnOkDbCEeiFr_4W2AC1pg" outgoingEdges="_HIpS8DbDEeiFr_4W2AC1pg" incomingEdges="_8s5FwDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.2/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.2/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_yPnOkTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_oR4aITbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_YOf2EDbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YOf2ETbCEeiFr_4W2AC1pg" name=" : LaneCenteringSystem" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.3"/>
+      <semanticElements xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_oheVUDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.3/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.3/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_2A5SYDbDEeiFr_4W2AC1pg" incomingEdges="_6OpFMDbDEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.3/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.3/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_2A5SYTbDEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_oheVUTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_YOf2EjbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YOf2EzbCEeiFr_4W2AC1pg" name=" : LaneKeepingSystem" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.4"/>
+      <semanticElements xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_o8rqoDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.4/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.4/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_231hcDbDEeiFr_4W2AC1pg" incomingEdges="_7LLl8DbDEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.4/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.4/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_231hcTbDEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_o8rqoTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_YOf2FDbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YOgdIDbCEeiFr_4W2AC1pg" name=" : LaneDepartureWarningSystem" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.5"/>
+      <semanticElements xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.5"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_pJR8MDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.5/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.5/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_4A2_ADbDEeiFr_4W2AC1pg" incomingEdges="_8vM9cDbDEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.5/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.5/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_4A2_ATbDEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_pJR8MTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_YOgdITbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YOgdIjbCEeiFr_4W2AC1pg" name=" : Alarm" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.6"/>
+      <semanticElements xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.6"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_pXFusDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.6/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.6/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_5ArdQDbDEeiFr_4W2AC1pg" incomingEdges="_9m0h8DbDEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.6/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.6/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_5ArdQTbDEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_TRjwEDbEEeiFr_4W2AC1pg" outgoingEdges="_XqPnkDbEEeiFr_4W2AC1pg" incomingEdges="_W55vwDbEEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.6/@lifeline/@activationBoxes.1"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.6/@lifeline/@activationBoxes.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_TRkXIDbEEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_pXFusTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_YOgdIzbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YOgdJDbCEeiFr_4W2AC1pg" name=" : UserInterface" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.7"/>
+      <semanticElements xmi:type="sequencediagram:Component" href="lms_sd_failurestate.sequencediagram#//@objects.7"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_pk5hMDbCEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.7/@lifeline"/>
+        <semanticElements xmi:type="sequencediagram:Lifeline" href="lms_sd_failurestate.sequencediagram#//@objects.7/@lifeline"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_RXAu8DbEEeiFr_4W2AC1pg" outgoingEdges="_W55vwDbEEeiFr_4W2AC1pg" incomingEdges="_ULxVkDbEEeiFr_4W2AC1pg _XqPnkDbEEeiFr_4W2AC1pg" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.7/@lifeline/@activationBoxes.0"/>
+          <semanticElements xmi:type="sequencediagram:ActivationBox" href="lms_sd_failurestate.sequencediagram#//@objects.7/@lifeline/@activationBoxes.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_RXBWADbEEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@borderedNodeMappings[name='ActivationBox']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_pk5hMTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Lifeline']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_YOgdJTbCEeiFr_4W2AC1pg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@nodeMappings[name='Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_8s5FwDbCEeiFr_4W2AC1pg" name=" CheckStatus()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_yPnOkDbCEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.0"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8s5FwTbCEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_8s5FwjbCEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HIpS8DbDEeiFr_4W2AC1pg" name="false" sourceNode="_yPnOkDbCEeiFr_4W2AC1pg" targetNode="_vWQb0DbCEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.1"/>
+      <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HcT10DbDEeiFr_4W2AC1pg" lineStyle="dash" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HcT10TbDEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_YJ08ADbDEeiFr_4W2AC1pg" name=" OkLightOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_vWQb0DbCEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.2"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_YJ08ATbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_YJ08AjbDEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_cevt0DbDEeiFr_4W2AC1pg" name=" WarningIndicatorOn()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_vWQb0DbCEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.3"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cewU4DbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cewU4TbDEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_6OpFMDbDEeiFr_4W2AC1pg" name=" TurnOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_2A5SYDbDEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.4"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_6OpFMTbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_6OpFMjbDEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_7LLl8DbDEeiFr_4W2AC1pg" name=" TurnOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_231hcDbDEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.5"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7LLl8TbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_7LLl8jbDEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_8vM9cDbDEeiFr_4W2AC1pg" name=" TurnOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_4A2_ADbDEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.6"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8vM9cTbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_8vM9cjbDEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_9m0h8DbDEeiFr_4W2AC1pg" name=" Activate()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_5ArdQDbDEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.7"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_9m0h8TbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_9m0h8jbDEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ULxVkDbEEeiFr_4W2AC1pg" name=" DeactivateAlarm()" sourceNode="_K0igcDbEEeiFr_4W2AC1pg" targetNode="_RXAu8DbEEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.8"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.8"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ULxVkTbEEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ULxVkjbEEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_W55vwDbEEeiFr_4W2AC1pg" name=" Deactivate()" sourceNode="_RXAu8DbEEeiFr_4W2AC1pg" targetNode="_TRjwEDbEEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.9"/>
+      <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.9"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_W55vwTbEEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_W55vwjbEEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XqPnkDbEEeiFr_4W2AC1pg" sourceNode="_TRjwEDbEEeiFr_4W2AC1pg" targetNode="_RXAu8DbEEeiFr_4W2AC1pg">
+      <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.10"/>
+      <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.10"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_X4iiQDbEEeiFr_4W2AC1pg" lineStyle="dash" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_X4iiQTbEEeiFr_4W2AC1pg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ymhIIzbBEeiFr_4W2AC1pg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer"/>
+    <target xmi:type="sequencediagram:SequenceDiagram" href="lms_sd_failurestate.sequencediagram#/"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
