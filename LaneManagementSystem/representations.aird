@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sequence="http://www.eclipse.org/sirius/diagram/sequence/2.0.0" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_7f880CixEeihd4XNMicbhg" selectedViews="_8__zQCixEeihd4XNMicbhg _gM9EMDFNEei61fNVf9iDmw" version="11.1.0.201608251200">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sequence="http://www.eclipse.org/sirius/diagram/sequence/2.0.0" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram" xmlns:statemachine="http://se.cs.toronto.edu/modelepedia/StateMachine" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_7f880CixEeihd4XNMicbhg" selectedViews="_8__zQCixEeihd4XNMicbhg _gM9EMDFNEei61fNVf9iDmw _Wp0aYDeKEeiiaopkbdiBVA" version="11.1.0.201608251200">
     <semanticResources>lms_cd.classdiagram</semanticResources>
     <semanticResources>lms_sd_failurestate.sequencediagram</semanticResources>
     <semanticResources>lms_sd_leftcurve.sequencediagram</semanticResources>
     <semanticResources>lms_sd_drivingstraight.sequencediagram</semanticResources>
     <semanticResources>lms_sd_systemon.sequencediagram</semanticResources>
+    <semanticResources>lms_state_lms.statemachine</semanticResources>
+    <semanticResources>lms_state_ldws.statemachine</semanticResources>
+    <semanticResources>lms_state_lks.statemachine</semanticResources>
+    <semanticResources>lms_state_lcs.statemachine</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_8__zQCixEeihd4XNMicbhg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.modelepedia.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagramViewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="__zFl8CixEeihd4XNMicbhg" name="new ClassDiagramRepresentation" representation="__zFl8SixEeihd4XNMicbhg">
@@ -38,6 +42,25 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_cF29oDbMEeiXcqKYsmWXSA" name="new SequenceDiagramRepresentation" representation="_cF29oTbMEeiXcqKYsmWXSA">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']"/>
         <target xmi:type="sequencediagram:SequenceDiagram" href="lms_sd_systemon.sequencediagram#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_Wp0aYDeKEeiiaopkbdiBVA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_XRCycDeKEeiiaopkbdiBVA" name="new StateMachineRepresentation" representation="_XRCycTeKEeiiaopkbdiBVA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+        <target xmi:type="statemachine:StateMachine" href="lms_state_lms.statemachine#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_yUpNUDgnEei7EsYpFSabdQ" name="new StateMachineRepresentation" representation="_yUp0YDgnEei7EsYpFSabdQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+        <target xmi:type="statemachine:StateMachine" href="lms_state_ldws.statemachine#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_X6yP4DkzEeib4JGfM9PMXA" name="new StateMachineRepresentation" representation="_X6yP4TkzEeib4JGfM9PMXA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+        <target xmi:type="statemachine:StateMachine" href="lms_state_lcs.statemachine#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_ks0X8DkzEeib4JGfM9PMXA" name="new StateMachineRepresentation" representation="_ks0_ADkzEeib4JGfM9PMXA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+        <target xmi:type="statemachine:StateMachine" href="lms_state_lks.statemachine#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -3372,7 +3395,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_8s5FwDbCEeiFr_4W2AC1pg" name=" CheckStatus()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_yPnOkDbCEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.0"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8s5FwTbCEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8s5FwTbCEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_8s5FwjbCEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3381,7 +3404,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_HIpS8DbDEeiFr_4W2AC1pg" name="false" sourceNode="_yPnOkDbCEeiFr_4W2AC1pg" targetNode="_vWQb0DbCEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.1"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.1"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HcT10DbDEeiFr_4W2AC1pg" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HcT10DbDEeiFr_4W2AC1pg" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HcT10TbDEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3390,7 +3413,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_YJ08ADbDEeiFr_4W2AC1pg" name=" OkLightOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_vWQb0DbCEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.2"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.2"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_YJ08ATbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_YJ08ATbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_YJ08AjbDEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3399,7 +3422,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_cevt0DbDEeiFr_4W2AC1pg" name=" WarningIndicatorOn()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_vWQb0DbCEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.3"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.3"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cewU4DbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cewU4DbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cewU4TbDEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3408,7 +3431,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_6OpFMDbDEeiFr_4W2AC1pg" name=" TurnOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_2A5SYDbDEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.4"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.4"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_6OpFMTbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_6OpFMTbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_6OpFMjbDEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3417,7 +3440,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_7LLl8DbDEeiFr_4W2AC1pg" name=" TurnOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_231hcDbDEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.5"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.5"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7LLl8TbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7LLl8TbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_7LLl8jbDEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3426,7 +3449,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_8vM9cDbDEeiFr_4W2AC1pg" name=" TurnOff()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_4A2_ADbDEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.6"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.6"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8vM9cTbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8vM9cTbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_8vM9cjbDEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3435,7 +3458,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_9m0h8DbDEeiFr_4W2AC1pg" name=" Activate()" sourceNode="_vWQb0DbCEeiFr_4W2AC1pg" targetNode="_5ArdQDbDEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.7"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.7"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_9m0h8TbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_9m0h8TbDEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_9m0h8jbDEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3444,7 +3467,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ULxVkDbEEeiFr_4W2AC1pg" name=" DeactivateAlarm()" sourceNode="_K0igcDbEEeiFr_4W2AC1pg" targetNode="_RXAu8DbEEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.8"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.8"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ULxVkTbEEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ULxVkTbEEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ULxVkjbEEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3453,7 +3476,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_W55vwDbEEeiFr_4W2AC1pg" name=" Deactivate()" sourceNode="_RXAu8DbEEeiFr_4W2AC1pg" targetNode="_TRjwEDbEEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.9"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_failurestate.sequencediagram#//@messages.9"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_W55vwTbEEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_W55vwTbEEeiFr_4W2AC1pg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_W55vwjbEEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -3462,7 +3485,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XqPnkDbEEeiFr_4W2AC1pg" sourceNode="_TRjwEDbEEeiFr_4W2AC1pg" targetNode="_RXAu8DbEEeiFr_4W2AC1pg">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.10"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_failurestate.sequencediagram#//@messages.10"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_X4iiQDbEEeiFr_4W2AC1pg" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_X4iiQDbEEeiFr_4W2AC1pg" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_X4iiQTbEEeiFr_4W2AC1pg" showIcon="false"/>
       </ownedStyle>
@@ -4002,7 +4025,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrfdYDbHEeiGmP1KYFycFg" name=" CheckStatus()" sourceNode="_R9s0IDbHEeiGmP1KYFycFg" targetNode="_UMTZsDbHEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.0"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Xrh5oDbHEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Xrh5oDbHEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Xrh5oTbHEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4011,7 +4034,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Yw60YDbHEeiGmP1KYFycFg" name="true" sourceNode="_UMTZsDbHEeiGmP1KYFycFg" targetNode="_R9s0IDbHEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.1"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.1"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZN_x8DbHEeiGmP1KYFycFg" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ZN_x8DbHEeiGmP1KYFycFg" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ZN_x8TbHEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4020,7 +4043,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_bCJ3MDbHEeiGmP1KYFycFg" name=" GetConditions()" sourceNode="_R9s0IDbHEeiGmP1KYFycFg" targetNode="_UMTZsDbHEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.2"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.2"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_bCKeQDbHEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_bCKeQDbHEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_bCKeQTbHEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4029,7 +4052,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_buNr8DbHEeiGmP1KYFycFg" name="-10" sourceNode="_UMTZsDbHEeiGmP1KYFycFg" targetNode="_R9s0IDbHEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.3"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.3"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cBdYEDbHEeiGmP1KYFycFg" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_cBdYEDbHEeiGmP1KYFycFg" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_cBdYETbHEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4038,7 +4061,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_wzEl0DbHEeiGmP1KYFycFg" name=" GetCurrentPath(currentSpeed, currentSteeringAngle, ...)" sourceNode="_R9s0IDbHEeiGmP1KYFycFg" targetNode="_u85HUDbHEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.4"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.4"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_wzFM4DbHEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_wzFM4DbHEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_wzFM4TbHEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4047,7 +4070,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_yUwbADbHEeiGmP1KYFycFg" name="0" sourceNode="_u85HUDbHEeiGmP1KYFycFg" targetNode="_R9s0IDbHEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.5"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.5"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_yiulkDbHEeiGmP1KYFycFg" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_yiulkDbHEeiGmP1KYFycFg" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_yiulkTbHEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4056,7 +4079,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_DhQjQDbIEeiGmP1KYFycFg" name="..." sourceNode="_R9s0IDbHEeiGmP1KYFycFg" targetNode="_R9s0IDbHEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.6"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.6"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_DhQjQTbIEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_DhQjQTbIEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_DhQjQjbIEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4065,7 +4088,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_H9DZIDbIEeiGmP1KYFycFg" name=" Turn(angle)" sourceNode="_R9s0IDbHEeiGmP1KYFycFg" targetNode="_G0dZYDbIEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.7"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_leftcurve.sequencediagram#//@messages.7"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_H9EAMDbIEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_H9EAMDbIEeiGmP1KYFycFg" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_H9EAMTbIEeiGmP1KYFycFg" showIcon="false"/>
       </ownedStyle>
@@ -4892,7 +4915,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_K9TMIDbKEeiXcqKYsmWXSA" name=" CheckStatus()" sourceNode="_AW7DUDbKEeiXcqKYsmWXSA" targetNode="_TLWBEjbJEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.0"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_K9TzMDbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_K9TzMDbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_K9TzMTbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4901,7 +4924,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_MBVcADbKEeiXcqKYsmWXSA" sourceNode="_TLWBEjbJEeiGmP1KYFycFg" targetNode="_AW7DUDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.1"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.1"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_MQIF8DbKEeiXcqKYsmWXSA" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_MQIF8DbKEeiXcqKYsmWXSA" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_MQIF8TbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4910,7 +4933,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Mtk28DbKEeiXcqKYsmWXSA" name=" GetConditions()" sourceNode="_AW7DUDbKEeiXcqKYsmWXSA" targetNode="_TLWBEjbJEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.2"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.2"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_MtleADbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_MtleADbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_MtleATbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4919,7 +4942,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_NuXlkDbKEeiXcqKYsmWXSA" sourceNode="_TLWBEjbJEeiGmP1KYFycFg" targetNode="_AW7DUDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.3"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.3"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_N_ejsDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_N_ejsDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_N_ejsTbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4928,7 +4951,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_h_mqIDbKEeiXcqKYsmWXSA" name=" CheckStatus()" sourceNode="_IPZbcDbKEeiXcqKYsmWXSA" targetNode="_g9klYDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.4"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.4"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_h_mqITbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_h_mqITbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_h_mqIjbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4937,7 +4960,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_izEucDbKEeiXcqKYsmWXSA" sourceNode="_g9klYDbKEeiXcqKYsmWXSA" targetNode="_IPZbcDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.5"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.5"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_i_sOIDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_i_sOIDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_i_sOITbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4946,7 +4969,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_jxDZoDbKEeiXcqKYsmWXSA" name=" GetConditions()" sourceNode="_IPZbcDbKEeiXcqKYsmWXSA" targetNode="_g9klYDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.6"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.6"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_jxDZoTbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_jxDZoTbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_jxDZojbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4955,7 +4978,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_kXix4DbKEeiXcqKYsmWXSA" sourceNode="_g9klYDbKEeiXcqKYsmWXSA" targetNode="_IPZbcDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.7"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.7"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_k-jukDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_k-jukDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_k-jukTbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4964,7 +4987,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_yaGtsDbKEeiXcqKYsmWXSA" name=" CheckStatus()" sourceNode="_IPaCgDbKEeiXcqKYsmWXSA" targetNode="_weiY4DbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.8"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.8"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_yaHUwDbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_yaHUwDbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_yaHUwTbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4973,7 +4996,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_y8-KMDbKEeiXcqKYsmWXSA" sourceNode="_weiY4DbKEeiXcqKYsmWXSA" targetNode="_IPaCgDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.9"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.9"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zg6kwDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zg6kwDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zg6kwTbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4982,7 +5005,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0FresDbKEeiXcqKYsmWXSA" name=" GetConditions()" sourceNode="_IPaCgDbKEeiXcqKYsmWXSA" targetNode="_weiY4DbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.10"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.10"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_0FsFwDbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_0FsFwDbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_0FsFwTbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -4991,7 +5014,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0r5xMDbKEeiXcqKYsmWXSA" sourceNode="_weiY4DbKEeiXcqKYsmWXSA" targetNode="_IPaCgDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.11"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.11"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_08GwYDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_08GwYDbKEeiXcqKYsmWXSA" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_08GwYTbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -5000,7 +5023,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="__jiCEDbKEeiXcqKYsmWXSA" name=" GetCurrentPath(currentSpeed, currentSteeringAngle, ...)" sourceNode="_KkF3YDbJEeiGmP1KYFycFg" targetNode="_93iaUDbKEeiXcqKYsmWXSA">
       <target xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.12"/>
       <semanticElements xmi:type="sequencediagram:OperationMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.12"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="__jiCETbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="__jiCETbKEeiXcqKYsmWXSA" targetArrow="InputFillClosedArrow" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='OperationMessage']/@conditionnalStyles.0/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="__jiCEjbKEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -5009,7 +5032,7 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AcYVoDbLEeiXcqKYsmWXSA" name="0" sourceNode="_93iaUDbKEeiXcqKYsmWXSA" targetNode="_KkF3YDbJEeiGmP1KYFycFg">
       <target xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.13"/>
       <semanticElements xmi:type="sequencediagram:ArbitraryMessage" href="lms_sd_drivingstraight.sequencediagram#//@messages.13"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_CPSdsDbLEeiXcqKYsmWXSA" lineStyle="dash" size="2">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_CPSdsDbLEeiXcqKYsmWXSA" lineStyle="dash" size="2" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer/@edgeMappings[name='AbitraryMessage']/@conditionnalStyles.2/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_CPSdsTbLEeiXcqKYsmWXSA" showIcon="false"/>
       </ownedStyle>
@@ -5877,5 +5900,849 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_cF29pDbMEeiXcqKYsmWXSA"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='SequenceDiagramViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_SequenceDiagram']/@defaultLayer"/>
     <target xmi:type="sequencediagram:SequenceDiagram" href="lms_sd_systemon.sequencediagram#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_XRCycTeKEeiiaopkbdiBVA" name="new StateMachineRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_XRCycjeKEeiiaopkbdiBVA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_XRCyczeKEeiiaopkbdiBVA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_XRNKgDeKEeiiaopkbdiBVA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_XRNKgTeKEeiiaopkbdiBVA" type="Sirius" element="_XRCycTeKEeiiaopkbdiBVA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_ut3rcDeZEeiVqPAtz1JhiA" type="2001" element="_utyy8DeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_ut45kDeZEeiVqPAtz1JhiA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ut45kTeZEeiVqPAtz1JhiA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ut6HsDeZEeiVqPAtz1JhiA" type="3002" element="_utzaADeZEeiVqPAtz1JhiA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ut6HsTeZEeiVqPAtz1JhiA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ut6HsjeZEeiVqPAtz1JhiA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ut3rcTeZEeiVqPAtz1JhiA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ut3rcjeZEeiVqPAtz1JhiA" x="616" y="60" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vNveUDeZEeiVqPAtz1JhiA" type="2003" element="_vNrz8DeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_vNwFYDeZEeiVqPAtz1JhiA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_vNwscDeZEeiVqPAtz1JhiA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vNwscTeZEeiVqPAtz1JhiA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vNwscjeZEeiVqPAtz1JhiA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vNveUTeZEeiVqPAtz1JhiA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vNveUjeZEeiVqPAtz1JhiA" x="552" y="204" width="96" height="112"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_yji8gDeZEeiVqPAtz1JhiA" type="2003" element="_yjhHUDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_yjjjkDeZEeiVqPAtz1JhiA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_yjjjkTeZEeiVqPAtz1JhiA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_yjjjkjeZEeiVqPAtz1JhiA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_yjjjkzeZEeiVqPAtz1JhiA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_yji8gTeZEeiVqPAtz1JhiA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yji8gjeZEeiVqPAtz1JhiA" x="533" y="456" width="133" height="111"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_1I6cQDeZEeiVqPAtz1JhiA" type="2003" element="_1I4nEDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_1I7DUDeZEeiVqPAtz1JhiA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_1I7DUTeZEeiVqPAtz1JhiA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_1I7DUjeZEeiVqPAtz1JhiA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_1I7DUzeZEeiVqPAtz1JhiA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_1I6cQTeZEeiVqPAtz1JhiA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1I6cQjeZEeiVqPAtz1JhiA" x="140" y="204" width="103" height="112"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_4Al0ADeZEeiVqPAtz1JhiA" type="2003" element="_4Aj-0DeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_4AmbEDeZEeiVqPAtz1JhiA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_4AmbETeZEeiVqPAtz1JhiA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_4AmbEjeZEeiVqPAtz1JhiA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_4AmbEzeZEeiVqPAtz1JhiA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4Al0ATeZEeiVqPAtz1JhiA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4Al0AjeZEeiVqPAtz1JhiA" x="980" y="204" width="123" height="121"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_XRNKgjeKEeiiaopkbdiBVA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_wCTeoDgkEei7EsYpFSabdQ" type="4001" element="_wCBx0DgkEei7EsYpFSabdQ" source="_ut3rcDeZEeiVqPAtz1JhiA" target="_vNveUDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_wC4GYDgkEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wC4GYTgkEei7EsYpFSabdQ" x="-32" y="-72" width="115" height="25"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_wC4tcDgkEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wC5UgDgkEei7EsYpFSabdQ" x="-1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_wC5UgTgkEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wC5UgjgkEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_wCTeoTgkEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_wCTeojgkEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wCTeozgkEei7EsYpFSabdQ" points="[0, 0, 9, -187]$[-9, 114, 0, -73]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wC6ioDgkEei7EsYpFSabdQ" id="(0.7333333333333333,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wC6ioTgkEei7EsYpFSabdQ" id="(0.8229166666666665,0.6718181818181819)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7l2aUDgkEei7EsYpFSabdQ" type="4001" element="_7lw6wDgkEei7EsYpFSabdQ" source="_4Al0ADeZEeiVqPAtz1JhiA" target="_vNveUDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_7l3BYDgkEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7l3BYTgkEei7EsYpFSabdQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7l3BYjgkEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7l3BYzgkEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7l3BZDgkEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7l3BZTgkEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7l2aUTgkEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7l2aUjgkEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7l2aUzgkEei7EsYpFSabdQ" points="[0, 0, 334, 0]$[-334, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7l3BZjgkEei7EsYpFSabdQ" id="(0.0,0.7563025210084033)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7l3BZzgkEei7EsYpFSabdQ" id="(1.0,0.8181818181818182)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_COIV4DglEei7EsYpFSabdQ" type="4001" element="_COErgDglEei7EsYpFSabdQ" source="_yji8gDeZEeiVqPAtz1JhiA" target="_vNveUDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_COI88DglEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_COI88TglEei7EsYpFSabdQ" x="1" y="75" width="124" height="25"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_COI88jglEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_COI88zglEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_COI89DglEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_COI89TglEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_COIV4TglEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_COIV4jglEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_COIV4zglEei7EsYpFSabdQ" points="[0, 0, 0, 142]$[0, -142, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_COI89jglEei7EsYpFSabdQ" id="(0.7480916030534351,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_COI89zglEei7EsYpFSabdQ" id="(0.8404255319148937,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_NtNoUDglEei7EsYpFSabdQ" type="4001" element="_NtJ98DglEei7EsYpFSabdQ" source="_yji8gDeZEeiVqPAtz1JhiA" target="_4Al0ADeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_NtOPYDglEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NtOPYTglEei7EsYpFSabdQ" x="-71" y="-13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NtOPYjglEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NtOPYzglEei7EsYpFSabdQ" x="2" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NtOPZDglEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NtOPZTglEei7EsYpFSabdQ" x="-4" y="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_NtNoUTglEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NtNoUjglEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NtNoUzglEei7EsYpFSabdQ" points="[0, 0, -384, 153]$[388, 0, 4, 153]$[377, -152, -7, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NtOPZjglEei7EsYpFSabdQ" id="(1.0,0.1743119266055046)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NtOPZzglEei7EsYpFSabdQ" id="(0.5691056910569106,0.9919396329960555)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XS8McDglEei7EsYpFSabdQ" type="4001" element="_XS37ADglEei7EsYpFSabdQ" source="_vNveUDeZEeiVqPAtz1JhiA" target="_yji8gDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_XS8zgDglEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XS8zgTglEei7EsYpFSabdQ" x="-1" y="136" width="256" height="25"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XS8zgjglEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XS8zgzglEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XS8zhDglEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XS8zhTglEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XS8McTglEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XS8McjglEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XS8MczglEei7EsYpFSabdQ" points="[0, 0, 0, -142]$[0, 142, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XS9akDglEei7EsYpFSabdQ" id="(0.2127659574468085,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XS9akTglEei7EsYpFSabdQ" id="(0.29770992366412213,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qTV7QDglEei7EsYpFSabdQ" type="4001" element="_qTS38DglEei7EsYpFSabdQ" source="_yji8gDeZEeiVqPAtz1JhiA" target="_1I6cQDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_qTWiUDglEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTWiUTglEei7EsYpFSabdQ" x="-82" y="15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTWiUjglEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTWiUzglEei7EsYpFSabdQ" x="2" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTWiVDglEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTWiVTglEei7EsYpFSabdQ" x="-5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTV7QTglEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTV7QjglEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTV7QzglEei7EsYpFSabdQ" points="[-14, 0, 342, 165]$[-357, 0, -1, 165]$[-357, -163, -1, 2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTWiVjglEei7EsYpFSabdQ" id="(0.11278195488721804,0.20045871559633024)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTWiVzglEei7EsYpFSabdQ" id="(0.5145631067961165,0.9827272727272727)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2LQkcDglEei7EsYpFSabdQ" type="4001" element="_2LIBkDglEei7EsYpFSabdQ" source="_vNveUDeZEeiVqPAtz1JhiA" target="_1I6cQDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_2LRLgDglEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2LRLgTglEei7EsYpFSabdQ" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2LRykDglEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2LRykTglEei7EsYpFSabdQ" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2LRykjglEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2LRykzglEei7EsYpFSabdQ" x="1" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2LQkcTglEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2LQkcjglEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2LQkczglEei7EsYpFSabdQ" points="[-1, 7, 319, 0]$[-312, 7, 8, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2LSZoDglEei7EsYpFSabdQ" id="(0.020833333333333332,0.8125)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2LSZoTglEei7EsYpFSabdQ" id="(0.9223300970873787,0.875)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_9gqrwDglEei7EsYpFSabdQ" type="4001" element="_9ggTsDglEei7EsYpFSabdQ" source="_vNveUDeZEeiVqPAtz1JhiA" target="_1I6cQDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_9grS0DglEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9grS0TglEei7EsYpFSabdQ" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9grS0jglEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9grS0zglEei7EsYpFSabdQ" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9gr54DglEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9gr54TglEei7EsYpFSabdQ" x="-1" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_9gqrwTglEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_9gqrwjglEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9gqrwzglEei7EsYpFSabdQ" points="[-1, -7, 314, -1]$[-312, -7, 3, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9gr54jglEei7EsYpFSabdQ" id="(0.020833333333333332,0.35714285714285715)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9gr54zglEei7EsYpFSabdQ" id="(0.970873786407767,0.30357142857142855)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_AEy1YDgmEei7EsYpFSabdQ" type="4001" element="_AEvLADgmEei7EsYpFSabdQ" source="_vNveUDeZEeiVqPAtz1JhiA" target="_1I6cQDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_AEy1ZDgmEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AEy1ZTgmEei7EsYpFSabdQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AEy1ZjgmEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AEy1ZzgmEei7EsYpFSabdQ" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AEy1aDgmEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AEy1aTgmEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_AEy1YTgmEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_AEy1YjgmEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AEy1YzgmEei7EsYpFSabdQ" points="[0, 7, 312, 1]$[-309, 7, 3, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AEy1ajgmEei7EsYpFSabdQ" id="(0.0,0.5272727272727272)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AEy1azgmEei7EsYpFSabdQ" id="(0.9902912621359224,0.5892857142857143)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XitRUDgmEei7EsYpFSabdQ" type="4001" element="_Xiq1EDgmEei7EsYpFSabdQ" source="_1I6cQDeZEeiVqPAtz1JhiA" target="_vNveUDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_Xit4YDgmEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xit4YTgmEei7EsYpFSabdQ" x="-4" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xit4YjgmEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xit4YzgmEei7EsYpFSabdQ" x="-32" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Xit4ZDgmEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xit4ZTgmEei7EsYpFSabdQ" x="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XitRUTgmEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XitRUjgmEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XitRUzgmEei7EsYpFSabdQ" points="[0, -3, -443, 0]$[0, -99, -443, -96]$[443, -99, 0, -96]$[443, -3, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xit4ZjgmEei7EsYpFSabdQ" id="(0.24271844660194175,0.03571428571428571)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xit4ZzgmEei7EsYpFSabdQ" id="(0.59375,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dRq_QDgmEei7EsYpFSabdQ" type="4001" element="_dRmt0DgmEei7EsYpFSabdQ" source="_1I6cQDeZEeiVqPAtz1JhiA" target="_vNveUDeZEeiVqPAtz1JhiA">
+          <children xmi:type="notation:Node" xmi:id="_dRq_RDgmEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dRq_RTgmEei7EsYpFSabdQ" x="-5" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dRq_RjgmEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dRq_RzgmEei7EsYpFSabdQ" x="-15" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dRq_SDgmEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dRq_STgmEei7EsYpFSabdQ" x="5" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dRq_QTgmEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dRq_QjgmEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dRq_QzgmEei7EsYpFSabdQ" points="[10, 0, -354, -4]$[10, -60, -354, -64]$[370, -60, 6, -64]$[370, 0, 6, -4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dRq_SjgmEei7EsYpFSabdQ" id="(0.6601941747572816,0.008928571428571428)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dRq_SzgmEei7EsYpFSabdQ" id="(0.19791666666666666,0.044642857142857144)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_utyy8DeZEeiVqPAtz1JhiA" outgoingEdges="_wCBx0DgkEei7EsYpFSabdQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="statemachine:InitialState" href="lms_state_lms.statemachine#//@states.0"/>
+      <semanticElements xmi:type="statemachine:InitialState" href="lms_state_lms.statemachine#//@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" xmi:id="_utzaADeZEeiVqPAtz1JhiA" showIcon="false" labelPosition="node" backgroundColor="0,0,0">
+        <description xmi:type="style:DotDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_vNrz8DeZEeiVqPAtz1JhiA" name="Active" outgoingEdges="_XS37ADglEei7EsYpFSabdQ _2LIBkDglEei7EsYpFSabdQ _9ggTsDglEei7EsYpFSabdQ _AEvLADgmEei7EsYpFSabdQ" incomingEdges="_wCBx0DgkEei7EsYpFSabdQ _7lw6wDgkEei7EsYpFSabdQ _COErgDglEei7EsYpFSabdQ _Xiq1EDgmEei7EsYpFSabdQ _dRmt0DgmEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.1"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_vNsbADeZEeiVqPAtz1JhiA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_yjhHUDeZEeiVqPAtz1JhiA" name="System Alert" outgoingEdges="_COErgDglEei7EsYpFSabdQ _NtJ98DglEei7EsYpFSabdQ _qTS38DglEei7EsYpFSabdQ" incomingEdges="_XS37ADglEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.2"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_yjhHUTeZEeiVqPAtz1JhiA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_1I4nEDeZEeiVqPAtz1JhiA" name="Inactive" outgoingEdges="_Xiq1EDgmEei7EsYpFSabdQ _dRmt0DgmEei7EsYpFSabdQ" incomingEdges="_qTS38DglEei7EsYpFSabdQ _2LIBkDglEei7EsYpFSabdQ _9ggTsDglEei7EsYpFSabdQ _AEvLADgmEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.3"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_1I4nETeZEeiVqPAtz1JhiA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_4Aj-0DeZEeiVqPAtz1JhiA" name="LKS taking control of the vehicle" outgoingEdges="_7lw6wDgkEei7EsYpFSabdQ" incomingEdges="_NtJ98DglEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.4"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lms.statemachine#//@states.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_4Aj-0TeZEeiVqPAtz1JhiA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_wCBx0DgkEei7EsYpFSabdQ" name="system turned on [Speed > minSpeed]" sourceNode="_utyy8DeZEeiVqPAtz1JhiA" targetNode="_vNrz8DeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.2"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_wCC_8DgkEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_wCC_8TgkEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_7lw6wDgkEei7EsYpFSabdQ" name="vehicle returned to desired state " sourceNode="_4Aj-0DeZEeiVqPAtz1JhiA" targetNode="_vNrz8DeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.3"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7lw6wTgkEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_7lw6wjgkEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_COErgDglEei7EsYpFSabdQ" name="human measures taken for lane departure " sourceNode="_yjhHUDeZEeiVqPAtz1JhiA" targetNode="_vNrz8DeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.4"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_COFSkDglEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_COFSkTglEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_NtJ98DglEei7EsYpFSabdQ" name="vehicle straying out of desired lane " sourceNode="_yjhHUDeZEeiVqPAtz1JhiA" targetNode="_4Aj-0DeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.5"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_NtKlADglEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_NtKlATglEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XS37ADglEei7EsYpFSabdQ" name="SupervisoryControlSystem WarningIndicatorOn() [LMS isActive == true]" sourceNode="_vNrz8DeZEeiVqPAtz1JhiA" targetNode="_yjhHUDeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.6"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XS4iEDglEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XS4iETglEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_qTS38DglEei7EsYpFSabdQ" name="LMS Subsystem TurnOff() " sourceNode="_yjhHUDeZEeiVqPAtz1JhiA" targetNode="_1I4nEDeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.7"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qTS38TglEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_qTS38jglEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2LIBkDglEei7EsYpFSabdQ" name="intentional lane departure [LMS IsActive == false]" sourceNode="_vNrz8DeZEeiVqPAtz1JhiA" targetNode="_1I4nEDeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.8"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.8"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2LIBkTglEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2LIBkjglEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_9ggTsDglEei7EsYpFSabdQ" name="ambiguous lane markings [LMS CheckStatus == false]" sourceNode="_vNrz8DeZEeiVqPAtz1JhiA" targetNode="_1I4nEDeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.9"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.9"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_9gg6wDglEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_9gg6wTglEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AEvLADgmEei7EsYpFSabdQ" name="driver disables system [LMS IsActive == false]" sourceNode="_vNrz8DeZEeiVqPAtz1JhiA" targetNode="_1I4nEDeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.10"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.10"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AEvLATgmEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AEvLAjgmEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Xiq1EDgmEei7EsYpFSabdQ" name="return to a normal driving scenario [LMS IsActive == true]" sourceNode="_1I4nEDeZEeiVqPAtz1JhiA" targetNode="_vNrz8DeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.11"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.11"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Xiq1ETgmEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Xiq1EjgmEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dRmt0DgmEei7EsYpFSabdQ" name="LMS Subsystem TurnOn() [LMS IsActive == true]" sourceNode="_1I4nEDeZEeiVqPAtz1JhiA" targetNode="_vNrz8DeZEeiVqPAtz1JhiA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.12"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lms.statemachine#//@transitions.12"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dRmt0TgmEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dRmt0jgmEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_XRCydDeKEeiiaopkbdiBVA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer"/>
+    <target xmi:type="statemachine:StateMachine" href="lms_state_lms.statemachine#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_yUp0YDgnEei7EsYpFSabdQ" name="new StateMachineRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_yUp0YTgnEei7EsYpFSabdQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_yUp0YjgnEei7EsYpFSabdQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_yUxwMDgnEei7EsYpFSabdQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_yUxwMTgnEei7EsYpFSabdQ" type="Sirius" element="_yUp0YDgnEei7EsYpFSabdQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_z4NR0DgnEei7EsYpFSabdQ" type="2003" element="_z4IZUDgnEei7EsYpFSabdQ">
+          <children xmi:type="notation:Node" xmi:id="_z4ciYDgnEei7EsYpFSabdQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_z4ciYTgnEei7EsYpFSabdQ" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_z4ciYjgnEei7EsYpFSabdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_z4ciYzgnEei7EsYpFSabdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_z4NR0TgnEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z4NR0jgnEei7EsYpFSabdQ" x="204" y="264" width="116" height="88"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3CHpEDgnEei7EsYpFSabdQ" type="2003" element="_3CD-sDgnEei7EsYpFSabdQ">
+          <children xmi:type="notation:Node" xmi:id="_3CIQIDgnEei7EsYpFSabdQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_3CIQITgnEei7EsYpFSabdQ" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3CIQIjgnEei7EsYpFSabdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3CIQIzgnEei7EsYpFSabdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3CHpETgnEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3CHpEjgnEei7EsYpFSabdQ" x="720" y="264" width="116" height="87"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_76OngDgnEei7EsYpFSabdQ" type="2001" element="_76BMIDgnEei7EsYpFSabdQ">
+          <children xmi:type="notation:Node" xmi:id="_76OngzgnEei7EsYpFSabdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_76OnhDgnEei7EsYpFSabdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_76P1oDgnEei7EsYpFSabdQ" type="3002" element="_76BMITgnEei7EsYpFSabdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_76P1oTgnEei7EsYpFSabdQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_76P1ojgnEei7EsYpFSabdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_76OngTgnEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_76OngjgnEei7EsYpFSabdQ" x="246" y="108" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_yUxwMjgnEei7EsYpFSabdQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_8zhnADgnEei7EsYpFSabdQ" type="4001" element="_8zXO8DgnEei7EsYpFSabdQ" source="_76OngDgnEei7EsYpFSabdQ" target="_z4NR0DgnEei7EsYpFSabdQ">
+          <children xmi:type="notation:Node" xmi:id="_8ziOEDgnEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ziOETgnEei7EsYpFSabdQ" x="-15" y="-84"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8zi1IDgnEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8zi1ITgnEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8zi1IjgnEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8zi1IzgnEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8zhnATgnEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8zhnAjgnEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8zhnAzgnEei7EsYpFSabdQ" points="[0, 0, 0, -126]$[0, 126, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8zjcMDgnEei7EsYpFSabdQ" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8zjcMTgnEei7EsYpFSabdQ" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_pAo8QDgwEei7EsYpFSabdQ" type="4001" element="_pAiOkDgwEei7EsYpFSabdQ" source="_z4NR0DgnEei7EsYpFSabdQ" target="_3CHpEDgnEei7EsYpFSabdQ">
+          <children xmi:type="notation:Node" xmi:id="_pAo8RDgwEei7EsYpFSabdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pAo8RTgwEei7EsYpFSabdQ" x="-1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pAo8RjgwEei7EsYpFSabdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pAo8RzgwEei7EsYpFSabdQ" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pAo8SDgwEei7EsYpFSabdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pAo8STgwEei7EsYpFSabdQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_pAo8QTgwEei7EsYpFSabdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_pAo8QjgwEei7EsYpFSabdQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pAo8QzgwEei7EsYpFSabdQ" points="[5, 2, -410, 0]$[407, 2, -8, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pAo8SjgwEei7EsYpFSabdQ" id="(0.9568965517241379,0.4090909090909091)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pAo8SzgwEei7EsYpFSabdQ" id="(0.07758620689655173,0.4367816091954023)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Dstf8DkmEeib4JGfM9PMXA" type="4001" element="_DsgroDkmEeib4JGfM9PMXA" source="_3CHpEDgnEei7EsYpFSabdQ" target="_z4NR0DgnEei7EsYpFSabdQ">
+          <children xmi:type="notation:Node" xmi:id="_DtEsUDkmEeib4JGfM9PMXA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DtEsUTkmEeib4JGfM9PMXA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DtF6cDkmEeib4JGfM9PMXA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DtF6cTkmEeib4JGfM9PMXA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DtGhgDkmEeib4JGfM9PMXA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DtGhgTkmEeib4JGfM9PMXA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Dstf8TkmEeib4JGfM9PMXA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Dstf8jkmEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dstf8zkmEeib4JGfM9PMXA" points="[0, 0, 402, 0]$[-402, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DtHIkDkmEeib4JGfM9PMXA" id="(0.0,0.8235294117647058)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DtHIkTkmEeib4JGfM9PMXA" id="(1.0,0.813953488372093)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_z4IZUDgnEei7EsYpFSabdQ" name="LDWS Active" outgoingEdges="_pAiOkDgwEei7EsYpFSabdQ" incomingEdges="_8zXO8DgnEei7EsYpFSabdQ _DsgroDkmEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:State" href="lms_state_ldws.statemachine#//@states.0"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_ldws.statemachine#//@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_z4JAYDgnEei7EsYpFSabdQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_3CD-sDgnEei7EsYpFSabdQ" name="LDWS Inactive" outgoingEdges="_DsgroDkmEeib4JGfM9PMXA" incomingEdges="_pAiOkDgwEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:State" href="lms_state_ldws.statemachine#//@states.1"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_ldws.statemachine#//@states.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_3CD-sTgnEei7EsYpFSabdQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_76BMIDgnEei7EsYpFSabdQ" outgoingEdges="_8zXO8DgnEei7EsYpFSabdQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="statemachine:InitialState" href="lms_state_ldws.statemachine#//@states.2"/>
+      <semanticElements xmi:type="statemachine:InitialState" href="lms_state_ldws.statemachine#//@states.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" xmi:id="_76BMITgnEei7EsYpFSabdQ" showIcon="false" labelPosition="node" backgroundColor="0,0,0">
+        <description xmi:type="style:DotDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_8zXO8DgnEei7EsYpFSabdQ" name="Vehicle On [Speed > 5 MPH]" sourceNode="_76BMIDgnEei7EsYpFSabdQ" targetNode="_z4IZUDgnEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:Transition" href="lms_state_ldws.statemachine#//@transitions.0"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_ldws.statemachine#//@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_8zXO8TgnEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_8zXO8jgnEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_pAiOkDgwEei7EsYpFSabdQ" name="LDWS TurnOff() [LDWS CheckConditions() == false]" sourceNode="_z4IZUDgnEei7EsYpFSabdQ" targetNode="_3CD-sDgnEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:Transition" href="lms_state_ldws.statemachine#//@transitions.1"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_ldws.statemachine#//@transitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_pAi1oDgwEei7EsYpFSabdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_pAi1oTgwEei7EsYpFSabdQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_DsgroDkmEeib4JGfM9PMXA" name="LDWS TurnOn() [LDWS CheckConditions() == true]" sourceNode="_3CD-sDgnEei7EsYpFSabdQ" targetNode="_z4IZUDgnEei7EsYpFSabdQ">
+      <target xmi:type="statemachine:Transition" href="lms_state_ldws.statemachine#//@transitions.2"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_ldws.statemachine#//@transitions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Dsh5wDkmEeib4JGfM9PMXA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Dsh5wTkmEeib4JGfM9PMXA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_yUp0YzgnEei7EsYpFSabdQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer"/>
+    <target xmi:type="statemachine:StateMachine" href="lms_state_ldws.statemachine#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_X6yP4TkzEeib4JGfM9PMXA" name="new StateMachineRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_X6yP4jkzEeib4JGfM9PMXA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_X6yP4zkzEeib4JGfM9PMXA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_X6y28DkzEeib4JGfM9PMXA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_X6y28TkzEeib4JGfM9PMXA" type="Sirius" element="_X6yP4TkzEeib4JGfM9PMXA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_X6y28zkzEeib4JGfM9PMXA" type="2001" element="_X6yP5DkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_X6zeADkzEeib4JGfM9PMXA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_X6zeATkzEeib4JGfM9PMXA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X63IYzkzEeib4JGfM9PMXA" type="3002" element="_X6yP5TkzEeib4JGfM9PMXA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_X63IZDkzEeib4JGfM9PMXA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X63IZTkzEeib4JGfM9PMXA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_X6y29DkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X6y29TkzEeib4JGfM9PMXA" x="276" y="84" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_X6zeAjkzEeib4JGfM9PMXA" type="2003" element="_X6yP5jkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_X60FEDkzEeib4JGfM9PMXA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_X60FETkzEeib4JGfM9PMXA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_X60FEjkzEeib4JGfM9PMXA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_X60FEzkzEeib4JGfM9PMXA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_X6zeAzkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X6zeBDkzEeib4JGfM9PMXA" x="228" y="216" width="104" height="111"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_X60FFDkzEeib4JGfM9PMXA" type="2003" element="_X6yP6DkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_X62hUDkzEeib4JGfM9PMXA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_X63IYDkzEeib4JGfM9PMXA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_X63IYTkzEeib4JGfM9PMXA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_X63IYjkzEeib4JGfM9PMXA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_X60FFTkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X60FFjkzEeib4JGfM9PMXA" x="744" y="216" width="104" height="111"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_X6y28jkzEeib4JGfM9PMXA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_X63IZjkzEeib4JGfM9PMXA" type="4001" element="_X6yP6jkzEeib4JGfM9PMXA" source="_X6y28zkzEeib4JGfM9PMXA" target="_X6zeAjkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_X66ywDkzEeib4JGfM9PMXA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X66ywTkzEeib4JGfM9PMXA" x="-3" y="-83"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X66ywjkzEeib4JGfM9PMXA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X66ywzkzEeib4JGfM9PMXA" x="-5" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X66yxDkzEeib4JGfM9PMXA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X66yxTkzEeib4JGfM9PMXA" x="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_X63IZzkzEeib4JGfM9PMXA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_X63IaDkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X63IaTkzEeib4JGfM9PMXA" points="[2, 30, -9, -140]$[11, 132, 0, -38]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X66yxjkzEeib4JGfM9PMXA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X66yxzkzEeib4JGfM9PMXA" id="(0.7256621947024424,0.3486238532110092)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_X67Z0DkzEeib4JGfM9PMXA" type="4001" element="_X6yP7TkzEeib4JGfM9PMXA" source="_X6zeAjkzEeib4JGfM9PMXA" target="_X60FFDkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_X67Z1DkzEeib4JGfM9PMXA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X67Z1TkzEeib4JGfM9PMXA" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X67Z1jkzEeib4JGfM9PMXA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X67Z1zkzEeib4JGfM9PMXA" x="-1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X67Z2DkzEeib4JGfM9PMXA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X67Z2TkzEeib4JGfM9PMXA" x="-1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_X67Z0TkzEeib4JGfM9PMXA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_X67Z0jkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X67Z0zkzEeib4JGfM9PMXA" points="[17, -2, -445, 0]$[431, -2, -31, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X67Z2jkzEeib4JGfM9PMXA" id="(0.8365384615384616,0.36936936936936937)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X67Z2zkzEeib4JGfM9PMXA" id="(0.3040723981900453,0.3486238532110092)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_X67Z3DkzEeib4JGfM9PMXA" type="4001" element="_X6yP8DkzEeib4JGfM9PMXA" source="_X60FFDkzEeib4JGfM9PMXA" target="_X6zeAjkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_X67Z4DkzEeib4JGfM9PMXA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X67Z4TkzEeib4JGfM9PMXA" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X68A4DkzEeib4JGfM9PMXA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X68A4TkzEeib4JGfM9PMXA" x="2" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X68A4jkzEeib4JGfM9PMXA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X68A4zkzEeib4JGfM9PMXA" x="2" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_X67Z3TkzEeib4JGfM9PMXA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_X67Z3jkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X67Z3zkzEeib4JGfM9PMXA" points="[-2, 7, 419, 0]$[-416, 7, 5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X68A5DkzEeib4JGfM9PMXA" id="(0.028846153846153848,0.7477477477477478)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X68A5TkzEeib4JGfM9PMXA" id="(0.9519230769230769,0.8108108108108109)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_X6yP5DkzEeib4JGfM9PMXA" outgoingEdges="_X6yP6jkzEeib4JGfM9PMXA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="statemachine:InitialState" href="lms_state_lcs.statemachine#//@states.2"/>
+      <semanticElements xmi:type="statemachine:InitialState" href="lms_state_lcs.statemachine#//@states.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" xmi:id="_X6yP5TkzEeib4JGfM9PMXA" showIcon="false" labelPosition="node" backgroundColor="0,0,0">
+        <description xmi:type="style:DotDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_X6yP5jkzEeib4JGfM9PMXA" name="LCS Active" outgoingEdges="_X6yP7TkzEeib4JGfM9PMXA" incomingEdges="_X6yP6jkzEeib4JGfM9PMXA _X6yP8DkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:State" href="lms_state_lcs.statemachine#//@states.0"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lcs.statemachine#//@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_X6yP5zkzEeib4JGfM9PMXA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_X6yP6DkzEeib4JGfM9PMXA" name="LCS Inactive" outgoingEdges="_X6yP8DkzEeib4JGfM9PMXA" incomingEdges="_X6yP7TkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:State" href="lms_state_lcs.statemachine#//@states.1"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lcs.statemachine#//@states.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_X6yP6TkzEeib4JGfM9PMXA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_X6yP6jkzEeib4JGfM9PMXA" name="Vehicle On [Speed > 5 MPH]" sourceNode="_X6yP5DkzEeib4JGfM9PMXA" targetNode="_X6yP5jkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lcs.statemachine#//@transitions.0"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lcs.statemachine#//@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_X6yP6zkzEeib4JGfM9PMXA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_X6yP7DkzEeib4JGfM9PMXA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_X6yP7TkzEeib4JGfM9PMXA" name="LCS TurnOff() [LCS CheckConditions() == false]" sourceNode="_X6yP5jkzEeib4JGfM9PMXA" targetNode="_X6yP6DkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lcs.statemachine#//@transitions.1"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lcs.statemachine#//@transitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_X6yP7jkzEeib4JGfM9PMXA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_X6yP7zkzEeib4JGfM9PMXA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_X6yP8DkzEeib4JGfM9PMXA" name="LCS TurnOn() [LCS CheckConditions() == true]" sourceNode="_X6yP6DkzEeib4JGfM9PMXA" targetNode="_X6yP5jkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lcs.statemachine#//@transitions.2"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lcs.statemachine#//@transitions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_X6yP8TkzEeib4JGfM9PMXA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_X6yP8jkzEeib4JGfM9PMXA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_X6yP8zkzEeib4JGfM9PMXA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer"/>
+    <target xmi:type="statemachine:StateMachine" href="lms_state_lcs.statemachine#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_ks0_ADkzEeib4JGfM9PMXA" name="new StateMachineRepresentation">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ks0_ATkzEeib4JGfM9PMXA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_ks0_AjkzEeib4JGfM9PMXA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ks0_EzkzEeib4JGfM9PMXA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_ks0_FDkzEeib4JGfM9PMXA" type="Sirius" element="_ks0_ADkzEeib4JGfM9PMXA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_ks0_FjkzEeib4JGfM9PMXA" type="2001" element="_ks0_AzkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_ks1mEDkzEeib4JGfM9PMXA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ks1mETkzEeib4JGfM9PMXA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ktAlMzkzEeib4JGfM9PMXA" type="3002" element="_ks0_BDkzEeib4JGfM9PMXA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ktAlNDkzEeib4JGfM9PMXA" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktAlNTkzEeib4JGfM9PMXA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ks0_FzkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ks0_GDkzEeib4JGfM9PMXA" x="240" y="144" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ks7FoDkzEeib4JGfM9PMXA" type="2003" element="_ks0_BTkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_ks7FozkzEeib4JGfM9PMXA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_ks7ssDkzEeib4JGfM9PMXA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ks7ssTkzEeib4JGfM9PMXA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ks7ssjkzEeib4JGfM9PMXA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ks7FoTkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ks7FojkzEeib4JGfM9PMXA" x="216" y="240" width="80" height="111"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ks7sszkzEeib4JGfM9PMXA" type="2003" element="_ks0_BzkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_ks8TwDkzEeib4JGfM9PMXA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_ktAlMDkzEeib4JGfM9PMXA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ktAlMTkzEeib4JGfM9PMXA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ktAlMjkzEeib4JGfM9PMXA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ks7stDkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ks7stTkzEeib4JGfM9PMXA" x="636" y="240" width="77" height="111"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_ks0_FTkzEeib4JGfM9PMXA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_ktBMQDkzEeib4JGfM9PMXA" type="4001" element="_ks0_CTkzEeib4JGfM9PMXA" source="_ks0_FjkzEeib4JGfM9PMXA" target="_ks7FoDkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_ktBMRDkzEeib4JGfM9PMXA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktBMRTkzEeib4JGfM9PMXA" x="-9" y="-82"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ktBMRjkzEeib4JGfM9PMXA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktBMRzkzEeib4JGfM9PMXA" x="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ktBMSDkzEeib4JGfM9PMXA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktBMSTkzEeib4JGfM9PMXA" x="-17" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ktBMQTkzEeib4JGfM9PMXA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ktBMQjkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ktBMQzkzEeib4JGfM9PMXA" points="[5, 30, -6, -104]$[8, 96, -3, -38]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ktBzUDkzEeib4JGfM9PMXA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ktBzUTkzEeib4JGfM9PMXA" id="(0.6412505623031939,0.3486238532110092)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ktBzUjkzEeib4JGfM9PMXA" type="4001" element="_ks0_DDkzEeib4JGfM9PMXA" source="_ks7FoDkzEeib4JGfM9PMXA" target="_ks7sszkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_ktBzVjkzEeib4JGfM9PMXA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktBzVzkzEeib4JGfM9PMXA" x="1" y="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ktBzWDkzEeib4JGfM9PMXA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktBzWTkzEeib4JGfM9PMXA" x="-4" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ktBzWjkzEeib4JGfM9PMXA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktBzWzkzEeib4JGfM9PMXA" x="-8" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ktBzUzkzEeib4JGfM9PMXA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ktBzVDkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ktBzVTkzEeib4JGfM9PMXA" points="[5, 2, -342, 1]$[347, 2, 0, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ktBzXDkzEeib4JGfM9PMXA" id="(0.9375,0.32432432432432434)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ktBzXTkzEeib4JGfM9PMXA" id="(0.0,0.3333333333333333)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ktBzXjkzEeib4JGfM9PMXA" type="4001" element="_ks0_DzkzEeib4JGfM9PMXA" source="_ks7sszkzEeib4JGfM9PMXA" target="_ks7FoDkzEeib4JGfM9PMXA">
+          <children xmi:type="notation:Node" xmi:id="_ktDBcDkzEeib4JGfM9PMXA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktDBcTkzEeib4JGfM9PMXA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ktDBcjkzEeib4JGfM9PMXA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktDBczkzEeib4JGfM9PMXA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ktDBdDkzEeib4JGfM9PMXA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ktDBdTkzEeib4JGfM9PMXA" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ktBzXzkzEeib4JGfM9PMXA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ktBzYDkzEeib4JGfM9PMXA" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ktBzYTkzEeib4JGfM9PMXA" points="[-8, -1, 351, 0]$[-350, -1, 9, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ktDBdjkzEeib4JGfM9PMXA" id="(0.11688311688311688,0.8558558558558559)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ktDBdzkzEeib4JGfM9PMXA" id="(0.8875,0.8468468468468469)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ks0_AzkzEeib4JGfM9PMXA" outgoingEdges="_ks0_CTkzEeib4JGfM9PMXA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="statemachine:InitialState" href="lms_state_lks.statemachine#//@states.2"/>
+      <semanticElements xmi:type="statemachine:InitialState" href="lms_state_lks.statemachine#//@states.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Dot" xmi:id="_ks0_BDkzEeib4JGfM9PMXA" showIcon="false" labelPosition="node" backgroundColor="0,0,0">
+        <description xmi:type="style:DotDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@nodeMappings[name='InitialState']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_ks0_BTkzEeib4JGfM9PMXA" name="LKS Active" outgoingEdges="_ks0_DDkzEeib4JGfM9PMXA" incomingEdges="_ks0_CTkzEeib4JGfM9PMXA _ks0_DzkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:State" href="lms_state_lks.statemachine#//@states.0"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lks.statemachine#//@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ks0_BjkzEeib4JGfM9PMXA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_ks0_BzkzEeib4JGfM9PMXA" name="LKS Inactive" outgoingEdges="_ks0_DzkzEeib4JGfM9PMXA" incomingEdges="_ks0_DDkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:State" href="lms_state_lks.statemachine#//@states.1"/>
+      <semanticElements xmi:type="statemachine:State" href="lms_state_lks.statemachine#//@states.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ks0_CDkzEeib4JGfM9PMXA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ks0_CTkzEeib4JGfM9PMXA" name="Vehicle On [Speed > 5 MPH]" sourceNode="_ks0_AzkzEeib4JGfM9PMXA" targetNode="_ks0_BTkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lks.statemachine#//@transitions.0"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lks.statemachine#//@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ks0_CjkzEeib4JGfM9PMXA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ks0_CzkzEeib4JGfM9PMXA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ks0_DDkzEeib4JGfM9PMXA" name="LKS TurnOff() [LKS CheckConditions() == false]" sourceNode="_ks0_BTkzEeib4JGfM9PMXA" targetNode="_ks0_BzkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lks.statemachine#//@transitions.1"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lks.statemachine#//@transitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ks0_DTkzEeib4JGfM9PMXA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ks0_DjkzEeib4JGfM9PMXA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ks0_DzkzEeib4JGfM9PMXA" name="LKS TurnOn() [LKS CheckConditions() == true]" sourceNode="_ks0_BzkzEeib4JGfM9PMXA" targetNode="_ks0_BTkzEeib4JGfM9PMXA">
+      <target xmi:type="statemachine:Transition" href="lms_state_lks.statemachine#//@transitions.2"/>
+      <semanticElements xmi:type="statemachine:Transition" href="lms_state_lks.statemachine#//@transitions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ks0_EDkzEeib4JGfM9PMXA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ks0_ETkzEeib4JGfM9PMXA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer/@edgeMappings[name='Transition']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ks0_EjkzEeib4JGfM9PMXA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.statemachine.design/description/statemachine.odesign#//@ownedViewpoints[name='StateMachineViewpoint']/@ownedRepresentations[name='http%3A%2F%2Fse.cs.toronto.edu%2Fmodelepedia%2FRepresentation_StateMachine']/@defaultLayer"/>
+    <target xmi:type="statemachine:StateMachine" href="lms_state_lks.statemachine#/"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
