@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sequencediagram:SequenceDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram">
-  <objects xsi:type="sequencediagram:Component" type="//@classes.0">
+  <objects xsi:type="sequencediagram:Component" type="SupervisoryControlSystem">
     <lifeline>
       <activationBoxes condition="">
         <activationBoxes condition="Every 100ms"/>
@@ -9,54 +9,38 @@
       </activationBoxes>
     </lifeline>
   </objects>
-  <objects xsi:type="sequencediagram:Component" type="//@classes.1">
+  <objects xsi:type="sequencediagram:Component" type="LaneKeepingSystem">
     <lifeline>
       <activationBoxes/>
     </lifeline>
   </objects>
-  <objects xsi:type="sequencediagram:Component" type="//@classes.2">
+  <objects xsi:type="sequencediagram:Component" type="LaneCenteringSystem">
     <lifeline>
       <activationBoxes/>
     </lifeline>
   </objects>
-  <objects xsi:type="sequencediagram:Component" type="//@classes.3">
+  <objects xsi:type="sequencediagram:Component" type="LaneDepartureWarningSystem">
     <lifeline>
       <activationBoxes/>
     </lifeline>
   </objects>
-  <objects xsi:type="sequencediagram:Component" type="//@classes.4">
+  <objects xsi:type="sequencediagram:Component" type="PathPredictionSystem">
     <lifeline>
       <activationBoxes/>
     </lifeline>
   </objects>
-  <classes name="SupervisoryControlSystem"/>
-  <classes name="LaneKeepingSystem">
-    <operations name="CheckStatus()"/>
-    <operations name="GetConditions()"/>
-  </classes>
-  <classes name="LaneCenteringSystem">
-    <operations name="CheckStatus()"/>
-    <operations name="GetConditions()"/>
-  </classes>
-  <classes name="LaneDepartureWarningSystem">
-    <operations name="CheckStatus()"/>
-    <operations name="GetConditions()"/>
-  </classes>
-  <classes name="PathPredictionSystem">
-    <operations name="GetCurrentPath(currentSpeed, currentSteeringAngle, ...)"/>
-  </classes>
-  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="//@classes.1/@operations.0"/>
-  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0"/>
-  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="//@classes.1/@operations.1"/>
-  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0"/>
-  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1" target="//@objects.2/@lifeline/@activationBoxes.0" content="//@classes.2/@operations.0"/>
-  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.2/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1"/>
-  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1" target="//@objects.2/@lifeline/@activationBoxes.0" content="//@classes.2/@operations.1"/>
-  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.2/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1"/>
-  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2" target="//@objects.3/@lifeline/@activationBoxes.0" content="//@classes.3/@operations.0"/>
-  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.3/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2"/>
-  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2" target="//@objects.3/@lifeline/@activationBoxes.0" content="//@classes.3/@operations.1"/>
-  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.3/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2"/>
-  <messages xsi:type="sequencediagram:OperationMessage" source="//@objects.0/@lifeline/@activationBoxes.0" target="//@objects.4/@lifeline/@activationBoxes.0" content="//@classes.4/@operations.0"/>
-  <messages xsi:type="sequencediagram:ArbitraryMessage" type="Return" source="//@objects.4/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0" content="0"/>
+  <messages source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="CheckStatus()" successor="//@messages.1"/>
+  <messages type="Return" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0" predecessor="//@messages.0" successor="//@messages.2"/>
+  <messages source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="GetConditions()" predecessor="//@messages.1" successor="//@messages.3"/>
+  <messages type="Return" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0" predecessor="//@messages.2" successor="//@messages.4"/>
+  <messages source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1" target="//@objects.2/@lifeline/@activationBoxes.0" content="CheckStatus()" predecessor="//@messages.3" successor="//@messages.5"/>
+  <messages type="Return" source="//@objects.2/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1" predecessor="//@messages.4" successor="//@messages.6"/>
+  <messages source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1" target="//@objects.2/@lifeline/@activationBoxes.0" content="GetConditions()" predecessor="//@messages.5" successor="//@messages.7"/>
+  <messages type="Return" source="//@objects.2/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1" predecessor="//@messages.6" successor="//@messages.8"/>
+  <messages source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2" target="//@objects.3/@lifeline/@activationBoxes.0" content="CheckStatus()" predecessor="//@messages.7" successor="//@messages.9"/>
+  <messages type="Return" source="//@objects.3/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2" predecessor="//@messages.8" successor="//@messages.10"/>
+  <messages source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2" target="//@objects.3/@lifeline/@activationBoxes.0" content="GetConditions()" predecessor="//@messages.9" successor="//@messages.11"/>
+  <messages type="Return" source="//@objects.3/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2" predecessor="//@messages.10" successor="//@messages.12"/>
+  <messages source="//@objects.0/@lifeline/@activationBoxes.0" target="//@objects.4/@lifeline/@activationBoxes.0" content="GetCurrentPath(currentSpeed, currentSteeringAngle, ..." predecessor="//@messages.11" successor="//@messages.13"/>
+  <messages type="Return" source="//@objects.4/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0" content="0" predecessor="//@messages.12"/>
 </sequencediagram:SequenceDiagram>
