@@ -2,31 +2,31 @@
 <sequencediagram:SequenceDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram">
   <objects xsi:type="sequencediagram:Component" type="SupervisoryControlSystem">
     <lifeline>
-      <activationBoxes condition="">
-        <activationBoxes condition="Every 100ms"/>
-        <activationBoxes condition="Every 100ms"/>
-        <activationBoxes condition="Every 100ms"/>
+      <activationBoxes messagesAsSource="//@messages.12" messagesAsTarget="//@messages.13">
+        <activationBoxes condition="Every 100ms" messagesAsSource="//@messages.0 //@messages.2" messagesAsTarget="//@messages.1 //@messages.3"/>
+        <activationBoxes condition="Every 100ms" messagesAsSource="//@messages.4 //@messages.6" messagesAsTarget="//@messages.5 //@messages.7"/>
+        <activationBoxes condition="Every 100ms" messagesAsSource="//@messages.8 //@messages.10" messagesAsTarget="//@messages.9 //@messages.11"/>
       </activationBoxes>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="LaneKeepingSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsTarget="//@messages.0 //@messages.2" messagesAsSource="//@messages.1 //@messages.3"/>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="LaneCenteringSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsTarget="//@messages.4 //@messages.6" messagesAsSource="//@messages.5 //@messages.7"/>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="LaneDepartureWarningSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsTarget="//@messages.8 //@messages.10" messagesAsSource="//@messages.9 //@messages.11"/>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="PathPredictionSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsTarget="//@messages.12" messagesAsSource="//@messages.13"/>
     </lifeline>
   </objects>
   <messages source="//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="CheckStatus()" successor="//@messages.1"/>

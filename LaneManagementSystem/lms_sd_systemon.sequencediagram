@@ -2,27 +2,27 @@
 <sequencediagram:SequenceDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram">
   <objects xsi:type="sequencediagram:Actor" name="IgnitionSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsSource="//@messages.0"/>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="SupervisoryControlSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsSource="//@messages.1 //@messages.3 //@messages.5 //@messages.7 //@messages.9 //@messages.11 //@messages.13" messagesAsTarget="//@messages.0 //@messages.2 //@messages.4 //@messages.6 //@messages.8 //@messages.10 //@messages.12 //@messages.13"/>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="LaneKeepingSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsSource="//@messages.2 //@messages.4" messagesAsTarget="//@messages.1 //@messages.3"/>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="LaneCenteringSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsSource="//@messages.6 //@messages.8" messagesAsTarget="//@messages.5 //@messages.7"/>
     </lifeline>
   </objects>
   <objects xsi:type="sequencediagram:Component" type="LaneDepartureWarningSystem">
     <lifeline>
-      <activationBoxes/>
+      <activationBoxes messagesAsSource="//@messages.10 //@messages.12" messagesAsTarget="//@messages.9 //@messages.11"/>
     </lifeline>
   </objects>
   <messages source="//@objects.0/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0" content="TurnOn()" successor="//@messages.1"/>
