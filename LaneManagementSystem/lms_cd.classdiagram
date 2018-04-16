@@ -30,7 +30,9 @@
     <ownedOperations name="TurnOff()" public="true"/>
   </classes>
   <classes name="Brake" associationsAsSource="//@associations.4 //@associations.7"/>
-  <classes name="Steering" associationsAsSource="//@associations.5 //@associations.8"/>
+  <classes name="Steering" associationsAsSource="//@associations.5 //@associations.8">
+    <ownedOperations name="Turn()" public="true" parameterTypes="//@datatypes.1"/>
+  </classes>
   <classes name="LaneCenteringSystem" associationsAsSource="//@associations.6" associationsAsTarget="//@associations.7 //@associations.8 //@associations.13" compositionsAsConstituent="//@compositions.2">
     <ownedAttributes name="isActive" type="//@datatypes.0"/>
     <ownedAttributes name="minSpeed" type="//@datatypes.1"/>
