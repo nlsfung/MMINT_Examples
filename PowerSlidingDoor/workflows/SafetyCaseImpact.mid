@@ -14,7 +14,8 @@
   <models uri="C3Recheck1" name="C3Recheck1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="w3" name="w3" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="C3Recheck2" name="C3Recheck2" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
-  <models uri="AnnotatedGSN" name="AnnotatedGSN" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" origin="CREATED" fileExtension="safetycase"/>
+  <models uri="w5" name="w5" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
+  <models uri="safetycase_annotated" name="safetycase_annotated" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" origin="CREATED" fileExtension="safetycase"/>
   <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
     <inputs uri="" name="mids1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
@@ -39,7 +40,7 @@
     <generics uri="" name="ModelRelMerge" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
   </operators>
   <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
-    <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
     <inputs uri="" name="mids1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
     <outputs uri="" name="mappedMids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
     <generics uri="" name="ModelRelPropagation" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelPropagation"/>
@@ -65,10 +66,15 @@
     <outputs uri="" name="mappedMids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
     <generics uri="" name="GSNSliceRecheck" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck"/>
   </operators>
+  <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
+    <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <outputs uri="" name="mappedMids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
+    <generics uri="" name="SliceCriterionDecorate" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_SliceCriterionDecorate"/>
+  </operators>
   <operators uri="" name="GSNAnnotate" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate" dynamic="true">
     <inputs uri="" name="revise" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/revise" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
     <inputs uri="" name="recheck" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/recheck" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
-    <outputs uri="" name="annotated" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/annotated" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
+    <outputs uri="" name="annotated" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/annotated" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
   </operators>
   <extendibleTable key="SysMegaModel" value="//@models.0"/>
   <extendibleTable key="SysModified" value="//@models.1"/>
@@ -84,5 +90,6 @@
   <extendibleTable key="C3Recheck1" value="//@models.11"/>
   <extendibleTable key="w3" value="//@models.12"/>
   <extendibleTable key="C3Recheck2" value="//@models.13"/>
-  <extendibleTable key="AnnotatedGSN" value="//@models.14"/>
+  <extendibleTable key="w5" value="//@models.14"/>
+  <extendibleTable key="safetycase_annotated" value="//@models.15"/>
 </mid:MID>

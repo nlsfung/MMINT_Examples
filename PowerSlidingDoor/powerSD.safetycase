@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
-  <goals id="SG1" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True" asil="C">
+  <goals id="SG1" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." state="True">
     <supportedBy premise="//@strategies.0"/>
+    <asil level="C"/>
   </goals>
-  <goals id="B1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." supports="//@strategies.0/@supportedBy.0" state="True" asil="C">
+  <goals id="B1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." supports="//@strategies.0/@supportedBy.0" state="True">
     <supportedBy premise="//@solutions.0"/>
+    <asil level="C"/>
   </goals>
-  <goals id="B2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." supports="//@strategies.0/@supportedBy.1" state="True" asil="B">
+  <goals id="B2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." supports="//@strategies.0/@supportedBy.1" state="True">
     <supportedBy premise="//@solutions.1"/>
+    <asil level="B"/>
   </goals>
-  <goals id="B3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." supports="//@strategies.0/@supportedBy.2" state="True" asil="C">
+  <goals id="B3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." supports="//@strategies.0/@supportedBy.2" state="True">
     <supportedBy premise="//@solutions.2"/>
+    <asil level="C"/>
   </goals>
-  <goals id="B4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." supports="//@strategies.0/@supportedBy.3" state="True" asil="A">
+  <goals id="B4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." supports="//@strategies.0/@supportedBy.3" state="True">
     <supportedBy premise="//@solutions.3"/>
+    <asil level="A"/>
   </goals>
-  <goals id="B5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." supports="//@strategies.0/@supportedBy.4" state="True" asil="C">
+  <goals id="B5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." supports="//@strategies.0/@supportedBy.4" state="True">
     <supportedBy premise="//@solutions.4"/>
+    <asil level="C"/>
   </goals>
-  <goals id="B6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." supports="//@strategies.0/@supportedBy.5" state="True" asil="C">
+  <goals id="B6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." supports="//@strategies.0/@supportedBy.5" state="True">
     <supportedBy premise="//@solutions.5"/>
+    <asil level="C"/>
   </goals>
   <strategies id="S1" description="Decompose by AND refinement." supports="//@goals.0/@supportedBy.0" state="Valid">
     <supportedBy premise="//@goals.1"/>

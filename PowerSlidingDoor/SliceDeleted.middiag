@@ -93,7 +93,31 @@
     <styles xmi:type="notation:DiagramStyle" xmi:id="_C1DrgVuFEeePQcKrC6aIKA"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_wl4FcGA-Eee4qpHMz11sug" type="Relationship" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_HJloQCu5Eei_T_SCjOFExw" type="2001">
+      <children xmi:type="notation:DecorationNode" xmi:id="_HJloRCu5Eei_T_SCjOFExw" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HJmPUCu5Eei_T_SCjOFExw" type="5004"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_HJmPUSu5Eei_T_SCjOFExw" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_HJmPUiu5Eei_T_SCjOFExw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_HJmPUyu5Eei_T_SCjOFExw"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_HJloQSu5Eei_T_SCjOFExw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_HJloQiu5Eei_T_SCjOFExw" fontName="Ubuntu"/>
+      <element xmi:type="relationship:ModelEndpointReference" href="SliceDeleted.mid#//@models.1/@modelEndpointRefs.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HJloQyu5Eei_T_SCjOFExw"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_wl4FcWA-Eee4qpHMz11sug"/>
     <element xmi:type="relationship:ModelRel" href="SliceDeleted.mid#//@models.1"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_EjpgwCu5Eei_T_SCjOFExw" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_EjpgwSu5Eei_T_SCjOFExw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_zOtjUCu6Eei9ydbGKbJTig" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zOtjUSu6Eei9ydbGKbJTig"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_VvJjsDwxEeit8plRdumKNg" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_VvJjsTwxEeit8plRdumKNg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_atHSgDwxEeit8plRdumKNg" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_atHSgTwxEeit8plRdumKNg"/>
   </notation:Diagram>
 </xmi:XMI>
