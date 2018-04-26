@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator">
+  <operators xsi:type="operator:NestingOperator" uri="" name="Fix" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix" dynamic="true" updateMID="true" executionTime="20926081375" nestedMIDPath="/PowerSlidingDoor/Fix.mid">
+    <inputs uri="" name="models0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/models" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </inputs>
+    <inputs uri="" name="models1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/models" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
+    </inputs>
+    <outputs uri="" name="fixedModels0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </outputs>
+    <outputs uri="" name="fixedModels1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.5"/>
+    </outputs>
+    <generics uri="" name="SliceStep_Imported" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/FIXER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported"/>
+  </operators>
+  <extendibleTable key="/PowerSlidingDoor/merge_map.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
+  </extendibleTable>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+  </extendibleTable>
+  <extendibleTable key="/PowerSlidingDoor/merge_map2.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.5"/>
+  </extendibleTable>
+</mid:MID>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator">
+  <models uri="/PowerSlidingDoor/merge_map0.mid" name="merge_map0" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
+  <models uri="/PowerSlidingDoor/merge_map1.mid" name="merge_map1" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map0.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map0.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map0.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map1.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map1.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map1.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map2.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceStep_Imported0" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported" dynamic="true" updateMID="true" executionTime="5323319907" nestedMIDPath="/PowerSlidingDoor/SliceStep_Imported.mid">
+    <inputs uri="" name="mid" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/mid" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </inputs>
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/criterion" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
+    </inputs>
+    <outputs uri="" name="sameMID" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/sameMID" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </outputs>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+  </operators>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceStep_Imported1" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported" dynamic="true" updateMID="true" executionTime="5184338964" nestedMIDPath="/PowerSlidingDoor/SliceStep_Imported0.mid">
+    <inputs uri="" name="mid" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/mid" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </inputs>
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="sameMID" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/sameMID" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </outputs>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </operators>
+  <operators xsi:type="operator:WorkflowOperator" uri="" name="SliceStep_Imported2" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported" dynamic="true" updateMID="true" executionTime="6239798733" nestedMIDPath="/PowerSlidingDoor/SliceStep_Imported1.mid">
+    <inputs uri="" name="mid" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/mid" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </inputs>
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="sameMID" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/sameMID" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    </outputs>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported/slice" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.5"/>
+    </outputs>
+  </operators>
+  <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+  </extendibleTable>
+  <extendibleTable key="/PowerSlidingDoor/merge_map.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
+  </extendibleTable>
+  <extendibleTable key="/PowerSlidingDoor/merge_map0.mid" value="//@models.0"/>
+  <extendibleTable key="/PowerSlidingDoor/merge_map1.mid" value="//@models.1"/>
+  <extendibleTable key="/PowerSlidingDoor/merge_map2.mid">
+    <value xsi:type="mid:Model" href="powerSDWorkspace.mid#//@models.5"/>
+  </extendibleTable>
+</mid:MID>

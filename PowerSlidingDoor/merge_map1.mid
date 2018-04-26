@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <models xsi:type="relationship:ModelRel" uri="" name="slice+propagated" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_SD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
+    </modelEndpoints>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.88"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[sourceLifeline->] Source Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.63"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.92"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.95"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.4/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.64"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.5/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[targetLifeline->] Target Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.96"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.6/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[messages->] Message s.requestSpeed()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.28"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.7/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.openDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.21"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.8/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[messages->] Message [if s.sensed_speed&lt;=15] s.closed else s.open" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.30"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class ReduntantSwitch+[ownedAttributes->] Attribute sensed_speed+[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.9/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.0"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class Redundant Switch+[classes->] Class ReduntantSwitch+[ownedOperations->] Operation requestSpeed+[classes->] Class ReduntantSwitch+[classes->] Class ReduntantSwitch+[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.10/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[operations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.3"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.11/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[class->] Class Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.25"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class Redundant Switch+[classes->] Class ReduntantSwitch+[ownedAttributes->] Attribute sensed_speed+[classes->] Class ReduntantSwitch+[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.12/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.2"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class Redundant Switch+[classes->] Class ReduntantSwitch+[ownedAttributes->] Attribute closed+[classes->] Class ReduntantSwitch+[classes->] Class ReduntantSwitch+[ownedAttributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.13/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.1"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[operations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.14/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.33"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.15/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.23"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.16/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[targetLifeline->] Target Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.89"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.17/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.65"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.18/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[sourceLifeline->] Source Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.39"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.19/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.91"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.20/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.94"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if ac_ecu.sensed_speed&lt;=15 and a.powered and s.closed] a.activated = True, a.closeDoor()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.21/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.90"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message s.requestSpeed()" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.22/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[targetLifeline->] Target Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.77"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.23/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.35"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.24/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.31"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[attributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.25/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.34"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if s.sensed_speed&lt;=15] s.closed else s.open" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.26/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[sourceLifeline->] Source Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.58"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[messages->] Message [if s.sensed_speed&lt;=15] s.closed else s.open" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.27/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[operation->] Operation Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.93"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[attributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.28/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[attributes->] Attribute Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.29"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[class->] Class Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.29/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[lifelines->] Lifeline s" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.26"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[lifelines->] Lifeline s" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.30/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[sourceLifeline->] Source Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.32"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[lifelines->] Lifeline s" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.31/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[targetLifeline->] Target Lifeline Reference" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.27"/>
+      </modelElemEndpoints>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.0/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.0/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.88"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.1/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.63"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.2/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.92"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.3/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.95"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.4/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.64"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.5/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.96"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.6/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.28"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.7/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.21"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.8/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.30"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.9/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.0"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.10/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.3"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.11/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.25"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.12/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.2"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.13/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.1"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.14/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.33"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.15/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.23"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.16/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.89"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.17/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.65"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.18/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.39"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.19/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.91"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.20/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.94"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.21/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.90"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.22/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.77"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.23/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.35"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.24/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.31"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.25/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.34"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.26/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.58"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.27/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.93"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.28/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.29"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.29/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.26"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.30/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.32"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.31/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.1/@modelElems.27"/>
+      </modelElemRefs>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.4" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.4"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.5" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.5/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.5"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.6" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.6/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.6"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.7" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.7/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.7"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.8" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.8/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.8"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.9" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.9/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.9"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.10" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.10/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.10"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.11" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.11/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.11"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.12" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.12/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.12"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.13" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.13/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.13"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.14" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.14/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.14"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.15" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.15/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.15"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.16" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.16/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.16"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.17" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.17/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.17"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.18" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.18/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.18"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.19" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.19/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.19"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.20" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.20/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.20"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.21" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.21/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.21"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.22" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.22/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.22"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.23" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.23/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.23"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.24" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.24/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.24"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.25" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.25/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.25"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.26" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.26/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.26"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.27" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.27/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.27"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.28" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.28/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.28"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.29" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.29/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.29"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.30" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.30/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.30"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.31" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.31/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.31"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice+propagated" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
+    </modelEndpoints>
+    <mappings uri="" name="[classes->] Class ReduntantSwitch+[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[ownedAttributes->] Attribute sensed_speed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.2"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[ownedAttributes->] Attribute sensed_speed+[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[classes->] Class Redundant Switch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.0"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class ReduntantSwitch+[classes->] Class ReduntantSwitch+[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[ownedOperations->] Operation requestSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.3"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class ReduntantSwitch+[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[associations->] Association communicatesWith" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.20"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class ReduntantSwitch+[classes->] Class ReduntantSwitch+[ownedAttributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.4/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[ownedAttributes->] Attribute closed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.1"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="[classes->] Class ReduntantSwitch+[classes->] Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.5/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="[associations->] Association controls" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.21"/>
+      </modelElemEndpoints>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.0/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.2"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.1/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.0"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.2/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.3"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.3/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.20"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.4/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.1"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.5/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDMega.mid#//@models.0/@modelElems.21"/>
+      </modelElemRefs>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.1/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.1/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.1/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.1/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.1/@mappings.4" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.4"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.1/@mappings.5" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.5/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.5"/>
+    </mappingRefs>
+  </models>
+</mid:MID>

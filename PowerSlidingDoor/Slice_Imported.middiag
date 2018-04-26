@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_6FSo4ElvEeiNGPUq71yu9g" type="MID" name="Slice_Imported.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_6HiEkElvEeiNGPUq71yu9g" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6HiroklvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6Hiro0lvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6HiroElvEeiNGPUq71yu9g" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6HiroUlvEeiNGPUq71yu9g" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_6HiEkUlvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6HiEkklvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6HiEk0lvEeiNGPUq71yu9g" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6HiElElvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_6HirpElvEeiNGPUq71yu9g" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6Hirq0lvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6HirrElvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6HirqUlvEeiNGPUq71yu9g" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6HirqklvEeiNGPUq71yu9g" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_6HirpUlvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6HirpklvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6Hirp0lvEeiNGPUq71yu9g" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6HirqElvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9VEXkElvEeiNGPUq71yu9g" type="2001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9VEXl0lvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9VEXmElvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9VEXlUlvEeiNGPUq71yu9g" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9VEXlklvEeiNGPUq71yu9g" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9VEXkUlvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9VEXkklvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9VEXk0lvEeiNGPUq71yu9g" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9VEXlElvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9VEXmUlvEeiNGPUq71yu9g" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9VEXoElvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9VEXoUlvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9VEXnklvEeiNGPUq71yu9g" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9VEXn0lvEeiNGPUq71yu9g" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9VEXmklvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9VEXm0lvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9VEXnElvEeiNGPUq71yu9g" hint="Mid"/>
+    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.5"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9VEXnUlvEeiNGPUq71yu9g"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_6FTP8ElvEeiNGPUq71yu9g"/>
+  <element xmi:type="mid:MID" href="Slice_Imported.mid#/"/>
+</notation:Diagram>

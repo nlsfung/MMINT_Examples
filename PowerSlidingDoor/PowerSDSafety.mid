@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ASCII"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <models uri="/PowerSlidingDoor/powerSD.safetycase" name="powerSD_GSN" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.0">
     <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
@@ -631,7 +631,7 @@
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true"/>
     <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.1" modifiable="true"/>
   </models>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_BoVU8QrlEeiYM4ZMH_QRAw" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_FgsYgUfsEeiQ2vAxFoZ41w" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/PowerSlidingDoor/powerSD.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
     <fileExtensions>aird</fileExtensions>
   </editors>
   <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase" value="//@models.0"/>

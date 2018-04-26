@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship" xmi:id="_8_tyoElvEeiNGPUq71yu9g" type="MID" name="Map8.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_9JI0YElvEeiNGPUq71yu9g" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9JJbcElvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9JJbcUlvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JI0ZUlvEeiNGPUq71yu9g" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JI0ZklvEeiNGPUq71yu9g" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9JI0YUlvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9JI0YklvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9JI0Y0lvEeiNGPUq71yu9g" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="slice_map1∪propagated_map1.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9JI0ZElvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9JJbcklvEeiNGPUq71yu9g" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9JJbeUlvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9JJbeklvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JJbd0lvEeiNGPUq71yu9g" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JJbeElvEeiNGPUq71yu9g" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9JJbc0lvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9JJbdElvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9JJbdUlvEeiNGPUq71yu9g" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="slice_map1∪propagated_map1.mid#//@models.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9JJbdklvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9JKCgElvEeiNGPUq71yu9g" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9JKCh0lvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9JKCiElvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKChUlvEeiNGPUq71yu9g" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKChklvEeiNGPUq71yu9g" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9JKCgUlvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9JKCgklvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9JKCg0lvEeiNGPUq71yu9g" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="merge_map2.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9JKChElvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9JKCiUlvEeiNGPUq71yu9g" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9JKCkElvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9JKCkUlvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKCjklvEeiNGPUq71yu9g" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKCj0lvEeiNGPUq71yu9g" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9JKCiklvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9JKCi0lvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9JKCjElvEeiNGPUq71yu9g" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="slice_map1∪propagated_map1.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9JKCjUlvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9JKCkklvEeiNGPUq71yu9g" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9JKCmUlvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9JKCmklvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKCl0lvEeiNGPUq71yu9g" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKCmElvEeiNGPUq71yu9g" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9JKCk0lvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9JKClElvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9JKClUlvEeiNGPUq71yu9g" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="slice_map1∪propagated_map1.mid#//@models.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9JKClklvEeiNGPUq71yu9g"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9JKCm0lvEeiNGPUq71yu9g" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9JKCoklvEeiNGPUq71yu9g" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9JKCo0lvEeiNGPUq71yu9g" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKCoElvEeiNGPUq71yu9g" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9JKCoUlvEeiNGPUq71yu9g" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_9JKCnElvEeiNGPUq71yu9g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9JKCnUlvEeiNGPUq71yu9g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_9JKCnklvEeiNGPUq71yu9g" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="merge_map2.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9JKCn0lvEeiNGPUq71yu9g"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_8_tyoUlvEeiNGPUq71yu9g"/>
+  <element xmi:type="mid:MID" href="Map8.mid#/"/>
+</notation:Diagram>
