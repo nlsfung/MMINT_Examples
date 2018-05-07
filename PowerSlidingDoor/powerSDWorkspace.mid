@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator">
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID">
   <models uri="/PowerSlidingDoor/PowerSDMega.mid" name="PowerSDMega" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
   <models uri="/PowerSlidingDoor/SliceModified.mid" name="SliceModified" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
   <models uri="/PowerSlidingDoor/SliceDeleted.mid" name="SliceDeleted" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.2"/>
   <models uri="/PowerSlidingDoor/PowerSDSafety.mid" name="PowerSDSafety" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.3"/>
-  <models uri="/PowerSlidingDoor/merge_map.mid" name="merge_map" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.4"/>
-  <models uri="/PowerSlidingDoor/merge_map2.mid" name="merge_map2" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" fileExtension="mid" editors="//@editors.5"/>
-  <models uri="/PowerSlidingDoor/decorated_map.mid" name="decorated_map" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.6"/>
-  <models uri="/PowerSlidingDoor/propagated_map2.mid" name="propagated_map2" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.7"/>
-  <models uri="/PowerSlidingDoor/propagated_map3.mid" name="propagated_map3" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.8"/>
-  <models uri="/PowerSlidingDoor/merge_map3.mid" name="merge_map3" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.9"/>
-  <models uri="/PowerSlidingDoor/merge_map4.mid" name="merge_map4" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.10"/>
-  <models uri="/PowerSlidingDoor/slice_map2.mid" name="slice_map2" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.11"/>
-  <models uri="/PowerSlidingDoor/merge_map5.mid" name="merge_map5" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.12"/>
-  <models uri="/PowerSlidingDoor/slice_map3.mid" name="slice_map3" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.13"/>
-  <models uri="/PowerSlidingDoor/powerSD_annotated.safetycase" name="powerSD_annotated" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" origin="CREATED" fileExtension="safetycase" editors="//@editors.14"/>
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDMega.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
@@ -27,112 +16,8 @@
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDSafety.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDSafety.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDSafety.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map2.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/decorated_map.middiag" name="MIDRel diagram for model /PowerSlidingDoor/decorated_map.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/decorated_map.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/propagated_map2.middiag" name="MIDRel diagram for model /PowerSlidingDoor/propagated_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/propagated_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/propagated_map3.middiag" name="MIDRel diagram for model /PowerSlidingDoor/propagated_map3.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/propagated_map3.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map3.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map3.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map3.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map4.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map4.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map4.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/slice_map2.middiag" name="MIDRel diagram for model /PowerSlidingDoor/slice_map2.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/slice_map2.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/merge_map5.middiag" name="MIDRel diagram for model /PowerSlidingDoor/merge_map5.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/merge_map5.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/slice_map3.middiag" name="MIDRel diagram for model /PowerSlidingDoor/slice_map3.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/slice_map3.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
-    <fileExtensions>middiag</fileExtensions>
-  </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_EijKkElzEeiNGPUq71yu9g" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD_annotated.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/PowerSlidingDoor/powerSD_annotated.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
-    <fileExtensions>aird</fileExtensions>
-  </editors>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="952945981" nestedMIDPath="/PowerSlidingDoor/Map.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
-    <inputs uri="" name="mids1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
-    <generics uri="" name="ModelRelMerge" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
-  </operators>
-  <operators xsi:type="operator:WorkflowOperator" uri="" name="Slice_Imported" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported" dynamic="true" updateMID="true" executionTime="21586998288" nestedMIDPath="/PowerSlidingDoor/Slice_Imported.mid">
-    <inputs uri="" name="mid" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/mid" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
-    <outputs uri="" name="sameMID" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/sameMID" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="1313346586" nestedMIDPath="/PowerSlidingDoor/Map11.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
-    <generics uri="" name="SliceCriterionDecorate" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_SliceCriterionDecorate"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="1489217081" nestedMIDPath="/PowerSlidingDoor/Map9.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
-    <inputs uri="" name="mids1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
-    <generics uri="" name="ModelRelPropagation" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelPropagation"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="1394697308" nestedMIDPath="/PowerSlidingDoor/Map10.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
-    <inputs uri="" name="mids1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.8"/>
-    <generics uri="" name="ModelRelPropagation" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelPropagation"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="1374305654" nestedMIDPath="/PowerSlidingDoor/Map12.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.8"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
-    <generics uri="" name="ModelRelMerge" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="1170315302" nestedMIDPath="/PowerSlidingDoor/Map13.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
-    <generics uri="" name="ModelRelMerge" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="2143933683" nestedMIDPath="/PowerSlidingDoor/Map14.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
-    <generics uri="" name="GSNSliceRevise" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="741112651" nestedMIDPath="/PowerSlidingDoor/Map15.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
-    <inputs uri="" name="mids1" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
-    <generics uri="" name="ModelRelMerge" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
-  </operators>
-  <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="1233698261" nestedMIDPath="/PowerSlidingDoor/Map16.mid">
-    <inputs uri="" name="mids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
-    <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
-    <generics uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck"/>
-  </operators>
-  <operators uri="" name="GSNAnnotate" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate" dynamic="true" updateMID="true" executionTime="1019280615">
-    <inputs uri="" name="revise" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/revise" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
-    <inputs uri="" name="recheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/recheck" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
-    <outputs uri="" name="annotated" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/annotated" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
-  </operators>
   <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid" value="//@models.0"/>
   <extendibleTable key="/PowerSlidingDoor/SliceModified.mid" value="//@models.1"/>
   <extendibleTable key="/PowerSlidingDoor/SliceDeleted.mid" value="//@models.2"/>
   <extendibleTable key="/PowerSlidingDoor/PowerSDSafety.mid" value="//@models.3"/>
-  <extendibleTable key="/PowerSlidingDoor/merge_map.mid" value="//@models.4"/>
-  <extendibleTable key="/PowerSlidingDoor/merge_map2.mid" value="//@models.5"/>
-  <extendibleTable key="/PowerSlidingDoor/decorated_map.mid" value="//@models.6"/>
-  <extendibleTable key="/PowerSlidingDoor/propagated_map2.mid" value="//@models.7"/>
-  <extendibleTable key="/PowerSlidingDoor/propagated_map3.mid" value="//@models.8"/>
-  <extendibleTable key="/PowerSlidingDoor/merge_map3.mid" value="//@models.9"/>
-  <extendibleTable key="/PowerSlidingDoor/merge_map4.mid" value="//@models.10"/>
-  <extendibleTable key="/PowerSlidingDoor/slice_map2.mid" value="//@models.11"/>
-  <extendibleTable key="/PowerSlidingDoor/merge_map5.mid" value="//@models.12"/>
-  <extendibleTable key="/PowerSlidingDoor/slice_map3.mid" value="//@models.13"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD_annotated.safetycase" value="//@models.14"/>
 </mid:MID>
