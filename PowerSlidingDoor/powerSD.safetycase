@@ -2,48 +2,48 @@
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
   <goals id="SG1" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h.">
     <contentValidity value="Valid"/>
-    <stateValidity/>
     <supportedBy premise="//@strategies.0"/>
-    <asil value="C">
-      <status type="Reuse"/>
-    </asil>
+    <stateValidity value="Valid"/>
+    <asil value="C"/>
   </goals>
   <goals id="B1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." supports="//@strategies.0/@supportedBy.0">
-    <contentValidity value="Valid">
-      <status type="Recheck"/>
-    </contentValidity>
+    <contentValidity value="Valid"/>
     <supportedBy premise="//@strategies.1"/>
+    <stateValidity value="Valid"/>
     <asil value="C"/>
   </goals>
   <goals id="B2" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." supports="//@strategies.0/@supportedBy.1">
     <contentValidity value="Valid"/>
     <supportedBy premise="//@strategies.2"/>
     <asil value="B"/>
+    <stateValidity value="Valid"/>
   </goals>
   <goals id="B3" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." supports="//@strategies.0/@supportedBy.2">
     <contentValidity value="Valid"/>
     <supportedBy premise="//@strategies.3"/>
     <asil value="C"/>
+    <stateValidity value="Valid"/>
   </goals>
   <goals id="B4" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." supports="//@strategies.0/@supportedBy.3">
     <contentValidity value="Valid"/>
     <supportedBy premise="//@strategies.4"/>
     <asil value="A"/>
+    <stateValidity value="Valid"/>
   </goals>
   <goals id="B5" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." supports="//@strategies.0/@supportedBy.4">
     <contentValidity value="Valid"/>
     <supportedBy premise="//@strategies.5"/>
     <asil value="C"/>
+    <stateValidity value="Valid"/>
   </goals>
   <goals id="B6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." supports="//@strategies.0/@supportedBy.5">
     <contentValidity value="Valid"/>
-    <supportedBy premise="//@strategies.6"/>
+    <supportedBy premise="//@solutions.5"/>
     <asil value="C"/>
+    <stateValidity value="Valid"/>
   </goals>
   <strategies xsi:type="safetycase:ASILDecompositionStrategy" id="S1" description="Decompose by AND refinement." supports="//@goals.0/@supportedBy.0">
-    <contentValidity value="Valid">
-      <status/>
-    </contentValidity>
+    <contentValidity value="Valid"/>
     <inContextOf context="//@justifications.0"/>
     <inContextOf context="//@contexts.0"/>
     <supportedBy premise="//@goals.1"/>
@@ -55,41 +55,57 @@
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.1" description="Strategy for Goal B1." supports="//@goals.1/@supportedBy.0">
     <supportedBy premise="//@solutions.0"/>
+    <contentValidity value="Valid"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.2" description="Strategy for Goal B2." supports="//@goals.2/@supportedBy.0">
     <supportedBy premise="//@solutions.1"/>
+    <contentValidity value="Valid"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.3" description="Strategy for Goal B3." supports="//@goals.3/@supportedBy.0">
     <supportedBy premise="//@solutions.2"/>
+    <contentValidity value="Valid"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.4" description="Strategy for Goal B4." supports="//@goals.4/@supportedBy.0">
     <supportedBy premise="//@solutions.3"/>
+    <contentValidity value="Valid"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.5" description="Strategy for Goal B5." supports="//@goals.5/@supportedBy.0">
     <supportedBy premise="//@solutions.4"/>
+    <contentValidity value="Valid"/>
   </strategies>
-  <strategies xsi:type="safetycase:BasicStrategy" id="S1.6" description="Strategy for Goal B6." supports="//@goals.6/@supportedBy.0">
+  <strategies xsi:type="safetycase:BasicStrategy" id="S1.6" description="Strategy for Goal B6.">
     <supportedBy premise="//@solutions.5"/>
+    <contentValidity value="Valid"/>
   </strategies>
   <solutions id="Sn1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." supports="//@strategies.1/@supportedBy.0">
     <contentValidity value="Valid"/>
+    <stateValidity value="Valid"/>
   </solutions>
   <solutions id="Sn2" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." supports="//@strategies.2/@supportedBy.0">
     <contentValidity value="Valid"/>
+    <stateValidity value="Valid"/>
   </solutions>
   <solutions id="Sn3" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." supports="//@strategies.3/@supportedBy.0">
     <contentValidity value="Valid"/>
+    <stateValidity value="Valid"/>
     <stateValidity/>
   </solutions>
   <solutions id="Sn4" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." supports="//@strategies.4/@supportedBy.0">
     <contentValidity value="Valid"/>
+    <stateValidity value="Valid"/>
   </solutions>
   <solutions id="Sn5" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." supports="//@strategies.5/@supportedBy.0">
     <contentValidity value="Valid"/>
+    <stateValidity value="Valid"/>
   </solutions>
-  <solutions id="Sn6" description="Expert Judgement." supports="//@goals.6/@supportedBy.0">
+  <solutions id="Sn6" description="Expert Judgement." supports="//@strategies.6/@supportedBy.0">
     <contentValidity value="Valid"/>
+    <stateValidity value="Valid"/>
   </solutions>
-  <contexts id="C1" description="Context for S1" contextOf="//@strategies.0/@inContextOf.1"/>
-  <justifications id="J1" description="Justification for S1" contextOf="//@strategies.0/@inContextOf.0"/>
+  <contexts id="C1" description="Context for S1" contextOf="//@strategies.0/@inContextOf.1">
+    <contentValidity value="Valid"/>
+  </contexts>
+  <justifications id="J1" description="Justification for S1" contextOf="//@strategies.0/@inContextOf.0">
+    <contentValidity value="Valid"/>
+  </justifications>
 </safetycase:SafetyCase>
