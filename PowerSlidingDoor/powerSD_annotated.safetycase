@@ -76,7 +76,7 @@
     <contentValidity value="Valid">
       <status type="Reuse" source="Not applicable."/>
     </contentValidity>
-    <supportedBy/>
+    <supportedBy premise="//@strategies.6"/>
     <stateValidity value="Valid">
       <status type="Reuse" source="Not applicable."/>
     </stateValidity>
@@ -127,7 +127,7 @@
     </contentValidity>
     <supportedBy premise="//@solutions.4"/>
   </strategies>
-  <strategies xsi:type="safetycase:BasicStrategy" id="S1.6" description="Strategy for Goal B6.">
+  <strategies xsi:type="safetycase:BasicStrategy" id="S1.6" description="Strategy for Goal B6." supports="//@goals.6/@supportedBy.0">
     <contentValidity value="Valid">
       <status type="Reuse" source="Not applicable."/>
     </contentValidity>

@@ -57,7 +57,7 @@
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/slice_map3.middiag" name="MIDRel diagram for model /PowerSlidingDoor/slice_map3.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PowerSlidingDoor/slice_map3.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_IF8LUFKTEeiMsNPvH8MymA" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD_annotated.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/PowerSlidingDoor/powerSD_annotated.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_y_kZEFKTEeiMsNPvH8MymA" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD_annotated.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/PowerSlidingDoor/powerSD_annotated.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
     <fileExtensions>aird</fileExtensions>
   </editors>
   <operators xsi:type="operator:NestingOperator" uri="" name="Map" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true" updateMID="true" executionTime="1584849316" nestedMIDPath="/PowerSlidingDoor/Map.mid">
@@ -115,7 +115,7 @@
     <outputs uri="" name="mappedMids0" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
     <generics uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck"/>
   </operators>
-  <operators uri="" name="GSNAnnotate" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate" dynamic="true" updateMID="true" executionTime="1484775033">
+  <operators uri="" name="GSNAnnotate" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate" dynamic="true" updateMID="true" executionTime="1414564017">
     <inputs uri="" name="revise" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/revise" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
     <inputs uri="" name="recheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/recheck" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
     <outputs uri="" name="annotated" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotate/annotated" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>

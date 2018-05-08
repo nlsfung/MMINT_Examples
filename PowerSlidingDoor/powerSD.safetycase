@@ -38,7 +38,7 @@
   </goals>
   <goals id="B6" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." supports="//@strategies.0/@supportedBy.5">
     <contentValidity value="Valid"/>
-    <supportedBy premise="//@solutions.5"/>
+    <supportedBy premise="//@strategies.6"/>
     <asil value="C"/>
     <stateValidity value="Valid"/>
   </goals>
@@ -73,7 +73,7 @@
     <supportedBy premise="//@solutions.4"/>
     <contentValidity value="Valid"/>
   </strategies>
-  <strategies xsi:type="safetycase:BasicStrategy" id="S1.6" description="Strategy for Goal B6.">
+  <strategies xsi:type="safetycase:BasicStrategy" id="S1.6" description="Strategy for Goal B6." supports="//@goals.6/@supportedBy.0">
     <supportedBy premise="//@solutions.5"/>
     <contentValidity value="Valid"/>
   </strategies>
