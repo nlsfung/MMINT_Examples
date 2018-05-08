@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship" xmi:id="_wXKo4FKSEeiMsNPvH8MymA" type="MID" name="Map13.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_wiehAFKSEeiMsNPvH8MymA" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wiehB1KSEeiMsNPvH8MymA" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wiehCFKSEeiMsNPvH8MymA" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiehBVKSEeiMsNPvH8MymA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiehBlKSEeiMsNPvH8MymA" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_wiehAVKSEeiMsNPvH8MymA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wiehAlKSEeiMsNPvH8MymA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_wiehA1KSEeiMsNPvH8MymA" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="propagated_map3.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiehBFKSEeiMsNPvH8MymA"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_wiehCVKSEeiMsNPvH8MymA" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wiehEFKSEeiMsNPvH8MymA" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wiehEVKSEeiMsNPvH8MymA" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiehDlKSEeiMsNPvH8MymA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiehD1KSEeiMsNPvH8MymA" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_wiehClKSEeiMsNPvH8MymA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wiehC1KSEeiMsNPvH8MymA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_wiehDFKSEeiMsNPvH8MymA" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="propagated_map3.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wiehDVKSEeiMsNPvH8MymA"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_wifIEFKSEeiMsNPvH8MymA" type="2003">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wifIF1KSEeiMsNPvH8MymA" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wifIGFKSEeiMsNPvH8MymA" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wifIFVKSEeiMsNPvH8MymA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wifIFlKSEeiMsNPvH8MymA" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_wifIEVKSEeiMsNPvH8MymA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wifIElKSEeiMsNPvH8MymA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_wifIE1KSEeiMsNPvH8MymA" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="merge_map4.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wifIFFKSEeiMsNPvH8MymA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_wXKo4VKSEeiMsNPvH8MymA"/>
+  <element xmi:type="mid:MID" href="Map13.mid#/"/>
+</notation:Diagram>

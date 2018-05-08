@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_Qv3gcFKREeiMsNPvH8MymA" type="MID" name="\PowerSlidingDoor\propagated_map.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_QwGJ8FKREeiMsNPvH8MymA" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QwGxAlKREeiMsNPvH8MymA" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QwGxA1KREeiMsNPvH8MymA" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QwGxAFKREeiMsNPvH8MymA" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QwGxAVKREeiMsNPvH8MymA" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_QwGJ8VKREeiMsNPvH8MymA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QwGJ8lKREeiMsNPvH8MymA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_QwGJ81KREeiMsNPvH8MymA" hint="Mid"/>
+    <element xmi:type="mid:Model" href="PowerSDMega.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QwGJ9FKREeiMsNPvH8MymA"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_QwGxBFKREeiMsNPvH8MymA" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QwGxC1KREeiMsNPvH8MymA" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QwGxDFKREeiMsNPvH8MymA" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QwGxCVKREeiMsNPvH8MymA" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QwGxClKREeiMsNPvH8MymA" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_QwGxBVKREeiMsNPvH8MymA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QwGxBlKREeiMsNPvH8MymA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_QwGxB1KREeiMsNPvH8MymA" hint="Mid"/>
+    <element xmi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QwGxCFKREeiMsNPvH8MymA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Qv3gcVKREeiMsNPvH8MymA"/>
+  <element xmi:type="mid:MID" href="propagated_map.mid#/"/>
+</notation:Diagram>

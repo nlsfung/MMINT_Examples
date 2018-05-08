@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <models xsi:type="relationship:ModelRel" uri="" name="propagated+propagated" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD_GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="mid:Model" href="PowerSDSafety.mid#//@models.0"/>
+    </modelEndpoints>
+    <mappings uri="" name="powerSD_CD.Attribute sensed_speed+powerSD_CD.Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Content Validity Valid" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDSafety.mid#//@models.0/@modelElems.35"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="powerSD_CD.Attribute sensed_speed+powerSD_CD.Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Content Validity Valid" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDSafety.mid#//@models.0/@modelElems.36"/>
+      </modelElemEndpoints>
+    </mappings>
+    <mappings uri="" name="powerSD_CD.Attribute sensed_speed+powerSD_CD.Class ReduntantSwitch" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.0/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Content Validity Valid" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="PowerSDSafety.mid#//@models.0/@modelElems.37"/>
+      </modelElemEndpoints>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.0/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.0/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDSafety.mid#//@models.0/@modelElems.35"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.1/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDSafety.mid#//@models.0/@modelElems.36"/>
+      </modelElemRefs>
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.0/@mappingRefs.2/@modelElemEndpointRefs.0">
+        <referencedObject xsi:type="mid:ModelElement" href="PowerSDSafety.mid#//@models.0/@modelElems.37"/>
+      </modelElemRefs>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.0/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.0/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.0/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+  </models>
+</mid:MID>
