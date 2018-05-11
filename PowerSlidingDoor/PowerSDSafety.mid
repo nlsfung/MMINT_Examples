@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ASCII"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <models uri="/PowerSlidingDoor/powerSD.safetycase" name="powerSD_GSN" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.0">
     <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[goals->] Goal SG1 Overall Goal" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
@@ -117,6 +117,24 @@
     </modelElems>
     <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.0/@stateValidity_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="State Validity Valid" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="StateValidity" featureName="stateValidity" relatedClassName="Goal"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1.3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1.4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1.5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1.6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1.1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1.2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
     </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="CD &lt;-> GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
@@ -686,4 +704,10 @@
   <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.6/@stateValidity_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.36"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@solutions.5/@contentValidity_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.37"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.0/@stateValidity_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.38"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.39"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.40"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.41"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.42"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.43"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.44"/>
 </mid:MID>
