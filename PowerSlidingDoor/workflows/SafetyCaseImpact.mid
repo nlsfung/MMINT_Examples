@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ASCII"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" level="WORKFLOWS">
   <models uri="SysMegaModel" name="SysMegaModel" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="SysModified" name="SysModified" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="SysDeleted" name="SysDeleted" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="SafetyCaseMegaModel" name="SafetyCaseMegaModel" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="DMUnion" name="DMUnion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
-  <models uri="w0" name="w0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid"/>
+  <models uri="w0" name="w0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Model" dynamic="true" origin="CREATED" fileExtension="xmi"/>
   <models uri="C1dm" name="C1dm" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="w1" name="w1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="C2Recheck" name="C2Recheck" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
@@ -14,7 +14,7 @@
   <models uri="C2Revise" name="C2Revise" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="C3Recheck1" name="C3Recheck1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="w4" name="w4" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
-  <models uri="C3Recheck2" name="C3Recheck2" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
+  <models uri="w5" name="w5" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid"/>
   <models uri="AnnotatedGSN" name="AnnotatedGSN" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" origin="CREATED" fileExtension="safetycase"/>
   <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
@@ -22,11 +22,11 @@
     <outputs uri="" name="mappedMids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
     <generics uri="" name="ModelRelMerge" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
   </operators>
-  <operators uri="" name="Slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_MIDSlice" dynamic="true">
-    <inputs uri="" name="mid" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_MIDSlice/mid" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <inputs uri="" name="criterion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_MIDSlice-MIDRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
-    <outputs uri="" name="sameMID" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_MIDSlice/sameMID" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
-    <outputs uri="" name="slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_MIDSlice-MIDRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+  <operators uri="" name="Slice_Imported" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported" dynamic="true">
+    <inputs uri="" name="mid" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/mid" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <inputs uri="" name="criterion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+    <outputs uri="" name="sameMID" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/sameMID" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
+    <outputs uri="" name="slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
   </operators>
   <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
@@ -90,6 +90,6 @@
   <extendibleTable key="C2Revise" value="//@models.11"/>
   <extendibleTable key="C3Recheck1" value="//@models.12"/>
   <extendibleTable key="w4" value="//@models.13"/>
-  <extendibleTable key="C3Recheck2" value="//@models.14"/>
+  <extendibleTable key="w5" value="//@models.14"/>
   <extendibleTable key="AnnotatedGSN" value="//@models.15"/>
 </mid:MID>
