@@ -517,29 +517,6 @@
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_OlylcVvDEeevJ9tD0ETuyQ"/>
     <element xmi:type="relationship:ModelRel" href="PowerSDSafety.mid#//@models.1"/>
-    <edges xmi:type="notation:Edge" xmi:id="_7OplQFKREeiMsNPvH8MymA" type="4003" source="_sECEwFvGEeevJ9tD0ETuyQ" target="_1uaP0FKREeiMsNPvH8MymA">
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_7OplQVKREeiMsNPvH8MymA"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_7OplQlKREeiMsNPvH8MymA" fontName="Segoe UI"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDSafety.mid#//@models.1/@mappingRefs.0"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7OplQ1KREeiMsNPvH8MymA" points="[39, 2, -390, -17]$[262, 28, -167, 9]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7OxhEFKREeiMsNPvH8MymA" id="(0.9245647969052224,0.4626865671641791)"/>
-    </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_-QwEUFKREeiMsNPvH8MymA" type="4003" source="_sECEwFvGEeevJ9tD0ETuyQ" target="_3JYZAFKREeiMsNPvH8MymA">
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_-QwEUVKREeiMsNPvH8MymA"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_-QwEUlKREeiMsNPvH8MymA" fontName="Segoe UI"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDSafety.mid#//@models.1/@mappingRefs.1"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-QwEU1KREeiMsNPvH8MymA" points="[110, 26, -390, -75]$[333, 108, -167, 7]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-QzHoFKREeiMsNPvH8MymA" id="(0.7872340425531915,0.26865671641791045)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__ZvFoFKREeiMsNPvH8MymA" id="(0.01791044776119403,0.6231884057971014)"/>
-    </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_DTLcYFKSEeiMsNPvH8MymA" type="4003" source="_sECEwFvGEeevJ9tD0ETuyQ" target="_4Z_FQFKREeiMsNPvH8MymA">
-      <styles xmi:type="notation:RoutingStyle" xmi:id="_DTLcYVKSEeiMsNPvH8MymA"/>
-      <styles xmi:type="notation:FontStyle" xmi:id="_DTLcYlKSEeiMsNPvH8MymA" fontName="Segoe UI"/>
-      <element xmi:type="relationship:BinaryMappingReference" href="PowerSDSafety.mid#//@models.1/@mappingRefs.2"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DTLcY1KSEeiMsNPvH8MymA" points="[67, 31, -298, -143]$[290, 182, -75, 8]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DTQU4FKSEeiMsNPvH8MymA" id="(0.8704061895551257,0.373134328358209)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DTQU4VKSEeiMsNPvH8MymA" id="(0.22388059701492538,0.6521739130434783)"/>
-    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_-w2U0LLcEeeaitLzqlIrbQ" type="Relationship" measurementUnit="Pixel">
     <styles xmi:type="notation:DiagramStyle" xmi:id="_-w2U0bLcEeeaitLzqlIrbQ"/>
