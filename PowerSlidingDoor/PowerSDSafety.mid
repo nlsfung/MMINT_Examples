@@ -136,6 +136,12 @@
     <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1.2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
     </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@goals.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G1.3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Goal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/PowerSlidingDoor/powerSD.safetycase#//@strategies.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="CD &lt;-> GSN" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="powerSD_CD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
@@ -710,4 +716,6 @@
   <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.42"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.43"/>
   <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.44"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@goals.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.45"/>
+  <extendibleTable key="/PowerSlidingDoor/powerSD.safetycase#//@strategies.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.46"/>
 </mid:MID>
