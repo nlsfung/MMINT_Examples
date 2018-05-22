@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+  <operators uri="" name="Slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_ICSE15_SDSlice" dynamic="true" updateMID="true" executionTime="893338">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_ICSE15-SDSlice-SDRel/criterion" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="relationship:ModelRel" href="merge_map.mid#//@models.1"/>
+    </inputs>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_ICSE15-SDSlice-SDRel/slice" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="relationship:ModelRel" href="slice_map.mid#//@models.0"/>
+    </outputs>
+  </operators>
+  <operators uri="" name="Slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice" dynamic="true" updateMID="true" executionTime="1854676">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/criterion" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="relationship:ModelRel" href="merge_map.mid#//@models.0"/>
+    </inputs>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_CDSlice-CDRel/slice" dynamic="true" lowerBound="1" upperBound="1">
+      <target xsi:type="relationship:ModelRel" href="slice_map.mid#//@models.1"/>
+    </outputs>
+  </operators>
+  <extendibleTable key="">
+    <value xsi:type="relationship:ModelRel" href="slice_map.mid#//@models.1"/>
+  </extendibleTable>
+</mid:MID>

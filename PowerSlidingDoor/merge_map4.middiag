@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_Q8M7UF1dEeihEoHTlXd5Sw" type="MID" name="merge_map4.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_Q8PXkF1dEeihEoHTlXd5Sw" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q8PXl11dEeihEoHTlXd5Sw" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q8PXmF1dEeihEoHTlXd5Sw" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q8PXlV1dEeihEoHTlXd5Sw" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q8PXll1dEeihEoHTlXd5Sw" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Q8PXkV1dEeihEoHTlXd5Sw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Q8PXkl1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Q8PXk11dEeihEoHTlXd5Sw" hint="Mid"/>
+    <element xmi:type="mid:Model" href="PowerSDSafety.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q8PXlF1dEeihEoHTlXd5Sw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Q8M7UV1dEeihEoHTlXd5Sw"/>
+  <element xmi:type="mid:MID" href="merge_map4.mid#/"/>
+</notation:Diagram>
