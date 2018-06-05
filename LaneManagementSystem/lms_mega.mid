@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <models uri="/LaneManagementSystem/lms_cd.classdiagram" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram">
     <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.13_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="[classes->] Class SupervisoryControlSystem" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
@@ -146,6 +146,12 @@
       <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
     </modelElems>
     <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Class UserInterface" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Class AudibleAlarm" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Class VisualAlarm" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
     </modelElems>
   </models>
@@ -1323,4 +1329,6 @@
   <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.46"/>
   <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.47"/>
   <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.48"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.49"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.50"/>
 </mid:MID>

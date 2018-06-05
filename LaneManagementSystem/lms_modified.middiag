@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship" xmi:id="_ECBfMGhmEeihGP6yb4cCyQ" type="MID" name="lms_modified.middiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_MO1voGhmEeihGP6yb4cCyQ" type="2002">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MO4L4GhmEeihGP6yb4cCyQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MO4L4WhmEeihGP6yb4cCyQ" key="modelID" value="MID"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MO2WsGhmEeihGP6yb4cCyQ" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MO2WsWhmEeihGP6yb4cCyQ" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_MO1voWhmEeihGP6yb4cCyQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MO1vomhmEeihGP6yb4cCyQ" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_MO1vo2hmEeihGP6yb4cCyQ" hint="Mid"/>
+    <element xmi:type="mid:Model" href="lms_mega.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MO1vpGhmEeihGP6yb4cCyQ" x="84" y="72"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_NdNAMGhmEeihGP6yb4cCyQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NdNANWhmEeihGP6yb4cCyQ" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NdNANmhmEeihGP6yb4cCyQ" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_NdNAMWhmEeihGP6yb4cCyQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NdNAMmhmEeihGP6yb4cCyQ" fontName="Ubuntu"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_NdNAM2hmEeihGP6yb4cCyQ" hint="Relationship"/>
+    <element xmi:type="relationship:ModelRel" href="lms_modified.mid#//@models.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NdNANGhmEeihGP6yb4cCyQ" x="84" y="192"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ECBfMWhmEeihGP6yb4cCyQ"/>
+  <element xmi:type="mid:MID" href="lms_modified.mid#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_OhrU8GhmEeihGP6yb4cCyQ" type="4002" source="_NdNAMGhmEeihGP6yb4cCyQ" target="_MO1voGhmEeihGP6yb4cCyQ">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_OhrU8WhmEeihGP6yb4cCyQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OhrU8mhmEeihGP6yb4cCyQ" fontName="Ubuntu"/>
+    <element xmi:type="mid:ModelEndpoint" href="lms_modified.mid#//@models.0/@modelEndpoints.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OhrU82hmEeihGP6yb4cCyQ" points="[7, -30, 3, 90]$[7, -90, 3, 30]"/>
+  </edges>
+</notation:Diagram>
