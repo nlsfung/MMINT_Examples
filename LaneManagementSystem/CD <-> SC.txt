@@ -1,0 +1,76 @@
+lms_cd:
+  Class LMSSystem
+    <--  --> lms_sc.Goal G0
+    <--  --> lms_sc.Goal G2
+    <--  --> lms_sc.Goal G3
+    <--  --> lms_sc.Goal G4
+    <--  --> lms_sc.Goal G5
+    <--  --> lms_sc.Goal G6
+    <--  --> lms_sc.Goal G7
+    <--  --> lms_sc.Goal G8
+    <--  --> lms_sc.Goal G17
+  Class AudibleAlarm
+    <--  --> lms_sc.Goal G10
+    <--  --> lms_sc.Goal G11
+  Class VisualAlarm
+    <--  --> lms_sc.Goal G10
+    <--  --> lms_sc.Goal G12
+  [ownedOperations->] Operation CheckStatus()
+    <--  --> lms_sc.Goal G14
+  [ownedOperations->] Operation CheckConditions()
+    <--  --> lms_sc.Goal G14
+  [ownedOperations->] Operation CheckStatus()
+    <--  --> lms_sc.Goal G15
+  [ownedOperations->] Operation CheckConditions()
+    <--  --> lms_sc.Goal G15
+  [ownedOperations->] Operation CheckStatus()
+    <--  --> lms_sc.Goal G16
+  [ownedOperations->] Operation CheckConditions()
+    <--  --> lms_sc.Goal G16
+  [ownedOperations->] Operation TurnOff()
+    <--  --> lms_sc.Goal G22
+  [ownedOperations->] Operation TurnOff()
+    <--  --> lms_sc.Goal G23
+  [ownedOperations->] Operation TurnOff()
+    <--  --> lms_sc.Goal G24
+lms_sc:
+  Goal G0
+    <--  --> lms_cd.Class LMSSystem
+  Goal G2
+    <--  --> lms_cd.Class LMSSystem
+  Goal G3
+    <--  --> lms_cd.Class LMSSystem
+  Goal G4
+    <--  --> lms_cd.Class LMSSystem
+  Goal G5
+    <--  --> lms_cd.Class LMSSystem
+  Goal G6
+    <--  --> lms_cd.Class LMSSystem
+  Goal G7
+    <--  --> lms_cd.Class LMSSystem
+  Goal G8
+    <--  --> lms_cd.Class LMSSystem
+  Goal G10
+    <--  --> lms_cd.Class AudibleAlarm
+    <--  --> lms_cd.Class VisualAlarm
+  Goal G11
+    <--  --> lms_cd.Class AudibleAlarm
+  Goal G12
+    <--  --> lms_cd.Class VisualAlarm
+  Goal G14
+    <--  --> lms_cd.[ownedOperations->] Operation CheckStatus()
+    <--  --> lms_cd.[ownedOperations->] Operation CheckConditions()
+  Goal G15
+    <--  --> lms_cd.[ownedOperations->] Operation CheckStatus()
+    <--  --> lms_cd.[ownedOperations->] Operation CheckConditions()
+  Goal G16
+    <--  --> lms_cd.[ownedOperations->] Operation CheckStatus()
+    <--  --> lms_cd.[ownedOperations->] Operation CheckConditions()
+  Goal G17
+    <--  --> lms_cd.Class LMSSystem
+  Goal G22
+    <--  --> lms_cd.[ownedOperations->] Operation TurnOff()
+  Goal G23
+    <--  --> lms_cd.[ownedOperations->] Operation TurnOff()
+  Goal G24
+    <--  --> lms_cd.[ownedOperations->] Operation TurnOff()

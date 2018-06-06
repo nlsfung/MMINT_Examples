@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID">
   <models uri="/LaneManagementSystem/lms_mega.mid" name="lms_mega" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.0"/>
-  <models uri="/LaneManagementSystem/lms_deleted.mid" name="lms_deleted" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.1"/>
-  <models uri="/LaneManagementSystem/lms_modified.mid" name="lms_modified" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.2"/>
+  <models uri="/LaneManagementSystem/lms_modified.mid" name="lms_modified" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" fileExtension="mid" editors="//@editors.1"/>
+  <models uri="/LaneManagementSystem/lms_deleted.mid" name="lms_deleted" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" fileExtension="mid" editors="//@editors.2"/>
   <models uri="/LaneManagementSystem/lms_safety.mid" name="lms_safety" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.3"/>
   <editors xsi:type="editor:Diagram" uri="/LaneManagementSystem/lms_mega.middiag" name="MID diagram for model /LaneManagementSystem/lms_mega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/LaneManagementSystem/lms_mega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors xsi:type="editor:Diagram" uri="/LaneManagementSystem/lms_deleted.middiag" name="MID diagram for model /LaneManagementSystem/lms_deleted.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/LaneManagementSystem/lms_deleted.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+  <editors xsi:type="editor:Diagram" uri="/LaneManagementSystem/lms_modified.middiag" name="MID diagram for model /LaneManagementSystem/lms_modified.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/LaneManagementSystem/lms_modified.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors xsi:type="editor:Diagram" uri="/LaneManagementSystem/lms_modified.middiag" name="MID diagram for model /LaneManagementSystem/lms_modified.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/LaneManagementSystem/lms_modified.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+  <editors xsi:type="editor:Diagram" uri="/LaneManagementSystem/lms_deleted.middiag" name="MID diagram for model /LaneManagementSystem/lms_deleted.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/LaneManagementSystem/lms_deleted.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
   <editors xsi:type="editor:Diagram" uri="/LaneManagementSystem/lms_safety.middiag" name="MID diagram for model /LaneManagementSystem/lms_safety.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/LaneManagementSystem/lms_safety.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
   <extendibleTable key="/LaneManagementSystem/lms_mega.mid" value="//@models.0"/>
-  <extendibleTable key="/LaneManagementSystem/lms_deleted.mid" value="//@models.1"/>
-  <extendibleTable key="/LaneManagementSystem/lms_modified.mid" value="//@models.2"/>
+  <extendibleTable key="/LaneManagementSystem/lms_modified.mid" value="//@models.1"/>
+  <extendibleTable key="/LaneManagementSystem/lms_deleted.mid" value="//@models.2"/>
   <extendibleTable key="/LaneManagementSystem/lms_safety.mid" value="//@models.3"/>
 </mid:MID>
