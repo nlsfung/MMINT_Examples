@@ -59,6 +59,18 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_RouCQGnCEeih2vmo8alCpQ" type="Relationship" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_qIUhYGtGEeicp6Gkcc9qbA" type="2001">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qIVIcGtGEeicp6Gkcc9qbA" type="5003"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qIVvgGtGEeicp6Gkcc9qbA" type="5004"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qIVvgWtGEeicp6Gkcc9qbA" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_qIVvgmtGEeicp6Gkcc9qbA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_qIVvg2tGEeicp6Gkcc9qbA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qIUhYWtGEeicp6Gkcc9qbA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qIUhYmtGEeicp6Gkcc9qbA" fontName="Segoe UI"/>
+      <element xmi:type="relationship:ModelEndpointReference" href="lms_deleted.mid#//@models.0/@modelEndpointRefs.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qIUhY2tGEeicp6Gkcc9qbA"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_RouCQWnCEeih2vmo8alCpQ"/>
     <element xmi:type="relationship:ModelRel" href="lms_deleted.mid#//@models.0"/>
   </notation:Diagram>
