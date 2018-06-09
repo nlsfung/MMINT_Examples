@@ -240,6 +240,60 @@
     <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message GetCurrentPath(currentSpeed, currentSteeringAngle, ..." metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
     </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Lifeline" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.2/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="Lifeline"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box Every 100ms" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="ActivationBox"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box Every 100ms" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="ActivationBox"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.13_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message 0" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box Every 100ms" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="ActivationBox"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.1/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="Lifeline"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.3/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="Lifeline"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Message" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.4/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="Lifeline"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Activation Box" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="ActivationBox" featureName="activationBoxes" relatedClassName="Lifeline"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.3/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Lifeline" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.4/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Lifeline" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> sd_drivingstraight" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
@@ -1456,4 +1510,22 @@
   <extendibleTable key="/LaneManagementSystem/lms_state_lms.statemachine#//@transitions.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.15/@modelElems.12"/>
   <extendibleTable key="/LaneManagementSystem/lms_state_lms.statemachine#//@transitions.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.15/@modelElems.13"/>
   <extendibleTable key="/LaneManagementSystem/lms_state_lms.statemachine#//@transitions.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.15/@modelElems.14"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.12"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.13"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.14"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.2/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.15"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.16"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.17"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.13_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.18"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0/@activationBoxes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.19"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.20"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.21"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.1/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.22"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.3/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.23"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.24"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@messages.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.25"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.4/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.26"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.27"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.3/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.28"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.4/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.29"/>
 </mid:MID>

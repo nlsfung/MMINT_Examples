@@ -76,6 +76,15 @@
     <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S12" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S16" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.24_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S24" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
+    </modelElems>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> sc" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
@@ -394,18 +403,18 @@
     <modelEndpointRefs referencedObject="//@models.5/@modelEndpoints.1" modifiable="true"/>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="sc &lt;-> state_lcs" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
-    <modelEndpoints uri="" name="sc &lt;-> sd_systemon" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
     <modelEndpoints uri="" name="lms_state_lcs" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
       <target xsi:type="mid:Model" href="lms_mega.mid#//@models.9"/>
     </modelEndpoints>
+    <modelEndpoints uri="" name="lms_sc" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpointRefs referencedObject="//@models.6/@modelEndpoints.0" modifiable="true"/>
     <modelEndpointRefs referencedObject="//@models.6/@modelEndpoints.1" modifiable="true"/>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="sc &lt;-> state_ldws" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
-    <modelEndpoints uri="" name="sc &lt;-> sd_systemon" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
     <modelEndpoints uri="" name="lms_state_ldws" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
       <target xsi:type="mid:Model" href="lms_mega.mid#//@models.11"/>
     </modelEndpoints>
+    <modelEndpoints uri="" name="lms_sc" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpointRefs referencedObject="//@models.7/@modelEndpoints.0" modifiable="true"/>
     <modelEndpointRefs referencedObject="//@models.7/@modelEndpoints.1" modifiable="true"/>
   </models>
@@ -454,4 +463,7 @@
   <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@strategies.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.22"/>
   <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@strategies.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.23"/>
   <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@strategies.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.24"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@strategies.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.25"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@strategies.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.26"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@strategies.24_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.27"/>
 </mid:MID>
