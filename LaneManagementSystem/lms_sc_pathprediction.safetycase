@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<safetycase:AssuranceCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
+<safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
   <goals id="G0" description="The LMS System Safety Goals are satisfied">
     <status type="RecheckConcent" source="lms_cd.Composition, lms_cd.Composition, lms_cd.Composition"/>
     <supportedBy premise="//@strategies.0"/>
@@ -349,4 +349,4 @@
   </solutions>
   <contexts id="C0" description="System hazard: Failing to notify driver when LMS fails. Vehicle hazard: Unintended operation of vehicle feature." contextOf="//@goals.2/@inContextOf.0"/>
   <contexts id="C1" description="System hazard: LMS prevents driver overriding control of steering. Vehicle hazard: Vehicle feature prevents driver from controlling the vehicle" contextOf="//@goals.3/@inContextOf.0"/>
-</safetycase:AssuranceCase>
+</safetycase:SafetyCase>
