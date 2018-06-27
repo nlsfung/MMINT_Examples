@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
-  <goals id="G0" description="The LMS System Safety Goals are satisfied">
+  <goals xsi:type="safetycase:BasicGoal" id="G0" description="The LMS System Safety Goals are satisfied">
     <supportedBy premise="//@strategies.0"/>
   </goals>
-  <goals id="G1" description="The set of safety goals is complete" supports="//@strategies.0/@supportedBy.0">
+  <goals xsi:type="safetycase:BasicGoal" id="G1" description="The set of safety goals is complete" supports="//@strategies.0/@supportedBy.0">
     <supportedBy premise="//@strategies.1"/>
   </goals>
-  <goals id="G2" description="The LMS system notifies driver if it fails" supports="//@strategies.0/@supportedBy.1">
+  <goals xsi:type="safetycase:BasicGoal" id="G2" description="The LMS system notifies driver if it fails" supports="//@strategies.0/@supportedBy.1">
     <inContextOf context="//@contexts.0"/>
     <supportedBy premise="//@strategies.2"/>
     <asil value="A"/>
   </goals>
-  <goals id="G3" description="LMS always allows user to override and take control" supports="//@strategies.0/@supportedBy.2">
+  <goals xsi:type="safetycase:BasicGoal" id="G3" description="LMS always allows user to override and take control" supports="//@strategies.0/@supportedBy.2">
     <inContextOf context="//@contexts.1"/>
     <supportedBy premise="//@strategies.3"/>
     <asil value="B"/>
   </goals>
-  <goals id="G4" description="If the LMS fails, prior to shutting off, it will alert the driver" supports="//@strategies.2/@supportedBy.0">
+  <goals xsi:type="safetycase:BasicGoal" id="G4" description="If the LMS fails, prior to shutting off, it will alert the driver" supports="//@strategies.2/@supportedBy.0">
     <supportedBy premise="//@strategies.4"/>
     <asil value="A"/>
   </goals>
-  <goals id="G5" description="LMS can detect failure in any of its subsystems" supports="//@strategies.2/@supportedBy.1 //@strategies.7/@supportedBy.0">
+  <goals xsi:type="safetycase:BasicGoal" id="G5" description="LMS can detect failure in any of its subsystems" supports="//@strategies.2/@supportedBy.1 //@strategies.7/@supportedBy.0">
     <supportedBy premise="//@strategies.5"/>
     <asil value="B"/>
   </goals>
-  <goals id="G6" description="(Undetected System Failure) Driver can override even if the system fails without being detected" supports="//@strategies.3/@supportedBy.0">
+  <goals xsi:type="safetycase:BasicGoal" id="G6" description="(Undetected System Failure) Driver can override even if the system fails without being detected" supports="//@strategies.3/@supportedBy.0">
     <supportedBy premise="//@strategies.6"/>
   </goals>
-  <goals id="G7" description="(Detected Failure Mode) Driver is able to override the system upon detecting failure" supports="//@strategies.3/@supportedBy.1">
+  <goals xsi:type="safetycase:BasicGoal" id="G7" description="(Detected Failure Mode) Driver is able to override the system upon detecting failure" supports="//@strategies.3/@supportedBy.1">
     <supportedBy premise="//@strategies.7"/>
     <asil value="B"/>
   </goals>
-  <goals id="G8" description="(Nominal Mode) Driver shall be able to manually override the system at any time" supports="//@strategies.3/@supportedBy.2">
+  <goals xsi:type="safetycase:BasicGoal" id="G8" description="(Nominal Mode) Driver shall be able to manually override the system at any time" supports="//@strategies.3/@supportedBy.2">
     <supportedBy premise="//@strategies.8"/>
     <asil value="B"/>
   </goals>
-  <goals id="G9" description="All override cases are covered" supports="//@strategies.3/@supportedBy.3">
+  <goals xsi:type="safetycase:BasicGoal" id="G9" description="All override cases are covered" supports="//@strategies.3/@supportedBy.3">
     <supportedBy premise="//@strategies.9"/>
   </goals>
-  <goals id="G10" description="Audible and visual alerts are independent" supports="//@strategies.4/@supportedBy.0">
+  <goals xsi:type="safetycase:IndependenceGoal" id="G10" description="Audible and visual alerts are independent" supports="//@strategies.4/@supportedBy.0">
     <supportedBy premise="//@strategies.10"/>
     <supportedBy premise="//@strategies.11"/>
     <asil value="A"/>
   </goals>
-  <goals id="G11" description="Audible alerts available to driver" supports="//@strategies.4/@supportedBy.1">
+  <goals xsi:type="safetycase:BasicGoal" id="G11" description="Audible alerts available to driver" supports="//@strategies.4/@supportedBy.1">
     <supportedBy premise="//@strategies.12"/>
     <asil value="A"/>
   </goals>
-  <goals id="G12" description="Visual alerts available to driver" supports="//@strategies.4/@supportedBy.2">
+  <goals xsi:type="safetycase:BasicGoal" id="G12" description="Visual alerts available to driver" supports="//@strategies.4/@supportedBy.2">
     <supportedBy premise="//@strategies.13"/>
     <asil value="QM"/>
   </goals>
-  <goals id="G13" description="All subsystems are covered" supports="//@strategies.5/@supportedBy.0">
+  <goals xsi:type="safetycase:BasicGoal" id="G13" description="All subsystems are covered" supports="//@strategies.5/@supportedBy.0">
     <supportedBy premise="//@strategies.14"/>
   </goals>
-  <goals id="G14" description="LKS CheckStatus() and CheckConditions() functions work correctly" supports="//@strategies.5/@supportedBy.1">
+  <goals xsi:type="safetycase:BasicGoal" id="G14" description="LKS CheckStatus() and CheckConditions() functions work correctly" supports="//@strategies.5/@supportedBy.1">
     <supportedBy premise="//@strategies.15"/>
     <asil value="B"/>
   </goals>
-  <goals id="G15" description="LDWS CheckStatus() and CheckConditions() functions work correctly" supports="//@strategies.5/@supportedBy.2">
+  <goals xsi:type="safetycase:BasicGoal" id="G15" description="LDWS CheckStatus() and CheckConditions() functions work correctly" supports="//@strategies.5/@supportedBy.2">
     <supportedBy premise="//@strategies.16"/>
     <asil value="B"/>
   </goals>
-  <goals id="G16" description="LCS CheckStatus() and CheckConditions() functions work correctly" supports="//@strategies.5/@supportedBy.3">
+  <goals xsi:type="safetycase:BasicGoal" id="G16" description="LCS CheckStatus() and CheckConditions() functions work correctly" supports="//@strategies.5/@supportedBy.3">
     <supportedBy premise="//@strategies.17"/>
     <asil value="B"/>
   </goals>
-  <goals id="G17" description="LMS relinquishes control to driver" supports="//@strategies.7/@supportedBy.1">
+  <goals xsi:type="safetycase:BasicGoal" id="G17" description="LMS relinquishes control to driver" supports="//@strategies.7/@supportedBy.1">
     <supportedBy premise="//@strategies.18"/>
     <asil value="B"/>
   </goals>
-  <goals id="G18" description="System can send commands to shutdown all subsystems" supports="//@strategies.7/@supportedBy.2">
+  <goals xsi:type="safetycase:BasicGoal" id="G18" description="System can send commands to shutdown all subsystems" supports="//@strategies.7/@supportedBy.2">
     <supportedBy premise="//@strategies.19"/>
     <asil value="B"/>
   </goals>
-  <goals id="G19" description="(Unintended) System shall not interfere with driver's unintentional lane departures (i.e., without a turn signal)" supports="//@strategies.8/@supportedBy.0">
+  <goals xsi:type="safetycase:BasicGoal" id="G19" description="(Unintended) System shall not interfere with driver's unintentional lane departures (i.e., without a turn signal)" supports="//@strategies.8/@supportedBy.0">
     <supportedBy premise="//@strategies.20"/>
     <asil value="B"/>
   </goals>
-  <goals id="G20" description="(Intentional) System shall not interfere with the driver's intentional lane departures (i.e., with a turn signal)" supports="//@strategies.8/@supportedBy.2">
+  <goals xsi:type="safetycase:BasicGoal" id="G20" description="(Intentional) System shall not interfere with the driver's intentional lane departures (i.e., with a turn signal)" supports="//@strategies.8/@supportedBy.2">
     <supportedBy premise="//@strategies.21"/>
     <asil value="B"/>
   </goals>
-  <goals id="G21" description="All cases are covered" supports="//@strategies.8/@supportedBy.1">
+  <goals xsi:type="safetycase:BasicGoal" id="G21" description="All cases are covered" supports="//@strategies.8/@supportedBy.1">
     <supportedBy premise="//@strategies.22"/>
   </goals>
-  <goals id="G22" description="LKA TurnOff() functions works correctly" supports="//@strategies.19/@supportedBy.0">
+  <goals xsi:type="safetycase:BasicGoal" id="G22" description="LKA TurnOff() functions works correctly" supports="//@strategies.19/@supportedBy.0">
     <supportedBy premise="//@strategies.23"/>
     <asil value="B"/>
   </goals>
-  <goals id="G23" description="LDWS TurnOff() functions works correctly" supports="//@strategies.19/@supportedBy.1">
+  <goals xsi:type="safetycase:BasicGoal" id="G23" description="LDWS TurnOff() functions works correctly" supports="//@strategies.19/@supportedBy.1">
     <supportedBy premise="//@strategies.24"/>
     <asil value="B"/>
   </goals>
-  <goals id="G24" description="LCS TurnOff() functions works correctly" supports="//@strategies.19/@supportedBy.2">
+  <goals xsi:type="safetycase:BasicGoal" id="G24" description="LCS TurnOff() functions works correctly" supports="//@strategies.19/@supportedBy.2">
     <supportedBy premise="//@strategies.25"/>
     <asil value="B"/>
   </goals>
-  <goals id="G25" description="All subsystems are covered" supports="//@strategies.19/@supportedBy.3">
+  <goals xsi:type="safetycase:BasicGoal" id="G25" description="All subsystems are covered" supports="//@strategies.19/@supportedBy.3">
     <supportedBy premise="//@strategies.26"/>
   </goals>
   <strategies xsi:type="safetycase:BasicStrategy" id="S0" description="Coverage over all safety goals" supports="//@goals.0/@supportedBy.0">

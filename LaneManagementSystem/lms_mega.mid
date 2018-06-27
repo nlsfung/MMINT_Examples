@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <models uri="/LaneManagementSystem/lms_cd.classdiagram" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/modelepedia/ClassDiagram" dynamic="true" fileExtension="classdiagram" editors="//@editors.0">
     <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Class AudibleAlarm" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
@@ -202,6 +202,36 @@
     <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.4/@ownedOperations.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Operation TurnOn()" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Operation" featureName="ownedOperations" relatedClassName="Class"/>
     </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.4/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Attribute minSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@associations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Association Activated by" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@associations.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Association Is feature of" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@associations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Association Activated by" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.4/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Attribute isActive" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.7/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Attribute minSpeed" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@associations.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Association Activated by" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@associations.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Association Activated by" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Association" featureName="associations" relatedClassName="ClassDiagram"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Attribute isActive" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Attribute" featureName="ownedAttributes" relatedClassName="Class"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_cd.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Class Brake" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Class" featureName="classes" relatedClassName="ClassDiagram"/>
+    </modelElems>
   </models>
   <models uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram" name="lms_sd_drivingstraight" metatypeUri="http://se.cs.toronto.edu/modelepedia/SequenceDiagram" dynamic="true" fileExtension="sequencediagram" editors="//@editors.1">
     <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Component" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
@@ -292,6 +322,12 @@
       <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
     </modelElems>
     <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.4/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Lifeline" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.1/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Lifeline" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.2/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Lifeline" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
     </modelElems>
   </models>
@@ -1528,4 +1564,16 @@
   <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.0/@lifeline/@activationBoxes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.27"/>
   <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.3/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.28"/>
   <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.4/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.29"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.4/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.67"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@associations.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.68"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@associations.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.69"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@associations.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.70"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.4/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.71"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.7/@ownedAttributes.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.72"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@associations.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.73"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@associations.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.74"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.7/@ownedAttributes.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.75"/>
+  <extendibleTable key="/LaneManagementSystem/lms_cd.classdiagram#//@classes.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.76"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.1/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.30"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sd_drivingstraight.sequencediagram#//@objects.2/@lifeline_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.1/@modelElems.31"/>
 </mid:MID>
