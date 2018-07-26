@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator">
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID">
   <models uri="/PowerSlidingDoor/PowerSDMega.mid" name="PowerSDMega" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
   <models uri="/PowerSlidingDoor/SliceModified.mid" name="SliceModified" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
   <models uri="/PowerSlidingDoor/SliceDeleted.mid" name="SliceDeleted" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.2"/>
   <models uri="/PowerSlidingDoor/PowerSDSafety.mid" name="PowerSDSafety" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.3"/>
-  <models uri="/PowerSlidingDoor/powerSD_annotated.safetycase" name="powerSD_annotated" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" origin="CREATED" fileExtension="safetycase" editors="//@editors.4"/>
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDMega.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
@@ -17,20 +16,8 @@
   <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/PowerSDSafety.middiag" name="MID diagram for model /PowerSlidingDoor/PowerSDSafety.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PowerSlidingDoor/PowerSDSafety.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
     <fileExtensions>middiag</fileExtensions>
   </editors>
-  <editors xsi:type="editor:Diagram" uri="/PowerSlidingDoor/representations.aird#_RHBEMV1dEeihEoHTlXd5Sw" name="SafetyCase Viewpoint for model /PowerSlidingDoor/powerSD_annotated.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/PowerSlidingDoor/powerSD_annotated.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
-    <fileExtensions>aird</fileExtensions>
-  </editors>
-  <operators xsi:type="operator:WorkflowOperator" uri="" name="SafetyCaseImpact" metatypeUri="http://se.cs.toronto.edu/mmint/SafetyCaseImpact" dynamic="true" updateMID="true" executionTime="5677731738" nestedMIDPath="/PowerSlidingDoor/SafetyCaseImpact.mid">
-    <inputs uri="" name="SysMegaModel" metatypeUri="http://se.cs.toronto.edu/mmint/SafetyCaseImpact/SysMegaModel" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <inputs uri="" name="SysModified" metatypeUri="http://se.cs.toronto.edu/mmint/SafetyCaseImpact/SysModified" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
-    <inputs uri="" name="SysDeleted" metatypeUri="http://se.cs.toronto.edu/mmint/SafetyCaseImpact/SysDeleted" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
-    <inputs uri="" name="SafetyCaseMegaModel" metatypeUri="http://se.cs.toronto.edu/mmint/SafetyCaseImpact/SafetyCaseMegaModel" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
-    <outputs uri="" name="w0" metatypeUri="http://se.cs.toronto.edu/mmint/SafetyCaseImpact/w0" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <outputs uri="" name="w7" metatypeUri="http://se.cs.toronto.edu/mmint/SafetyCaseImpact/w7" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
-  </operators>
   <extendibleTable key="/PowerSlidingDoor/PowerSDMega.mid" value="//@models.0"/>
   <extendibleTable key="/PowerSlidingDoor/SliceModified.mid" value="//@models.1"/>
   <extendibleTable key="/PowerSlidingDoor/SliceDeleted.mid" value="//@models.2"/>
   <extendibleTable key="/PowerSlidingDoor/PowerSDSafety.mid" value="//@models.3"/>
-  <extendibleTable key="/PowerSlidingDoor/powerSD_annotated.safetycase" value="//@models.4"/>
 </mid:MID>

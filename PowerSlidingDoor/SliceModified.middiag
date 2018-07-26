@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mavomid="http://se.cs.toronto.edu/mmint/MAVOMID" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <notation:Diagram xmi:id="_bNc8EFtsEeepiep17M9KCA" type="MID" name="SliceModified.middiag" measurementUnit="Pixel">
     <children xmi:type="notation:Node" xmi:id="_ehzowFtsEeepiep17M9KCA" type="2002">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eh3TIFtsEeepiep17M9KCA" source="Shortcut">
@@ -22,7 +22,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_gibcsVtsEeepiep17M9KCA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_gibcsltsEeepiep17M9KCA" fontName="Ubuntu"/>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_gibcs1tsEeepiep17M9KCA" hint="Mid"/>
-      <element xmi:type="mavomid:MAVOModel" href="PowerSDMega.mid#//@models.1"/>
+      <element xmi:type="mid:Model" href="PowerSDMega.mid#//@models.1"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gibctFtsEeepiep17M9KCA" x="276" y="144"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_hmrvAFtsEeepiep17M9KCA" type="2003">
@@ -39,7 +39,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_jd5IRltsEeepiep17M9KCA" type="5006"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_jd5IQVtsEeepiep17M9KCA"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_jd5IQltsEeepiep17M9KCA" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jd5IQ1tsEeepiep17M9KCA" hint="Relationship"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_jd5IQ1tsEeepiep17M9KCA" diagramLink="_w_pCAImkEeixMJ4jE-g1Pw" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="SliceModified.mid#//@models.1"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jd5IRFtsEeepiep17M9KCA" x="348" y="24"/>
     </children>
@@ -77,5 +77,9 @@
   <notation:Diagram xmi:id="_M4WCQFttEeepiep17M9KCA" type="Relationship" measurementUnit="Pixel">
     <styles xmi:type="notation:DiagramStyle" xmi:id="_M4WCQVttEeepiep17M9KCA"/>
     <element xmi:type="relationship:ModelRel" href="SliceModified.mid#//@models.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_w_pCAImkEeixMJ4jE-g1Pw" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_w_pCAYmkEeixMJ4jE-g1Pw"/>
+    <element xmi:type="relationship:ModelRel" href="SliceModified.mid#//@models.1"/>
   </notation:Diagram>
 </xmi:XMI>

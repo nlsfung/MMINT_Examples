@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:operator="http://se.cs.toronto.edu/mmint/MID/Operator" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Operator http://se.cs.toronto.edu/mmint/MID#//operator" xmi:id="_fUnlQB-hEeeAX5566CjnRA" type="MID" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_fUnlQB-hEeeAX5566CjnRA" type="MID" measurementUnit="Pixel">
   <children xmi:type="notation:Node" xmi:id="_fb2OoB-hEeeAX5566CjnRA" type="2001">
     <children xmi:type="notation:DecorationNode" xmi:id="_fb2OpR-hEeeAX5566CjnRA" type="5001"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_fb2Oph-hEeeAX5566CjnRA" type="5002"/>
@@ -36,59 +36,6 @@
     <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.3"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iIjgNFwgEeeJErdh55m5_A" x="28" y="452"/>
   </children>
-  <children xmi:type="notation:Node" xmi:id="_RJKZQF1dEeihEoHTlXd5Sw" type="2001">
-    <children xmi:type="notation:DecorationNode" xmi:id="_RJKZRV1dEeihEoHTlXd5Sw" type="5001"/>
-    <children xmi:type="notation:DecorationNode" xmi:id="_RJKZRl1dEeihEoHTlXd5Sw" type="5002"/>
-    <styles xmi:type="notation:DescriptionStyle" xmi:id="_RJKZQV1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJKZQl1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_RJKZQ11dEeihEoHTlXd5Sw" hint="Mid"/>
-    <element xmi:type="mid:Model" href="powerSDWorkspace.mid#//@models.4"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJKZRF1dEeihEoHTlXd5Sw" x="588" y="204"/>
-  </children>
-  <children xmi:type="notation:Node" xmi:id="_RJKZR11dEeihEoHTlXd5Sw" type="2005">
-    <children xmi:type="notation:DecorationNode" xmi:id="_RJLAUF1dEeihEoHTlXd5Sw" type="5009"/>
-    <styles xmi:type="notation:DescriptionStyle" xmi:id="_RJKZSF1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJKZSV1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_RJKZSl1dEeihEoHTlXd5Sw" hint="Mid"/>
-    <element xmi:type="operator:WorkflowOperator" href="powerSDWorkspace.mid#//@operators.0"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJKZS11dEeihEoHTlXd5Sw" x="360" y="216"/>
-  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_fUnlQR-hEeeAX5566CjnRA"/>
   <element xmi:type="mid:MID" href="powerSDWorkspace.mid#/"/>
-  <edges xmi:type="notation:Edge" xmi:id="_RJSVEF1dEeihEoHTlXd5Sw" type="4004" source="_RJKZR11dEeihEoHTlXd5Sw" target="_fb2OoB-hEeeAX5566CjnRA">
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_RJSVEV1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJSVEl1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <element xmi:type="mid:ModelEndpoint" href="powerSDWorkspace.mid#//@operators.0/@inputs.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RJSVE11dEeihEoHTlXd5Sw" points="[0, 0, -98, -18]$[24, 4, -74, -14]"/>
-  </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_RJS8IF1dEeihEoHTlXd5Sw" type="4004" source="_RJKZR11dEeihEoHTlXd5Sw" target="_bOjvUFtsEeepiep17M9KCA">
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_RJS8IV1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJS8Il1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <element xmi:type="mid:ModelEndpoint" href="powerSDWorkspace.mid#//@operators.0/@inputs.1"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RJS8I11dEeihEoHTlXd5Sw" points="[0, 0, -104, -138]$[81, 108, -23, -30]"/>
-  </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_RJTjMF1dEeihEoHTlXd5Sw" type="4004" source="_RJKZR11dEeihEoHTlXd5Sw" target="_Rp00QFttEeepiep17M9KCA">
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_RJTjMV1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJTjMl1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <element xmi:type="mid:ModelEndpoint" href="powerSDWorkspace.mid#//@operators.0/@inputs.2"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RJTjM11dEeihEoHTlXd5Sw" points="[0, 0, -102, -258]$[90, 228, -12, -30]"/>
-  </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_RJTjNF1dEeihEoHTlXd5Sw" type="4004" source="_RJKZR11dEeihEoHTlXd5Sw" target="_iIjgMFwgEeeJErdh55m5_A">
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_RJTjNV1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJTjNl1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <element xmi:type="mid:ModelEndpoint" href="powerSDWorkspace.mid#//@operators.0/@inputs.3"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RJTjN11dEeihEoHTlXd5Sw" points="[0, 0, -105, -482]$[98, 452, -7, -30]"/>
-  </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_RJUKQF1dEeihEoHTlXd5Sw" type="4005" source="_RJKZR11dEeihEoHTlXd5Sw" target="_fb2OoB-hEeeAX5566CjnRA">
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_RJUKQV1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJUKQl1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <element xmi:type="mid:ModelEndpoint" href="powerSDWorkspace.mid#//@operators.0/@outputs.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RJUKQ11dEeihEoHTlXd5Sw" points="[0, 0, -98, -18]$[24, 4, -74, -14]"/>
-  </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_RJUxUF1dEeihEoHTlXd5Sw" type="4005" source="_RJKZR11dEeihEoHTlXd5Sw" target="_RJKZQF1dEeihEoHTlXd5Sw">
-    <styles xmi:type="notation:RoutingStyle" xmi:id="_RJUxUV1dEeihEoHTlXd5Sw"/>
-    <styles xmi:type="notation:FontStyle" xmi:id="_RJUxUl1dEeihEoHTlXd5Sw" fontName="Ubuntu"/>
-    <element xmi:type="mid:ModelEndpoint" href="powerSDWorkspace.mid#//@operators.0/@outputs.1"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RJUxU11dEeihEoHTlXd5Sw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-  </edges>
 </notation:Diagram>
