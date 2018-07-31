@@ -16,7 +16,6 @@
     <semanticResources>default.middiag</semanticResources>
     <semanticResources>workflows/SliceStep_Imported.mid</semanticResources>
     <semanticResources>workflows/SliceStep_Imported.middiag</semanticResources>
-    <semanticResources>workflows/Slice_Imported.mid</semanticResources>
     <semanticResources>workflows/Slice_Imported.middiag</semanticResources>
     <semanticResources>powerSD.sequencediagram</semanticResources>
     <semanticResources>SliceModified.mid</semanticResources>
@@ -27,58 +26,6 @@
     <semanticResources>20180717/ecore/powerSD_annotated.safetycase</semanticResources>
     <semanticResources>SafetyCaseImpact.mid</semanticResources>
     <semanticResources>SafetyCaseImpact.middiag</semanticResources>
-    <semanticResources>Map.mid</semanticResources>
-    <semanticResources>Map.middiag</semanticResources>
-    <semanticResources>merge_map.mid</semanticResources>
-    <semanticResources>merge_map.middiag</semanticResources>
-    <semanticResources>Slice_Imported.mid</semanticResources>
-    <semanticResources>Slice_Imported.middiag</semanticResources>
-    <semanticResources>Fix.mid</semanticResources>
-    <semanticResources>Fix.middiag</semanticResources>
-    <semanticResources>SliceStep_Imported.mid</semanticResources>
-    <semanticResources>SliceStep_Imported.middiag</semanticResources>
-    <semanticResources>Map0.mid</semanticResources>
-    <semanticResources>Map0.middiag</semanticResources>
-    <semanticResources>slice_map.mid</semanticResources>
-    <semanticResources>slice_map.middiag</semanticResources>
-    <semanticResources>Map1.mid</semanticResources>
-    <semanticResources>Map1.middiag</semanticResources>
-    <semanticResources>propagated_map.mid</semanticResources>
-    <semanticResources>propagated_map.middiag</semanticResources>
-    <semanticResources>slice_map∪propagated_map.mid</semanticResources>
-    <semanticResources>slice_map∪propagated_map.middiag</semanticResources>
-    <semanticResources>Map2.mid</semanticResources>
-    <semanticResources>Map2.middiag</semanticResources>
-    <semanticResources>merge_map0.mid</semanticResources>
-    <semanticResources>merge_map0.middiag</semanticResources>
-    <semanticResources>SliceStep_Imported0.mid</semanticResources>
-    <semanticResources>SliceStep_Imported0.middiag</semanticResources>
-    <semanticResources>Map3.mid</semanticResources>
-    <semanticResources>Map3.middiag</semanticResources>
-    <semanticResources>slice_map0.mid</semanticResources>
-    <semanticResources>slice_map0.middiag</semanticResources>
-    <semanticResources>Map4.mid</semanticResources>
-    <semanticResources>Map4.middiag</semanticResources>
-    <semanticResources>propagated_map0.mid</semanticResources>
-    <semanticResources>propagated_map0.middiag</semanticResources>
-    <semanticResources>slice_map0∪propagated_map0.mid</semanticResources>
-    <semanticResources>slice_map0∪propagated_map0.middiag</semanticResources>
-    <semanticResources>Map5.mid</semanticResources>
-    <semanticResources>Map5.middiag</semanticResources>
-    <semanticResources>merge_map1.mid</semanticResources>
-    <semanticResources>merge_map1.middiag</semanticResources>
-    <semanticResources>SliceStep_Imported1.mid</semanticResources>
-    <semanticResources>SliceStep_Imported1.middiag</semanticResources>
-    <semanticResources>Map6.mid</semanticResources>
-    <semanticResources>Map6.middiag</semanticResources>
-    <semanticResources>slice_map1.mid</semanticResources>
-    <semanticResources>slice_map1.middiag</semanticResources>
-    <semanticResources>Map7.mid</semanticResources>
-    <semanticResources>Map7.middiag</semanticResources>
-    <semanticResources>propagated_map1.mid</semanticResources>
-    <semanticResources>propagated_map1.middiag</semanticResources>
-    <semanticResources>slice_map1∪propagated_map1.mid</semanticResources>
-    <semanticResources>slice_map1∪propagated_map1.middiag</semanticResources>
     <semanticResources>Map8.mid</semanticResources>
     <semanticResources>Map8.middiag</semanticResources>
     <semanticResources>merge_map2.mid</semanticResources>
@@ -123,6 +70,7 @@
     <semanticResources>Map18.middiag</semanticResources>
     <semanticResources>merge_map6.mid</semanticResources>
     <semanticResources>merge_map6.middiag</semanticResources>
+    <semanticResources>workflows/Slice_Imported.mid</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_dNeOkETFEeittKPK07UOPQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_jbBmoEfeEeioxr2HSXbtMQ" name="new SafetyCaseRepresentation" repPath="#_WBqR0IBSEeiNIJ-NJnYg4Q">
@@ -200,6 +148,10 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_VoowjIxxEeiu26KpYjcjWQ" name="powerSD_annotated" repPath="#_VgxNQIxxEeiu26KpYjcjWQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']"/>
         <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_-CohwJNpEeiprKqWc8nBTA" name="new SafetyCaseImpactTrace" repPath="#_-CeJsJNpEeiprKqWc8nBTA">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']"/>
+        <target xmi:type="safetycase:SafetyCase" href="20180717/ecore/powerSD_annotated.safetycase#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_dNp0wETFEeittKPK07UOPQ">
@@ -15354,4 +15306,404 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseRepresentation']/@defaultLayer"/>
     <target xmi:type="safetycase:SafetyCase" href="powerSD_annotated.safetycase#/"/>
   </diagram:DSemanticDiagram>
+  <table:DTable xmi:id="_-Cn6sJNpEeiprKqWc8nBTA" name="new SafetyCaseImpactTrace" uid="_-CeJsJNpEeiprKqWc8nBTA" headerColumnWidth="195">
+    <target xmi:type="safetycase:SafetyCase" href="20180717/ecore/powerSD_annotated.safetycase#/"/>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6spNpEeiprKqWc8nBTA" label="Goal G1">
+      <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0"/>
+      <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6s5NpEeiprKqWc8nBTA" label="RecheckState" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6tJNpEeiprKqWc8nBTA" label="powerSD_GSN.Basic Goal G1.2" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6tZNpEeiprKqWc8nBTA" label="Goal G1.1">
+      <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1"/>
+      <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6tpNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6t5NpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6uJNpEeiprKqWc8nBTA" label="Goal G2.1">
+      <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2"/>
+      <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6uZNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6upNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6u5NpEeiprKqWc8nBTA" label="Goal G1.2">
+      <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3"/>
+      <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6vJNpEeiprKqWc8nBTA" label="Revise" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6vZNpEeiprKqWc8nBTA" label="powerSD_CD.[classes->] Class Redundant Switch, powerSD_CD.[ownedAttributes->] Attribute sensed_speed" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6vpNpEeiprKqWc8nBTA" label="Goal G2.2">
+      <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4"/>
+      <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6v5NpEeiprKqWc8nBTA" label="Revise" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6wJNpEeiprKqWc8nBTA" label="powerSD_CD.[classes->] Class Redundant Switch, powerSD_CD.[ownedAttributes->] Attribute closed, powerSD_CD.[ownedAttributes->] Attribute sensed_speed" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6wZNpEeiprKqWc8nBTA" label="Goal G1.4">
+      <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5"/>
+      <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6wpNpEeiprKqWc8nBTA" label="Revise" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6w5NpEeiprKqWc8nBTA" label="powerSD_CD.[classes->] Class Redundant Switch, powerSD_CD.[ownedAttributes->] Attribute closed" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6xJNpEeiprKqWc8nBTA" label="Goal G2.3">
+      <target xmi:type="safetycase:IndependenceGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6"/>
+      <semanticElements xmi:type="safetycase:IndependenceGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6xZNpEeiprKqWc8nBTA" label="Revise" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:IndependenceGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6"/>
+        <semanticElements xmi:type="safetycase:IndependenceGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6xpNpEeiprKqWc8nBTA" label="powerSD_CD.[classes->] Class Redundant Switch" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:IndependenceGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6"/>
+        <semanticElements xmi:type="safetycase:IndependenceGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6x5NpEeiprKqWc8nBTA" label="Goal G1.3">
+      <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7"/>
+      <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='GoalLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6yJNpEeiprKqWc8nBTA" label="RecheckState" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6yZNpEeiprKqWc8nBTA" label="powerSD_GSN.Basic Goal G2.2" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7"/>
+        <semanticElements xmi:type="safetycase:BasicGoal" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6ypNpEeiprKqWc8nBTA" label="Strategy S1">
+      <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.0"/>
+      <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.0"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6y5NpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.0"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6zJNpEeiprKqWc8nBTA" label="powerSD_GSN.Basic Goal G1.2" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.0"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6zZNpEeiprKqWc8nBTA" label="Strategy S1.1">
+      <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.1"/>
+      <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.1"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6zpNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.1"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6z5NpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.1"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn60JNpEeiprKqWc8nBTA" label="Strategy S2.1">
+      <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.2"/>
+      <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.2"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn60ZNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.2"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn60pNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.2"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.2"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn605NpEeiprKqWc8nBTA" label="Strategy S1.3">
+      <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.3"/>
+      <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.3"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn61JNpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.3"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn61ZNpEeiprKqWc8nBTA" label="powerSD_GSN.Basic Goal G1.2" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.3"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.3"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn61pNpEeiprKqWc8nBTA" label="Strategy S2.2">
+      <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.4"/>
+      <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.4"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn615NpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.4"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.4"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn62JNpEeiprKqWc8nBTA" label="powerSD_GSN.Basic Goal G2.2" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.4"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.4"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn62ZNpEeiprKqWc8nBTA" label="Strategy S1.4">
+      <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.5"/>
+      <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.5"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn62pNpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.5"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.5"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn625NpEeiprKqWc8nBTA" label="powerSD_GSN.Basic Goal G1.4" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.5"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.5"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn63JNpEeiprKqWc8nBTA" label="Strategy S2.3">
+      <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.6"/>
+      <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.6"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn63ZNpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.6"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.6"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn63pNpEeiprKqWc8nBTA" label="powerSD_GSN.Independence Goal G2.3" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.6"/>
+        <semanticElements xmi:type="safetycase:BasicStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.6"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn635NpEeiprKqWc8nBTA" label="Strategy S2">
+      <target xmi:type="safetycase:ASILDecompositionStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.7"/>
+      <semanticElements xmi:type="safetycase:ASILDecompositionStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.7"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='StrategyLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn64JNpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASILDecompositionStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.7"/>
+        <semanticElements xmi:type="safetycase:ASILDecompositionStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.7"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn64ZNpEeiprKqWc8nBTA" label="powerSD_GSN.Basic Goal G2.2" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASILDecompositionStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.7"/>
+        <semanticElements xmi:type="safetycase:ASILDecompositionStrategy" href="20180717/ecore/powerSD_annotated.safetycase#//@strategies.7"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn64pNpEeiprKqWc8nBTA" label="Solution Sn1.1">
+      <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.0"/>
+      <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.0"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='SolutionLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn645NpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.0"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn65JNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.0"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.0"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn65ZNpEeiprKqWc8nBTA" label="Solution Sn2.1">
+      <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.1"/>
+      <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.1"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='SolutionLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn65pNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.1"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.1"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn655NpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.1"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.1"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn66JNpEeiprKqWc8nBTA" label="Solution Sn1.3">
+      <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.2"/>
+      <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.2"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='SolutionLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn66ZNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.2"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.2"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn66pNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.2"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.2"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn665NpEeiprKqWc8nBTA" label="Solution Sn2.2">
+      <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.3"/>
+      <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.3"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='SolutionLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn67JNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.3"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.3"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn67ZNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.3"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.3"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn67pNpEeiprKqWc8nBTA" label="Solution Sn1.4">
+      <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.4"/>
+      <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.4"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='SolutionLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn675NpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.4"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.4"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn68JNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.4"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.4"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn68ZNpEeiprKqWc8nBTA" label="Solution Sn2.3">
+      <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.5"/>
+      <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.5"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='SolutionLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn68pNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.5"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.5"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn685NpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.5"/>
+        <semanticElements xmi:type="safetycase:Solution" href="20180717/ecore/powerSD_annotated.safetycase#//@solutions.5"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn69JNpEeiprKqWc8nBTA" label="ASIL for Goal G1">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn69ZNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn69pNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.0/@asil"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn695NpEeiprKqWc8nBTA" label="ASIL for Goal G1.1">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6-JNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6-ZNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.1/@asil"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6-pNpEeiprKqWc8nBTA" label="ASIL for Goal G2.1">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6-5NpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6_JNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.2/@asil"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn6_ZNpEeiprKqWc8nBTA" label="ASIL for Goal G1.2">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6_pNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn6_5NpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.3/@asil"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn7AJNpEeiprKqWc8nBTA" label="ASIL for Goal G2.2">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7AZNpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7ApNpEeiprKqWc8nBTA" label="powerSD_CD.[classes->] Class Redundant Switch, powerSD_CD.[ownedAttributes->] Attribute closed, powerSD_CD.[ownedAttributes->] Attribute sensed_speed" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.4/@asil"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn7A5NpEeiprKqWc8nBTA" label="ASIL for Goal G1.4">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7BJNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7BZNpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.5/@asil"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn7BpNpEeiprKqWc8nBTA" label="ASIL for Goal G2.3">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7B5NpEeiprKqWc8nBTA" label="RecheckContent" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7CJNpEeiprKqWc8nBTA" label="powerSD_CD.[classes->] Class Redundant Switch" column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.6/@asil"/>
+      </cells>
+    </lines>
+    <lines xmi:type="table:DLine" xmi:id="_-Cn7CZNpEeiprKqWc8nBTA" label="ASIL for Goal G1.3">
+      <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7/@asil"/>
+      <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7/@asil"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedLineMappings[name='ASILLine']"/>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7CpNpEeiprKqWc8nBTA" label="Reuse" column="_-Cn7DJNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7/@asil"/>
+      </cells>
+      <cells xmi:type="table:DCell" xmi:id="_-Cn7C5NpEeiprKqWc8nBTA" label="Not applicable." column="_-Cn7DZNpEeiprKqWc8nBTA">
+        <target xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7/@asil"/>
+        <semanticElements xmi:type="safetycase:ASIL" href="20180717/ecore/powerSD_annotated.safetycase#//@goals.7/@asil"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_-Cn7DJNpEeiprKqWc8nBTA" label="Impact Type" cells="_-Cn6s5NpEeiprKqWc8nBTA _-Cn6tpNpEeiprKqWc8nBTA _-Cn6uZNpEeiprKqWc8nBTA _-Cn6vJNpEeiprKqWc8nBTA _-Cn6v5NpEeiprKqWc8nBTA _-Cn6wpNpEeiprKqWc8nBTA _-Cn6xZNpEeiprKqWc8nBTA _-Cn6yJNpEeiprKqWc8nBTA _-Cn6y5NpEeiprKqWc8nBTA _-Cn6zpNpEeiprKqWc8nBTA _-Cn60ZNpEeiprKqWc8nBTA _-Cn61JNpEeiprKqWc8nBTA _-Cn615NpEeiprKqWc8nBTA _-Cn62pNpEeiprKqWc8nBTA _-Cn63ZNpEeiprKqWc8nBTA _-Cn64JNpEeiprKqWc8nBTA _-Cn645NpEeiprKqWc8nBTA _-Cn65pNpEeiprKqWc8nBTA _-Cn66ZNpEeiprKqWc8nBTA _-Cn67JNpEeiprKqWc8nBTA _-Cn675NpEeiprKqWc8nBTA _-Cn68pNpEeiprKqWc8nBTA _-Cn69ZNpEeiprKqWc8nBTA _-Cn6-JNpEeiprKqWc8nBTA _-Cn6-5NpEeiprKqWc8nBTA _-Cn6_pNpEeiprKqWc8nBTA _-Cn7AZNpEeiprKqWc8nBTA _-Cn7BJNpEeiprKqWc8nBTA _-Cn7B5NpEeiprKqWc8nBTA _-Cn7CpNpEeiprKqWc8nBTA" width="135" featureName="status">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedColumnMappings[name='ImpactColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_-Cn7DZNpEeiprKqWc8nBTA" label="Impact Source" cells="_-Cn6tJNpEeiprKqWc8nBTA _-Cn6t5NpEeiprKqWc8nBTA _-Cn6upNpEeiprKqWc8nBTA _-Cn6vZNpEeiprKqWc8nBTA _-Cn6wJNpEeiprKqWc8nBTA _-Cn6w5NpEeiprKqWc8nBTA _-Cn6xpNpEeiprKqWc8nBTA _-Cn6yZNpEeiprKqWc8nBTA _-Cn6zJNpEeiprKqWc8nBTA _-Cn6z5NpEeiprKqWc8nBTA _-Cn60pNpEeiprKqWc8nBTA _-Cn61ZNpEeiprKqWc8nBTA _-Cn62JNpEeiprKqWc8nBTA _-Cn625NpEeiprKqWc8nBTA _-Cn63pNpEeiprKqWc8nBTA _-Cn64ZNpEeiprKqWc8nBTA _-Cn65JNpEeiprKqWc8nBTA _-Cn655NpEeiprKqWc8nBTA _-Cn66pNpEeiprKqWc8nBTA _-Cn67ZNpEeiprKqWc8nBTA _-Cn68JNpEeiprKqWc8nBTA _-Cn685NpEeiprKqWc8nBTA _-Cn69pNpEeiprKqWc8nBTA _-Cn6-ZNpEeiprKqWc8nBTA _-Cn6_JNpEeiprKqWc8nBTA _-Cn6_5NpEeiprKqWc8nBTA _-Cn7ApNpEeiprKqWc8nBTA _-Cn7BZNpEeiprKqWc8nBTA _-Cn7CJNpEeiprKqWc8nBTA _-Cn7C5NpEeiprKqWc8nBTA" width="1269" featureName="status">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']/@ownedColumnMappings[name='ImpactSourceColumn']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']/@ownedRepresentations[name='SafetyCaseImpactTrace']"/>
+  </table:DTable>
 </xmi:XMI>
