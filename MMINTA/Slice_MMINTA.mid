@@ -9,7 +9,7 @@
     <inputs uri="" name="models1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/models" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
     <outputs uri="" name="fixedModels0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
     <outputs uri="" name="fixedModels1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/fixedModels" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
-    <generics uri="" name="SliceStep_Imported" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/FIXER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/SliceStep_Imported"/>
+    <generics uri="" name="SliceStep_MMINTA" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Fix/FIXER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/SliceStep_MMINTA"/>
   </operators>
   <extendibleTable key="criterion" value="//@models.1"/>
   <extendibleTable key="slice" value="//@models.3"/>

@@ -24,11 +24,11 @@
     <outputs uri="" name="mappedMids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mappedMids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
     <generics uri="" name="ModelRelMerge" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/MAPPER" dynamic="true" lowerBound="1" upperBound="1" metatargetUri="http://se.cs.toronto.edu/mmint/Operator_ModelRelMerge"/>
   </operators>
-  <operators uri="" name="Slice_Imported" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported" dynamic="true">
-    <inputs uri="" name="mid" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/mid" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
-    <inputs uri="" name="criterion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
-    <outputs uri="" name="sameMID" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/sameMID" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
-    <outputs uri="" name="slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_Imported/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+  <operators uri="" name="Slice_MMINTA" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_MMINTA" dynamic="true">
+    <inputs uri="" name="mid" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_MMINTA/mid" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <inputs uri="" name="criterion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_MMINTA/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+    <outputs uri="" name="sameMID" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_MMINTA/sameMID" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
+    <outputs uri="" name="slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Slice_MMINTA/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
   </operators>
   <operators uri="" name="Map" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map" dynamic="true">
     <inputs uri="" name="mids0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/mmint/Operator_Map/mids" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
