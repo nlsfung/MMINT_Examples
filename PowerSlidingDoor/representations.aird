@@ -10,13 +10,8 @@
     <semanticResources>powerSD.safetycase</semanticResources>
     <semanticResources>powerSDWorkspace.mid</semanticResources>
     <semanticResources>powerSDWorkspace.middiag</semanticResources>
-    <semanticResources>workflows/SafetyCaseImpact.mid</semanticResources>
-    <semanticResources>workflows/SafetyCaseImpact.middiag</semanticResources>
     <semanticResources>default.mid</semanticResources>
     <semanticResources>default.middiag</semanticResources>
-    <semanticResources>workflows/SliceStep_Imported.mid</semanticResources>
-    <semanticResources>workflows/SliceStep_Imported.middiag</semanticResources>
-    <semanticResources>workflows/Slice_Imported.middiag</semanticResources>
     <semanticResources>powerSD.sequencediagram</semanticResources>
     <semanticResources>SliceModified.mid</semanticResources>
     <semanticResources>SliceDeleted.mid</semanticResources>
@@ -24,7 +19,6 @@
     <semanticResources>SliceModified.middiag</semanticResources>
     <semanticResources>20180717/ecore/powerSD.safetycase</semanticResources>
     <semanticResources>20180717/ecore/powerSD_annotated.safetycase</semanticResources>
-    <semanticResources>workflows/Slice_Imported.mid</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_dNeOkETFEeittKPK07UOPQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_FgsYgEfsEeiQ2vAxFoZ41w" name="new SafetyCaseRepresentation" repPath="#_WBt8MIBSEeiNIJ-NJnYg4Q">
