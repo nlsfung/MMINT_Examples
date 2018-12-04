@@ -29,13 +29,10 @@
     <asil value="C"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G1.3" description="The actuator is not powered if the vehicle speed is greater than 15 km/h" supports="//@strategies.0/@supportedBy.3">
-    <supportedBy/>
     <supportedBy premise="//@strategies.7"/>
     <asil value="C"/>
   </goals>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1" description="Decompose by AND refinement." contentValidity="Valid" supports="//@goals.0/@supportedBy.0">
-    <inContextOf/>
-    <inContextOf/>
     <supportedBy premise="//@goals.1"/>
     <supportedBy premise="//@goals.3"/>
     <supportedBy premise="//@goals.5"/>
@@ -59,7 +56,7 @@
   <strategies xsi:type="safetycase:BasicStrategy" id="S2.3" description="Solution has been shown to have sufficient support for G2.3." contentValidity="Valid" supports="//@goals.6/@supportedBy.0">
     <supportedBy premise="//@solutions.5"/>
   </strategies>
-  <strategies xsi:type="safetycase:ASILDecompositionStrategy" id="S2" description="ASIL Decomposition Strategy (C to B and A)" supports="//@goals.7/@supportedBy.1">
+  <strategies xsi:type="safetycase:ASILDecompositionStrategy" id="S2" description="ASIL Decomposition Strategy (C to B and A)" supports="//@goals.7/@supportedBy.0">
     <supportedBy premise="//@goals.2"/>
     <supportedBy premise="//@goals.4"/>
     <supportedBy premise="//@goals.6"/>
