@@ -39,7 +39,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_xTF-xmnBEeih2vmo8alCpQ" type="5006"/>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_xTF-wWnBEeih2vmo8alCpQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_xTF-wmnBEeih2vmo8alCpQ" fontName="Ubuntu"/>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_xTF-w2nBEeih2vmo8alCpQ" hint="Relationship"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_xTF-w2nBEeih2vmo8alCpQ" diagramLink="_bttUAPgGEeiiA9P30-abaA" hint="Relationship"/>
       <element xmi:type="relationship:ModelRel" href="lms_modified.mid#//@models.1"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xTF-xGnBEeih2vmo8alCpQ" x="528" y="228"/>
     </children>
@@ -73,5 +73,9 @@
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_2ddx4WnBEeih2vmo8alCpQ"/>
     <element xmi:type="relationship:ModelRel" href="lms_modified.mid#//@models.0"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_bttUAPgGEeiiA9P30-abaA" type="Relationship" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_bttUAfgGEeiiA9P30-abaA"/>
+    <element xmi:type="relationship:ModelRel" href="lms_modified.mid#//@models.1"/>
   </notation:Diagram>
 </xmi:XMI>

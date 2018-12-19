@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Editor http://se.cs.toronto.edu/mmint/MID#//editor http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship">
   <models uri="/LaneManagementSystem/lms_sc.safetycase" name="lms_sc" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.0">
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G18" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.18_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G30" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
     <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
@@ -10,103 +10,106 @@
     <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.3_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G7" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G28" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S7" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.7_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S15" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S19" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
     <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G22" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G8" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G10" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G20" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G11" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G18" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G12" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G19" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G14" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.14_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G8" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G15" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G9" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G16" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G10" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G17" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G31" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.22_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G22" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.22_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G11" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.23_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G23" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.23_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G12" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.24_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G24" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@goals.24_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Goal G13" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Goal" featureName="goals" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S10" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S23" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="ASIL Decomposition Strategy S4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="ASIL Decomposition Strategy S8" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="ASILDecompositionStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S11" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.11_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S24" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S12" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.12_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S25" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S16" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S29" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
     <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.24_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S24" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@strategies.24_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S36" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="AssuranceCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.5_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn12" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.6_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn11" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn17" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.17_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn10" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn15" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.15_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn5" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn16" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.16_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn6" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn9" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn8" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn8" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn7" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
-    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn10" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn9" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/LaneManagementSystem/lms_sc.safetycase#//@solutions.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
       <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
     </modelElems>
   </models>
@@ -307,14 +310,32 @@
       </modelElemEndpoints>
       <modelElemEndpoints uri="" name="Solution Sn10" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.35"/>
     </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.32/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.32/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="Class AudibleAlarm" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="lms_mega.mid#//@models.0/@modelElems.0"/>
+      </modelElemEndpoints>
+      <modelElemEndpoints uri="" name="Goal G10" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.11"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.33/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.33/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="Class AudibleAlarm" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="lms_mega.mid#//@models.0/@modelElems.0"/>
+      </modelElemEndpoints>
+      <modelElemEndpoints uri="" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.36"/>
+    </mappings>
+    <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.1/@mappingRefs.34/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.34/@modelElemEndpointRefs.1">
+      <modelElemEndpoints uri="" name="Class VisualAlarm" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1">
+        <target xsi:type="mid:ModelElement" href="lms_mega.mid#//@models.0/@modelElems.2"/>
+      </modelElemEndpoints>
+      <modelElemEndpoints uri="" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.36"/>
+    </mappings>
     <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
       <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.1/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.2/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.3/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.4/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.5/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.6/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.7/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.8/@modelElemEndpointRefs.0">
         <referencedObject xsi:type="mid:ModelElement" href="lms_mega.mid#//@models.0/@modelElems.1"/>
       </modelElemRefs>
-      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.9/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.21/@modelElemEndpointRefs.0">
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.9/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.21/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.32/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.33/@modelElemEndpointRefs.0">
         <referencedObject xsi:type="mid:ModelElement" href="lms_mega.mid#//@models.0/@modelElems.0"/>
       </modelElemRefs>
-      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.10/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.11/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.22/@modelElemEndpointRefs.0">
+      <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.10/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.11/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.22/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.34/@modelElemEndpointRefs.0">
         <referencedObject xsi:type="mid:ModelElement" href="lms_mega.mid#//@models.0/@modelElems.2"/>
       </modelElemRefs>
       <modelElemRefs modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.12/@modelElemEndpointRefs.0 //@models.1/@mappingRefs.28/@modelElemEndpointRefs.0">
@@ -354,7 +375,7 @@
       <modelElemRefs referencedObject="//@models.0/@modelElems.9" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.5/@modelElemEndpointRefs.1"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.6/@modelElemEndpointRefs.1"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.10" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.7/@modelElemEndpointRefs.1"/>
-      <modelElemRefs referencedObject="//@models.0/@modelElems.11" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.10/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.11" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.10/@modelElemEndpointRefs.1 //@models.1/@mappingRefs.32/@modelElemEndpointRefs.1"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.12" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.9/@modelElemEndpointRefs.1"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.13" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.11/@modelElemEndpointRefs.1"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.14" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.12/@modelElemEndpointRefs.1 //@models.1/@mappingRefs.14/@modelElemEndpointRefs.1"/>
@@ -372,6 +393,7 @@
       <modelElemRefs referencedObject="//@models.0/@modelElems.33" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.26/@modelElemEndpointRefs.1 //@models.1/@mappingRefs.27/@modelElemEndpointRefs.1"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.34" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.28/@modelElemEndpointRefs.1 //@models.1/@mappingRefs.29/@modelElemEndpointRefs.1"/>
       <modelElemRefs referencedObject="//@models.0/@modelElems.35" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.30/@modelElemEndpointRefs.1 //@models.1/@mappingRefs.31/@modelElemEndpointRefs.1"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.36" modifiable="true" modelElemEndpointRefs="//@models.1/@mappingRefs.33/@modelElemEndpointRefs.1 //@models.1/@mappingRefs.34/@modelElemEndpointRefs.1"/>
     </modelEndpointRefs>
     <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.1/@mappings.0" modifiable="true" sourceModelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.0" targetModelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.0">
       <modelElemEndpointRefs referencedObject="//@models.1/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.0"/>
@@ -501,6 +523,18 @@
       <modelElemEndpointRefs referencedObject="//@models.1/@mappings.31/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.8"/>
       <modelElemEndpointRefs referencedObject="//@models.1/@mappings.31/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.25"/>
     </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.1/@mappings.32" modifiable="true" sourceModelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.8">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.32/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.32/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.8"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.1/@mappings.33" modifiable="true" sourceModelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.1" targetModelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.26">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.33/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.1"/>
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.33/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.26"/>
+    </mappingRefs>
+    <mappingRefs xsi:type="relationship:BinaryMappingReference" referencedObject="//@models.1/@mappings.34" modifiable="true" sourceModelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.2" targetModelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.26">
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.34/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.0/@modelElemRefs.2"/>
+      <modelElemEndpointRefs referencedObject="//@models.1/@mappings.34/@modelElemEndpoints.1" modifiable="true" modelElemRef="//@models.1/@modelEndpointRefs.1/@modelElemRefs.26"/>
+    </mappingRefs>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="sd &lt;-> sc" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_sc" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
@@ -606,4 +640,5 @@
   <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@solutions.9_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.33"/>
   <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@solutions.8_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.34"/>
   <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@solutions.10_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.35"/>
+  <extendibleTable key="/LaneManagementSystem/lms_sc.safetycase#//@solutions.19_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.36"/>
 </mid:MID>

@@ -331,7 +331,7 @@
       <eInfo className="Lifeline" featureName="lifeline" relatedClassName="Component"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> sd_drivingstraight" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - sd_drivingstraight" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpoints uri="" name="lms_sd_drivingstraight" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.2/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.2/@mappingRefs.0/@modelElemEndpointRefs.1">
@@ -509,7 +509,7 @@
       <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> sd_failurestate" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - sd_failurestate" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpoints uri="" name="lms_sd_failurestate" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.4/@mappingRefs.0/@modelElemEndpointRefs.1">
@@ -703,7 +703,7 @@
       <eInfo className="Message" featureName="messages" relatedClassName="SequenceDiagram"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> sd_leftcurve" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - sd_leftcurve" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpoints uri="" name="lms_sd_leftcurve" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.6/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.6/@mappingRefs.0/@modelElemEndpointRefs.1">
@@ -829,7 +829,7 @@
       <eInfo className="Component" featureName="objects" relatedClassName="SequenceDiagram"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> sd_systemon" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - sd_systemon" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_sd_systemon" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.8/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.8/@mappingRefs.0/@modelElemEndpointRefs.1">
@@ -964,7 +964,7 @@
       <eInfo className="Transition" featureName="transitions" relatedClassName="StateMachine"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> state_lcs" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - state_lcs" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpoints uri="" name="lms_state_lcs" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.10/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.10/@mappingRefs.0/@modelElemEndpointRefs.1">
@@ -1037,7 +1037,7 @@
       <eInfo className="Transition" featureName="transitions" relatedClassName="StateMachine"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> state_ldws" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - state_ldws" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_state_ldws" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.12/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.12/@mappingRefs.0/@modelElemEndpointRefs.1">
@@ -1110,7 +1110,7 @@
       <eInfo className="Transition" featureName="transitions" relatedClassName="StateMachine"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> state_lks" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - state_lks" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpoints uri="" name="lms_state_lks" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.14/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.14/@mappingRefs.0/@modelElemEndpointRefs.1">
@@ -1213,7 +1213,7 @@
       <eInfo className="Transition" featureName="transitions" relatedClassName="StateMachine"/>
     </modelElems>
   </models>
-  <models xsi:type="relationship:ModelRel" uri="" name="cd &lt;-> state_lms" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+  <models xsi:type="relationship:ModelRel" uri="" name="cd - state_lms" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
     <modelEndpoints uri="" name="lms_state_lms" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
     <mappings xsi:type="relationship:BinaryMapping" uri="" name="" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.16/@mappingRefs.0/@modelElemEndpointRefs.0 //@models.16/@mappingRefs.0/@modelElemEndpointRefs.1">
