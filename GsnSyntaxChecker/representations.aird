@@ -21,8 +21,6 @@
     <semanticResources>ASILInheritance_Fail.safetycase</semanticResources>
     <semanticResources>ASILDescendants_Pass.safetycase</semanticResources>
     <semanticResources>ASILDescendants_Fail.safetycase</semanticResources>
-    <semanticResources>StateValidityInheritance_Pass.safetycase</semanticResources>
-    <semanticResources>StateValidityInheritance_Fail.safetycase</semanticResources>
     <semanticResources>GoalSupporter_Pass.safetycase</semanticResources>
     <semanticResources>SolutionSupporter_Pass.safetycase</semanticResources>
     <semanticResources>ContextualElementSupporter_Pass.safetycase</semanticResources>
@@ -30,8 +28,17 @@
     <semanticResources>StrategyContext_Pass.safetycase</semanticResources>
     <semanticResources>SolutionContext_Pass.safetycase</semanticResources>
     <semanticResources>ContextualElementContext_Pass.safetycase</semanticResources>
-    <semanticResources>NonDecomposableLeaves_Pass.safetycase</semanticResources>
-    <semanticResources>NonDecomposableLeaves_Fail.safetycase</semanticResources>
+    <semanticResources>ASILDescendants_AndDecomp_Fail.safetycase</semanticResources>
+    <semanticResources>ASILInheritance_OrDecomp_Fail.safetycase</semanticResources>
+    <semanticResources>StrategySupporter_AndDecomp_Fail.safetycase</semanticResources>
+    <semanticResources>SupportCycle_OrDecomp_Fail.safetycase</semanticResources>
+    <semanticResources>NonSupportableLeaves_Pass.safetycase</semanticResources>
+    <semanticResources>NonSupportableLeaves_Fail.safetycase</semanticResources>
+    <semanticResources>NonSupportableLeaves_AndDecomp_Fail.safetycase</semanticResources>
+    <semanticResources>ASILDecompIndependence_AndDecomp_Pass.safetycase</semanticResources>
+    <semanticResources>ASILDecompComponents_OrDecomp_Fail.safetycase</semanticResources>
+    <semanticResources>ASILDescendants_AndDecomp_Pass.safetycase</semanticResources>
+    <semanticResources>GoalRoot_AndDecomp_Fail.safetycase</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_-JGSUOa8EeiprplySEiZ3Q">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.toronto.cs.se.modelepedia.safetycase.design/description/safetycase.odesign#//@ownedViewpoints[name='SafetyCaseViewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_AFbcK-a9EeiprplySEiZ3Q" name="StrategySupporter_Pass" repPath="#_ACTPoOa9EeiprplySEiZ3Q">

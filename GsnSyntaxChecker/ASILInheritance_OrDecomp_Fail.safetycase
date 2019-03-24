@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
+  <goals xsi:type="safetycase:BasicGoal" id="G1">
+    <supportedBy premise="//@strategies.0"/>
+    <asil value="B"/>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.1" id="G3">
+    <supportedBy premise="//@solutions.0"/>
+    <asil value="A"/>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.0" id="G2">
+    <supportedBy premise="//@solutions.1"/>
+    <asil value="B"/>
+  </goals>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.0/@supportedBy.0" id="S1">
+    <supportedBy premise="//@connectors.0"/>
+  </strategies>
+  <solutions id="Sn2" supports="//@goals.1/@supportedBy.0"/>
+  <solutions id="Sn1" supports="//@goals.2/@supportedBy.0"/>
+  <connectors xsi:type="safetycase:OrSupporter" supports="//@strategies.0/@supportedBy.0">
+    <supportedBy premise="//@goals.2"/>
+    <supportedBy premise="//@goals.1"/>
+  </connectors>
+</safetycase:SafetyCase>

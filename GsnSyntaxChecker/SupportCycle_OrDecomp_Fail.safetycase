@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
+  <goals xsi:type="safetycase:BasicGoal" id="G1">
+    <supportedBy premise="//@connectors.0"/>
+  </goals>
+  <solutions id="Sn1" supports="//@connectors.0/@supportedBy.1"/>
+  <connectors xsi:type="safetycase:OrSupporter" supports="//@goals.0/@supportedBy.0 //@connectors.1/@supportedBy.0">
+    <supportedBy premise="//@connectors.1"/>
+    <supportedBy premise="//@solutions.0"/>
+  </connectors>
+  <connectors xsi:type="safetycase:AndSupporter" supports="//@connectors.0/@supportedBy.0">
+    <supportedBy premise="//@connectors.0"/>
+  </connectors>
+</safetycase:SafetyCase>
