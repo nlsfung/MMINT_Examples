@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
   <goals xsi:type="safetycase:BasicGoal" id="G1">
-    <supportedBy premise="//@strategies.0"/>
+    <supportedBy target="//@strategies.0"/>
   </goals>
   <goals xsi:type="safetycase:IndependenceGoal" id="G1" supports="//@strategies.0/@supportedBy.0">
-    <supportedBy premise="//@solutions.0"/>
+    <supportedBy target="//@solutions.0"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G2" supports="//@strategies.0/@supportedBy.1">
-    <supportedBy premise="//@solutions.1"/>
+    <supportedBy target="//@solutions.1"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G3" supports="//@strategies.0/@supportedBy.2">
-    <supportedBy premise="//@solutions.1"/>
+    <supportedBy target="//@solutions.1"/>
   </goals>
   <strategies xsi:type="safetycase:ASILDecompositionStrategy" id="S1" supports="//@goals.0/@supportedBy.0">
-    <supportedBy premise="//@goals.1"/>
-    <supportedBy premise="//@goals.2"/>
-    <supportedBy premise="//@goals.3"/>
+    <supportedBy target="//@goals.1"/>
+    <supportedBy target="//@goals.2"/>
+    <supportedBy target="//@goals.3"/>
   </strategies>
   <solutions id="Sn1" supports="//@goals.1/@supportedBy.0"/>
   <solutions id="Sn2" supports="//@goals.2/@supportedBy.0 //@goals.3/@supportedBy.0"/>

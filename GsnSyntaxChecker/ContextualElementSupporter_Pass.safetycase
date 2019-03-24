@@ -3,7 +3,7 @@
   <goals xsi:type="safetycase:BasicGoal" id="G1">
     <inContextOf context="//@justifications.0"/>
     <inContextOf context="//@contexts.0"/>
-    <supportedBy premise="//@solutions.0"/>
+    <supportedBy target="//@solutions.0"/>
   </goals>
   <solutions id="Sn1" supports="//@goals.0/@supportedBy.0"/>
   <contexts id="C1" contextOf="//@goals.0/@inContextOf.1"/>

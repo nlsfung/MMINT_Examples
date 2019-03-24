@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
   <goals xsi:type="safetycase:BasicGoal" id="G1">
-    <supportedBy premise="//@strategies.0"/>
-    <supportedBy premise="//@strategies.1"/>
+    <supportedBy target="//@strategies.0"/>
+    <supportedBy target="//@strategies.1"/>
   </goals>
   <strategies xsi:type="safetycase:BasicStrategy" id="S2" supports="//@goals.0/@supportedBy.0">
-    <supportedBy premise="//@solutions.1"/>
+    <supportedBy target="//@solutions.1"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1" supports="//@goals.0/@supportedBy.1">
-    <supportedBy premise="//@solutions.0"/>
+    <supportedBy target="//@solutions.0"/>
   </strategies>
   <solutions id="Sn1" supports="//@strategies.1/@supportedBy.0"/>
   <solutions id="Sn2" supports="//@strategies.0/@supportedBy.0"/>
