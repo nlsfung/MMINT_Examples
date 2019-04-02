@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="ASCII"?>
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
   <goals xsi:type="safetycase:BasicGoal" id="G1" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." contentValidity="Valid" stateValidity="Valid">
-    <supportedBy premise="//@strategies.0"/>
+    <supportedBy source="//@strategies.0"/>
     <asil value="C"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G1.1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." contentValidity="Valid" supports="//@strategies.0/@supportedBy.0" stateValidity="Valid">
-    <supportedBy premise="//@strategies.1"/>
+    <supportedBy source="//@strategies.1"/>
     <asil value="C"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G2.1" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." contentValidity="Valid" supports="//@strategies.7/@supportedBy.0" stateValidity="Valid">
-    <supportedBy premise="//@strategies.2"/>
+    <supportedBy source="//@strategies.2"/>
     <asil value="B"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G1.2" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." contentValidity="Valid" supports="//@strategies.0/@supportedBy.1" stateValidity="Valid">
-    <supportedBy premise="//@strategies.3"/>
+    <supportedBy source="//@strategies.3"/>
     <asil value="C"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G2.2" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." contentValidity="Valid" supports="//@strategies.7/@supportedBy.1" stateValidity="Valid">
-    <supportedBy premise="//@strategies.4"/>
+    <supportedBy source="//@strategies.4"/>
     <asil value="A"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G1.4" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." contentValidity="Valid" supports="//@strategies.0/@supportedBy.2" stateValidity="Valid">
-    <supportedBy premise="//@strategies.5"/>
+    <supportedBy source="//@strategies.5"/>
     <asil value="C"/>
   </goals>
   <goals xsi:type="safetycase:IndependenceGoal" id="G2.3" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." contentValidity="Valid" supports="//@strategies.7/@supportedBy.2" stateValidity="Valid">
-    <supportedBy premise="//@strategies.6"/>
+    <supportedBy source="//@strategies.6"/>
     <asil value="C"/>
   </goals>
   <goals xsi:type="safetycase:BasicGoal" id="G1.3" description="The actuator is not powered if the vehicle speed is greater than 15 km/h" supports="//@strategies.0/@supportedBy.3">
-    <supportedBy premise="//@strategies.7"/>
+    <supportedBy source="//@strategies.7"/>
     <asil value="C"/>
   </goals>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1" description="Decompose by AND refinement." contentValidity="Valid" supports="//@goals.0/@supportedBy.0">
-    <supportedBy premise="//@goals.1"/>
-    <supportedBy premise="//@goals.3"/>
-    <supportedBy premise="//@goals.5"/>
-    <supportedBy premise="//@goals.7"/>
+    <supportedBy source="//@goals.1"/>
+    <supportedBy source="//@goals.3"/>
+    <supportedBy source="//@goals.5"/>
+    <supportedBy source="//@goals.7"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.1" description="Solution has been shown to have sufficient coverage to test goal G1.1." contentValidity="Valid" supports="//@goals.1/@supportedBy.0">
-    <supportedBy premise="//@solutions.0"/>
+    <supportedBy source="//@solutions.0"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S2.1" description="Solution has been shown to have sufficient coverage to test goal G2.1." contentValidity="Valid" supports="//@goals.2/@supportedBy.0">
-    <supportedBy premise="//@solutions.1"/>
+    <supportedBy source="//@solutions.1"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.3" description="Solution has been shown to have sufficient coverage to test goal G1.2." contentValidity="Valid" supports="//@goals.3/@supportedBy.0">
-    <supportedBy premise="//@solutions.2"/>
+    <supportedBy source="//@solutions.2"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S2.2" description="Solution has been shown to have sufficient coverage to test goal G2.2." contentValidity="Valid" supports="//@goals.4/@supportedBy.0">
-    <supportedBy premise="//@solutions.3"/>
+    <supportedBy source="//@solutions.3"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S1.4" description="Solution has been shown to have sufficient coverage to test goal G1.4." contentValidity="Valid" supports="//@goals.5/@supportedBy.0">
-    <supportedBy premise="//@solutions.4"/>
+    <supportedBy source="//@solutions.4"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" id="S2.3" description="Solution has been shown to have sufficient support for G2.3." contentValidity="Valid" supports="//@goals.6/@supportedBy.0">
-    <supportedBy premise="//@solutions.5"/>
+    <supportedBy source="//@solutions.5"/>
   </strategies>
   <strategies xsi:type="safetycase:ASILDecompositionStrategy" id="S2" description="ASIL Decomposition Strategy (C to B and A)" supports="//@goals.7/@supportedBy.0">
-    <supportedBy premise="//@goals.2"/>
-    <supportedBy premise="//@goals.4"/>
-    <supportedBy premise="//@goals.6"/>
+    <supportedBy source="//@goals.2"/>
+    <supportedBy source="//@goals.4"/>
+    <supportedBy source="//@goals.6"/>
   </strategies>
   <solutions id="Sn1.1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." contentValidity="Valid" supports="//@strategies.1/@supportedBy.0" stateValidity="Valid"/>
   <solutions id="Sn2.1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." contentValidity="Valid" supports="//@strategies.2/@supportedBy.0" stateValidity="Valid"/>
