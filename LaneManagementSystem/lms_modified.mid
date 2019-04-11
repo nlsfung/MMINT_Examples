@@ -4,11 +4,7 @@
     <modelEndpoints uri="" name="lms_cd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">
       <target xsi:type="mid:Model" href="lms_mega.mid#//@models.0"/>
     </modelEndpoints>
-    <modelEndpointRefs referencedObject="//@models.0/@modelEndpoints.0" modifiable="true">
-      <modelElemRefs modifiable="true">
-        <referencedObject xsi:type="mid:ModelElement" href="lms_mega.mid#//@models.0/@modelElems.11"/>
-      </modelElemRefs>
-    </modelEndpointRefs>
+    <modelEndpointRefs referencedObject="//@models.0/@modelEndpoints.0" modifiable="true"/>
   </models>
   <models xsi:type="relationship:ModelRel" uri="" name="modified_sd" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
     <modelEndpoints uri="" name="lms_sd_drivingstraight" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1">

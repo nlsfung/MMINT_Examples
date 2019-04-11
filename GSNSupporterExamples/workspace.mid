@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/GSNSupporterExamples/NoSupporter.safetycase" name="NoSupporter" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.0">
+    <modelElems uri="/GSNSupporterExamples/NoSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/NoSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/NoSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/NoSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/NoSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/NoSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2content" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="NoSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2state" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="NoSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="recheck" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="NoSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.3/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="NoSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <mappings uri="" name="NoSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="NoSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="NoSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.4/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.2"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.4/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.4/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.4/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.4/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.4/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.4/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.4/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="NoSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <mappings uri="" name="NoSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.5/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.5"/>
+    </mappings>
+    <mappings uri="" name="NoSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.5/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="NoSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.5/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.4"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.5/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.5/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.5/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.5/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.5/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.5/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.5/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.5/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.5/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.5/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.5/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.5/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.5/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+  </models>
+  <models uri="/GSNSupporterExamples/AndSupporter.safetycase" name="AndSupporter" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.1">
+    <modelElems uri="/GSNSupporterExamples/AndSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/AndSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/AndSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/AndSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/AndSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/AndSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2content" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="AndSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <modelEndpointRefs referencedObject="//@models.7/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2state" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="AndSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <modelEndpointRefs referencedObject="//@models.8/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="recheck" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="AndSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <modelEndpointRefs referencedObject="//@models.9/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="AndSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <mappings uri="" name="AndSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.10/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.2"/>
+    </mappings>
+    <mappings uri="" name="AndSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.10/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="AndSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.10/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.3"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.10/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.10/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.10/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.10/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.10/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.10/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.10/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.10/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.10/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.10/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.10/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.10/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.10/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+  </models>
+  <models uri="/GSNSupporterExamples/OrSupporter.safetycase" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.2">
+    <modelElems uri="/GSNSupporterExamples/OrSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/OrSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/OrSupporter.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/OrSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/OrSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/OrSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/OrSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2content_block" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.12/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2content_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.13/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2state_block" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.14/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2state_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.15/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="recheck_block" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.16/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="recheck_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <modelEndpointRefs referencedObject="//@models.17/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.6" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <mappings uri="" name="OrSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.18/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.18/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.3"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.18/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.18/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.18/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.18/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.18/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.18/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.18/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.18/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.18/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <mappings uri="" name="OrSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.19/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.3"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.19/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.19/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.6"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.19/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.19/@mappingRefs.4/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.5"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.19/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.19/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.19/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.19/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.19/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.19/@mappingRefs.4/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.19/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.19/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.19/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.19/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.19/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.19/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.19/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.19/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.19/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.19/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.19/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.19/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.19/@mappings.4" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.19/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.19/@modelEndpointRefs.0/@modelElemRefs.4"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <mappings uri="" name="OrSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.20/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.5"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.20/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.20/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.20/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.4"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.20/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.20/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.20/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.20/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.20/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.20/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.20/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.20/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.20/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.20/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.20/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.20/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.20/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.20/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.20/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.20/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.20/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <mappings uri="" name="OrSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.21/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.5"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.21/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.21/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.21/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.21/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.21/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="NoSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <mappings uri="" name="NoSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.22/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="NoSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.22/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.3"/>
+    </mappings>
+    <mappings uri="" name="NoSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.22/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0/@modelElems.1"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.22/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.22/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.22/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.22/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.22/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.22/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.22/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.22/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.22/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.22/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.22/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.22/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.22/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <mappings uri="" name="OrSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.23/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.23/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.3"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.23/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.23/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.23/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.23/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.23/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.23/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.23/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.23/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.23/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="OrSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11"/>
+    <mappings uri="" name="OrSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.24/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.6"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.24/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.24/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.24/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.3"/>
+    </mappings>
+    <mappings uri="" name="OrSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.24/@mappingRefs.4/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.11/@modelElems.1"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.24/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.11/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.24/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.24/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.24/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.24/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.11/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.24/@mappingRefs.4/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.24/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.24/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.24/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.24/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.24/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.24/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.24/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.24/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.24/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.24/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.24/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.24/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.24/@mappings.4" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.24/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.24/@modelEndpointRefs.0/@modelElemRefs.4"/>
+    </mappingRefs>
+  </models>
+  <models uri="/GSNSupporterExamples/XorSupporter.safetycase" name="XorSupporter" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.3">
+    <modelElems uri="/GSNSupporterExamples/XorSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/XorSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/XorSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/XorSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/XorSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/XorSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/XorSupporter.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2content_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="XorSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <modelEndpointRefs referencedObject="//@models.26/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2state_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="XorSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <modelEndpointRefs referencedObject="//@models.27/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="recheck_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="XorSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <modelEndpointRefs referencedObject="//@models.28/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.3" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="XorSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <mappings uri="" name="XorSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.29/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.2"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.29/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.29/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.29/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.6"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.29/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.29/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.29/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.29/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.29/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.29/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.29/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.29/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.29/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.29/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.29/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.29/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.29/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.29/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.29/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.29/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.29/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="XorSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <mappings uri="" name="XorSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.30/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.3"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.30/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.2"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.30/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.30/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.30/@mappingRefs.4/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.5"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.30/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.30/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.30/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.30/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.30/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.30/@mappingRefs.4/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.30/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.30/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.30/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.30/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.30/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.30/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.30/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.30/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.30/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.30/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.30/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.30/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.30/@mappings.4" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.30/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.30/@modelEndpointRefs.0/@modelElemRefs.4"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="AndSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <mappings uri="" name="AndSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.31/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.2"/>
+    </mappings>
+    <mappings uri="" name="AndSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.31/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="AndSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.31/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.5"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.31/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.31/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.31/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.31/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.31/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.31/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.31/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.31/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.31/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.31/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.31/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.31/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.31/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="AndSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6"/>
+    <mappings uri="" name="AndSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.32/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="AndSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.32/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.2"/>
+    </mappings>
+    <mappings uri="" name="AndSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.32/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.6/@modelElems.0"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.32/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.6/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.32/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.32/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.6/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.32/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.32/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.32/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.32/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.32/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.32/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.32/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.32/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.32/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.32/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="XorSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25"/>
+    <mappings uri="" name="XorSupporter.Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.33/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.6"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.33/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.2"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.33/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.33/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="XorSupporter.Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.33/@mappingRefs.4/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.25/@modelElems.0"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.33/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.25/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.33/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.33/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.33/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.33/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.25/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.33/@mappingRefs.4/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.33/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.33/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.33/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.33/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.33/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.33/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.33/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.33/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.33/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.33/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.33/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.33/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.33/@mappings.4" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.33/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.33/@modelEndpointRefs.0/@modelElemRefs.4"/>
+    </mappingRefs>
+  </models>
+  <models uri="/GSNSupporterExamples/MofNSupporter.safetycase" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.4">
+    <modelElems uri="/GSNSupporterExamples/MofNSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/MofNSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/MofNSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/MofNSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/MofNSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/MofNSupporter.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/MofNSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2content_block" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <modelEndpointRefs referencedObject="//@models.35/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.0" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2content_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <modelEndpointRefs referencedObject="//@models.36/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2state_block" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <modelEndpointRefs referencedObject="//@models.37/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="revise2state_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <modelEndpointRefs referencedObject="//@models.38/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="recheck_block" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <modelEndpointRefs referencedObject="//@models.39/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.5" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="recheck_pass" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <modelEndpointRefs referencedObject="//@models.40/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.5" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.3" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <mappings uri="" name="MofNSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.41/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.41/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.1"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.41/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.41/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.41/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.41/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.41/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.41/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.41/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.41/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.41/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <mappings uri="" name="MofNSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.42/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.1"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.42/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G2" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.0"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.42/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.3"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.42/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.2"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.42/@mappingRefs.4/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.4"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.42/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.1" modifiable="true" modelElemEndpointRefs="//@models.42/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.0" modifiable="true" modelElemEndpointRefs="//@models.42/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.42/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.42/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.42/@mappingRefs.4/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.42/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.42/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.42/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.42/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.42/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.42/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.42/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.42/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.42/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.42/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.42/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.42/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.42/@mappings.4" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.42/@mappings.4/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.42/@modelEndpointRefs.0/@modelElemRefs.4"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <mappings uri="" name="MofNSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.43/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.2"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.43/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.43/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.43/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.43/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.43/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <mappings uri="" name="MofNSupporter.Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.44/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.5"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.44/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.44/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.6"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.44/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Strategy S1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.2"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.44/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.44/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.44/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.44/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.2" modifiable="true" modelElemEndpointRefs="//@models.44/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.44/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.44/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.44/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.44/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.44/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.44/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.44/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.44/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.44/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.44/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.44/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.44/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <mappings uri="" name="MofNSupporter.Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.45/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.5"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.45/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.45/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.45/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.45/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.45/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="MofNSupporter" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34"/>
+    <mappings uri="" name="MofNSupporter.Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.46/@mappingRefs.0/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn3" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.5"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.46/@mappingRefs.1/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.4"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.46/@mappingRefs.2/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.3"/>
+    </mappings>
+    <mappings uri="" name="MofNSupporter.Solution Sn1" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping" dynamic="true" modelElemEndpointRefs="//@models.46/@mappingRefs.3/@modelElemEndpointRefs.0">
+      <modelElemEndpoints uri="" name="Basic Goal G0" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel/Mapping-ModelElem/ModelElemEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.34/@modelElems.6"/>
+    </mappings>
+    <modelEndpointRefs referencedObject="//@models.46/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.34/@modelElems.5" modifiable="true" modelElemEndpointRefs="//@models.46/@mappingRefs.0/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.4" modifiable="true" modelElemEndpointRefs="//@models.46/@mappingRefs.1/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.3" modifiable="true" modelElemEndpointRefs="//@models.46/@mappingRefs.2/@modelElemEndpointRefs.0"/>
+      <modelElemRefs referencedObject="//@models.34/@modelElems.6" modifiable="true" modelElemEndpointRefs="//@models.46/@mappingRefs.3/@modelElemEndpointRefs.0"/>
+    </modelEndpointRefs>
+    <mappingRefs referencedObject="//@models.46/@mappings.0" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.46/@mappings.0/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.46/@modelEndpointRefs.0/@modelElemRefs.0"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.46/@mappings.1" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.46/@mappings.1/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.46/@modelEndpointRefs.0/@modelElemRefs.1"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.46/@mappings.2" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.46/@mappings.2/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.46/@modelEndpointRefs.0/@modelElemRefs.2"/>
+    </mappingRefs>
+    <mappingRefs referencedObject="//@models.46/@mappings.3" modifiable="true">
+      <modelElemEndpointRefs referencedObject="//@models.46/@mappings.3/@modelElemEndpoints.0" modifiable="true" modelElemRef="//@models.46/@modelEndpointRefs.0/@modelElemRefs.3"/>
+    </mappingRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/GSNSupporterExamples/representations.aird#_zAs4gFXAEemGXcN2zOgyJw" name="SafetyCase Viewpoint for model /GSNSupporterExamples/NoSupporter.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/GSNSupporterExamples/NoSupporter.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+    <fileExtensions>aird</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/GSNSupporterExamples/representations.aird#_5_yVEFXBEemGXcN2zOgyJw" name="SafetyCase Viewpoint for model /GSNSupporterExamples/AndSupporter.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/GSNSupporterExamples/AndSupporter.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+    <fileExtensions>aird</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/GSNSupporterExamples/representations.aird#_ukb2oFXCEemGXcN2zOgyJw" name="SafetyCase Viewpoint for model /GSNSupporterExamples/OrSupporter.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/GSNSupporterExamples/OrSupporter.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+    <fileExtensions>aird</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/GSNSupporterExamples/representations.aird#_ChGZYFXDEemGXcN2zOgyJw" name="SafetyCase Viewpoint for model /GSNSupporterExamples/XorSupporter.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/GSNSupporterExamples/XorSupporter.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+    <fileExtensions>aird</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/GSNSupporterExamples/representations.aird#_QxvNcFXDEemGXcN2zOgyJw" name="SafetyCase Viewpoint for model /GSNSupporterExamples/MofNSupporter.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/GSNSupporterExamples/MofNSupporter.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+    <fileExtensions>aird</fileExtensions>
+  </editors>
+  <operators uri="" name="GSNSliceRevise2Content" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="12603200">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="3946400">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2State" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="3353500">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.8"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.10"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2Content" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="2547600">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.12"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.18"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2Content" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="3750800">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.13"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.19"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2State" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="60992100">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.15"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.20"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2State" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="4089700">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.14"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.21"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2State" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="10671300">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.22"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="7315500">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.16"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.23"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="6657400">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.17"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.24"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2State" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="3138400">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.27"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.29"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="79866400">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.28"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.30"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="2511900">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.9"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.31"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2Content" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="3628200">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.7"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.32"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2Content" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="3471500">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.26"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.33"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2Content" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="2323800">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.35"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.41"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2Content" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="2595500">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.36"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.42"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2State" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="1960000">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.37"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.43"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2State" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="2939500">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.38"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.44"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="1764800">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.39"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.45"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true" workingPath="/GSNSupporterExamples" executionTime="2694000">
+    <inputs uri="" name="criterion" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.40"/>
+    <outputs uri="" name="slice" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.46"/>
+  </operators>
+  <extendibleTable key="/GSNSupporterExamples/NoSupporter.safetycase" value="//@models.0"/>
+  <extendibleTable key="/GSNSupporterExamples/NoSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/GSNSupporterExamples/NoSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/GSNSupporterExamples/NoSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+  <extendibleTable key="/GSNSupporterExamples/NoSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.3"/>
+  <extendibleTable key="/GSNSupporterExamples/NoSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.4"/>
+  <extendibleTable key="/GSNSupporterExamples/NoSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.5"/>
+  <extendibleTable key="/GSNSupporterExamples/AndSupporter.safetycase" value="//@models.6"/>
+  <extendibleTable key="/GSNSupporterExamples/AndSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.0"/>
+  <extendibleTable key="/GSNSupporterExamples/AndSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.1"/>
+  <extendibleTable key="/GSNSupporterExamples/AndSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.2"/>
+  <extendibleTable key="/GSNSupporterExamples/AndSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.3"/>
+  <extendibleTable key="/GSNSupporterExamples/AndSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.4"/>
+  <extendibleTable key="/GSNSupporterExamples/AndSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.6/@modelElems.5"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase" value="//@models.11"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.0"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.1"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.2"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.3"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.4"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.5"/>
+  <extendibleTable key="/GSNSupporterExamples/OrSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.11/@modelElems.6"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase" value="//@models.25"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.0"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.1"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.2"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.3"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.4"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.5"/>
+  <extendibleTable key="/GSNSupporterExamples/XorSupporter.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.25/@modelElems.6"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase" value="//@models.34"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase#//@goals.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.34/@modelElems.0"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase#//@solutions.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.34/@modelElems.1"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase#//@strategies.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.34/@modelElems.2"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase#//@solutions.1_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.34/@modelElems.3"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase#//@goals.0_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.34/@modelElems.4"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase#//@solutions.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.34/@modelElems.5"/>
+  <extendibleTable key="/GSNSupporterExamples/MofNSupporter.safetycase#//@goals.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.34/@modelElems.6"/>
+</mid:MID>

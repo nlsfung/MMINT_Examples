@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
+  <goals xsi:type="safetycase:BasicGoal" supports="//@goals.2/@supportedBy.0" id="G1" description="">
+    <supportedBy target="//@connectors.0"/>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.0" id="G2">
+    <supportedBy target="//@solutions.0"/>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" id="G0">
+    <supportedBy target="//@goals.0"/>
+  </goals>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@connectors.1/@supportedBy.1" id="S1">
+    <supportedBy target="//@solutions.1"/>
+  </strategies>
+  <solutions id="Sn2" supports="//@goals.1/@supportedBy.0"/>
+  <solutions id="Sn1" supports="//@strategies.0/@supportedBy.0"/>
+  <solutions id="Sn3" supports="//@connectors.1/@supportedBy.0"/>
+  <connectors xsi:type="safetycase:OrSupporter" supports="//@goals.0/@supportedBy.0">
+    <supportedBy target="//@goals.1"/>
+    <supportedBy target="//@connectors.1"/>
+  </connectors>
+  <connectors xsi:type="safetycase:MofNSupporter" supports="//@connectors.0/@supportedBy.1" target="1">
+    <supportedBy target="//@solutions.2"/>
+    <supportedBy target="//@strategies.0"/>
+  </connectors>
+</safetycase:SafetyCase>
