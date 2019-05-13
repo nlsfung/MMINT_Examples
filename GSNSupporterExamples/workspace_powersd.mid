@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship">
+  <models uri="/GSNSupporterExamples/powerSD.safetycase" name="powerSD" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" fileExtension="safetycase" editors="//@editors.0">
+    <modelElems uri="/GSNSupporterExamples/powerSD.safetycase#//@solutions.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Solution Sn1.4" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="Solution" featureName="solutions" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/powerSD.safetycase#//@strategies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Strategy S2.1" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicStrategy" featureName="strategies" relatedClassName="SafetyCase"/>
+    </modelElems>
+    <modelElems uri="/GSNSupporterExamples/powerSD.safetycase#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" name="Basic Goal G2.2" metatypeUri="http://se.cs.toronto.edu/mmint/Model#//ModelElement" dynamic="true">
+      <eInfo className="BasicGoal" featureName="goals" relatedClassName="SafetyCase"/>
+    </modelElems>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit_blocked" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.1/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="" name="crit_passed" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="powerSD" metatypeUri="http://se.cs.toronto.edu/mmint/ModelRel-Model/ModelEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <modelEndpointRefs referencedObject="//@models.2/@modelEndpoints.0" modifiable="true">
+      <modelElemRefs referencedObject="//@models.0/@modelElems.0" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.1" modifiable="true"/>
+      <modelElemRefs referencedObject="//@models.0/@modelElems.2" modifiable="true"/>
+    </modelEndpointRefs>
+  </models>
+  <editors xsi:type="editor:Diagram" uri="/GSNSupporterExamples/representations.aird#_jqvmEHXIEemd7dQb2dBEAg" name="SafetyCase Viewpoint for model /GSNSupporterExamples/powerSD.safetycase" metatypeUri="SafetyCaseRepresentation" dynamic="true" modelUri="/GSNSupporterExamples/powerSD.safetycase" id="edu.toronto.cs.se.modelepedia.safetycase.design">
+    <fileExtensions>aird</fileExtensions>
+  </editors>
+  <extendibleTable key="/GSNSupporterExamples/powerSD.safetycase" value="//@models.0"/>
+  <extendibleTable key="/GSNSupporterExamples/powerSD.safetycase#//@solutions.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.0"/>
+  <extendibleTable key="/GSNSupporterExamples/powerSD.safetycase#//@strategies.2_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.1"/>
+  <extendibleTable key="/GSNSupporterExamples/powerSD.safetycase#//@goals.4_AS_http://se.cs.toronto.edu/mmint/Model#//ModelElement" value="//@models.0/@modelElems.2"/>
+</mid:MID>
