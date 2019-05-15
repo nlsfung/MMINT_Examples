@@ -2,75 +2,52 @@
 <safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
   <goals xsi:type="safetycase:BasicGoal" id="G1" contentValidity="Valid" stateValidity="Valid">
     <supportedBy target="//@strategies.0"/>
-    
   </goals>
   <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.1" id="G1.1" contentValidity="Valid" stateValidity="Valid">
     <supportedBy target="//@strategies.1"/>
-    
   </goals>
   <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.2/@supportedBy.0" id="G2.1" contentValidity="Valid" stateValidity="Valid">
     <supportedBy target="//@strategies.2"/>
-    
   </goals>
   <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.1/@supportedBy.1" id="G1.2" contentValidity="Valid" stateValidity="Valid">
     <supportedBy target="//@strategies.3"/>
-    
   </goals>
   <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.2/@supportedBy.1" id="G2.2" contentValidity="Valid" stateValidity="Valid">
     <supportedBy target="//@strategies.4"/>
-    
   </goals>
   <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.1/@supportedBy.0" id="G1.4" contentValidity="Valid" stateValidity="Valid">
     <supportedBy target="//@strategies.5"/>
-    
   </goals>
   <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.2" id="G1.3">
     <supportedBy target="//@strategies.6"/>
-    
   </goals>
   <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.0/@supportedBy.0" id="S1" contentValidity="Valid">
     <supportedBy target="//@connectors.0"/>
-    
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.1/@supportedBy.0" id="S1.1" contentValidity="Valid">
-    <supportedBy target="//@solutions.0"/>
-    
+    <supportedBy target="//@connectors.3"/>
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.2/@supportedBy.0" id="S2.1" contentValidity="Valid">
     <supportedBy target="//@solutions.1"/>
-    
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.3/@supportedBy.0" id="S1.3" contentValidity="Valid">
     <supportedBy target="//@solutions.2"/>
-    
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.4/@supportedBy.0" id="S2.2" contentValidity="Valid">
     <supportedBy target="//@solutions.3"/>
-    
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.5/@supportedBy.0" id="S1.4" contentValidity="Valid">
     <supportedBy target="//@solutions.4"/>
-    
   </strategies>
   <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.6/@supportedBy.0" id="S2">
     <supportedBy target="//@connectors.2"/>
-    
   </strategies>
-  <solutions id="Sn1.1" contentValidity="Valid" supports="//@strategies.1/@supportedBy.0" stateValidity="Valid">
-    
-  </solutions>
-  <solutions id="Sn2.1" contentValidity="Valid" supports="//@strategies.2/@supportedBy.0" stateValidity="Valid">
-    
-  </solutions>
-  <solutions id="Sn1.3" contentValidity="Valid" supports="//@strategies.3/@supportedBy.0" stateValidity="Valid">
-    
-  </solutions>
-  <solutions id="Sn2.2" contentValidity="Valid" supports="//@strategies.4/@supportedBy.0" stateValidity="Valid">
-    
-  </solutions>
-  <solutions id="Sn1.4" contentValidity="Valid" supports="//@strategies.5/@supportedBy.0" stateValidity="Valid">
-    
-  </solutions>
+  <solutions id="Sn1.1" contentValidity="Valid" supports="//@connectors.3/@supportedBy.0" stateValidity="Valid"/>
+  <solutions id="Sn2.1" contentValidity="Valid" supports="//@strategies.2/@supportedBy.0" stateValidity="Valid"/>
+  <solutions id="Sn1.3" contentValidity="Valid" supports="//@strategies.3/@supportedBy.0" stateValidity="Valid"/>
+  <solutions id="Sn2.2" contentValidity="Valid" supports="//@strategies.4/@supportedBy.0" stateValidity="Valid"/>
+  <solutions id="Sn1.4" contentValidity="Valid" supports="//@strategies.5/@supportedBy.0" stateValidity="Valid"/>
+  <solutions id="Sn1.2" supports="//@connectors.3/@supportedBy.1"/>
   <connectors xsi:type="safetycase:MofNSupporter" supports="//@strategies.0/@supportedBy.0" target="2">
     <supportedBy target="//@connectors.1"/>
     <supportedBy target="//@goals.1"/>
@@ -83,5 +60,9 @@
   <connectors xsi:type="safetycase:OrSupporter" supports="//@strategies.6/@supportedBy.0">
     <supportedBy target="//@goals.2"/>
     <supportedBy target="//@goals.4"/>
+  </connectors>
+  <connectors xsi:type="safetycase:OrSupporter" supports="//@strategies.1/@supportedBy.0">
+    <supportedBy target="//@solutions.0"/>
+    <supportedBy target="//@solutions.5"/>
   </connectors>
 </safetycase:SafetyCase>
