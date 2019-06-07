@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mid="http://se.cs.toronto.edu/mmint/MID" xmlns:relationship="http://se.cs.toronto.edu/mmint/MID/Relationship" xsi:schemaLocation="http://se.cs.toronto.edu/mmint/MID/Relationship http://se.cs.toronto.edu/mmint/MID#//relationship" level="WORKFLOWS">
+  <models xsi:type="relationship:ModelRel" uri="revised" name="revised" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="SafetyCase" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel-SafetyCase/SCEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </models>
+  <models uri="SafetyCase" name="SafetyCase" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" origin="CREATED" fileExtension="safetycase"/>
+  <models xsi:type="relationship:ModelRel" uri="w0" name="w0" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="SafetyCase" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel-SafetyCase/SCEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="w1" name="w1" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="SafetyCase" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel-SafetyCase/SCEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </models>
+  <models xsi:type="relationship:ModelRel" uri="w2" name="w2" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel" dynamic="true" origin="CREATED" fileExtension="">
+    <modelEndpoints uri="" name="SafetyCase" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SCRel-SafetyCase/SCEndpoint" dynamic="true" lowerBound="1" upperBound="1" target="//@models.1"/>
+  </models>
+  <models uri="w3" name="w3" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/SafetyCase" dynamic="true" origin="CREATED" fileExtension="safetycase"/>
+  <operators uri="" name="GSNSliceRevise2State" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State" dynamic="true">
+    <inputs uri="" name="criterion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2State-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+  </operators>
+  <operators uri="" name="GSNSliceRevise2Content" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content" dynamic="true">
+    <inputs uri="" name="criterion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <outputs uri="" name="slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRevise2Content-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+  </operators>
+  <operators uri="" name="GSNSliceRecheck" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck" dynamic="true">
+    <inputs uri="" name="criterion" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/criterion" dynamic="true" lowerBound="1" upperBound="1" target="//@models.2"/>
+    <outputs uri="" name="slice" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNSliceRecheck-SCRel/slice" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+  </operators>
+  <operators uri="" name="GSNAnnotateRel" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotateRel" dynamic="true">
+    <inputs uri="" name="revise" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotateRel-SCRel/revise" dynamic="true" lowerBound="1" upperBound="1" target="//@models.0"/>
+    <inputs uri="" name="recheck_content" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotateRel-SCRel/recheck_content" dynamic="true" lowerBound="1" upperBound="1" target="//@models.3"/>
+    <inputs uri="" name="recheck_state" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotateRel-SCRel/recheck_state" dynamic="true" lowerBound="1" upperBound="1" target="//@models.4"/>
+    <outputs uri="" name="annotated" level="WORKFLOWS" metatypeUri="http://se.cs.toronto.edu/modelepedia/Operator_GSNAnnotateRel/annotated" dynamic="true" lowerBound="1" upperBound="1" target="//@models.5"/>
+  </operators>
+  <extendibleTable key="revised" value="//@models.0"/>
+  <extendibleTable key="SafetyCase" value="//@models.1"/>
+  <extendibleTable key="w0" value="//@models.2"/>
+  <extendibleTable key="w1" value="//@models.3"/>
+  <extendibleTable key="w2" value="//@models.4"/>
+  <extendibleTable key="w3" value="//@models.5"/>
+</mid:MID>
