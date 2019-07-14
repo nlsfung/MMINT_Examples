@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ASCII"?>
+<safetycase:SafetyCase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safetycase="http://se.cs.toronto.edu/modelepedia/SafetyCase">
+  <goals xsi:type="safetycase:BasicGoal" id="G1" description="Avoid activating the actuator while the vehicle speed is greater than 15 km/h." contentValidity="Valid" stateValidity="Valid">
+    <supportedBy target="//@strategies.0"/>
+    <status type="Reuse" source="Not applicable."/>
+    <asil value="C">
+      <status type="Reuse" source="Not applicable."/>
+    </asil>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.0" id="G1.1" description="The VS ECU sends the accurate vehicle speed information to the AC ECU." contentValidity="Valid" stateValidity="Valid">
+    <supportedBy target="//@strategies.1"/>
+    <status type="RecheckContent" source="powerSD_CD.Class ReduntantSwitch, powerSD_CD.Class ReduntantSwitch"/>
+    <asil value="C">
+      <status type="Reuse" source="Not applicable."/>
+    </asil>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.1/@supportedBy.2" id="G2.1" description="The AC ECU does not power the actuator if the vehicle speed is greater than 15 km/h." contentValidity="Valid" stateValidity="Valid">
+    <supportedBy target="//@strategies.2"/>
+    <status type="Reuse" source="Not applicable."/>
+    <asil value="B">
+      <status type="Reuse" source="Not applicable."/>
+    </asil>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.2" id="G1.2" description="The VS ECU sends accurate vehicle speed information to the Redundant Switch." contentValidity="Valid" stateValidity="Valid">
+    <supportedBy target="//@strategies.3"/>
+    <status source="powerSD_CD.Class ReduntantSwitch"/>
+    <asil value="C">
+      <status type="Reuse" source="Not applicable."/>
+    </asil>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.1/@supportedBy.1" id="G2.2" description="The Redundant Switch is in an open state if the vehicle speed is greater than 15km/h." contentValidity="Valid" stateValidity="Valid">
+    <supportedBy target="//@strategies.4"/>
+    <status source="powerSD_CD.Class ReduntantSwitch"/>
+    <asil value="A">
+      <status type="RecheckContent" source="powerSD_CD.Class ReduntantSwitch"/>
+    </asil>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.1" id="G1.4" description="The actuator is actuated only when powered by the AC ECU and the Redundant Switch is closed." contentValidity="Valid" stateValidity="Valid">
+    <supportedBy target="//@strategies.5"/>
+    <status source="powerSD_CD.Class ReduntantSwitch"/>
+    <asil value="C">
+      <status type="Reuse" source="Not applicable."/>
+    </asil>
+  </goals>
+  <goals xsi:type="safetycase:IndependenceGoal" supports="//@connectors.1/@supportedBy.0" id="G2.3" description="Sufficient independence of the AC ECU and the Redundant Switch is shown." contentValidity="Valid" stateValidity="Valid">
+    <supportedBy target="//@strategies.6"/>
+    <status source="powerSD_CD.Class ReduntantSwitch"/>
+    <asil value="C">
+      <status type="RecheckContent" source="powerSD_CD.Class ReduntantSwitch"/>
+    </asil>
+  </goals>
+  <goals xsi:type="safetycase:BasicGoal" supports="//@connectors.0/@supportedBy.3" id="G1.3" description="The actuator is not powered if the vehicle speed is greater than 15 km/h">
+    <supportedBy target="//@strategies.7"/>
+    <status type="Reuse" source="Not applicable."/>
+    <asil value="C">
+      <status type="Reuse" source="Not applicable."/>
+    </asil>
+  </goals>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.0/@supportedBy.0" id="S1" description="Decompose by AND refinement." contentValidity="Valid">
+    <supportedBy target="//@connectors.0"/>
+    <status type="Reuse" source="Not applicable."/>
+  </strategies>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.1/@supportedBy.0" id="S1.1" description="Solution has been shown to have sufficient coverage to test goal G1.1." contentValidity="Valid">
+    <supportedBy target="//@solutions.0"/>
+    <status type="Reuse" source="Not applicable."/>
+  </strategies>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.2/@supportedBy.0" id="S2.1" description="Solution has been shown to have sufficient coverage to test goal G2.1." contentValidity="Valid">
+    <supportedBy target="//@solutions.1"/>
+    <status type="Reuse" source="Not applicable."/>
+  </strategies>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.3/@supportedBy.0" id="S1.3" description="Solution has been shown to have sufficient coverage to test goal G1.2." contentValidity="Valid">
+    <supportedBy target="//@solutions.2"/>
+    <status type="RecheckContent" source="powerSD_GSN.Basic Goal G1.2"/>
+  </strategies>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.4/@supportedBy.0" id="S2.2" description="Solution has been shown to have sufficient coverage to test goal G2.2." contentValidity="Valid">
+    <supportedBy target="//@solutions.3"/>
+    <status type="RecheckContent" source="powerSD_GSN.Basic Goal G2.2"/>
+  </strategies>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.5/@supportedBy.0" id="S1.4" description="Solution has been shown to have sufficient coverage to test goal G1.4." contentValidity="Valid">
+    <supportedBy target="//@connectors.2"/>
+    <status type="RecheckContent" source="powerSD_GSN.Basic Goal G1.4"/>
+  </strategies>
+  <strategies xsi:type="safetycase:BasicStrategy" supports="//@goals.6/@supportedBy.0" id="S2.3" description="Solution has been shown to have sufficient support for G2.3." contentValidity="Valid">
+    <supportedBy target="//@solutions.5"/>
+    <status type="RecheckContent" source="powerSD_GSN.Independence Goal G2.3"/>
+  </strategies>
+  <strategies xsi:type="safetycase:ASILDecompositionStrategy" supports="//@goals.7/@supportedBy.0" id="S2" description="ASIL Decomposition Strategy (C to B and A)">
+    <supportedBy target="//@connectors.1"/>
+    <status type="Reuse" source="Not applicable."/>
+  </strategies>
+  <solutions id="Sn1.1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." contentValidity="Valid" supports="//@strategies.1/@supportedBy.0 //@connectors.0/@supportedBy.4" stateValidity="Valid">
+    <status type="Reuse" source="Not applicable."/>
+  </solutions>
+  <solutions id="Sn2.1" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." contentValidity="Valid" supports="//@strategies.2/@supportedBy.0" stateValidity="Valid">
+    <status type="Reuse" source="Not applicable."/>
+  </solutions>
+  <solutions id="Sn1.3" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." contentValidity="Valid" supports="//@strategies.3/@supportedBy.0 //@connectors.2/@supportedBy.1" stateValidity="Valid">
+    <status type="Reuse" source="Not applicable."/>
+  </solutions>
+  <solutions id="Sn2.2" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b." contentValidity="Valid" supports="//@strategies.4/@supportedBy.0" stateValidity="Valid">
+    <status type="Reuse" source="Not applicable."/>
+  </solutions>
+  <solutions id="Sn1.4" description="Software Verification Report (9.5.3) - Unit Testing Methods 1a, 1b, 1e." contentValidity="Valid" supports="//@connectors.2/@supportedBy.0" stateValidity="Valid">
+    <status type="Reuse" source="Not applicable."/>
+  </solutions>
+  <solutions id="Sn2.3" description="Expert Judgement." contentValidity="Valid" supports="//@strategies.6/@supportedBy.0" stateValidity="Valid">
+    <status type="Reuse" source="Not applicable."/>
+  </solutions>
+  <connectors xsi:type="safetycase:MofNSupporter" supports="//@strategies.0/@supportedBy.0" target="2">
+    <supportedBy target="//@goals.1"/>
+    <supportedBy target="//@goals.5"/>
+    <supportedBy target="//@goals.3"/>
+    <supportedBy target="//@goals.7"/>
+    <supportedBy target="//@solutions.0"/>
+  </connectors>
+  <connectors xsi:type="safetycase:OrSupporter" supports="//@strategies.7/@supportedBy.0">
+    <supportedBy target="//@goals.6"/>
+    <supportedBy target="//@goals.4"/>
+    <supportedBy target="//@goals.2"/>
+  </connectors>
+  <connectors xsi:type="safetycase:AndSupporter" supports="//@strategies.5/@supportedBy.0">
+    <supportedBy target="//@solutions.4"/>
+    <supportedBy target="//@solutions.2"/>
+  </connectors>
+</safetycase:SafetyCase>

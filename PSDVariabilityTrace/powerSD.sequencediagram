@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequencediagram:SequenceDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sequencediagram="http://se.cs.toronto.edu/modelepedia/SequenceDiagram">
+  <objects xsi:type="sequencediagram:Component" type="VS ECU">
+    <lifeline>
+      <activationBoxes messagesAsSource="//@messages.1" messagesAsTarget="//@messages.0"/>
+      <activationBoxes messagesAsSource="//@messages.4" messagesAsTarget="//@messages.3"/>
+      <activationBoxes messagesAsSource="//@messages.6" messagesAsTarget="//@messages.5"/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="AC ECU">
+    <lifeline>
+      <activationBoxes messagesAsSource="//@messages.3 //@messages.8" messagesAsTarget="//@messages.2 //@messages.4"/>
+      <activationBoxes messagesAsSource="//@messages.5 //@messages.9" messagesAsTarget="//@messages.6 //@messages.7"/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="Actuator">
+    <lifeline>
+      <activationBoxes messagesAsTarget="//@messages.8"/>
+      <activationBoxes messagesAsTarget="//@messages.9"/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="Driver Switch">
+    <lifeline>
+      <activationBoxes messagesAsSource="//@messages.2"/>
+      <activationBoxes messagesAsSource="//@messages.7"/>
+    </lifeline>
+  </objects>
+  <objects xsi:type="sequencediagram:Component" type="Redundant Switch">
+    <lifeline>
+      <activationBoxes messagesAsSource="//@messages.0" messagesAsTarget="//@messages.1"/>
+    </lifeline>
+  </objects>
+  <messages content="requestSpeed" source="//@objects.4/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.0"/>
+  <messages content="s.closed else s.open" type="Return" source="//@objects.0/@lifeline/@activationBoxes.0" target="//@objects.4/@lifeline/@activationBoxes.0" guard="if sensed_speed &lt;= 15"/>
+  <messages content="requestDoorOpen" source="//@objects.3/@lifeline/@activationBoxes.0" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages content="requestSpeed" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.0/@lifeline/@activationBoxes.1"/>
+  <messages content="sensed_speed" type="Return" source="//@objects.0/@lifeline/@activationBoxes.1" target="//@objects.1/@lifeline/@activationBoxes.0"/>
+  <messages content="requestSpeed" source="//@objects.1/@lifeline/@activationBoxes.1" target="//@objects.0/@lifeline/@activationBoxes.2"/>
+  <messages content="sensed_speed" type="Return" source="//@objects.0/@lifeline/@activationBoxes.2" target="//@objects.1/@lifeline/@activationBoxes.1"/>
+  <messages content="requestDoorClose" source="//@objects.3/@lifeline/@activationBoxes.1" target="//@objects.1/@lifeline/@activationBoxes.1"/>
+  <messages content="activated = true, openDoor" source="//@objects.1/@lifeline/@activationBoxes.0" target="//@objects.2/@lifeline/@activationBoxes.0" guard="if sensed_speed &lt;=15 and powered and closed"/>
+  <messages content="activated = true, closeDoor" source="//@objects.1/@lifeline/@activationBoxes.1" target="//@objects.2/@lifeline/@activationBoxes.1" guard="if sensed_speed &lt;=15 and powered and closed"/>
+</sequencediagram:SequenceDiagram>

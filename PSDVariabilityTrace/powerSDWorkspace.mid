@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mid:MID xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editor="http://se.cs.toronto.edu/mmint/MID/Editor" xmlns:mid="http://se.cs.toronto.edu/mmint/MID">
+  <models uri="/PSDVariabilityTrace/PowerSDMega.mid" name="PowerSDMega" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.0"/>
+  <models uri="/PSDVariabilityTrace/SliceModified.mid" name="SliceModified" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.1"/>
+  <models uri="/PSDVariabilityTrace/SliceDeleted.mid" name="SliceDeleted" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel" dynamic="true" origin="CREATED" fileExtension="mid" editors="//@editors.2"/>
+  <models uri="/PSDVariabilityTrace/PowerSDSafety.mid" name="PowerSDSafety" metatypeUri="http://se.cs.toronto.edu/mmint/MID" dynamic="true" fileExtension="mid" editors="//@editors.3"/>
+  <editors xsi:type="editor:Diagram" uri="/PSDVariabilityTrace/PowerSDMega.middiag" name="MID diagram for model /PSDVariabilityTrace/PowerSDMega.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PSDVariabilityTrace/PowerSDMega.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/PSDVariabilityTrace/SliceModified.middiag" name="MIDRel diagram for model /PSDVariabilityTrace/SliceModified.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PSDVariabilityTrace/SliceModified.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/PSDVariabilityTrace/SliceDeleted.middiag" name="MIDRel diagram for model /PSDVariabilityTrace/SliceDeleted.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MIDRel_diagram" dynamic="true" modelUri="/PSDVariabilityTrace/SliceDeleted.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <editors xsi:type="editor:Diagram" uri="/PSDVariabilityTrace/PowerSDSafety.middiag" name="MID diagram for model /PSDVariabilityTrace/PowerSDSafety.mid" metatypeUri="http://se.cs.toronto.edu/mmint/MID_diagram" dynamic="true" modelUri="/PSDVariabilityTrace/PowerSDSafety.mid" id="edu.toronto.cs.se.mmint.mid.diagram.part.MIDDiagramEditorID" wizardId="edu.toronto.cs.se.mmint.mid.diagram.part.MIDCreationWizardID">
+    <fileExtensions>middiag</fileExtensions>
+  </editors>
+  <extendibleTable key="/PSDVariabilityTrace/PowerSDMega.mid" value="//@models.0"/>
+  <extendibleTable key="/PSDVariabilityTrace/SliceModified.mid" value="//@models.1"/>
+  <extendibleTable key="/PSDVariabilityTrace/SliceDeleted.mid" value="//@models.2"/>
+  <extendibleTable key="/PSDVariabilityTrace/PowerSDSafety.mid" value="//@models.3"/>
+</mid:MID>

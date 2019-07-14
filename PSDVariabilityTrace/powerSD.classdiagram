@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classdiagram:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:classdiagram="http://se.cs.toronto.edu/modelepedia/ClassDiagram">
+  <classes name="ReduntantSwitch" associationsAsSource="//@associations.5 //@associations.4">
+    <ownedAttributes name="closed" type="//@datatypes.0"/>
+    <ownedAttributes name="sensed_speed" type="//@datatypes.1"/>
+    <ownedOperations name="requestSpeed()" public="true"/>
+  </classes>
+  <classes name="Door" associationsAsTarget="//@associations.3">
+    <ownedAttributes name="open" type="//@datatypes.0"/>
+  </classes>
+  <classes name="VS ECU" associationsAsTarget="//@associations.4 //@associations.0">
+    <ownedAttributes name="sensed_speed" type="//@datatypes.1"/>
+    <ownedOperations name="getSpeed(sensed_speed)" public="true" parameterTypes="//@datatypes.1"/>
+  </classes>
+  <classes name="Actuator" associationsAsSource="//@associations.3" associationsAsTarget="//@associations.5 //@associations.1">
+    <ownedAttributes name="powered" type="//@datatypes.0"/>
+    <ownedAttributes name="activated" type="//@datatypes.0"/>
+    <ownedOperations name="openDoor()" public="true"/>
+    <ownedOperations name="closeDoor()" public="true"/>
+  </classes>
+  <classes name="AC ECU" associationsAsSource="//@associations.1 //@associations.0" associationsAsTarget="//@associations.2">
+    <ownedAttributes name="sensed_speed" type="//@datatypes.1"/>
+    <ownedOperations name="requestSpeed()" public="true"/>
+  </classes>
+  <classes name="Driver Switch" associationsAsSource="//@associations.2">
+    <ownedOperations name="requestDoorOpen()" public="true"/>
+    <ownedOperations name="requestDoorClose()" public="true"/>
+  </classes>
+  <associations name="commuticatesWith" source="//@classes.4" target="//@classes.2"/>
+  <associations name="powers" source="//@classes.4" target="//@classes.3"/>
+  <associations name="communicatesWith" source="//@classes.5" target="//@classes.4"/>
+  <associations name="controls" source="//@classes.3" target="//@classes.1"/>
+  <associations name="communicatesWith" source="//@classes.0" target="//@classes.2"/>
+  <associations name="controls" source="//@classes.0" target="//@classes.3"/>
+  <datatypes name="Boolean"/>
+  <datatypes name="Real"/>
+</classdiagram:ClassDiagram>
